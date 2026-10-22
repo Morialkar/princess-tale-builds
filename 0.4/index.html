@@ -75,6 +75,16 @@ h2.section { font: 400 28px/1.1 var(--font-display); margin: 40px 0 6px; }
 .versions b { display: block; font: 400 22px/1.2 var(--font-display); }
 .versions small { color: var(--mute); }
 footer { margin-top: 36px; font: 400 12px/1.6 var(--font-mono); color: var(--mute); }
+.panel { margin-top: 28px; padding: 18px 18px 6px; border: 1px solid var(--line); border-radius: 14px; background: var(--night-2); }
+.panel.gold { border-color: #6a5628; background: linear-gradient(135deg, var(--gold-soft), var(--night-2)); }
+.panel h2 { display: flex; align-items: center; gap: 12px; font: 400 26px/1.15 var(--font-display); margin: 0 0 10px; text-wrap: balance; }
+.panel h2 .ico { flex: none; }
+.panel p { margin: 0 0 12px; text-wrap: pretty; }
+.panel ol, .panel .points { margin: 0 0 12px; padding-left: 22px; }
+.panel ol li, .panel .points li { display: list-item; border: 0; padding: 4px 0; }
+.panel .points { list-style: disc; }
+.panel code { font: 500 14px/1 var(--font-mono); color: var(--gold); }
+.panel a { color: var(--gold); }
 @media (max-width: 520px) {
   .banner, .banner.art-left { min-height: 360px; align-items: flex-start; justify-content: flex-start; background: linear-gradient(180deg, rgba(20,17,31,.92) 0%, rgba(20,17,31,.6) 55%, rgba(20,17,31,.1) 100%), var(--art) center bottom / cover, var(--night-2); }
   .banner-text { max-width: 100%; padding: 22px 18px; }
@@ -82,7 +92,7 @@ footer { margin-top: 36px; font: 400 12px/1.6 var(--font-mono); color: var(--mut
 }
 </style>
 <div class="wrap">
-  <nav class="vnav" aria-label="Versions"><a href="../0.3/">‹ 0.3</a><a href="../">All versions</a><span>›</span><span class="gap"></span><a href="../roadmap/">Roadmap</a><a href="../almanac/">Almanac</a></nav>
+  <nav class="vnav" aria-label="Versions"><a href="../0.3/">‹ 0.3</a><a href="../">All versions</a><a href="../0.5/">0.5 ›</a><span class="gap"></span><a href="../roadmap/">Roadmap</a><a href="../almanac/">Almanac</a></nav>
   <header class="banner">
     <div class="banner-text">
       <p class="eyebrow">Princess Tale · Morialkar build</p>
@@ -101,6 +111,7 @@ footer { margin-top: 36px; font: 400 12px/1.6 var(--font-mono); color: var(--mut
       <li><span class="ico fix" role="img" aria-label="Fix" title="Fix"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></span><p>Rare “unstable server” errors from duplicate hero ids after many summons are gone.</p></li>
       <li><span class="ico hood" role="img" aria-label="Under the hood" title="Under the hood"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></span><p>The Attic pull rates are verified against the odds shown in the game.</p></li>
   </ul>
+
   <div class="links"><a href="https://github.com/Morialkar/princess-tale-builds/releases/download/0.4/PrincessTale-0.4.apk" target="_blank" rel="noopener">Download the APK</a><a href="https://github.com/Morialkar/princess-tale-builds/releases" target="_blank" rel="noopener">All builds</a></div>
 
   <footer>Compared with 0.3 (d27863c). Art: in-game assets (New School).</footer>
