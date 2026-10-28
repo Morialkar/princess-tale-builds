@@ -1,0 +1,15 @@
+{
+  "version": "1.1",
+  "versionCode": 100,
+  "headline": "Princess Tale 1.1: a gift, and news of every update.|Open your mailbox for a set of Stellar Monuments and signature weapon materials; from now on, a mail tells you when a new version is out.",
+  "url": "https://morialkar.github.io/princess-tale-builds/1.1/",
+  "gift": {
+    "items": {
+      "304": 1,
+      "305": 1,
+      "306": 1,
+      "351": 50,
+      "352": 50
+    }
+  }
+}
