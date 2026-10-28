@@ -12,6 +12,7 @@
 </head>
 <body>
 <title>Princess Tale v0.5</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Figtree:wght@400;500;600&family=Marcellus&display=swap" rel="stylesheet">
 <style>
@@ -54,6 +55,7 @@ li p { margin: 0; min-width: 0; text-wrap: pretty; }
 .links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
 .links a { font: 500 13px/1 var(--font-mono); padding: 11px 14px; border: 1px solid var(--line); border-radius: 10px; color: var(--ink); text-decoration: none; background: var(--night-2); }
 .links a:hover { border-color: var(--gold); }
+.links a i { margin-right: 8px; color: var(--gold); }
 /* Iliana stands on the left of her art: the text moves to the right. */
 .banner.art-left { background: linear-gradient(270deg, rgba(20,17,31,.97) 0%, rgba(20,17,31,.8) 38%, rgba(20,17,31,.05) 100%), var(--art) left center / cover, var(--night-2); justify-content: flex-end; }
 a.banner { color: inherit; text-decoration: none; }
@@ -120,7 +122,7 @@ footer { margin-top: 36px; font: 400 12px/1.6 var(--font-mono); color: var(--mut
   <section class="panel gold"><h2><span class="ico new" role="img" aria-label="New" title="New"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 15v4M17 17h4"/></svg></span><span>How Skip works</span></h2><p>There are two Skip buttons, one in the fights and one on the home page.</p><ol><li>In a campaign or tower fight, the Skip button in the bottom-left corner fast-forwards the fight to its end. The result is the real one, win or defeat, with the usual result window.</li><li>On the home page, the old Free Product button is now Skip. It shows when your team is at least 1.5 times as strong as the enemy of your current stage.</li><li>Press it and the stage is cleared without the fight: the rewards popup opens with what the stage gives, and the home page moves to the next stage.</li></ol><ul class="points"><li>The team is the one of your last campaign fight, and the server works its power out with the game&#x27;s own formula (it matches the team window to a fraction of a percent). The enemy power is the one the stage table shows.</li><li>If no campaign fight was played since this update, the button opens the team window instead. Play one fight and Skip knows your team.</li><li>Arena, guild war, world boss and replays keep their own skip.</li><li>Coupon <code>SKIPALL</code> removes the 1.5× minimum: the home Skip is then always offered. Type it again to bring the minimum back.</li></ul></section>
   <section class="panel"><h2><span class="ico better" role="img" aria-label="Improved" title="Improved"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></span><span>Coupons, reusable and on/off</span></h2><ul class="points"><li>Reusable codes (most of them, like <code>PTCHEAT</code> or <code>PTCARDSFIRE</code>) work again with the very same string: no suffix to add any more. Each use sends its reward by mail.</li><li>One-time codes, like <code>GRANDOPEN</code>, still work once.</li><li><code>SKIPALL</code> is an on/off switch: the first use turns the 1.5× minimum of the home Skip off, the next one turns it back on. It sends no mail.</li></ul><p>Every code, what it gives and how it matches is in the <a href="https://morialkar.github.io/princess-tale-builds/almanac/" target="_blank" rel="noopener">almanac</a>, with the event calendar.</p></section>
 
-  <div class="links"><a href="https://github.com/Morialkar/princess-tale-builds/releases/download/0.5/PrincessTale-0.5.apk" target="_blank" rel="noopener">Download the APK</a><a href="https://github.com/Morialkar/princess-tale-builds/releases" target="_blank" rel="noopener">All builds</a></div>
+  <div class="links"><a href="https://github.com/Morialkar/princess-tale-builds/releases/download/0.5/PrincessTale-0.5.apk" target="_blank" rel="noopener"><i class="fa-brands fa-android" aria-hidden="true"></i>Download the APK</a><a href="https://github.com/Morialkar/princess-tale-builds/releases" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i>All builds</a></div>
 
   <footer>Compared with 0.4 (6a4da42). Art: in-game assets (Iliana).</footer>
 </div>
