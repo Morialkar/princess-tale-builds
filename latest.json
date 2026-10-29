@@ -1,10 +1,11 @@
 {
-  "version": "1.1",
-  "versionCode": 100,
-  "headline": "Princess Tale 1.1: a gift, and news of every update.|Open your mailbox for a set of Stellar Monuments and signature weapon materials; from now on, a mail tells you when a new version is out.",
-  "url": "https://morialkar.github.io/princess-tale-builds/1.1/",
+  "version": "1.2",
+  "versionCode": 101,
+  "headline": "Princess Tale 1.2: Elyra, and two brides.|A new Light princess joins the Attic, Ladriel and Iliana get their wedding outfits, and your mailbox holds 100 Lucky Box Keys.",
+  "url": "https://morialkar.github.io/princess-tale-builds/1.2/",
   "gift": {
     "items": {
+      "9": 100,
       "304": 1,
       "305": 1,
       "306": 1,
