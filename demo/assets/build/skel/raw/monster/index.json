@@ -1,0 +1,20 @@
+{
+ "mushroom": {
+  "asset": "mushroom_SkeletonData",
+  "atlases": [
+   "mushroom"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "slime": {
+  "asset": "slime_SkeletonData",
+  "atlases": [
+   "slime"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}

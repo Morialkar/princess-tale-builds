@@ -1,0 +1,587 @@
+
+UI_01.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+box/Quest_Chest_Close1
+  rotate: false
+  xy: 726, 766
+  size: 93, 75
+  orig: 93, 75
+  offset: 0, 0
+  index: -1
+box/Quest_Chest_Open
+  rotate: false
+  xy: 1750, 468
+  size: 93, 75
+  orig: 93, 75
+  offset: 0, 0
+  index: -1
+broom/broom
+  rotate: false
+  xy: 726, 1787
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+coin/Item_Coin_2
+  rotate: false
+  xy: 853, 1457
+  size: 282, 282
+  orig: 282, 282
+  offset: 0, 0
+  index: -1
+coin/coin-side-round
+  rotate: false
+  xy: 1137, 1328
+  size: 144, 282
+  orig: 144, 282
+  offset: 0, 0
+  index: -1
+coin/coin-side-straight
+  rotate: false
+  xy: 1281, 1761
+  size: 17, 282
+  orig: 17, 282
+  offset: 0, 0
+  index: -1
+coin/coin_effect
+  rotate: false
+  xy: 860, 1741
+  size: 305, 302
+  orig: 305, 302
+  offset: 0, 0
+  index: -1
+dungeon_clear/StageClear_Wing
+  rotate: false
+  xy: 853, 969
+  size: 409, 228
+  orig: 409, 228
+  offset: 0, 0
+  index: -1
+dungeon_clear/StageClear_Wing_r
+  rotate: false
+  xy: 1300, 1585
+  size: 409, 228
+  orig: 409, 228
+  offset: 0, 0
+  index: -1
+dungeon_clear/effect_StageClear_Wing _l
+  rotate: false
+  xy: 393, 129
+  size: 437, 243
+  orig: 437, 243
+  offset: 0, 0
+  index: -1
+dungeon_clear/effect_StageClear_Wing _r
+  rotate: false
+  xy: 421, 518
+  size: 437, 243
+  orig: 437, 243
+  offset: 0, 0
+  index: -1
+dungeon_clear/effect_shield
+  rotate: false
+  xy: 2, 374
+  size: 417, 387
+  orig: 417, 387
+  offset: 0, 0
+  index: -1
+dungeon_clear/shield
+  rotate: false
+  xy: 2, 15
+  size: 389, 357
+  orig: 389, 357
+  offset: 0, 0
+  index: -1
+dungeon_clear/text_clear
+  rotate: false
+  xy: 1308, 900
+  size: 464, 82
+  orig: 464, 82
+  offset: 0, 0
+  index: -1
+dungeon_clear/text_clear_effect
+  rotate: false
+  xy: 1577, 1267
+  size: 464, 94
+  orig: 464, 94
+  offset: 0, 0
+  index: -1
+dungeon_gate/gate_left
+  rotate: false
+  xy: 1283, 1363
+  size: 316, 220
+  orig: 316, 220
+  offset: 0, 0
+  index: -1
+dungeon_gate/gate_right
+  rotate: false
+  xy: 1264, 984
+  size: 316, 220
+  orig: 316, 220
+  offset: 0, 0
+  index: -1
+effect/circle03
+  rotate: false
+  xy: 853, 1199
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/flare03
+  rotate: false
+  xy: 1753, 1378
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/flare08
+  rotate: false
+  xy: 1736, 1787
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/gradetion
+  rotate: false
+  xy: 1243, 1702
+  size: 36, 341
+  orig: 36, 341
+  offset: 0, 0
+  index: -1
+flag/Point1
+  rotate: false
+  xy: 890, 142
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+flag/Point2_Big
+  rotate: false
+  xy: 862, 133
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+flag/Point_effect
+  rotate: false
+  xy: 832, 131
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+flag/flag_clear1
+  rotate: false
+  xy: 1582, 1077
+  size: 87, 128
+  orig: 87, 128
+  offset: 0, 0
+  index: -1
+flag/flag_clear_effect
+  rotate: false
+  xy: 1586, 545
+  size: 87, 128
+  orig: 87, 128
+  offset: 0, 0
+  index: -1
+flag/flag_enemy1
+  rotate: false
+  xy: 1675, 545
+  size: 87, 128
+  orig: 87, 128
+  offset: 0, 0
+  index: -1
+flag/flag_enemy_effect
+  rotate: false
+  xy: 1737, 688
+  size: 87, 128
+  orig: 87, 128
+  offset: 0, 0
+  index: -1
+light/highlight
+  rotate: false
+  xy: 2, 3
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+lock/lock
+  rotate: false
+  xy: 1476, 536
+  size: 108, 88
+  orig: 108, 88
+  offset: 0, 0
+  index: -1
+lock/lock_02
+  rotate: false
+  xy: 1577, 1207
+  size: 96, 58
+  orig: 96, 58
+  offset: 0, 0
+  index: -1
+lock/lock_02_effect
+  rotate: false
+  xy: 1427, 443
+  size: 124, 86
+  orig: 124, 86
+  offset: 0, 0
+  index: -1
+lock/lock_effect
+  rotate: false
+  xy: 1326, 700
+  size: 136, 116
+  orig: 136, 116
+  offset: 0, 0
+  index: -1
+pick/pick_02
+  rotate: false
+  xy: 1582, 987
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+result/Clear_LoseWing_Left
+  rotate: false
+  xy: 832, 161
+  size: 409, 228
+  orig: 409, 228
+  offset: 0, 0
+  index: -1
+result/Clear_LoseWing_Right
+  rotate: false
+  xy: 1325, 1815
+  size: 409, 228
+  orig: 409, 228
+  offset: 0, 0
+  index: -1
+result/arrow_levelup
+  rotate: false
+  xy: 726, 1191
+  size: 125, 160
+  orig: 125, 160
+  offset: 0, 0
+  index: -1
+result/arrow_levelup_effect
+  rotate: false
+  xy: 1601, 1393
+  size: 150, 190
+  orig: 150, 190
+  offset: 0, 0
+  index: -1
+result/sword_defeat
+  rotate: false
+  xy: 726, 1570
+  size: 125, 215
+  orig: 125, 215
+  offset: 0, 0
+  index: -1
+result/sword_victory
+  rotate: false
+  xy: 726, 1353
+  size: 125, 215
+  orig: 125, 215
+  offset: 0, 0
+  index: -1
+result/sword_victory_effect
+  rotate: false
+  xy: 1675, 1012
+  size: 140, 253
+  orig: 140, 253
+  offset: 0, 0
+  index: -1
+result/text_defeat2
+  rotate: false
+  xy: 859, 9
+  size: 464, 120
+  orig: 464, 120
+  offset: 0, 0
+  index: -1
+result/text_failed
+  rotate: false
+  xy: 1111, 1206
+  size: 464, 120
+  orig: 464, 120
+  offset: 0, 0
+  index: -1
+result/text_levelup2
+  rotate: false
+  xy: 1308, 818
+  size: 464, 80
+  orig: 464, 80
+  offset: 0, 0
+  index: -1
+result/text_levelup2_effect
+  rotate: false
+  xy: 842, 865
+  size: 464, 102
+  orig: 464, 102
+  offset: 0, 0
+  index: -1
+result/text_unlock
+  rotate: false
+  xy: 393, 2
+  size: 464, 125
+  orig: 464, 125
+  offset: 0, 0
+  index: -1
+result/text_unlock_effect
+  rotate: false
+  xy: 421, 391
+  size: 464, 125
+  orig: 464, 125
+  offset: 0, 0
+  index: -1
+result/text_victory2
+  rotate: false
+  xy: 860, 684
+  size: 464, 82
+  orig: 464, 82
+  offset: 0, 0
+  index: -1
+result/text_victory2_effect
+  rotate: false
+  xy: 842, 768
+  size: 464, 95
+  orig: 464, 95
+  offset: 0, 0
+  index: -1
+run/light_green_02
+  rotate: false
+  xy: 1883, 1644
+  size: 155, 141
+  orig: 155, 141
+  offset: 0, 0
+  index: -1
+run/light_red_02
+  rotate: false
+  xy: 1576, 278
+  size: 155, 141
+  orig: 155, 141
+  offset: 0, 0
+  index: -1
+run/light_yellow_02
+  rotate: false
+  xy: 1325, 6
+  size: 164, 139
+  orig: 164, 139
+  offset: 0, 0
+  index: -1
+run/red_01
+  rotate: false
+  xy: 1657, 8
+  size: 155, 141
+  orig: 155, 141
+  offset: 0, 0
+  index: -1
+run/red_01_effect
+  rotate: false
+  xy: 1409, 265
+  size: 165, 148
+  orig: 165, 148
+  offset: 0, 0
+  index: -1
+run/red_02
+  rotate: false
+  xy: 1491, 8
+  size: 164, 139
+  orig: 164, 139
+  offset: 0, 0
+  index: -1
+run/red_02_effect
+  rotate: false
+  xy: 1711, 1636
+  size: 170, 149
+  orig: 170, 149
+  offset: 0, 0
+  index: -1
+run/red_03
+  rotate: false
+  xy: 1580, 675
+  size: 155, 141
+  orig: 155, 141
+  offset: 0, 0
+  index: -1
+run/red_03_effect
+  rotate: false
+  xy: 1243, 263
+  size: 164, 150
+  orig: 164, 150
+  offset: 0, 0
+  index: -1
+run/run_1_effect
+  rotate: false
+  xy: 1733, 328
+  size: 86, 113
+  orig: 86, 113
+  offset: 0, 0
+  index: -1
+run/run_2_effect
+  rotate: false
+  xy: 1681, 163
+  size: 91, 113
+  orig: 91, 113
+  offset: 0, 0
+  index: -1
+run/run_3_effect
+  rotate: false
+  xy: 1553, 421
+  size: 93, 113
+  orig: 93, 113
+  offset: 0, 0
+  index: -1
+run/run_go!
+  rotate: false
+  xy: 1334, 626
+  size: 150, 72
+  orig: 150, 72
+  offset: 0, 0
+  index: -1
+run/run_go_effect
+  rotate: false
+  xy: 1176, 605
+  size: 156, 77
+  orig: 156, 77
+  offset: 0, 0
+  index: -1
+run/run_ready
+  rotate: false
+  xy: 1168, 531
+  size: 306, 70
+  orig: 306, 70
+  offset: 0, 0
+  index: -1
+run/run_ready_effect
+  rotate: false
+  xy: 860, 523
+  size: 306, 78
+  orig: 306, 78
+  offset: 0, 0
+  index: -1
+run/run_start!
+  rotate: false
+  xy: 887, 451
+  size: 306, 70
+  orig: 306, 70
+  offset: 0, 0
+  index: -1
+run/run_start_effect
+  rotate: false
+  xy: 860, 603
+  size: 314, 79
+  orig: 314, 79
+  offset: 0, 0
+  index: -1
+run_item/Coin_Big1
+  rotate: false
+  xy: 726, 1075
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+run_item/GuildCoin_Big1
+  rotate: false
+  xy: 726, 959
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+run_item/Heart_Point_Big1
+  rotate: false
+  xy: 1311, 415
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+run_item/Icon_ArenaCoin_Big1
+  rotate: false
+  xy: 726, 843
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+run_item/Icon_SlimeCoin_Big1
+  rotate: false
+  xy: 1464, 702
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+run_item/Jewel_Big1
+  rotate: false
+  xy: 1243, 147
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+run_item/Material1_Big1
+  rotate: false
+  xy: 1359, 147
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+run_item/Material2_Big1
+  rotate: false
+  xy: 1475, 149
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+run_item/MazeCoin1_Big1
+  rotate: false
+  xy: 1195, 415
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1648, 443
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skin/skindoor_reft
+  rotate: false
+  xy: 2, 763
+  size: 360, 1280
+  orig: 360, 1280
+  offset: 0, 0
+  index: -1
+skin/skindoor_right
+  rotate: false
+  xy: 364, 763
+  size: 360, 1280
+  orig: 360, 1280
+  offset: 0, 0
+  index: -1
+sword/Sword
+  rotate: false
+  xy: 1167, 1889
+  size: 74, 76
+  orig: 74, 76
+  offset: 0, 0
+  index: -1
+sword/Sword_effect
+  rotate: false
+  xy: 1167, 1967
+  size: 74, 76
+  orig: 74, 76
+  offset: 0, 0
+  index: -1
+tutorial/GuideArrow1
+  rotate: false
+  xy: 1591, 151
+  size: 88, 125
+  orig: 88, 125
+  offset: 0, 0
+  index: -1
+tutorial/GuideHand1
+  rotate: false
+  xy: 1137, 1612
+  size: 103, 127
+  orig: 103, 127
+  offset: 0, 0
+  index: -1

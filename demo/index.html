@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Princess Tale — démo de combat</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #101018; color: #e8e4f0; font-family: system-ui, sans-serif; overflow: hidden; }
+  #loading { position: fixed; inset: 0; z-index: 10; background: #101018; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; text-align: center; padding: 16px; }
+  #loading h1 { font-size: 20px; margin: 0; }
+  #loading p { margin: 0; opacity: 0.8; font-size: 14px; max-width: 420px; line-height: 1.4; }
+  #bar { width: 240px; height: 6px; background: #2a2a3a; border-radius: 3px; overflow: hidden; }
+  #bar div { height: 100%; width: 30%; background: #8fd14f; animation: slide 1.2s ease-in-out infinite; }
+  @keyframes slide { 0% { transform: translateX(-100%); } 100% { transform: translateX(340%); } }
+  canvas { display: block; margin: 0 auto; }
+</style>
+</head>
+<body>
+<div id="loading">
+  <h1>Princess Tale — démo de combat</h1>
+  <div id="bar"><div></div></div>
+  <p>Chargement du combat (une cinquantaine de Mo la première fois)…</p>
+  <p>Touche le portrait d'une héroïne quand il s'illumine pour lancer son ultime. AUTO les laisse faire seules, ×2 accélère, le bouton du résultat passe au combat suivant.</p>
+</div>
+<script src="wasm_exec.js"></script>
+<script>
+  const go = new Go();
+  // The game calls demoReady once its files are in memory and its first fight is set up.
+  window.demoReady = () => document.getElementById("loading").remove();
+  WebAssembly.instantiateStreaming(fetch("battle.wasm"), go.importObject)
+    .then(r => go.run(r.instance))
+    .catch(e => { document.querySelector("#loading p").textContent = "Erreur : " + e; });
+</script>
+</body>
+</html>

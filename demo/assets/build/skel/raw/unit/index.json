@@ -1,0 +1,1044 @@
+{
+ "Akimbo": {
+  "asset": "Akimbo_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Alchemy": {
+  "asset": "Alchemy_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Alchemy_H": {
+  "asset": "Alchemy_H_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Ass": {
+  "asset": "Ass_SkeletonData",
+  "atlases": [
+   "unit_dual"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Ass_H": {
+  "asset": "Ass_H_SkeletonData",
+  "atlases": [
+   "unit_dual"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Baba": {
+  "asset": "Baba_SkeletonData",
+  "atlases": [
+   "unit_spear"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Baba_H": {
+  "asset": "Baba_H_SkeletonData",
+  "atlases": [
+   "unit_spear"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Bdragon": {
+  "asset": "Bdragon_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Bdragon_H": {
+  "asset": "Bdragon_H_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Blacksmith": {
+  "asset": "Blacksmith_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Blacksmith_H": {
+  "asset": "Blacksmith_H_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Breeze": {
+  "asset": "Breeze_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Brownpony": {
+  "asset": "Brownpony_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Brownpony_H": {
+  "asset": "Brownpony_H_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Bullygirl": {
+  "asset": "Bullygirl_SkeletonData",
+  "atlases": [
+   "unit_shield"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Bullygirl_H": {
+  "asset": "Bullygirl_H_SkeletonData",
+  "atlases": [
+   "unit_shield"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Carrot": {
+  "asset": "Carrot_SkeletonData",
+  "atlases": [
+   "unit_dual"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Carrot_H": {
+  "asset": "Carrot_H_SkeletonData",
+  "atlases": [
+   "unit_dual"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Cleric": {
+  "asset": "Cleric_SkeletonData",
+  "atlases": [
+   "unit_raipier"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Cook": {
+  "asset": "Cook_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Cook_christmas": {
+  "asset": "Cook_christmas_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Crusader": {
+  "asset": "Crusader_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Crusader_summer": {
+  "asset": "Crusader_summer_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "DarkTemplar": {
+  "asset": "DarkTemplar_SkeletonData",
+  "atlases": [
+   "unit_twohand_02"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Darkelf": {
+  "asset": "Darkelf_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Darkelf_H": {
+  "asset": "Darkelf_H_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Deathscythe": {
+  "asset": "Deathscythe_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Deathscythe_H": {
+  "asset": "Deathscythe_H_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Dim": {
+  "asset": "Dim_SkeletonData",
+  "atlases": [
+   "Dim"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Dualcross": {
+  "asset": "Dualcross_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Dualcross_H": {
+  "asset": "Dualcross_H_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Dualcross_newyear": {
+  "asset": "Dualcross_newyear_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Fiance": {
+  "asset": "Fiance_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Fiance_H": {
+  "asset": "Fiance_H_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Flora": {
+  "asset": "Flora_SkeletonData",
+  "atlases": [
+   "Flora"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Flower": {
+  "asset": "Flower_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Flower_H": {
+  "asset": "Flower_H_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Flower_pajama": {
+  "asset": "Flower_pajama_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Foxy": {
+  "asset": "Foxy_SkeletonData",
+  "atlases": [
+   "unit_bow"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Foxy_H": {
+  "asset": "Foxy_H_SkeletonData",
+  "atlases": [
+   "unit_bow"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Foxy_halloween": {
+  "asset": "Foxy_halloween_SkeletonData",
+  "atlases": [
+   "unit_bow"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Gambler": {
+  "asset": "Gambler_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Gambler_H": {
+  "asset": "Gambler_H_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Gambler_Kimono": {
+  "asset": "Gambler_Kimono_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Gdragon": {
+  "asset": "Gdragon_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Goldshield": {
+  "asset": "Goldshield_SkeletonData",
+  "atlases": [
+   "unit_shield"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Goldshield_H": {
+  "asset": "Goldshield_H_SkeletonData",
+  "atlases": [
+   "unit_shield"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Gom": {
+  "asset": "Gom_SkeletonData",
+  "atlases": [
+   "unit_fist"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Guitar": {
+  "asset": "Guitar_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Guitar_H": {
+  "asset": "Guitar_H_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Guitar_Valentine": {
+  "asset": "Guitar_Valentine_SkeletonData",
+  "atlases": [
+   "unit_twohand_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Harp": {
+  "asset": "Harp_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Harp_H": {
+  "asset": "Harp_H_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Harp_semester": {
+  "asset": "Harp_semester_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Highelf": {
+  "asset": "Highelf_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Highelf_H": {
+  "asset": "Highelf_H_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Highelf_bride": {
+  "asset": "Highelf_bride_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Ice": {
+  "asset": "Ice_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Ice_H": {
+  "asset": "Ice_H_SkeletonData",
+  "atlases": [],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Ice_pajama": {
+  "asset": "Ice_pajama_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Idol": {
+  "asset": "Idol_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Jungle": {
+  "asset": "Jungle_SkeletonData",
+  "atlases": [
+   "unit_spear"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Jungle_H": {
+  "asset": "Jungle_H_SkeletonData",
+  "atlases": [
+   "unit_spear"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Ladydeath": {
+  "asset": "Ladydeath_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Ladydeath_H": {
+  "asset": "Ladydeath_H_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Lamplight": {
+  "asset": "Lamplight_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Middle": {
+  "asset": "Middle_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Middle_H": {
+  "asset": "Middle_H_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Midnight": {
+  "asset": "Midnight_SkeletonData",
+  "atlases": [
+   "unit_raipier"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Midnight_Aodai": {
+  "asset": "Midnight_Aodai_SkeletonData",
+  "atlases": [
+   "unit_raipier"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Miko": {
+  "asset": "Miko_SkeletonData",
+  "atlases": [
+   "unit_bow"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Miko_H": {
+  "asset": "Miko_H_SkeletonData",
+  "atlases": [
+   "unit_bow"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Monk": {
+  "asset": "Monk_SkeletonData",
+  "atlases": [
+   "unit_fist"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Monk_H": {
+  "asset": "Monk_H_SkeletonData",
+  "atlases": [
+   "unit_fist"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Nun": {
+  "asset": "Nun_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Nun_H": {
+  "asset": "Nun_H_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Nun_christmas": {
+  "asset": "Nun_christmas_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Pajama": {
+  "asset": "Pajama_SkeletonData",
+  "atlases": [
+   "unit_dual"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Paru": {
+  "asset": "Paru_SkeletonData",
+  "atlases": [
+   "unit_shield"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Pirate": {
+  "asset": "Pirate_SkeletonData",
+  "atlases": [
+   "unit_raipier"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Pirate_H": {
+  "asset": "Pirate_H_SkeletonData",
+  "atlases": [
+   "unit_raipier"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Plumehat": {
+  "asset": "Plumehat_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Plumehat_H": {
+  "asset": "Plumehat_H_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Priest": {
+  "asset": "Priest_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Priest_H": {
+  "asset": "Priest_H_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Priest_newyear": {
+  "asset": "Priest_newyear_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Queen": {
+  "asset": "Queen_SkeletonData",
+  "atlases": [
+   "unit_shield"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Queen_H": {
+  "asset": "Queen_H_SkeletonData",
+  "atlases": [
+   "unit_shield"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Rabbit": {
+  "asset": "Rabbit_SkeletonData",
+  "atlases": [
+   "unit_fist"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Rabbit_H": {
+  "asset": "Rabbit_H_SkeletonData",
+  "atlases": [
+   "unit_fist"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Rdragon": {
+  "asset": "Rdragon_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Rdragon_H": {
+  "asset": "Rdragon_H_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Rdragon_pajama": {
+  "asset": "Rdragon_pajama_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Redeye": {
+  "asset": "Redeye_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Redeye_H": {
+  "asset": "Redeye_H_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Redhead": {
+  "asset": "Redhead_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Redhead_H": {
+  "asset": "Redhead_H_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Redhood": {
+  "asset": "Redhood_SkeletonData",
+  "atlases": [
+   "unit_bow"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Redhood_H": {
+  "asset": "Redhood_H_SkeletonData",
+  "atlases": [
+   "unit_bow"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Sabre": {
+  "asset": "Sabre_SkeletonData",
+  "atlases": [
+   "unit_dual"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Shaman": {
+  "asset": "Shaman_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Skyblue": {
+  "asset": "Skyblue_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Skyblue_H": {
+  "asset": "Skyblue_H_SkeletonData",
+  "atlases": [
+   "unit_rifle"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Sugar": {
+  "asset": "Sugar_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Sugar_H": {
+  "asset": "Sugar_H_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Sugar_gm": {
+  "asset": "Sugar_gm_SkeletonData",
+  "atlases": [
+   "unit_staff_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Swordcat": {
+  "asset": "Swordcat_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Swordcat_H": {
+  "asset": "Swordcat_H_SkeletonData",
+  "atlases": [
+   "unit_twohand"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Swordcat_halloween": {
+  "asset": "Swordcat_halloween_SkeletonData",
+  "atlases": [
+   "unit_twohand_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Swordcat_helloween": {
+  "asset": "Swordcat_helloween_SkeletonData",
+  "atlases": [
+   "unit_twohand_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Tailor": {
+  "asset": "Tailor_SkeletonData",
+  "atlases": [
+   "unit_twohand_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Tulu": {
+  "asset": "Tulu_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Water": {
+  "asset": "Water_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Water_H": {
+  "asset": "Water_H_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Water_summer": {
+  "asset": "Water_summer_SkeletonData",
+  "atlases": [
+   "unit_staff"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "sandbag": {
+  "asset": "sandbag_SkeletonData",
+  "atlases": [
+   "unit_raipier"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}

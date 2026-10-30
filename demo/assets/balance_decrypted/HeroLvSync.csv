@@ -1,0 +1,3 @@
+﻿SyncSlotOpen,SyncSlotUnlockCurrency,SyncSlotUnlockCurrencyAdd,SyncSlotUnlockPrice,SyncSlotUnlockPriceAdd,SlotCleanTime,SlotCleanQuick,SyncBaseHeroLvGap,SyncBaseHeroLvGapUnlockUnit,SyncSlotMax,LevelUpStepCount,AddMaxLevelGrade,AddMaxLevel,MaxLevel
+int,string,int,string,int,int,string,int,int,int,int,int,int,int
+2,"[""Currency,""CRYSTAL"",""200""]",50,"[""Currency"",""star"",""100""]",50,24,"[""Currency"",""star"",""100""]",40,20,200,10,10,10,720

@@ -1,0 +1,189 @@
+{
+ "cleanup": {
+  "asset": "cleanup_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "coin": {
+  "asset": "coin_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "dungeon_clear": {
+  "asset": "dungeon_clear_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "fail": {
+  "asset": "fail_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "fight": {
+  "asset": "fight_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "flage": {
+  "asset": "flage_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "gate": {
+  "asset": "gate_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "gate_arena": {
+  "asset": "gate_arena_SkeletonData",
+  "atlases": [],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "gate_dungeon": {
+  "asset": "gate_dungeon_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "hand_arrow": {
+  "asset": "hand_arrow_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "level_up": {
+  "asset": "level_up_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "pick": {
+  "asset": "pick_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "result_defeat": {
+  "asset": "result_defeat_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "result_win": {
+  "asset": "result_win_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "run_reward": {
+  "asset": "run_reward_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "skin_door": {
+  "asset": "skin_door_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "stage": {
+  "asset": "stage_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "start_race": {
+  "asset": "start_race_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "start_run": {
+  "asset": "start_run_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "treasure_box": {
+  "asset": "treasure_box_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "unlock": {
+  "asset": "unlock_SkeletonData",
+  "atlases": [
+   "UI_01"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}

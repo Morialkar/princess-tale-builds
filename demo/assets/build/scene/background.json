@@ -1,0 +1,1148 @@
+{
+ "BackGround_1stBoss": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_1stBoss",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter1": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter1",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter10": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter10",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter11": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter11",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter12": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter12",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter13": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter13",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter14": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter14",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter15": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter15",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter16": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter16",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter17": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter17",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter18": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter18",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter19": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter19",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter2": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter2",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter20": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter20",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter21": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter21",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter22": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter22",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter23": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter23",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter24": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter24",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter25": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter25",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter26": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter26",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter27": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter27",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter28": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter28",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter29": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter29",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter3": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter3",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter4": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter4",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter5": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter5",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter6": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter6",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter7": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter7",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter8": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter8",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_Chapter9": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_Chapter9",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_GuildBoss": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_GuildBoss",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_PveRanking": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": -1,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_PveRanking_down",
+   "x": 0.0,
+   "y": 0.0
+  },
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_PveRanking_up",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_WorldBoss": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_WorldBoss",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_arena": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_arena",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_arena_high": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_arena_high",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_dungeon01": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "background_dungeon01",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_guildbattle1": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_guildbattle1",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_maze": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_maze",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_tower": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_tower",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_tower_fire": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_tower_fire",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_tower_nature": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_tower_nature",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_tower_water": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_tower_water",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_tower_wind": [
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 0,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_tower_wind",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ],
+ "BackGround_tutorial": [
+  {
+   "color": [
+    0.252936989068985,
+    0.2583179771900177,
+    0.5471698045730591,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": -5,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_tutorial_02",
+   "x": 0.0,
+   "y": 0.0
+  },
+  {
+   "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flip": [
+    false,
+    false
+   ],
+   "order": 3,
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "pixelsPerUnit": 100.0,
+   "scaleX": 0.800000011920929,
+   "scaleY": 0.800000011920929,
+   "sprite": "BackGround_tutorial",
+   "x": 0.0,
+   "y": 0.0
+  }
+ ]
+}
