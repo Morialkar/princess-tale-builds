@@ -151,6 +151,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Stats_Slot1"
          },
          "scripts": [
@@ -270,6 +271,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Gauge4"
              },
              "scripts": [
@@ -354,6 +356,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Gauge1"
            },
            "scripts": [
@@ -447,6 +450,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Stats_Slot1"
          },
          "scripts": [
@@ -527,6 +531,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Gauge2"
            },
            "scripts": [
@@ -620,6 +625,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Stats_Slot1"
          },
          "scripts": [
@@ -700,6 +706,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Gauge4"
            },
            "scripts": [
@@ -891,6 +898,7 @@
      1.0
     ],
     "enabled": true,
+    "raycast": true,
     "sprite": "GuideArrow1"
    },
    "scripts": [
@@ -1027,6 +1035,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": true,
       "sprite": "Speech_TextBox1"
      },
      "scripts": [
@@ -1076,7 +1085,8 @@
        0.0,
        1.0
       ],
-      "enabled": true
+      "enabled": true,
+      "raycast": false
      },
      "scripts": [
       "Text",

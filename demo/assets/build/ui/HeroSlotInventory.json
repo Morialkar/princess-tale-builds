@@ -81,6 +81,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": true,
       "sprite": "Character_Slot1"
      },
      "button": {
@@ -90,7 +91,9 @@
       "mirror": false,
       "targets": [
        "HeroSlotCache"
-      ]
+      ],
+      "downSound": "",
+      "upSound": ""
      },
      "mask": "RectMask2D",
      "scripts": [
@@ -143,7 +146,8 @@
          1.0,
          1.0
         ],
-        "enabled": true
+        "enabled": true,
+        "raycast": true
        },
        "scripts": [
         "Image",
@@ -195,6 +199,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "Character_Frame1"
      },
      "scripts": [
@@ -245,6 +250,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "Gradation_Black1"
      },
      "scripts": [
@@ -294,7 +300,8 @@
          1.0,
          1.0
         ],
-        "enabled": true
+        "enabled": true,
+        "raycast": false
        },
        "effects": [
         {
@@ -362,6 +369,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "Wind1"
      },
      "scripts": [
@@ -412,6 +420,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": false,
         "sprite": "SlotFrame4"
        },
        "scripts": [
@@ -464,6 +473,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "Character_Class1"
      },
      "scripts": [
@@ -514,6 +524,7 @@
        0.7176470756530762
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "Character_Slot1"
      },
      "scripts": [
@@ -564,6 +575,7 @@
        0.7176470756530762
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "Character_Shadow2"
      },
      "scripts": [
@@ -614,6 +626,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "Check2"
      },
      "scripts": [
@@ -664,6 +677,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "Icon_Mercenary_Mark1"
      },
      "scripts": [
@@ -714,6 +728,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "Lock_Locked1"
      },
      "scripts": [
@@ -799,6 +814,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "New1"
      },
      "scripts": [
@@ -849,6 +865,7 @@
          0.0
         ],
         "enabled": true,
+        "raycast": false,
         "sprite": "New1"
        },
        "scripts": [

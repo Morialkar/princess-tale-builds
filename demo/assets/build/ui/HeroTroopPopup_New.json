@@ -48,6 +48,7 @@
      0.5882353186607361
     ],
     "enabled": true,
+    "raycast": true,
     "sprite": "empty"
    },
    "scripts": [
@@ -128,6 +129,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": true,
       "sprite": "BackGround_Chapter1"
      },
      "scripts": [
@@ -303,6 +305,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Class_A+1"
              },
              "scripts": [
@@ -919,7 +922,8 @@
                1.0,
                0.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -1051,6 +1055,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -1101,6 +1106,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -1151,6 +1157,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -1201,6 +1208,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -1251,6 +1259,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -1353,6 +1362,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -1403,6 +1413,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -1453,6 +1464,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -1503,6 +1515,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -1553,6 +1566,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -1655,6 +1669,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -1705,6 +1720,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -1755,6 +1771,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -1805,6 +1822,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -1855,6 +1873,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -1907,6 +1926,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Gradation_Black1"
                },
                "scripts": [
@@ -1956,7 +1976,8 @@
                    1.0,
                    1.0
                   ],
-                  "enabled": true
+                  "enabled": true,
+                  "raycast": true
                  },
                  "effects": [
                   {
@@ -2054,6 +2075,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Slot1"
                  },
                  "mask": "Mask",
@@ -2106,6 +2128,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Nature1"
                    },
                    "scripts": [
@@ -2158,6 +2181,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "SlotFrame4"
                  },
                  "scripts": [
@@ -2203,7 +2227,9 @@
                 "mirror": false,
                 "targets": [
                  "Parent/TopUnitView/AllyGroup/TroopCharacterViewEntity/Move/Status/BlinkButton/Parent"
-                ]
+                ],
+                "downSound": "Btn_Normal",
+                "upSound": ""
                },
                "scripts": [
                 "CustomButton"
@@ -2282,6 +2308,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_On1"
                    },
                    "scripts": [
@@ -2332,6 +2359,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_Off1"
                    },
                    "scripts": [
@@ -2455,6 +2483,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Class_A+1"
              },
              "scripts": [
@@ -3071,7 +3100,8 @@
                1.0,
                0.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -3203,6 +3233,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -3253,6 +3284,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -3303,6 +3335,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -3353,6 +3386,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -3403,6 +3437,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -3505,6 +3540,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -3555,6 +3591,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -3605,6 +3642,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -3655,6 +3693,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -3705,6 +3744,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -3807,6 +3847,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -3857,6 +3898,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -3907,6 +3949,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -3957,6 +4000,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -4007,6 +4051,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -4059,6 +4104,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Gradation_Black1"
                },
                "scripts": [
@@ -4108,7 +4154,8 @@
                    1.0,
                    1.0
                   ],
-                  "enabled": true
+                  "enabled": true,
+                  "raycast": true
                  },
                  "effects": [
                   {
@@ -4206,6 +4253,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Slot1"
                  },
                  "mask": "Mask",
@@ -4258,6 +4306,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Nature1"
                    },
                    "scripts": [
@@ -4310,6 +4359,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "SlotFrame4"
                  },
                  "scripts": [
@@ -4355,7 +4405,9 @@
                 "mirror": false,
                 "targets": [
                  "Parent/TopUnitView/AllyGroup/TroopCharacterViewEntity (3)/Move/Status/BlinkButton/Parent"
-                ]
+                ],
+                "downSound": "Btn_Normal",
+                "upSound": ""
                },
                "scripts": [
                 "CustomButton"
@@ -4434,6 +4486,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_On1"
                    },
                    "scripts": [
@@ -4484,6 +4537,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_Off1"
                    },
                    "scripts": [
@@ -4607,6 +4661,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Class_A+1"
              },
              "scripts": [
@@ -5223,7 +5278,8 @@
                1.0,
                0.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -5355,6 +5411,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -5405,6 +5462,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -5455,6 +5513,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -5505,6 +5564,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -5555,6 +5615,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -5657,6 +5718,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -5707,6 +5769,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -5757,6 +5820,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -5807,6 +5871,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -5857,6 +5922,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -5959,6 +6025,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -6009,6 +6076,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -6059,6 +6127,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -6109,6 +6178,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -6159,6 +6229,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -6211,6 +6282,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Gradation_Black1"
                },
                "scripts": [
@@ -6260,7 +6332,8 @@
                    1.0,
                    1.0
                   ],
-                  "enabled": true
+                  "enabled": true,
+                  "raycast": true
                  },
                  "effects": [
                   {
@@ -6358,6 +6431,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Slot1"
                  },
                  "mask": "Mask",
@@ -6410,6 +6484,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Nature1"
                    },
                    "scripts": [
@@ -6462,6 +6537,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "SlotFrame4"
                  },
                  "scripts": [
@@ -6507,7 +6583,9 @@
                 "mirror": false,
                 "targets": [
                  "Parent/TopUnitView/AllyGroup/TroopCharacterViewEntity (1)/Move/Status/BlinkButton/Parent"
-                ]
+                ],
+                "downSound": "Btn_Normal",
+                "upSound": ""
                },
                "scripts": [
                 "CustomButton"
@@ -6586,6 +6664,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_On1"
                    },
                    "scripts": [
@@ -6636,6 +6715,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_Off1"
                    },
                    "scripts": [
@@ -6759,6 +6839,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Class_A+1"
              },
              "scripts": [
@@ -7375,7 +7456,8 @@
                1.0,
                0.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -7507,6 +7589,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -7557,6 +7640,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -7607,6 +7691,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -7657,6 +7742,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -7707,6 +7793,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -7809,6 +7896,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -7859,6 +7947,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -7909,6 +7998,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -7959,6 +8049,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -8009,6 +8100,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -8111,6 +8203,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -8161,6 +8254,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -8211,6 +8305,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -8261,6 +8356,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -8311,6 +8407,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -8363,6 +8460,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Gradation_Black1"
                },
                "scripts": [
@@ -8412,7 +8510,8 @@
                    1.0,
                    1.0
                   ],
-                  "enabled": true
+                  "enabled": true,
+                  "raycast": true
                  },
                  "effects": [
                   {
@@ -8510,6 +8609,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Slot1"
                  },
                  "mask": "Mask",
@@ -8562,6 +8662,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Nature1"
                    },
                    "scripts": [
@@ -8614,6 +8715,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "SlotFrame4"
                  },
                  "scripts": [
@@ -8659,7 +8761,9 @@
                 "mirror": false,
                 "targets": [
                  "Parent/TopUnitView/AllyGroup/TroopCharacterViewEntity (4)/Move/Status/BlinkButton/Parent"
-                ]
+                ],
+                "downSound": "Btn_Normal",
+                "upSound": ""
                },
                "scripts": [
                 "CustomButton"
@@ -8738,6 +8842,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_On1"
                    },
                    "scripts": [
@@ -8788,6 +8893,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_Off1"
                    },
                    "scripts": [
@@ -8911,6 +9017,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Class_A+1"
              },
              "scripts": [
@@ -9527,7 +9634,8 @@
                1.0,
                0.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -9659,6 +9767,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -9709,6 +9818,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -9759,6 +9869,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -9809,6 +9920,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -9859,6 +9971,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -9961,6 +10074,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -10011,6 +10125,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -10061,6 +10176,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -10111,6 +10227,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -10161,6 +10278,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -10263,6 +10381,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -10313,6 +10432,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -10363,6 +10483,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -10413,6 +10534,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -10463,6 +10585,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -10515,6 +10638,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Gradation_Black1"
                },
                "scripts": [
@@ -10564,7 +10688,8 @@
                    1.0,
                    1.0
                   ],
-                  "enabled": true
+                  "enabled": true,
+                  "raycast": true
                  },
                  "effects": [
                   {
@@ -10662,6 +10787,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Slot1"
                  },
                  "mask": "Mask",
@@ -10714,6 +10840,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Nature1"
                    },
                    "scripts": [
@@ -10766,6 +10893,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "SlotFrame4"
                  },
                  "scripts": [
@@ -10811,7 +10939,9 @@
                 "mirror": false,
                 "targets": [
                  "Parent/TopUnitView/AllyGroup/TroopCharacterViewEntity (2)/Move/Status/BlinkButton/Parent"
-                ]
+                ],
+                "downSound": "Btn_Normal",
+                "upSound": ""
                },
                "scripts": [
                 "CustomButton"
@@ -10890,6 +11020,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_On1"
                    },
                    "scripts": [
@@ -10940,6 +11071,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_Off1"
                    },
                    "scripts": [
@@ -11098,6 +11230,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Class_A+1"
              },
              "scripts": [
@@ -11714,7 +11847,8 @@
                1.0,
                0.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -11845,6 +11979,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -11895,6 +12030,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -11945,6 +12081,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -11995,6 +12132,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -12045,6 +12183,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -12147,6 +12286,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -12197,6 +12337,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -12247,6 +12388,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -12297,6 +12439,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -12347,6 +12490,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -12449,6 +12593,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -12499,6 +12644,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -12549,6 +12695,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -12599,6 +12746,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -12649,6 +12797,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -12701,6 +12850,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Gradation_Black1"
                },
                "scripts": [
@@ -12750,7 +12900,8 @@
                    1.0,
                    1.0
                   ],
-                  "enabled": true
+                  "enabled": true,
+                  "raycast": true
                  },
                  "effects": [
                   {
@@ -12848,6 +12999,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Slot1"
                  },
                  "mask": "Mask",
@@ -12900,6 +13052,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Nature1"
                    },
                    "scripts": [
@@ -12952,6 +13105,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "SlotFrame4"
                  },
                  "scripts": [
@@ -12997,7 +13151,9 @@
                 "mirror": false,
                 "targets": [
                  "Parent/TopUnitView/EnemyGroup/TroopCharacterViewEntity/Move/Status/BlinkButton/Parent"
-                ]
+                ],
+                "downSound": "Btn_Normal",
+                "upSound": ""
                },
                "scripts": [
                 "CustomButton"
@@ -13076,6 +13232,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_On1"
                    },
                    "scripts": [
@@ -13126,6 +13283,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_Off1"
                    },
                    "scripts": [
@@ -13249,6 +13407,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Class_A+1"
              },
              "scripts": [
@@ -13865,7 +14024,8 @@
                1.0,
                0.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -13996,6 +14156,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -14046,6 +14207,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -14096,6 +14258,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -14146,6 +14309,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -14196,6 +14360,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -14298,6 +14463,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -14348,6 +14514,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -14398,6 +14565,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -14448,6 +14616,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -14498,6 +14667,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -14600,6 +14770,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -14650,6 +14821,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -14700,6 +14872,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -14750,6 +14923,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -14800,6 +14974,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -14852,6 +15027,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Gradation_Black1"
                },
                "scripts": [
@@ -14901,7 +15077,8 @@
                    1.0,
                    1.0
                   ],
-                  "enabled": true
+                  "enabled": true,
+                  "raycast": true
                  },
                  "effects": [
                   {
@@ -14999,6 +15176,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Slot1"
                  },
                  "mask": "Mask",
@@ -15051,6 +15229,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Nature1"
                    },
                    "scripts": [
@@ -15103,6 +15282,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "SlotFrame4"
                  },
                  "scripts": [
@@ -15148,7 +15328,9 @@
                 "mirror": false,
                 "targets": [
                  "Parent/TopUnitView/EnemyGroup/TroopCharacterViewEntity (3)/Move/Status/BlinkButton/Parent"
-                ]
+                ],
+                "downSound": "Btn_Normal",
+                "upSound": ""
                },
                "scripts": [
                 "CustomButton"
@@ -15227,6 +15409,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_On1"
                    },
                    "scripts": [
@@ -15277,6 +15460,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_Off1"
                    },
                    "scripts": [
@@ -15400,6 +15584,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Class_A+1"
              },
              "scripts": [
@@ -16016,7 +16201,8 @@
                1.0,
                0.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -16147,6 +16333,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -16197,6 +16384,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -16247,6 +16435,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -16297,6 +16486,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -16347,6 +16537,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -16449,6 +16640,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -16499,6 +16691,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -16549,6 +16742,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -16599,6 +16793,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -16649,6 +16844,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -16751,6 +16947,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -16801,6 +16998,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -16851,6 +17049,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -16901,6 +17100,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -16951,6 +17151,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -17003,6 +17204,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Gradation_Black1"
                },
                "scripts": [
@@ -17052,7 +17254,8 @@
                    1.0,
                    1.0
                   ],
-                  "enabled": true
+                  "enabled": true,
+                  "raycast": true
                  },
                  "effects": [
                   {
@@ -17150,6 +17353,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Slot1"
                  },
                  "mask": "Mask",
@@ -17202,6 +17406,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Nature1"
                    },
                    "scripts": [
@@ -17254,6 +17459,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "SlotFrame4"
                  },
                  "scripts": [
@@ -17299,7 +17505,9 @@
                 "mirror": false,
                 "targets": [
                  "Parent/TopUnitView/EnemyGroup/TroopCharacterViewEntity (1)/Move/Status/BlinkButton/Parent"
-                ]
+                ],
+                "downSound": "Btn_Normal",
+                "upSound": ""
                },
                "scripts": [
                 "CustomButton"
@@ -17378,6 +17586,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_On1"
                    },
                    "scripts": [
@@ -17428,6 +17637,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_Off1"
                    },
                    "scripts": [
@@ -17551,6 +17761,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Class_A+1"
              },
              "scripts": [
@@ -18167,7 +18378,8 @@
                1.0,
                0.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -18298,6 +18510,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -18348,6 +18561,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -18398,6 +18612,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -18448,6 +18663,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -18498,6 +18714,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -18600,6 +18817,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -18650,6 +18868,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -18700,6 +18919,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -18750,6 +18970,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -18800,6 +19021,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -18902,6 +19124,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -18952,6 +19175,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -19002,6 +19226,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -19052,6 +19277,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -19102,6 +19328,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -19154,6 +19381,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Gradation_Black1"
                },
                "scripts": [
@@ -19203,7 +19431,8 @@
                    1.0,
                    1.0
                   ],
-                  "enabled": true
+                  "enabled": true,
+                  "raycast": true
                  },
                  "effects": [
                   {
@@ -19301,6 +19530,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Slot1"
                  },
                  "mask": "Mask",
@@ -19353,6 +19583,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Nature1"
                    },
                    "scripts": [
@@ -19405,6 +19636,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "SlotFrame4"
                  },
                  "scripts": [
@@ -19450,7 +19682,9 @@
                 "mirror": false,
                 "targets": [
                  "Parent/TopUnitView/EnemyGroup/TroopCharacterViewEntity (4)/Move/Status/BlinkButton/Parent"
-                ]
+                ],
+                "downSound": "Btn_Normal",
+                "upSound": ""
                },
                "scripts": [
                 "CustomButton"
@@ -19529,6 +19763,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_On1"
                    },
                    "scripts": [
@@ -19579,6 +19814,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_Off1"
                    },
                    "scripts": [
@@ -19702,6 +19938,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Class_A+1"
              },
              "scripts": [
@@ -20318,7 +20555,8 @@
                1.0,
                0.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -20449,6 +20687,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -20499,6 +20738,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -20549,6 +20789,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -20599,6 +20840,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -20649,6 +20891,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star1"
                  },
                  "scripts": [
@@ -20751,6 +20994,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -20801,6 +21045,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -20851,6 +21096,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -20901,6 +21147,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -20951,6 +21198,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star2"
                  },
                  "scripts": [
@@ -21053,6 +21301,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -21103,6 +21352,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -21153,6 +21403,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -21203,6 +21454,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -21253,6 +21505,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Star3"
                  },
                  "scripts": [
@@ -21305,6 +21558,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Gradation_Black1"
                },
                "scripts": [
@@ -21354,7 +21608,8 @@
                    1.0,
                    1.0
                   ],
-                  "enabled": true
+                  "enabled": true,
+                  "raycast": true
                  },
                  "effects": [
                   {
@@ -21452,6 +21707,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Slot1"
                  },
                  "mask": "Mask",
@@ -21504,6 +21760,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Nature1"
                    },
                    "scripts": [
@@ -21556,6 +21813,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "SlotFrame4"
                  },
                  "scripts": [
@@ -21601,7 +21859,9 @@
                 "mirror": false,
                 "targets": [
                  "Parent/TopUnitView/EnemyGroup/TroopCharacterViewEntity (2)/Move/Status/BlinkButton/Parent"
-                ]
+                ],
+                "downSound": "Btn_Normal",
+                "upSound": ""
                },
                "scripts": [
                 "CustomButton"
@@ -21680,6 +21940,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_On1"
                    },
                    "scripts": [
@@ -21730,6 +21991,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Arena_Hide_Off1"
                    },
                    "scripts": [
@@ -21827,6 +22089,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "VS_Text1"
        },
        "scripts": [
@@ -21876,7 +22139,8 @@
            1.0,
            1.0
           ],
-          "enabled": true
+          "enabled": true,
+          "raycast": true
          },
          "effects": [
           {
@@ -21944,6 +22208,7 @@
          0.29411765933036804
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "SlotBar1"
        },
        "scripts": [
@@ -22046,6 +22311,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Power1"
            },
            "scripts": [
@@ -22095,7 +22361,8 @@
              0.16078431904315948,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "effects": [
             {
@@ -22165,6 +22432,7 @@
          0.29411765933036804
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "SlotBar1"
        },
        "scripts": [
@@ -22267,6 +22535,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Power1"
            },
            "scripts": [
@@ -22316,7 +22585,8 @@
              0.16078431904315948,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "effects": [
             {
@@ -22386,6 +22656,7 @@
          0.6274510025978088
         ],
         "enabled": false,
+        "raycast": true,
         "sprite": "ProfileMenu1"
        },
        "scripts": [
@@ -22460,6 +22731,7 @@
            0.003921568859368563
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "empty"
          },
          "mask": "RectMask2D",
@@ -22546,6 +22818,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "PowerUp1_Buff"
              },
              "button": {
@@ -22617,6 +22890,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Gauge1"
              },
              "scripts": [
@@ -22667,6 +22941,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Frame1"
              },
              "scripts": [
@@ -22752,6 +23027,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "PowerUp1_Buff"
              },
              "button": {
@@ -22823,6 +23099,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Gauge1"
              },
              "scripts": [
@@ -22873,6 +23150,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Frame1"
              },
              "scripts": [
@@ -22958,6 +23236,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "PowerUp1_Buff"
              },
              "button": {
@@ -23029,6 +23308,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Gauge1"
              },
              "scripts": [
@@ -23079,6 +23359,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Frame1"
              },
              "scripts": [
@@ -23164,6 +23445,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "PowerUp1_Buff"
              },
              "button": {
@@ -23235,6 +23517,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Gauge1"
              },
              "scripts": [
@@ -23285,6 +23568,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Frame1"
              },
              "scripts": [
@@ -23370,6 +23654,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "PowerUp1_Buff"
              },
              "button": {
@@ -23441,6 +23726,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Gauge1"
              },
              "scripts": [
@@ -23491,6 +23777,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Frame1"
              },
              "scripts": [
@@ -23545,6 +23832,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Arrow3"
          },
          "button": {
@@ -23635,7 +23923,8 @@
            1.0,
            0.0
           ],
-          "enabled": true
+          "enabled": true,
+          "raycast": true
          },
          "scripts": [
           "FactionBuffPopupButton",
@@ -23688,6 +23977,7 @@
          0.6274510025978088
         ],
         "enabled": false,
+        "raycast": true,
         "sprite": "ProfileMenu1"
        },
        "scripts": [
@@ -23762,6 +24052,7 @@
            0.003921568859368563
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "empty"
          },
          "mask": "RectMask2D",
@@ -23848,6 +24139,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "PowerUp1_Buff"
              },
              "button": {
@@ -23919,6 +24211,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Gauge1"
              },
              "scripts": [
@@ -23969,6 +24262,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Frame1"
              },
              "scripts": [
@@ -24054,6 +24348,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "PowerUp1_Buff"
              },
              "button": {
@@ -24125,6 +24420,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Gauge1"
              },
              "scripts": [
@@ -24175,6 +24471,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Frame1"
              },
              "scripts": [
@@ -24260,6 +24557,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "PowerUp1_Buff"
              },
              "button": {
@@ -24331,6 +24629,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Gauge1"
              },
              "scripts": [
@@ -24381,6 +24680,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Frame1"
              },
              "scripts": [
@@ -24466,6 +24766,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "PowerUp1_Buff"
              },
              "button": {
@@ -24537,6 +24838,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Gauge1"
              },
              "scripts": [
@@ -24587,6 +24889,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Frame1"
              },
              "scripts": [
@@ -24672,6 +24975,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "PowerUp1_Buff"
              },
              "button": {
@@ -24743,6 +25047,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Gauge1"
              },
              "scripts": [
@@ -24793,6 +25098,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Buff_Frame1"
              },
              "scripts": [
@@ -24847,6 +25153,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Arrow3"
          },
          "button": {
@@ -24937,7 +25244,8 @@
            1.0,
            0.0
           ],
-          "enabled": true
+          "enabled": true,
+          "raycast": true
          },
          "scripts": [
           "FactionBuffPopupButton",
@@ -25120,7 +25428,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "effects": [
               {
@@ -25238,7 +25547,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "effects": [
               {
@@ -25356,7 +25666,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "effects": [
               {
@@ -25474,7 +25785,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "effects": [
               {
@@ -25592,7 +25904,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "effects": [
               {
@@ -25729,6 +26042,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Letterbox1"
          },
          "scripts": [
@@ -25811,6 +26125,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Letterbox1"
          },
          "scripts": [
@@ -25893,6 +26208,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Letterbox2"
          },
          "scripts": [
@@ -25943,6 +26259,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Stick1"
          },
          "scripts": [
@@ -26025,6 +26342,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Letterbox2"
          },
          "scripts": [
@@ -26075,6 +26393,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Stick1"
          },
          "scripts": [
@@ -26129,6 +26448,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": true,
       "sprite": "Popup1"
      },
      "scripts": [
@@ -26211,6 +26531,7 @@
            0.3921568691730499
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Slot3"
          },
          "scripts": [
@@ -26262,6 +26583,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "UIMask"
            },
            "mask": "Mask",
@@ -26347,7 +26669,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": false
            },
            "scripts": [
             "Text",
@@ -26399,6 +26722,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Pattern1"
          },
          "layout": {
@@ -26501,6 +26825,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Slot1"
              },
              "button": {
@@ -26510,7 +26835,9 @@
               "mirror": false,
               "targets": [
                "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
-              ]
+              ],
+              "downSound": "Btn_Tap",
+              "upSound": ""
              },
              "scripts": [
               "Image",
@@ -26561,6 +26888,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Image_Font1"
                },
                "scripts": [
@@ -26611,6 +26939,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "SlotFrame4"
                },
                "scripts": [
@@ -26911,6 +27240,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Slot1"
              },
              "button": {
@@ -26920,7 +27250,9 @@
               "mirror": false,
               "targets": [
                "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
-              ]
+              ],
+              "downSound": "Btn_Tap",
+              "upSound": ""
              },
              "scripts": [
               "Image",
@@ -26971,6 +27303,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Image_Font1"
                },
                "scripts": [
@@ -27021,6 +27354,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "SlotFrame4"
                },
                "scripts": [
@@ -27321,6 +27655,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Slot1"
              },
              "button": {
@@ -27330,7 +27665,9 @@
               "mirror": false,
               "targets": [
                "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
-              ]
+              ],
+              "downSound": "Btn_Tap",
+              "upSound": ""
              },
              "scripts": [
               "Image",
@@ -27381,6 +27718,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Image_Font1"
                },
                "scripts": [
@@ -27431,6 +27769,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "SlotFrame4"
                },
                "scripts": [
@@ -27731,6 +28070,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Slot1"
              },
              "button": {
@@ -27740,7 +28080,9 @@
               "mirror": false,
               "targets": [
                "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
-              ]
+              ],
+              "downSound": "Btn_Tap",
+              "upSound": ""
              },
              "scripts": [
               "Image",
@@ -27791,6 +28133,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Image_Font1"
                },
                "scripts": [
@@ -27841,6 +28184,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "SlotFrame4"
                },
                "scripts": [
@@ -28141,6 +28485,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Slot1"
              },
              "button": {
@@ -28150,7 +28495,9 @@
               "mirror": false,
               "targets": [
                "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
-              ]
+              ],
+              "downSound": "Btn_Tap",
+              "upSound": ""
              },
              "scripts": [
               "Image",
@@ -28201,6 +28548,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Image_Font1"
                },
                "scripts": [
@@ -28251,6 +28599,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "SlotFrame4"
                },
                "scripts": [
@@ -28551,6 +28900,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Slot1"
              },
              "button": {
@@ -28560,7 +28910,9 @@
               "mirror": false,
               "targets": [
                "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
-              ]
+              ],
+              "downSound": "Btn_Tap",
+              "upSound": ""
              },
              "scripts": [
               "Image",
@@ -28611,6 +28963,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Image_Font1"
                },
                "scripts": [
@@ -28661,6 +29014,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "SlotFrame4"
                },
                "scripts": [
@@ -28961,6 +29315,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Slot1"
              },
              "button": {
@@ -28970,7 +29325,9 @@
               "mirror": false,
               "targets": [
                "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
-              ]
+              ],
+              "downSound": "Btn_Tap",
+              "upSound": ""
              },
              "scripts": [
               "Image",
@@ -29021,6 +29378,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "Image_Font1"
                },
                "scripts": [
@@ -29071,6 +29429,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": true,
                 "sprite": "SlotFrame4"
                },
                "scripts": [
@@ -29340,6 +29699,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Slot5"
          },
          "button": {
@@ -29349,7 +29709,9 @@
           "mirror": false,
           "targets": [
            "Parent/HeroTroop/Select/HelpButton"
-          ]
+          ],
+          "downSound": "Btn_Normal",
+          "upSound": ""
          },
          "scripts": [
           "Image",
@@ -29402,6 +29764,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Question_Mark1"
            },
            "scripts": [
@@ -29486,6 +29849,7 @@
            0.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "empty"
          },
          "scripts": [
@@ -29537,6 +29901,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "UIMask"
            },
            "mask": "Mask",
@@ -29622,7 +29987,8 @@
              0.1764705926179886,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "scripts": [
             "Text",
@@ -29667,7 +30033,9 @@
           "mirror": false,
           "targets": [
            "Parent/HeroTroop/Troop/TroopSaveButton"
-          ]
+          ],
+          "downSound": "Btn_Normal",
+          "upSound": ""
          },
          "scripts": [
           "CustomButton"
@@ -29716,6 +30084,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Circle_Effect1"
            },
            "scripts": [
@@ -29766,6 +30135,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Slot5"
            },
            "scripts": [
@@ -29816,6 +30186,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Save1"
              },
              "scripts": [
@@ -29872,6 +30243,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "Slot5"
        },
        "button": {
@@ -29881,7 +30253,9 @@
         "mirror": false,
         "targets": [
          "Parent/HeroTroop/ResetButton"
-        ]
+        ],
+        "downSound": "Effect_Lock",
+        "upSound": ""
        },
        "scripts": [
         "Image",
@@ -29932,6 +30306,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Reset1"
          },
          "scripts": [
@@ -29984,6 +30359,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "Slot4"
        },
        "button": {
@@ -29993,7 +30369,9 @@
         "mirror": false,
         "targets": [
          "Parent/HeroTroop/BackButton"
-        ]
+        ],
+        "downSound": "Effect_Back",
+        "upSound": ""
        },
        "scripts": [
         "Image",
@@ -30044,6 +30422,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Back1"
          },
          "scripts": [
@@ -30126,6 +30505,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Button2"
          },
          "button": {
@@ -30197,7 +30577,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "effects": [
             {
@@ -30265,6 +30646,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Button4"
          },
          "button": {
@@ -30336,7 +30718,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "effects": [
             {
@@ -30404,6 +30787,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Button8"
          },
          "button": {
@@ -30475,7 +30859,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "effects": [
             {
@@ -30575,6 +30960,7 @@
            0.7843137383460999
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Slot1"
          },
          "button": {
@@ -30584,7 +30970,9 @@
           "mirror": false,
           "targets": [
            "Parent/HeroTroop/TroopButton/Background"
-          ]
+          ],
+          "downSound": "Btn_Normal",
+          "upSound": ""
          },
          "scripts": [
           "Image",
@@ -30635,6 +31023,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "SlotFrame3"
            },
            "scripts": [
@@ -30685,6 +31074,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Formation2"
              },
              "scripts": [
@@ -30734,7 +31124,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "effects": [
               {
@@ -30840,6 +31231,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "Letterbox2"
      },
      "scripts": [
@@ -30890,6 +31282,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "Stick1"
        },
        "scripts": [
@@ -30942,6 +31335,7 @@
        1.0
       ],
       "enabled": true,
+      "raycast": false,
       "sprite": "Letterbox2"
      },
      "scripts": [
@@ -30992,6 +31386,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "Stick1"
        },
        "scripts": [

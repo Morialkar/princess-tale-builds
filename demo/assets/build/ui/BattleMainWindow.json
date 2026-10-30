@@ -113,6 +113,7 @@
          0.5882353186607361
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "SlotBar1"
        },
        "scripts": [
@@ -163,6 +164,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "Time1"
        },
        "scripts": [
@@ -212,7 +214,8 @@
          0.5960784554481506,
          1.0
         ],
-        "enabled": true
+        "enabled": true,
+        "raycast": true
        },
        "effects": [
         {
@@ -349,6 +352,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "RoundGauge_Bar2"
          },
          "scripts": [
@@ -429,6 +433,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Gauge3"
            },
            "scripts": [
@@ -511,6 +516,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Knob"
            },
            "scripts": [
@@ -564,6 +570,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "AllChestTime_Big4"
        },
        "scripts": [
@@ -613,7 +620,8 @@
            1.0,
            1.0
           ],
-          "enabled": true
+          "enabled": true,
+          "raycast": true
          },
          "effects": [
           {
@@ -680,7 +688,8 @@
          1.0,
          1.0
         ],
-        "enabled": true
+        "enabled": true,
+        "raycast": true
        },
        "effects": [
         {
@@ -746,6 +755,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "Boss_Strong1"
        },
        "scripts": [
@@ -795,7 +805,8 @@
            1.0,
            1.0
           ],
-          "enabled": true
+          "enabled": true,
+          "raycast": true
          },
          "scripts": [
           "Text",
@@ -881,6 +892,7 @@
        0.0
       ],
       "enabled": false,
+      "raycast": true,
       "sprite": "ProfileMenu1"
      },
      "scripts": [
@@ -955,6 +967,7 @@
          0.003921568859368563
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "empty"
        },
        "mask": "RectMask2D",
@@ -1041,6 +1054,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "PowerUp1_Buff"
            },
            "button": {
@@ -1112,6 +1126,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Gauge1"
            },
            "scripts": [
@@ -1162,6 +1177,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Frame1"
            },
            "scripts": [
@@ -1247,6 +1263,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "PowerUp1_Buff"
            },
            "button": {
@@ -1318,6 +1335,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Gauge1"
            },
            "scripts": [
@@ -1368,6 +1386,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Frame1"
            },
            "scripts": [
@@ -1453,6 +1472,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "PowerUp1_Buff"
            },
            "button": {
@@ -1524,6 +1544,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Gauge1"
            },
            "scripts": [
@@ -1574,6 +1595,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Frame1"
            },
            "scripts": [
@@ -1659,6 +1681,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "PowerUp1_Buff"
            },
            "button": {
@@ -1730,6 +1753,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Gauge1"
            },
            "scripts": [
@@ -1780,6 +1804,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Frame1"
            },
            "scripts": [
@@ -1865,6 +1890,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "PowerUp1_Buff"
            },
            "button": {
@@ -1936,6 +1962,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Gauge1"
            },
            "scripts": [
@@ -1986,6 +2013,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Frame1"
            },
            "scripts": [
@@ -2040,6 +2068,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "Arrow3"
        },
        "button": {
@@ -2130,7 +2159,8 @@
          1.0,
          0.0
         ],
-        "enabled": true
+        "enabled": true,
+        "raycast": true
        },
        "scripts": [
         "FactionBuffPopupButton",
@@ -2299,6 +2329,7 @@
            0.5882353186607361
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "SlotBar1"
          },
          "scripts": [
@@ -2349,6 +2380,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Coin_Small1"
          },
          "scripts": [
@@ -2398,7 +2430,8 @@
            0.5960784554481506,
            1.0
           ],
-          "enabled": true
+          "enabled": true,
+          "raycast": true
          },
          "effects": [
           {
@@ -2500,6 +2533,7 @@
            0.5882353186607361
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "SlotBar1"
          },
          "scripts": [
@@ -2550,6 +2584,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Chest1"
          },
          "scripts": [
@@ -2599,7 +2634,8 @@
            0.5960784554481506,
            1.0
           ],
-          "enabled": true
+          "enabled": true,
+          "raycast": true
          },
          "effects": [
           {
@@ -2669,6 +2705,7 @@
        0.6274510025978088
       ],
       "enabled": false,
+      "raycast": true,
       "sprite": "ProfileMenu1"
      },
      "scripts": [
@@ -2743,6 +2780,7 @@
          0.003921568859368563
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "empty"
        },
        "mask": "RectMask2D",
@@ -2829,6 +2867,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "PowerUp1_Buff"
            },
            "button": {
@@ -2900,6 +2939,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Gauge1"
            },
            "scripts": [
@@ -2950,6 +2990,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Frame1"
            },
            "scripts": [
@@ -3035,6 +3076,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "PowerUp1_Buff"
            },
            "button": {
@@ -3106,6 +3148,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Gauge1"
            },
            "scripts": [
@@ -3156,6 +3199,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Frame1"
            },
            "scripts": [
@@ -3241,6 +3285,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "PowerUp1_Buff"
            },
            "button": {
@@ -3312,6 +3357,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Gauge1"
            },
            "scripts": [
@@ -3362,6 +3408,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Frame1"
            },
            "scripts": [
@@ -3447,6 +3494,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "PowerUp1_Buff"
            },
            "button": {
@@ -3518,6 +3566,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Gauge1"
            },
            "scripts": [
@@ -3568,6 +3617,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Frame1"
            },
            "scripts": [
@@ -3653,6 +3703,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "PowerUp1_Buff"
            },
            "button": {
@@ -3724,6 +3775,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Gauge1"
            },
            "scripts": [
@@ -3774,6 +3826,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": false,
             "sprite": "Buff_Frame1"
            },
            "scripts": [
@@ -3828,6 +3881,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "Arrow3"
        },
        "button": {
@@ -3918,7 +3972,8 @@
          1.0,
          0.0
         ],
-        "enabled": true
+        "enabled": true,
+        "raycast": true
        },
        "scripts": [
         "FactionBuffPopupButton",
@@ -4140,6 +4195,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Info_Bar1"
            },
            "scripts": [
@@ -4292,6 +4348,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -4374,6 +4431,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -4494,6 +4552,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Gauge1"
                    },
                    "scripts": [
@@ -4576,6 +4635,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Knob"
                    },
                    "scripts": [
@@ -4700,6 +4760,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -4782,6 +4843,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -4837,6 +4899,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Slot1"
            },
            "mask": "Mask",
@@ -4888,7 +4951,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -4940,6 +5004,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Frame1"
            },
            "scripts": [
@@ -4990,6 +5055,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Character_Class1"
              },
              "scripts": [
@@ -5090,6 +5156,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -5140,6 +5207,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -5190,6 +5258,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -5240,6 +5309,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -5290,6 +5360,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -5392,6 +5463,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -5442,6 +5514,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -5492,6 +5565,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -5542,6 +5616,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -5592,6 +5667,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -5694,6 +5770,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -5744,6 +5821,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -5794,6 +5872,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -5844,6 +5923,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -5894,6 +5974,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -6453,6 +6534,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Fire1"
              },
              "scripts": [
@@ -6503,6 +6585,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "SlotFrame4"
              },
              "scripts": [
@@ -6554,7 +6637,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "scripts": [
             "Text",
@@ -6660,6 +6744,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Info_Bar1"
            },
            "scripts": [
@@ -6812,6 +6897,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -6894,6 +6980,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -7014,6 +7101,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Gauge1"
                    },
                    "scripts": [
@@ -7096,6 +7184,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Knob"
                    },
                    "scripts": [
@@ -7220,6 +7309,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -7302,6 +7392,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -7357,6 +7448,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Slot1"
            },
            "mask": "Mask",
@@ -7408,7 +7500,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -7460,6 +7553,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Frame1"
            },
            "scripts": [
@@ -7510,6 +7604,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Character_Class1"
              },
              "scripts": [
@@ -7610,6 +7705,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -7660,6 +7756,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -7710,6 +7807,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -7760,6 +7858,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -7810,6 +7909,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -7912,6 +8012,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -7962,6 +8063,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -8012,6 +8114,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -8062,6 +8165,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -8112,6 +8216,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -8214,6 +8319,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -8264,6 +8370,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -8314,6 +8421,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -8364,6 +8472,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -8414,6 +8523,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -8973,6 +9083,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Fire1"
              },
              "scripts": [
@@ -9023,6 +9134,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "SlotFrame4"
              },
              "scripts": [
@@ -9074,7 +9186,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "scripts": [
             "Text",
@@ -9180,6 +9293,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Info_Bar1"
            },
            "scripts": [
@@ -9332,6 +9446,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -9414,6 +9529,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -9534,6 +9650,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Gauge1"
                    },
                    "scripts": [
@@ -9616,6 +9733,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Knob"
                    },
                    "scripts": [
@@ -9740,6 +9858,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -9822,6 +9941,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -9877,6 +9997,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Slot1"
            },
            "mask": "Mask",
@@ -9928,7 +10049,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -9980,6 +10102,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Frame1"
            },
            "scripts": [
@@ -10030,6 +10153,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Character_Class1"
              },
              "scripts": [
@@ -10130,6 +10254,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -10180,6 +10305,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -10230,6 +10356,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -10280,6 +10407,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -10330,6 +10458,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -10432,6 +10561,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -10482,6 +10612,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -10532,6 +10663,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -10582,6 +10714,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -10632,6 +10765,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -10734,6 +10868,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -10784,6 +10919,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -10834,6 +10970,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -10884,6 +11021,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -10934,6 +11072,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -11493,6 +11632,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Fire1"
              },
              "scripts": [
@@ -11543,6 +11683,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "SlotFrame4"
              },
              "scripts": [
@@ -11594,7 +11735,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "scripts": [
             "Text",
@@ -11700,6 +11842,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Info_Bar1"
            },
            "scripts": [
@@ -11852,6 +11995,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -11934,6 +12078,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -12054,6 +12199,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Gauge1"
                    },
                    "scripts": [
@@ -12136,6 +12282,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Knob"
                    },
                    "scripts": [
@@ -12260,6 +12407,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -12342,6 +12490,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -12397,6 +12546,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Slot1"
            },
            "mask": "Mask",
@@ -12448,7 +12598,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -12500,6 +12651,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Frame1"
            },
            "scripts": [
@@ -12550,6 +12702,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Character_Class1"
              },
              "scripts": [
@@ -12650,6 +12803,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -12700,6 +12854,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -12750,6 +12905,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -12800,6 +12956,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -12850,6 +13007,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -12952,6 +13110,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -13002,6 +13161,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -13052,6 +13212,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -13102,6 +13263,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -13152,6 +13314,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -13254,6 +13417,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -13304,6 +13468,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -13354,6 +13519,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -13404,6 +13570,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -13454,6 +13621,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -14013,6 +14181,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Fire1"
              },
              "scripts": [
@@ -14063,6 +14232,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "SlotFrame4"
              },
              "scripts": [
@@ -14114,7 +14284,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "scripts": [
             "Text",
@@ -14220,6 +14391,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Info_Bar1"
            },
            "scripts": [
@@ -14372,6 +14544,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -14454,6 +14627,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -14574,6 +14748,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Gauge1"
                    },
                    "scripts": [
@@ -14656,6 +14831,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Knob"
                    },
                    "scripts": [
@@ -14780,6 +14956,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -14862,6 +15039,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -14917,6 +15095,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Slot1"
            },
            "mask": "Mask",
@@ -14968,7 +15147,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -15020,6 +15200,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Frame1"
            },
            "scripts": [
@@ -15070,6 +15251,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Character_Class1"
              },
              "scripts": [
@@ -15170,6 +15352,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -15220,6 +15403,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -15270,6 +15454,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -15320,6 +15505,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -15370,6 +15556,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -15472,6 +15659,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -15522,6 +15710,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -15572,6 +15761,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -15622,6 +15812,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -15672,6 +15863,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -15774,6 +15966,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -15824,6 +16017,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -15874,6 +16068,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -15924,6 +16119,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -15974,6 +16170,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -16533,6 +16730,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Fire1"
              },
              "scripts": [
@@ -16583,6 +16781,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "SlotFrame4"
              },
              "scripts": [
@@ -16634,7 +16833,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "scripts": [
             "Text",
@@ -16740,6 +16940,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Info_Bar1"
            },
            "scripts": [
@@ -16892,6 +17093,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -16974,6 +17176,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -17094,6 +17297,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Gauge1"
                    },
                    "scripts": [
@@ -17176,6 +17380,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Knob"
                    },
                    "scripts": [
@@ -17300,6 +17505,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -17382,6 +17588,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -17437,6 +17644,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Slot1"
            },
            "mask": "Mask",
@@ -17488,7 +17696,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -17540,6 +17749,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Frame1"
            },
            "scripts": [
@@ -17590,6 +17800,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Character_Class1"
              },
              "scripts": [
@@ -17690,6 +17901,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -17740,6 +17952,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -17790,6 +18003,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -17840,6 +18054,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -17890,6 +18105,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -17992,6 +18208,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -18042,6 +18259,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -18092,6 +18310,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -18142,6 +18361,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -18192,6 +18412,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -18294,6 +18515,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -18344,6 +18566,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -18394,6 +18617,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -18444,6 +18668,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -18494,6 +18719,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -19053,6 +19279,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Fire1"
              },
              "scripts": [
@@ -19103,6 +19330,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "SlotFrame4"
              },
              "scripts": [
@@ -19154,7 +19382,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "scripts": [
             "Text",
@@ -19260,6 +19489,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Info_Bar1"
            },
            "scripts": [
@@ -19412,6 +19642,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -19494,6 +19725,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -19614,6 +19846,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Gauge1"
                    },
                    "scripts": [
@@ -19696,6 +19929,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Knob"
                    },
                    "scripts": [
@@ -19820,6 +20054,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -19902,6 +20137,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -19957,6 +20193,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Slot1"
            },
            "mask": "Mask",
@@ -20008,7 +20245,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -20060,6 +20298,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Frame1"
            },
            "scripts": [
@@ -20110,6 +20349,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Character_Class1"
              },
              "scripts": [
@@ -20210,6 +20450,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -20260,6 +20501,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -20310,6 +20552,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -20360,6 +20603,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -20410,6 +20654,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -20512,6 +20757,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -20562,6 +20808,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -20612,6 +20859,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -20662,6 +20910,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -20712,6 +20961,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -20814,6 +21064,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -20864,6 +21115,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -20914,6 +21166,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -20964,6 +21217,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -21014,6 +21268,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -21573,6 +21828,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Fire1"
              },
              "scripts": [
@@ -21623,6 +21879,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "SlotFrame4"
              },
              "scripts": [
@@ -21674,7 +21931,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "scripts": [
             "Text",
@@ -21780,6 +22038,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Info_Bar1"
            },
            "scripts": [
@@ -21932,6 +22191,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -22014,6 +22274,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -22134,6 +22395,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Gauge1"
                    },
                    "scripts": [
@@ -22216,6 +22478,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Knob"
                    },
                    "scripts": [
@@ -22340,6 +22603,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -22422,6 +22686,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -22477,6 +22742,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Slot1"
            },
            "mask": "Mask",
@@ -22528,7 +22794,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -22580,6 +22847,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Frame1"
            },
            "scripts": [
@@ -22630,6 +22898,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Character_Class1"
              },
              "scripts": [
@@ -22730,6 +22999,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -22780,6 +23050,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -22830,6 +23101,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -22880,6 +23152,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -22930,6 +23203,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -23032,6 +23306,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -23082,6 +23357,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -23132,6 +23408,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -23182,6 +23459,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -23232,6 +23510,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -23334,6 +23613,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -23384,6 +23664,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -23434,6 +23715,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -23484,6 +23766,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -23534,6 +23817,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -24093,6 +24377,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Fire1"
              },
              "scripts": [
@@ -24143,6 +24428,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "SlotFrame4"
              },
              "scripts": [
@@ -24194,7 +24480,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "scripts": [
             "Text",
@@ -24300,6 +24587,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Info_Bar1"
            },
            "scripts": [
@@ -24452,6 +24740,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -24534,6 +24823,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -24654,6 +24944,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Gauge1"
                    },
                    "scripts": [
@@ -24736,6 +25027,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Knob"
                    },
                    "scripts": [
@@ -24860,6 +25152,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -24942,6 +25235,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -24997,6 +25291,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Slot1"
            },
            "mask": "Mask",
@@ -25048,7 +25343,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -25100,6 +25396,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Frame1"
            },
            "scripts": [
@@ -25150,6 +25447,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Character_Class1"
              },
              "scripts": [
@@ -25250,6 +25548,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -25300,6 +25599,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -25350,6 +25650,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -25400,6 +25701,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -25450,6 +25752,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -25552,6 +25855,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -25602,6 +25906,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -25652,6 +25957,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -25702,6 +26008,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -25752,6 +26059,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -25854,6 +26162,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -25904,6 +26213,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -25954,6 +26264,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -26004,6 +26315,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -26054,6 +26366,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -26613,6 +26926,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Fire1"
              },
              "scripts": [
@@ -26663,6 +26977,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "SlotFrame4"
              },
              "scripts": [
@@ -26714,7 +27029,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "scripts": [
             "Text",
@@ -26820,6 +27136,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Info_Bar1"
            },
            "scripts": [
@@ -26972,6 +27289,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -27054,6 +27372,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -27174,6 +27493,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Gauge1"
                    },
                    "scripts": [
@@ -27256,6 +27576,7 @@
                      1.0
                     ],
                     "enabled": true,
+                    "raycast": true,
                     "sprite": "Knob"
                    },
                    "scripts": [
@@ -27380,6 +27701,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Gauge4"
                  },
                  "scripts": [
@@ -27462,6 +27784,7 @@
                    1.0
                   ],
                   "enabled": true,
+                  "raycast": true,
                   "sprite": "Knob"
                  },
                  "scripts": [
@@ -27517,6 +27840,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Slot1"
            },
            "mask": "Mask",
@@ -27568,7 +27892,8 @@
                1.0,
                1.0
               ],
-              "enabled": true
+              "enabled": true,
+              "raycast": true
              },
              "scripts": [
               "Image",
@@ -27620,6 +27945,7 @@
              1.0
             ],
             "enabled": true,
+            "raycast": true,
             "sprite": "Character_Frame1"
            },
            "scripts": [
@@ -27670,6 +27996,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": false,
               "sprite": "Character_Class1"
              },
              "scripts": [
@@ -27770,6 +28097,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -27820,6 +28148,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -27870,6 +28199,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -27920,6 +28250,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -27970,6 +28301,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star1"
                },
                "scripts": [
@@ -28072,6 +28404,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -28122,6 +28455,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -28172,6 +28506,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -28222,6 +28557,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -28272,6 +28608,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star2"
                },
                "scripts": [
@@ -28374,6 +28711,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -28424,6 +28762,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -28474,6 +28813,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -28524,6 +28864,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -28574,6 +28915,7 @@
                  1.0
                 ],
                 "enabled": true,
+                "raycast": false,
                 "sprite": "Star3"
                },
                "scripts": [
@@ -29133,6 +29475,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "Fire1"
              },
              "scripts": [
@@ -29183,6 +29526,7 @@
                1.0
               ],
               "enabled": true,
+              "raycast": true,
               "sprite": "SlotFrame4"
              },
              "scripts": [
@@ -29234,7 +29578,8 @@
              1.0,
              1.0
             ],
-            "enabled": true
+            "enabled": true,
+            "raycast": true
            },
            "scripts": [
             "Text",
@@ -29289,7 +29634,8 @@
        1.0,
        1.0
       ],
-      "enabled": true
+      "enabled": true,
+      "raycast": true
      },
      "effects": [
       {
@@ -29384,7 +29730,8 @@
          0.0,
          1.0
         ],
-        "enabled": true
+        "enabled": true,
+        "raycast": true
        },
        "effects": [
         {
@@ -29448,7 +29795,8 @@
          0.0,
          1.0
         ],
-        "enabled": true
+        "enabled": true,
+        "raycast": true
        },
        "effects": [
         {
@@ -29597,6 +29945,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "SlotFrame4"
        },
        "button": {
@@ -29606,7 +29955,9 @@
         "mirror": false,
         "targets": [
          "BottomRightUI/Auto"
-        ]
+        ],
+        "downSound": "Btn_Normal",
+        "upSound": ""
        },
        "scripts": [
         "Image",
@@ -29657,6 +30008,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Auto1"
          },
          "scripts": [
@@ -29957,6 +30309,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "SlotFrame4"
        },
        "button": {
@@ -29966,7 +30319,9 @@
         "mirror": false,
         "targets": [
          "BottomRightUI/Fast_X2"
-        ]
+        ],
+        "downSound": "Btn_Normal",
+        "upSound": ""
        },
        "scripts": [
         "Image",
@@ -30017,6 +30372,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Fast1"
          },
          "scripts": [
@@ -30069,6 +30425,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "SlotFrame4"
        },
        "button": {
@@ -30078,7 +30435,9 @@
         "mirror": false,
         "targets": [
          "BottomRightUI/Fast_X2"
-        ]
+        ],
+        "downSound": "",
+        "upSound": ""
        },
        "scripts": [
         "Image",
@@ -30129,6 +30488,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Fast1"
          },
          "scripts": [
@@ -30426,6 +30786,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "SlotFrame4"
        },
        "button": {
@@ -30435,7 +30796,9 @@
         "mirror": false,
         "targets": [
          "BottomRightUI/Fast_X3"
-        ]
+        ],
+        "downSound": "Btn_Normal",
+        "upSound": ""
        },
        "scripts": [
         "Image",
@@ -30486,6 +30849,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Fastest1"
          },
          "scripts": [
@@ -30783,6 +31147,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "SlotFrame4"
        },
        "button": {
@@ -30792,7 +31157,9 @@
         "mirror": false,
         "targets": [
          "BottomRightUI/Fast_X4"
-        ]
+        ],
+        "downSound": "Btn_Normal",
+        "upSound": ""
        },
        "scripts": [
         "Image",
@@ -30843,6 +31210,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Fastest2"
          },
          "scripts": [
@@ -31192,6 +31560,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "SlotFrame4"
        },
        "button": {
@@ -31201,7 +31570,9 @@
         "mirror": false,
         "targets": [
          "BottomLeftUI/Pause"
-        ]
+        ],
+        "downSound": "",
+        "upSound": ""
        },
        "scripts": [
         "Image",
@@ -31252,6 +31623,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": true,
           "sprite": "Stop1"
          },
          "scripts": [
@@ -31336,6 +31708,7 @@
          1.0
         ],
         "enabled": true,
+        "raycast": true,
         "sprite": "SlotFrame4"
        },
        "button": {
@@ -31345,7 +31718,9 @@
         "mirror": false,
         "targets": [
          "BottomLeftUI/Pause"
-        ]
+        ],
+        "downSound": "",
+        "upSound": ""
        },
        "scripts": [
         "Image",
@@ -31396,6 +31771,7 @@
            1.0
           ],
           "enabled": true,
+          "raycast": false,
           "sprite": "Skip"
          },
          "scripts": [
