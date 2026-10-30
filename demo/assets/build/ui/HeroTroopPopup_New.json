@@ -2196,6 +2196,15 @@
               {
                "name": "BlinkButton",
                "active": false,
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.800000011920929,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Parent/TopUnitView/AllyGroup/TroopCharacterViewEntity/Move/Status/BlinkButton/Parent"
+                ]
+               },
                "scripts": [
                 "CustomButton"
                ],
@@ -4339,6 +4348,15 @@
               {
                "name": "BlinkButton",
                "active": false,
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.800000011920929,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Parent/TopUnitView/AllyGroup/TroopCharacterViewEntity (3)/Move/Status/BlinkButton/Parent"
+                ]
+               },
                "scripts": [
                 "CustomButton"
                ],
@@ -6482,6 +6500,15 @@
               {
                "name": "BlinkButton",
                "active": false,
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.800000011920929,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Parent/TopUnitView/AllyGroup/TroopCharacterViewEntity (1)/Move/Status/BlinkButton/Parent"
+                ]
+               },
                "scripts": [
                 "CustomButton"
                ],
@@ -8625,6 +8652,15 @@
               {
                "name": "BlinkButton",
                "active": false,
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.800000011920929,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Parent/TopUnitView/AllyGroup/TroopCharacterViewEntity (4)/Move/Status/BlinkButton/Parent"
+                ]
+               },
                "scripts": [
                 "CustomButton"
                ],
@@ -10768,6 +10804,15 @@
               {
                "name": "BlinkButton",
                "active": false,
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.800000011920929,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Parent/TopUnitView/AllyGroup/TroopCharacterViewEntity (2)/Move/Status/BlinkButton/Parent"
+                ]
+               },
                "scripts": [
                 "CustomButton"
                ],
@@ -12945,6 +12990,15 @@
               {
                "name": "BlinkButton",
                "active": false,
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.800000011920929,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Parent/TopUnitView/EnemyGroup/TroopCharacterViewEntity/Move/Status/BlinkButton/Parent"
+                ]
+               },
                "scripts": [
                 "CustomButton"
                ],
@@ -15087,6 +15141,15 @@
               {
                "name": "BlinkButton",
                "active": false,
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.800000011920929,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Parent/TopUnitView/EnemyGroup/TroopCharacterViewEntity (3)/Move/Status/BlinkButton/Parent"
+                ]
+               },
                "scripts": [
                 "CustomButton"
                ],
@@ -17229,6 +17292,15 @@
               {
                "name": "BlinkButton",
                "active": false,
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.800000011920929,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Parent/TopUnitView/EnemyGroup/TroopCharacterViewEntity (1)/Move/Status/BlinkButton/Parent"
+                ]
+               },
                "scripts": [
                 "CustomButton"
                ],
@@ -19371,6 +19443,15 @@
               {
                "name": "BlinkButton",
                "active": false,
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.800000011920929,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Parent/TopUnitView/EnemyGroup/TroopCharacterViewEntity (4)/Move/Status/BlinkButton/Parent"
+                ]
+               },
                "scripts": [
                 "CustomButton"
                ],
@@ -21513,6 +21594,15 @@
               {
                "name": "BlinkButton",
                "active": false,
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.800000011920929,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Parent/TopUnitView/EnemyGroup/TroopCharacterViewEntity (2)/Move/Status/BlinkButton/Parent"
+                ]
+               },
                "scripts": [
                 "CustomButton"
                ],
@@ -22458,6 +22548,26 @@
               "enabled": true,
               "sprite": "PowerUp1_Buff"
              },
+             "button": {
+              "kind": "Button",
+              "transition": 1,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Parent/TopUI/BuffIconSpreadAlly/MenuGrid/BuffIconUI/Icon",
+              "interactable": true
+             },
              "scripts": [
               "Image",
               "AtlasImage",
@@ -22643,6 +22753,26 @@
               ],
               "enabled": true,
               "sprite": "PowerUp1_Buff"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 1,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Parent/TopUI/BuffIconSpreadAlly/MenuGrid/BuffIconUI (1)/Icon",
+              "interactable": true
              },
              "scripts": [
               "Image",
@@ -22830,6 +22960,26 @@
               "enabled": true,
               "sprite": "PowerUp1_Buff"
              },
+             "button": {
+              "kind": "Button",
+              "transition": 1,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Parent/TopUI/BuffIconSpreadAlly/MenuGrid/BuffIconUI (2)/Icon",
+              "interactable": true
+             },
              "scripts": [
               "Image",
               "AtlasImage",
@@ -23015,6 +23165,26 @@
               ],
               "enabled": true,
               "sprite": "PowerUp1_Buff"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 1,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Parent/TopUI/BuffIconSpreadAlly/MenuGrid/BuffIconUI (3)/Icon",
+              "interactable": true
              },
              "scripts": [
               "Image",
@@ -23202,6 +23372,26 @@
               "enabled": true,
               "sprite": "PowerUp1_Buff"
              },
+             "button": {
+              "kind": "Button",
+              "transition": 1,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Parent/TopUI/BuffIconSpreadAlly/MenuGrid/BuffIconUI (4)/Icon",
+              "interactable": true
+             },
              "scripts": [
               "Image",
               "AtlasImage",
@@ -23357,6 +23547,26 @@
           "enabled": true,
           "sprite": "Arrow3"
          },
+         "button": {
+          "kind": "Button",
+          "transition": 0,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": "Parent/TopUI/BuffIconSpreadAlly/Hide Menu ON/OFF",
+          "interactable": true
+         },
          "scripts": [
           "Image",
           "Button",
@@ -23392,6 +23602,26 @@
         {
          "name": "FactionBuffPopupButton",
          "active": true,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": "Parent/TopUI/BuffIconSpreadAlly/FactionBuffPopupButton",
+          "interactable": true
+         },
          "image": {
           "type": 0,
           "fillMethod": 4,
@@ -23620,6 +23850,26 @@
               "enabled": true,
               "sprite": "PowerUp1_Buff"
              },
+             "button": {
+              "kind": "Button",
+              "transition": 1,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Parent/TopUI/BuffIconSpreadEnemy/MenuGrid/BuffIconUI/Icon",
+              "interactable": true
+             },
              "scripts": [
               "Image",
               "AtlasImage",
@@ -23805,6 +24055,26 @@
               ],
               "enabled": true,
               "sprite": "PowerUp1_Buff"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 1,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Parent/TopUI/BuffIconSpreadEnemy/MenuGrid/BuffIconUI (1)/Icon",
+              "interactable": true
              },
              "scripts": [
               "Image",
@@ -23992,6 +24262,26 @@
               "enabled": true,
               "sprite": "PowerUp1_Buff"
              },
+             "button": {
+              "kind": "Button",
+              "transition": 1,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Parent/TopUI/BuffIconSpreadEnemy/MenuGrid/BuffIconUI (2)/Icon",
+              "interactable": true
+             },
              "scripts": [
               "Image",
               "AtlasImage",
@@ -24177,6 +24467,26 @@
               ],
               "enabled": true,
               "sprite": "PowerUp1_Buff"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 1,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Parent/TopUI/BuffIconSpreadEnemy/MenuGrid/BuffIconUI (3)/Icon",
+              "interactable": true
              },
              "scripts": [
               "Image",
@@ -24364,6 +24674,26 @@
               "enabled": true,
               "sprite": "PowerUp1_Buff"
              },
+             "button": {
+              "kind": "Button",
+              "transition": 1,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Parent/TopUI/BuffIconSpreadEnemy/MenuGrid/BuffIconUI (4)/Icon",
+              "interactable": true
+             },
              "scripts": [
               "Image",
               "AtlasImage",
@@ -24519,6 +24849,26 @@
           "enabled": true,
           "sprite": "Arrow3"
          },
+         "button": {
+          "kind": "Button",
+          "transition": 0,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": "Parent/TopUI/BuffIconSpreadEnemy/Hide Menu ON/OFF",
+          "interactable": true
+         },
          "scripts": [
           "Image",
           "Button",
@@ -24554,6 +24904,26 @@
         {
          "name": "FactionBuffPopupButton",
          "active": true,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": "Parent/TopUI/BuffIconSpreadEnemy/FactionBuffPopupButton",
+          "interactable": true
+         },
          "image": {
           "type": 0,
           "fillMethod": 4,
@@ -26133,807 +26503,14 @@
               "enabled": true,
               "sprite": "Slot1"
              },
-             "scripts": [
-              "Image",
-              "CustomButton",
-              "AtlasImage"
-             ],
-             "rect": {
-              "anchorMin": [
-               0.0,
-               0.0
-              ],
-              "anchorMax": [
-               1.0,
-               1.0
-              ],
-              "position": [
-               0.0,
-               0.0
-              ],
-              "size": [
-               -10.0,
-               -10.0
-              ],
-              "pivot": [
-               0.5,
-               0.5
+             "button": {
+              "kind": "CustomButton",
+              "down": 0.949999988079071,
+              "up": 1.0,
+              "mirror": false,
+              "targets": [
+               "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
               ]
-             },
-             "scale": [
-              1.0,
-              1.0
-             ],
-             "children": [
-              {
-               "name": "Icon",
-               "active": true,
-               "image": {
-                "type": 0,
-                "fillMethod": 4,
-                "fillAmount": 1.0,
-                "fillOrigin": 0,
-                "fillClockwise": true,
-                "preserveAspect": false,
-                "color": [
-                 1.0,
-                 1.0,
-                 1.0,
-                 1.0
-                ],
-                "enabled": true,
-                "sprite": "Image_Font1"
-               },
-               "scripts": [
-                "Image",
-                "AtlasImage"
-               ],
-               "rect": {
-                "anchorMin": [
-                 0.5,
-                 0.5
-                ],
-                "anchorMax": [
-                 0.5,
-                 0.5
-                ],
-                "position": [
-                 0.0,
-                 0.0
-                ],
-                "size": [
-                 59.0,
-                 26.0
-                ],
-                "pivot": [
-                 0.5,
-                 0.5
-                ]
-               },
-               "scale": [
-                1.0,
-                1.0
-               ]
-              },
-              {
-               "name": "Frame",
-               "active": true,
-               "image": {
-                "type": 0,
-                "fillMethod": 4,
-                "fillAmount": 1.0,
-                "fillOrigin": 0,
-                "fillClockwise": true,
-                "preserveAspect": false,
-                "color": [
-                 1.0,
-                 1.0,
-                 1.0,
-                 1.0
-                ],
-                "enabled": true,
-                "sprite": "SlotFrame4"
-               },
-               "scripts": [
-                "Image",
-                "AtlasImage"
-               ],
-               "rect": {
-                "anchorMin": [
-                 0.0,
-                 0.0
-                ],
-                "anchorMax": [
-                 1.0,
-                 1.0
-                ],
-                "position": [
-                 0.0,
-                 0.0
-                ],
-                "size": [
-                 10.0,
-                 10.0
-                ],
-                "pivot": [
-                 0.5,
-                 0.5
-                ]
-               },
-               "scale": [
-                1.0,
-                1.0
-               ]
-              }
-             ]
-            },
-            {
-             "name": "select_on",
-             "active": false,
-             "scripts": [
-              "ParticleBase"
-             ],
-             "scale": [
-              112.5,
-              112.5
-             ],
-             "children": [
-              {
-               "name": "root",
-               "active": true,
-               "scripts": [
-                "UIParticleSystem"
-               ],
-               "rect": {
-                "anchorMin": [
-                 0.5,
-                 0.5
-                ],
-                "anchorMax": [
-                 0.5,
-                 0.5
-                ],
-                "position": [
-                 0.0,
-                 0.0
-                ],
-                "size": [
-                 100.0,
-                 100.0
-                ],
-                "pivot": [
-                 0.5,
-                 0.5
-                ]
-               },
-               "scale": [
-                1.0,
-                1.0
-               ],
-               "children": [
-                {
-                 "name": "circle_in",
-                 "active": true,
-                 "scripts": [
-                  "UIParticleSystem"
-                 ],
-                 "rect": {
-                  "anchorMin": [
-                   0.5,
-                   0.5
-                  ],
-                  "anchorMax": [
-                   0.5,
-                   0.5
-                  ],
-                  "position": [
-                   0.0,
-                   0.0
-                  ],
-                  "size": [
-                   100.0,
-                   100.0
-                  ],
-                  "pivot": [
-                   0.5,
-                   0.5
-                  ]
-                 },
-                 "scale": [
-                  1.0,
-                  1.0
-                 ]
-                },
-                {
-                 "name": "circle_01",
-                 "active": true,
-                 "scripts": [
-                  "UIParticleSystem"
-                 ],
-                 "rect": {
-                  "anchorMin": [
-                   0.5,
-                   0.5
-                  ],
-                  "anchorMax": [
-                   0.5,
-                   0.5
-                  ],
-                  "position": [
-                   0.0,
-                   0.0
-                  ],
-                  "size": [
-                   100.0,
-                   100.0
-                  ],
-                  "pivot": [
-                   0.5,
-                   0.5
-                  ]
-                 },
-                 "scale": [
-                  0.5,
-                  0.5
-                 ]
-                },
-                {
-                 "name": "dust_spine",
-                 "active": true,
-                 "scripts": [
-                  "UIParticleSystem"
-                 ],
-                 "rect": {
-                  "anchorMin": [
-                   0.5,
-                   0.5
-                  ],
-                  "anchorMax": [
-                   0.5,
-                   0.5
-                  ],
-                  "position": [
-                   0.0,
-                   0.0
-                  ],
-                  "size": [
-                   100.0,
-                   100.0
-                  ],
-                  "pivot": [
-                   0.5,
-                   0.5
-                  ]
-                 },
-                 "scale": [
-                  1.0,
-                  1.0
-                 ]
-                },
-                {
-                 "name": "circle_01 (1)",
-                 "active": false,
-                 "scripts": [
-                  "UIParticleSystem"
-                 ],
-                 "rect": {
-                  "anchorMin": [
-                   0.5,
-                   0.5
-                  ],
-                  "anchorMax": [
-                   0.5,
-                   0.5
-                  ],
-                  "position": [
-                   0.0,
-                   0.0
-                  ],
-                  "size": [
-                   100.0,
-                   100.0
-                  ],
-                  "pivot": [
-                   0.5,
-                   0.5
-                  ]
-                 },
-                 "scale": [
-                  0.5,
-                  0.5
-                 ]
-                },
-                {
-                 "name": "base",
-                 "active": false,
-                 "scripts": [
-                  "UIParticleSystem"
-                 ],
-                 "rect": {
-                  "anchorMin": [
-                   0.5,
-                   0.5
-                  ],
-                  "anchorMax": [
-                   0.5,
-                   0.5
-                  ],
-                  "position": [
-                   0.0,
-                   0.0
-                  ],
-                  "size": [
-                   100.0,
-                   100.0
-                  ],
-                  "pivot": [
-                   0.5,
-                   0.5
-                  ]
-                 },
-                 "scale": [
-                  0.5,
-                  0.5
-                 ]
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "HeroPropertySlot",
-           "active": true,
-           "scripts": [
-            "HeroPropertySlot"
-           ],
-           "rect": {
-            "anchorMin": [
-             0.0,
-             0.0
-            ],
-            "anchorMax": [
-             0.0,
-             0.0
-            ],
-            "position": [
-             0.0,
-             0.0
-            ],
-            "size": [
-             76.5,
-             76.5
-            ],
-            "pivot": [
-             0.5,
-             0.5
-            ]
-           },
-           "scale": [
-            1.0,
-            1.0
-           ],
-           "children": [
-            {
-             "name": "Back",
-             "active": true,
-             "image": {
-              "type": 0,
-              "fillMethod": 4,
-              "fillAmount": 1.0,
-              "fillOrigin": 0,
-              "fillClockwise": true,
-              "preserveAspect": false,
-              "color": [
-               1.0,
-               1.0,
-               1.0,
-               1.0
-              ],
-              "enabled": true,
-              "sprite": "Slot1"
-             },
-             "scripts": [
-              "Image",
-              "CustomButton",
-              "AtlasImage"
-             ],
-             "rect": {
-              "anchorMin": [
-               0.0,
-               0.0
-              ],
-              "anchorMax": [
-               1.0,
-               1.0
-              ],
-              "position": [
-               0.0,
-               0.0
-              ],
-              "size": [
-               -10.0,
-               -10.0
-              ],
-              "pivot": [
-               0.5,
-               0.5
-              ]
-             },
-             "scale": [
-              1.0,
-              1.0
-             ],
-             "children": [
-              {
-               "name": "Icon",
-               "active": true,
-               "image": {
-                "type": 0,
-                "fillMethod": 4,
-                "fillAmount": 1.0,
-                "fillOrigin": 0,
-                "fillClockwise": true,
-                "preserveAspect": false,
-                "color": [
-                 1.0,
-                 1.0,
-                 1.0,
-                 1.0
-                ],
-                "enabled": true,
-                "sprite": "Image_Font1"
-               },
-               "scripts": [
-                "Image",
-                "AtlasImage"
-               ],
-               "rect": {
-                "anchorMin": [
-                 0.5,
-                 0.5
-                ],
-                "anchorMax": [
-                 0.5,
-                 0.5
-                ],
-                "position": [
-                 0.0,
-                 0.0
-                ],
-                "size": [
-                 59.0,
-                 26.0
-                ],
-                "pivot": [
-                 0.5,
-                 0.5
-                ]
-               },
-               "scale": [
-                1.0,
-                1.0
-               ]
-              },
-              {
-               "name": "Frame",
-               "active": true,
-               "image": {
-                "type": 0,
-                "fillMethod": 4,
-                "fillAmount": 1.0,
-                "fillOrigin": 0,
-                "fillClockwise": true,
-                "preserveAspect": false,
-                "color": [
-                 1.0,
-                 1.0,
-                 1.0,
-                 1.0
-                ],
-                "enabled": true,
-                "sprite": "SlotFrame4"
-               },
-               "scripts": [
-                "Image",
-                "AtlasImage"
-               ],
-               "rect": {
-                "anchorMin": [
-                 0.0,
-                 0.0
-                ],
-                "anchorMax": [
-                 1.0,
-                 1.0
-                ],
-                "position": [
-                 0.0,
-                 0.0
-                ],
-                "size": [
-                 10.0,
-                 10.0
-                ],
-                "pivot": [
-                 0.5,
-                 0.5
-                ]
-               },
-               "scale": [
-                1.0,
-                1.0
-               ]
-              }
-             ]
-            },
-            {
-             "name": "select_on",
-             "active": false,
-             "scripts": [
-              "ParticleBase"
-             ],
-             "scale": [
-              112.5,
-              112.5
-             ],
-             "children": [
-              {
-               "name": "root",
-               "active": true,
-               "scripts": [
-                "UIParticleSystem"
-               ],
-               "rect": {
-                "anchorMin": [
-                 0.5,
-                 0.5
-                ],
-                "anchorMax": [
-                 0.5,
-                 0.5
-                ],
-                "position": [
-                 0.0,
-                 0.0
-                ],
-                "size": [
-                 100.0,
-                 100.0
-                ],
-                "pivot": [
-                 0.5,
-                 0.5
-                ]
-               },
-               "scale": [
-                1.0,
-                1.0
-               ],
-               "children": [
-                {
-                 "name": "circle_in",
-                 "active": true,
-                 "scripts": [
-                  "UIParticleSystem"
-                 ],
-                 "rect": {
-                  "anchorMin": [
-                   0.5,
-                   0.5
-                  ],
-                  "anchorMax": [
-                   0.5,
-                   0.5
-                  ],
-                  "position": [
-                   0.0,
-                   0.0
-                  ],
-                  "size": [
-                   100.0,
-                   100.0
-                  ],
-                  "pivot": [
-                   0.5,
-                   0.5
-                  ]
-                 },
-                 "scale": [
-                  1.0,
-                  1.0
-                 ]
-                },
-                {
-                 "name": "circle_01",
-                 "active": true,
-                 "scripts": [
-                  "UIParticleSystem"
-                 ],
-                 "rect": {
-                  "anchorMin": [
-                   0.5,
-                   0.5
-                  ],
-                  "anchorMax": [
-                   0.5,
-                   0.5
-                  ],
-                  "position": [
-                   0.0,
-                   0.0
-                  ],
-                  "size": [
-                   100.0,
-                   100.0
-                  ],
-                  "pivot": [
-                   0.5,
-                   0.5
-                  ]
-                 },
-                 "scale": [
-                  0.5,
-                  0.5
-                 ]
-                },
-                {
-                 "name": "dust_spine",
-                 "active": true,
-                 "scripts": [
-                  "UIParticleSystem"
-                 ],
-                 "rect": {
-                  "anchorMin": [
-                   0.5,
-                   0.5
-                  ],
-                  "anchorMax": [
-                   0.5,
-                   0.5
-                  ],
-                  "position": [
-                   0.0,
-                   0.0
-                  ],
-                  "size": [
-                   100.0,
-                   100.0
-                  ],
-                  "pivot": [
-                   0.5,
-                   0.5
-                  ]
-                 },
-                 "scale": [
-                  1.0,
-                  1.0
-                 ]
-                },
-                {
-                 "name": "circle_01 (1)",
-                 "active": false,
-                 "scripts": [
-                  "UIParticleSystem"
-                 ],
-                 "rect": {
-                  "anchorMin": [
-                   0.5,
-                   0.5
-                  ],
-                  "anchorMax": [
-                   0.5,
-                   0.5
-                  ],
-                  "position": [
-                   0.0,
-                   0.0
-                  ],
-                  "size": [
-                   100.0,
-                   100.0
-                  ],
-                  "pivot": [
-                   0.5,
-                   0.5
-                  ]
-                 },
-                 "scale": [
-                  0.5,
-                  0.5
-                 ]
-                },
-                {
-                 "name": "base",
-                 "active": false,
-                 "scripts": [
-                  "UIParticleSystem"
-                 ],
-                 "rect": {
-                  "anchorMin": [
-                   0.5,
-                   0.5
-                  ],
-                  "anchorMax": [
-                   0.5,
-                   0.5
-                  ],
-                  "position": [
-                   0.0,
-                   0.0
-                  ],
-                  "size": [
-                   100.0,
-                   100.0
-                  ],
-                  "pivot": [
-                   0.5,
-                   0.5
-                  ]
-                 },
-                 "scale": [
-                  0.5,
-                  0.5
-                 ]
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "HeroPropertySlot",
-           "active": true,
-           "scripts": [
-            "HeroPropertySlot"
-           ],
-           "rect": {
-            "anchorMin": [
-             0.0,
-             0.0
-            ],
-            "anchorMax": [
-             0.0,
-             0.0
-            ],
-            "position": [
-             0.0,
-             0.0
-            ],
-            "size": [
-             76.5,
-             76.5
-            ],
-            "pivot": [
-             0.5,
-             0.5
-            ]
-           },
-           "scale": [
-            1.0,
-            1.0
-           ],
-           "children": [
-            {
-             "name": "Back",
-             "active": true,
-             "image": {
-              "type": 0,
-              "fillMethod": 4,
-              "fillAmount": 1.0,
-              "fillOrigin": 0,
-              "fillClockwise": true,
-              "preserveAspect": false,
-              "color": [
-               1.0,
-               1.0,
-               1.0,
-               1.0
-              ],
-              "enabled": true,
-              "sprite": "Slot1"
              },
              "scripts": [
               "Image",
@@ -27336,6 +26913,15 @@
               "enabled": true,
               "sprite": "Slot1"
              },
+             "button": {
+              "kind": "CustomButton",
+              "down": 0.949999988079071,
+              "up": 1.0,
+              "mirror": false,
+              "targets": [
+               "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
+              ]
+             },
              "scripts": [
               "Image",
               "CustomButton",
@@ -27737,6 +27323,15 @@
               "enabled": true,
               "sprite": "Slot1"
              },
+             "button": {
+              "kind": "CustomButton",
+              "down": 0.949999988079071,
+              "up": 1.0,
+              "mirror": false,
+              "targets": [
+               "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
+              ]
+             },
              "scripts": [
               "Image",
               "CustomButton",
@@ -28138,6 +27733,15 @@
               "enabled": true,
               "sprite": "Slot1"
              },
+             "button": {
+              "kind": "CustomButton",
+              "down": 0.949999988079071,
+              "up": 1.0,
+              "mirror": false,
+              "targets": [
+               "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
+              ]
+             },
              "scripts": [
               "Image",
               "CustomButton",
@@ -28538,6 +28142,835 @@
               ],
               "enabled": true,
               "sprite": "Slot1"
+             },
+             "button": {
+              "kind": "CustomButton",
+              "down": 0.949999988079071,
+              "up": 1.0,
+              "mirror": false,
+              "targets": [
+               "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
+              ]
+             },
+             "scripts": [
+              "Image",
+              "CustomButton",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.0,
+               0.0
+              ],
+              "anchorMax": [
+               1.0,
+               1.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               -10.0,
+               -10.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Icon",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "sprite": "Image_Font1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 59.0,
+                 26.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Frame",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "sprite": "SlotFrame4"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 10.0,
+                 10.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              }
+             ]
+            },
+            {
+             "name": "select_on",
+             "active": false,
+             "scripts": [
+              "ParticleBase"
+             ],
+             "scale": [
+              112.5,
+              112.5
+             ],
+             "children": [
+              {
+               "name": "root",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ],
+               "children": [
+                {
+                 "name": "circle_in",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "circle_01",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  0.5
+                 ]
+                },
+                {
+                 "name": "dust_spine",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "circle_01 (1)",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  0.5
+                 ]
+                },
+                {
+                 "name": "base",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  0.5
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "HeroPropertySlot",
+           "active": true,
+           "scripts": [
+            "HeroPropertySlot"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             0.0,
+             0.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             76.5,
+             76.5
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Back",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "sprite": "Slot1"
+             },
+             "button": {
+              "kind": "CustomButton",
+              "down": 0.949999988079071,
+              "up": 1.0,
+              "mirror": false,
+              "targets": [
+               "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
+              ]
+             },
+             "scripts": [
+              "Image",
+              "CustomButton",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.0,
+               0.0
+              ],
+              "anchorMax": [
+               1.0,
+               1.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               -10.0,
+               -10.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Icon",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "sprite": "Image_Font1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 59.0,
+                 26.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Frame",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "sprite": "SlotFrame4"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 10.0,
+                 10.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              }
+             ]
+            },
+            {
+             "name": "select_on",
+             "active": false,
+             "scripts": [
+              "ParticleBase"
+             ],
+             "scale": [
+              112.5,
+              112.5
+             ],
+             "children": [
+              {
+               "name": "root",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ],
+               "children": [
+                {
+                 "name": "circle_in",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "circle_01",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  0.5
+                 ]
+                },
+                {
+                 "name": "dust_spine",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "circle_01 (1)",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  0.5
+                 ]
+                },
+                {
+                 "name": "base",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  0.5
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "HeroPropertySlot",
+           "active": true,
+           "scripts": [
+            "HeroPropertySlot"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             0.0,
+             0.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             76.5,
+             76.5
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Back",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "sprite": "Slot1"
+             },
+             "button": {
+              "kind": "CustomButton",
+              "down": 0.949999988079071,
+              "up": 1.0,
+              "mirror": false,
+              "targets": [
+               "Parent/HeroTroop/Select/HeroPropertySlotWindow/HeroPropertySlot/Back"
+              ]
              },
              "scripts": [
               "Image",
@@ -28909,6 +29342,15 @@
           "enabled": true,
           "sprite": "Slot5"
          },
+         "button": {
+          "kind": "CustomButton",
+          "down": 0.949999988079071,
+          "up": 1.0,
+          "mirror": false,
+          "targets": [
+           "Parent/HeroTroop/Select/HelpButton"
+          ]
+         },
          "scripts": [
           "Image",
           "CustomButton",
@@ -29218,6 +29660,15 @@
         {
          "name": "TroopSaveButton",
          "active": true,
+         "button": {
+          "kind": "CustomButton",
+          "down": 0.949999988079071,
+          "up": 1.0,
+          "mirror": false,
+          "targets": [
+           "Parent/HeroTroop/Troop/TroopSaveButton"
+          ]
+         },
          "scripts": [
           "CustomButton"
          ],
@@ -29423,6 +29874,15 @@
         "enabled": true,
         "sprite": "Slot5"
        },
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "Parent/HeroTroop/ResetButton"
+        ]
+       },
        "scripts": [
         "Image",
         "CustomButton",
@@ -29525,6 +29985,15 @@
         ],
         "enabled": true,
         "sprite": "Slot4"
+       },
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "Parent/HeroTroop/BackButton"
+        ]
        },
        "scripts": [
         "Image",
@@ -29659,6 +30128,27 @@
           "enabled": true,
           "sprite": "Button2"
          },
+         "button": {
+          "kind": "Button",
+          "transition": 2,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": "Parent/HeroTroop/ButtonList/SaveButton",
+          "interactable": true,
+          "pressedSprite": "Button2_Press"
+         },
          "scripts": [
           "Image",
           "Button",
@@ -29777,6 +30267,27 @@
           "enabled": true,
           "sprite": "Button4"
          },
+         "button": {
+          "kind": "Button",
+          "transition": 2,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": "Parent/HeroTroop/ButtonList/BattleButton",
+          "interactable": true,
+          "pressedSprite": "Button4_Press"
+         },
          "scripts": [
           "Image",
           "Button",
@@ -29894,6 +30405,27 @@
           ],
           "enabled": true,
           "sprite": "Button8"
+         },
+         "button": {
+          "kind": "Button",
+          "transition": 2,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": "Parent/HeroTroop/ButtonList/BattleHardButton",
+          "interactable": true,
+          "pressedSprite": "Button8_Press"
          },
          "scripts": [
           "Image",
@@ -30044,6 +30576,15 @@
           ],
           "enabled": true,
           "sprite": "Slot1"
+         },
+         "button": {
+          "kind": "CustomButton",
+          "down": 0.949999988079071,
+          "up": 1.0,
+          "mirror": false,
+          "targets": [
+           "Parent/HeroTroop/TroopButton/Background"
+          ]
          },
          "scripts": [
           "Image",

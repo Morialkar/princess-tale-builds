@@ -83,6 +83,15 @@
       "enabled": true,
       "sprite": "Character_Slot1"
      },
+     "button": {
+      "kind": "CustomButton",
+      "down": 0.949999988079071,
+      "up": 1.0,
+      "mirror": false,
+      "targets": [
+       "HeroSlotCache"
+      ]
+     },
      "mask": "RectMask2D",
      "scripts": [
       "Image",

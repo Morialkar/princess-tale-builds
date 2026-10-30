@@ -1043,6 +1043,26 @@
             "enabled": true,
             "sprite": "PowerUp1_Buff"
            },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "TopLeftUI/BuffIconAlly/MenuGrid/BuffIconUI/Icon",
+            "interactable": true
+           },
            "scripts": [
             "Image",
             "AtlasImage",
@@ -1228,6 +1248,26 @@
             ],
             "enabled": true,
             "sprite": "PowerUp1_Buff"
+           },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "TopLeftUI/BuffIconAlly/MenuGrid/BuffIconUI (1)/Icon",
+            "interactable": true
            },
            "scripts": [
             "Image",
@@ -1415,6 +1455,26 @@
             "enabled": true,
             "sprite": "PowerUp1_Buff"
            },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "TopLeftUI/BuffIconAlly/MenuGrid/BuffIconUI (2)/Icon",
+            "interactable": true
+           },
            "scripts": [
             "Image",
             "AtlasImage",
@@ -1600,6 +1660,26 @@
             ],
             "enabled": true,
             "sprite": "PowerUp1_Buff"
+           },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "TopLeftUI/BuffIconAlly/MenuGrid/BuffIconUI (3)/Icon",
+            "interactable": true
            },
            "scripts": [
             "Image",
@@ -1787,6 +1867,26 @@
             "enabled": true,
             "sprite": "PowerUp1_Buff"
            },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "TopLeftUI/BuffIconAlly/MenuGrid/BuffIconUI (4)/Icon",
+            "interactable": true
+           },
            "scripts": [
             "Image",
             "AtlasImage",
@@ -1942,6 +2042,26 @@
         "enabled": true,
         "sprite": "Arrow3"
        },
+       "button": {
+        "kind": "Button",
+        "transition": 0,
+        "normal": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "pressed": [
+         0.7843137383460999,
+         0.7843137383460999,
+         0.7843137383460999,
+         1.0
+        ],
+        "multiplier": 1.0,
+        "fade": 0.10000000149011612,
+        "target": "TopLeftUI/BuffIconAlly/Hide Menu ON/OFF",
+        "interactable": true
+       },
        "scripts": [
         "Image",
         "Button",
@@ -1977,6 +2097,26 @@
       {
        "name": "FactionBuffPopupButton",
        "active": true,
+       "button": {
+        "kind": "Button",
+        "transition": 1,
+        "normal": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "pressed": [
+         0.7843137383460999,
+         0.7843137383460999,
+         0.7843137383460999,
+         1.0
+        ],
+        "multiplier": 1.0,
+        "fade": 0.10000000149011612,
+        "target": "TopLeftUI/BuffIconAlly/FactionBuffPopupButton",
+        "interactable": true
+       },
        "image": {
         "type": 0,
         "fillMethod": 4,
@@ -2691,6 +2831,26 @@
             "enabled": true,
             "sprite": "PowerUp1_Buff"
            },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "TopRightUI/BuffIconEnemy/MenuGrid/BuffIconUI/Icon",
+            "interactable": true
+           },
            "scripts": [
             "Image",
             "AtlasImage",
@@ -2876,6 +3036,26 @@
             ],
             "enabled": true,
             "sprite": "PowerUp1_Buff"
+           },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "TopRightUI/BuffIconEnemy/MenuGrid/BuffIconUI (1)/Icon",
+            "interactable": true
            },
            "scripts": [
             "Image",
@@ -3063,6 +3243,26 @@
             "enabled": true,
             "sprite": "PowerUp1_Buff"
            },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "TopRightUI/BuffIconEnemy/MenuGrid/BuffIconUI (2)/Icon",
+            "interactable": true
+           },
            "scripts": [
             "Image",
             "AtlasImage",
@@ -3248,6 +3448,26 @@
             ],
             "enabled": true,
             "sprite": "PowerUp1_Buff"
+           },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "TopRightUI/BuffIconEnemy/MenuGrid/BuffIconUI (3)/Icon",
+            "interactable": true
            },
            "scripts": [
             "Image",
@@ -3435,6 +3655,26 @@
             "enabled": true,
             "sprite": "PowerUp1_Buff"
            },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "TopRightUI/BuffIconEnemy/MenuGrid/BuffIconUI (4)/Icon",
+            "interactable": true
+           },
            "scripts": [
             "Image",
             "AtlasImage",
@@ -3590,6 +3830,26 @@
         "enabled": true,
         "sprite": "Arrow3"
        },
+       "button": {
+        "kind": "Button",
+        "transition": 0,
+        "normal": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "pressed": [
+         0.7843137383460999,
+         0.7843137383460999,
+         0.7843137383460999,
+         1.0
+        ],
+        "multiplier": 1.0,
+        "fade": 0.10000000149011612,
+        "target": "TopRightUI/BuffIconEnemy/Hide Menu ON/OFF",
+        "interactable": true
+       },
        "scripts": [
         "Image",
         "Button",
@@ -3625,6 +3885,26 @@
       {
        "name": "FactionBuffPopupButton",
        "active": true,
+       "button": {
+        "kind": "Button",
+        "transition": 1,
+        "normal": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "pressed": [
+         0.7843137383460999,
+         0.7843137383460999,
+         0.7843137383460999,
+         1.0
+        ],
+        "multiplier": 1.0,
+        "fade": 0.10000000149011612,
+        "target": "TopRightUI/BuffIconEnemy/FactionBuffPopupButton",
+        "interactable": true
+       },
        "image": {
         "type": 0,
         "fillMethod": 4,
@@ -3792,6 +4072,26 @@
         {
          "name": "UnitStatusSlot",
          "active": true,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": null,
+          "interactable": true
+         },
          "scripts": [
           "UnitBattleStatusSlot",
           "Button"
@@ -6292,6 +6592,26 @@
         {
          "name": "UnitStatusSlot",
          "active": true,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": null,
+          "interactable": true
+         },
          "scripts": [
           "UnitBattleStatusSlot",
           "Button"
@@ -8792,6 +9112,26 @@
         {
          "name": "UnitStatusSlot",
          "active": true,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": null,
+          "interactable": true
+         },
          "scripts": [
           "UnitBattleStatusSlot",
           "Button"
@@ -11292,6 +11632,26 @@
         {
          "name": "UnitStatusSlot",
          "active": true,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": null,
+          "interactable": true
+         },
          "scripts": [
           "UnitBattleStatusSlot",
           "Button"
@@ -13792,6 +14152,26 @@
         {
          "name": "UnitStatusSlot",
          "active": true,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": null,
+          "interactable": true
+         },
          "scripts": [
           "UnitBattleStatusSlot",
           "Button"
@@ -16292,6 +16672,26 @@
         {
          "name": "UnitStatusSlot (1)",
          "active": false,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": null,
+          "interactable": true
+         },
          "scripts": [
           "UnitBattleStatusSlot",
           "Button"
@@ -18792,6 +19192,26 @@
         {
          "name": "UnitStatusSlot (2)",
          "active": false,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": null,
+          "interactable": true
+         },
          "scripts": [
           "UnitBattleStatusSlot",
           "Button"
@@ -21292,6 +21712,26 @@
         {
          "name": "UnitStatusSlot (3)",
          "active": false,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": null,
+          "interactable": true
+         },
          "scripts": [
           "UnitBattleStatusSlot",
           "Button"
@@ -23792,6 +24232,26 @@
         {
          "name": "UnitStatusSlot (4)",
          "active": false,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": null,
+          "interactable": true
+         },
          "scripts": [
           "UnitBattleStatusSlot",
           "Button"
@@ -26292,6 +26752,26 @@
         {
          "name": "UnitStatusSlot (5)",
          "active": false,
+         "button": {
+          "kind": "Button",
+          "transition": 1,
+          "normal": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "pressed": [
+           0.7843137383460999,
+           0.7843137383460999,
+           0.7843137383460999,
+           1.0
+          ],
+          "multiplier": 1.0,
+          "fade": 0.10000000149011612,
+          "target": null,
+          "interactable": true
+         },
          "scripts": [
           "UnitBattleStatusSlot",
           "Button"
@@ -29119,6 +29599,15 @@
         "enabled": true,
         "sprite": "SlotFrame4"
        },
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "BottomRightUI/Auto"
+        ]
+       },
        "scripts": [
         "Image",
         "CustomButton",
@@ -29470,6 +29959,15 @@
         "enabled": true,
         "sprite": "SlotFrame4"
        },
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "BottomRightUI/Fast_X2"
+        ]
+       },
        "scripts": [
         "Image",
         "CustomButton",
@@ -29572,6 +30070,15 @@
         ],
         "enabled": true,
         "sprite": "SlotFrame4"
+       },
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "BottomRightUI/Fast_X2"
+        ]
        },
        "scripts": [
         "Image",
@@ -29921,6 +30428,15 @@
         "enabled": true,
         "sprite": "SlotFrame4"
        },
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "BottomRightUI/Fast_X3"
+        ]
+       },
        "scripts": [
         "Image",
         "CustomButton",
@@ -30268,6 +30784,15 @@
         ],
         "enabled": true,
         "sprite": "SlotFrame4"
+       },
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "BottomRightUI/Fast_X4"
+        ]
        },
        "scripts": [
         "Image",
@@ -30669,6 +31194,15 @@
         "enabled": true,
         "sprite": "SlotFrame4"
        },
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "BottomLeftUI/Pause"
+        ]
+       },
        "scripts": [
         "Image",
         "CustomButton",
@@ -30803,6 +31337,15 @@
         ],
         "enabled": true,
         "sprite": "SlotFrame4"
+       },
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "BottomLeftUI/Pause"
+        ]
        },
        "scripts": [
         "Image",
