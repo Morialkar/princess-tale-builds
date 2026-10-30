@@ -77,6 +77,32 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Arena_Hide_Off1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Arena_Hide_On1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Arrow3": {
   "border": [
    0.0,
@@ -142,6 +168,32 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Back1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "BackGround_Chapter1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Boss_Strong1": {
   "border": [
    0.0,
@@ -187,6 +239,32 @@
    28.0,
    34.0,
    28.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Button4": {
+  "border": [
+   64.0,
+   36.0,
+   64.0,
+   36.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Button8": {
+  "border": [
+   64.0,
+   36.0,
+   64.0,
+   36.0
   ],
   "pivot": [
    0.5,
@@ -675,7 +753,33 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Check2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Chest1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Circle_Effect1": {
   "border": [
    0.0,
    0.0,
@@ -831,6 +935,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Dark1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Down1": {
   "border": [
    0.0,
@@ -884,6 +1001,19 @@
   "pixelsPerUnit": 100.0
  },
  "Fire1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Formation2": {
   "border": [
    0.0,
    0.0,
@@ -1169,6 +1299,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Icon_Mercenary_Mark1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Icon_Tier_Champion_Big1": {
   "border": [
    0.0,
@@ -1351,6 +1494,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Image_Font1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Info_Bar1": {
   "border": [
    0.0,
@@ -1377,7 +1533,85 @@
   ],
   "pixelsPerUnit": 200.0
  },
+ "Letterbox1": {
+  "border": [
+   0.0,
+   274.0,
+   0.0,
+   284.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Letterbox2": {
+  "border": [
+   0.0,
+   57.0,
+   0.0,
+   69.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Light1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Lock_Locked1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Male1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Nature1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "New1": {
   "border": [
    0.0,
    0.0,
@@ -1395,6 +1629,32 @@
    46.0,
    0.0,
    46.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Popup1": {
+  "border": [
+   53.0,
+   33.0,
+   53.0,
+   53.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Power1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
    0.0
   ],
   "pivot": [
@@ -1430,6 +1690,32 @@
   "pixelsPerUnit": 100.0
  },
  "Profile_Frame_0": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Question_Mark1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Reset1": {
   "border": [
    0.0,
    0.0,
@@ -1598,11 +1884,37 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Save1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Skip": {
   "border": [
    0.0,
    0.0,
    0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Slot1": {
+  "border": [
+   50.0,
+   0.0,
+   50.0,
    0.0
   ],
   "pivot": [
@@ -1637,6 +1949,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Slot4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Slot5": {
   "border": [
    0.0,
@@ -1664,6 +1989,19 @@
   "pixelsPerUnit": 100.0
  },
  "SlotDeco1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "SlotFrame3": {
   "border": [
    0.0,
    0.0,
@@ -1754,6 +2092,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Stick1": {
+  "border": [
+   54.0,
+   1.0,
+   54.0,
+   1.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Stop1": {
   "border": [
    0.0,
@@ -1780,7 +2131,46 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "UIMask": {
+  "border": [
+   10.0,
+   10.0,
+   10.0,
+   10.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 200.0
+ },
  "VS_Text1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Water1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Wind1": {
   "border": [
    0.0,
    0.0,

@@ -1,0 +1,293 @@
+
+slime.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye_in_CC_02
+  rotate: false
+  xy: 274, 6
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+eye_out_CC_02
+  rotate: false
+  xy: 308, 6
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+fx/weapon_trail_air
+  rotate: false
+  xy: 579, 54
+  size: 227, 227
+  orig: 227, 227
+  offset: 0, 0
+  index: -1
+fx/weapon_trail_dark
+  rotate: false
+  xy: 945, 283
+  size: 227, 227
+  orig: 227, 227
+  offset: 0, 0
+  index: -1
+fx/weapon_trail_fire
+  rotate: false
+  xy: 1037, 54
+  size: 227, 227
+  orig: 227, 227
+  offset: 0, 0
+  index: -1
+fx/weapon_trail_light
+  rotate: false
+  xy: 487, 283
+  size: 227, 227
+  orig: 227, 227
+  offset: 0, 0
+  index: -1
+fx/weapon_trail_nature
+  rotate: false
+  xy: 716, 283
+  size: 227, 227
+  orig: 227, 227
+  offset: 0, 0
+  index: -1
+fx/weapon_trail_water
+  rotate: false
+  xy: 808, 54
+  size: 227, 227
+  orig: 227, 227
+  offset: 0, 0
+  index: -1
+highlight
+  rotate: false
+  xy: 26, 10
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+ice_cc
+  rotate: false
+  xy: 2, 115
+  size: 261, 395
+  orig: 261, 395
+  offset: 0, 0
+  index: -1
+item/lantern
+  rotate: false
+  xy: 265, 230
+  size: 220, 280
+  orig: 220, 280
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 157, 9
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+slime_01/acce_in
+  rotate: false
+  xy: 2, 14
+  size: 126, 99
+  orig: 126, 99
+  offset: 0, 0
+  index: -1
+slime_01/acce_out
+  rotate: false
+  xy: 1174, 283
+  size: 155, 112
+  orig: 155, 112
+  offset: 0, 0
+  index: -1
+slime_01/body_02
+  rotate: false
+  xy: 265, 115
+  size: 155, 113
+  orig: 155, 113
+  offset: 0, 0
+  index: -1
+slime_01/eye_in_01
+  rotate: false
+  xy: 334, 42
+  size: 11, 18
+  orig: 11, 18
+  offset: 0, 0
+  index: -1
+slime_01/eye_in_02
+  rotate: false
+  xy: 130, 4
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+slime_01/eye_out_01
+  rotate: false
+  xy: 537, 90
+  size: 13, 23
+  orig: 13, 23
+  offset: 0, 0
+  index: -1
+slime_01/eye_out_02
+  rotate: false
+  xy: 503, 84
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+slime_01/mouth_01
+  rotate: false
+  xy: 229, 6
+  size: 43, 32
+  orig: 43, 32
+  offset: 0, 0
+  index: -1
+slime_01/mouth_02
+  rotate: false
+  xy: 342, 2
+  size: 43, 38
+  orig: 43, 38
+  offset: 0, 0
+  index: -1
+slime_02/acce_out
+  rotate: false
+  xy: 464, 4
+  size: 58, 67
+  orig: 58, 67
+  offset: 0, 0
+  index: -1
+slime_02/body_02
+  rotate: false
+  xy: 422, 115
+  size: 155, 113
+  orig: 155, 113
+  offset: 0, 0
+  index: -1
+slime_02/eye_in_01
+  rotate: false
+  xy: 565, 69
+  size: 10, 19
+  orig: 10, 19
+  offset: 0, 0
+  index: -1
+slime_02/eye_out_01
+  rotate: false
+  xy: 567, 94
+  size: 10, 19
+  orig: 10, 19
+  offset: 0, 0
+  index: -1
+slime_03/acce_in
+  rotate: false
+  xy: 334, 62
+  size: 90, 51
+  orig: 90, 51
+  offset: 0, 0
+  index: -1
+slime_03/body_02
+  rotate: false
+  xy: 1174, 397
+  size: 155, 113
+  orig: 155, 113
+  offset: 0, 0
+  index: -1
+slime_03/eye_in_01
+  rotate: false
+  xy: 347, 42
+  size: 11, 18
+  orig: 11, 18
+  offset: 0, 0
+  index: -1
+slime_03/eye_out_01
+  rotate: false
+  xy: 552, 90
+  size: 13, 23
+  orig: 13, 23
+  offset: 0, 0
+  index: -1
+slime_04/acce_in
+  rotate: false
+  xy: 227, 40
+  size: 105, 73
+  orig: 105, 73
+  offset: 0, 0
+  index: -1
+slime_04/acce_out
+  rotate: false
+  xy: 130, 31
+  size: 95, 82
+  orig: 95, 82
+  offset: 0, 0
+  index: -1
+slime_04/body_02
+  rotate: false
+  xy: 1331, 397
+  size: 154, 113
+  orig: 154, 113
+  offset: 0, 0
+  index: -1
+slime_04/eye_in_01
+  rotate: false
+  xy: 2, 5
+  size: 22, 7
+  orig: 22, 7
+  offset: 0, 0
+  index: -1
+slime_04/eye_out_01
+  rotate: false
+  xy: 202, 14
+  size: 25, 15
+  orig: 25, 15
+  offset: 0, 0
+  index: -1
+slime_05/acce_in_01
+  rotate: false
+  xy: 387, 20
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+slime_05/acce_in_02
+  rotate: false
+  xy: 426, 73
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+slime_05/body_02
+  rotate: false
+  xy: 1266, 168
+  size: 155, 113
+  orig: 155, 113
+  offset: 0, 0
+  index: -1
+slime_06/acce_in
+  rotate: false
+  xy: 524, 14
+  size: 39, 68
+  orig: 39, 68
+  offset: 0, 0
+  index: -1
+slime_06/body_02
+  rotate: false
+  xy: 1266, 53
+  size: 155, 113
+  orig: 155, 113
+  offset: 0, 0
+  index: -1
+slime_06/eye_in_01
+  rotate: false
+  xy: 360, 49
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+slime_06/eye_out_01
+  rotate: false
+  xy: 179, 11
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1

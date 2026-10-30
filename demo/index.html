@@ -19,13 +19,14 @@
 <div id="loading">
   <h1>Princess Tale — démo de combat</h1>
   <div id="bar"><div></div></div>
-  <p>Chargement du combat (une cinquantaine de Mo la première fois)…</p>
-  <p>Touche le portrait d'une héroïne quand il s'illumine pour lancer son ultime. AUTO les laisse faire seules, ×2 accélère, le bouton du résultat passe au combat suivant.</p>
+  <p>Chargement (une cinquantaine de Mo la première fois)…</p>
+  <p>Compose les deux équipes : touche une moitié du haut pour choisir le côté, une héroïne de la liste pour l'ajouter ou la retirer, le niveau et le grade sous VS pour les changer, Random pour tirer deux équipes au hasard, puis Fight. La flèche de retour joue les 30 combats enregistrés.</p>
+  <p>En combat, touche le portrait d'une héroïne quand il s'illumine pour lancer son ultime. AUTO les laisse faire seules, ×2 accélère, le bouton du résultat ramène aux équipes.</p>
 </div>
 <script src="wasm_exec.js"></script>
 <script>
   const go = new Go();
-  // The game calls demoReady once its files are in memory and its first fight is set up.
+  // The game calls demoReady once its files are in memory and its team builder is set up.
   window.demoReady = () => document.getElementById("loading").remove();
   WebAssembly.instantiateStreaming(fetch("battle.wasm"), go.importObject)
     .then(r => go.run(r.instance))
