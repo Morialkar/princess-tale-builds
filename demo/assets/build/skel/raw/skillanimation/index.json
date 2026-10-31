@@ -1,0 +1,101 @@
+{
+ "character_illust_big": {
+  "asset": "character_illust_big_SkeletonData",
+  "atlases": [
+   "UI_illust_skill"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "character_illust_gotcha": {
+  "asset": "character_illust_gotcha_SkeletonData",
+  "atlases": [
+   "UI_illust_skill"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "character_illust_small": {
+  "asset": "character_illust_small_SkeletonData",
+  "atlases": [
+   "UI_illust_skill"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "character_illust_view": {
+  "asset": "character_illust_view_SkeletonData",
+  "atlases": [
+   "UI_illust_skill"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "character_skill": {
+  "asset": "character_skill_SkeletonData",
+  "atlases": [
+   "UI_illust_skill"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "destiny": {
+  "asset": "destiny_SkeletonData",
+  "atlases": [
+   "UI_illust_skill"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "dialog": {
+  "asset": "dialog_SkeletonData",
+  "atlases": [
+   "UI_illust_skill"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "guild_war_ally": {
+  "asset": "guild_war_ally_SkeletonData",
+  "atlases": [
+   "UI_illust_skill"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "guild_war_enemy": {
+  "asset": "guild_war_enemy_SkeletonData",
+  "atlases": [
+   "UI_illust_skill"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "kill_message": {
+  "asset": "kill_message_SkeletonData",
+  "atlases": [
+   "UI_illust_skill"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "kill_scene": {
+  "asset": "kill_scene_SkeletonData",
+  "atlases": [
+   "UI_illust_skill"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}

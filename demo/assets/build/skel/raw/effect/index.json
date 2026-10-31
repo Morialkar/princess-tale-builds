@@ -1,0 +1,74 @@
+{
+ "unit_21_sp": {
+  "asset": "unit_21_sp_SkeletonData",
+  "atlases": [
+   "animation_effect"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "unit_21_ult": {
+  "asset": "unit_21_ult_SkeletonData",
+  "atlases": [
+   "animation_effect"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "unit_21_ult_christmas": {
+  "asset": "unit_21_ult_christmas_SkeletonData",
+  "atlases": [
+   "animation_effect"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "unit_26_ult": {
+  "asset": "unit_26_ult_SkeletonData",
+  "atlases": [
+   "animation_effect"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "unit_39_ult": {
+  "asset": "unit_39_ult_SkeletonData",
+  "atlases": [
+   "animation_effect"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "unit_53_sp_02": {
+  "asset": "unit_53_sp_02_SkeletonData",
+  "atlases": [
+   "animation_effect"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "unit_53_ult": {
+  "asset": "unit_53_ult_SkeletonData",
+  "atlases": [
+   "animation_effect"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "world_boss_ult": {
+  "asset": "world_boss_ult_SkeletonData",
+  "atlases": [
+   "animation_effect"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}

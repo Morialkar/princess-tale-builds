@@ -1,0 +1,103 @@
+{
+ "name": "BuffIcon",
+ "active": true,
+ "image": {
+  "type": 0,
+  "fillMethod": 4,
+  "fillAmount": 1.0,
+  "fillOrigin": 0,
+  "fillClockwise": true,
+  "preserveAspect": false,
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "enabled": true,
+  "raycast": true,
+  "sprite": "BLIND"
+ },
+ "scripts": [
+  "BuffIcon",
+  "Image",
+  "AtlasImage"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   0.0,
+   0.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   1.5,
+   1.5
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Text",
+   "active": true,
+   "text": {
+    "text": "",
+    "font": "WhiteFont",
+    "size": 50,
+    "style": 0,
+    "alignment": 4,
+    "lineSpacing": 1.0,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": false
+   },
+   "scripts": [
+    "Text"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.12099999934434891,
+     -0.20000000298023224
+    ],
+    "size": [
+     100.0,
+     100.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    0.009999999776482582,
+    0.009999999776482582
+   ]
+  }
+ ]
+}
