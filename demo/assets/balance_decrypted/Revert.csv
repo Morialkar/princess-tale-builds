@@ -1,0 +1,12 @@
+﻿index,RevertHeroGrade,RevertApCount,RevertItemCount,RevertUse
+int,string,int,int,bool
+1,S,0,36,TRUE
+2,S+,1,0,TRUE
+3,SS,0,72,TRUE
+4,SS+,0,72,TRUE
+5,SSS,2,0,TRUE
+6,S1,1,36,TRUE
+7,S2,1,36,TRUE
+8,S3,1,36,TRUE
+9,S4,1,36,TRUE
+10,S5,1,36,TRUE

@@ -1,0 +1,7 @@
+﻿index,EventCompleteMissionID,RewardTarget,Trigger,EventCompleteMissionReward
+int,int,string,string,string
+1,1,ALL,GTE;EVENTCOMPLETE1ST;20,"[""furniture"",""1611"",""1"",""Item"",""200"",""2""]"
+2,1,ALL,GTE;EVENTCOMPLETE1ST;40,"[""furniture"",""1601"",""1"",""Item"",""200"",""3"",""Item"",""201"",""2""]"
+3,1,ALL,GTE;EVENTCOMPLETE1ST;60,"[""furniture"",""1591"",""1"",""Item"",""200"",""5"",""Item"",""201"",""5""]"
+4,1,ALL,GTE;EVENTCOMPLETE1ST;80,"[""frame"",""Profile"",""26"",""Item"",""200"",""5"",""Item"",""201"",""5"",""Item"",""9"",""5""]"
+5,1,ALL,GTE;EVENTCOMPLETE1ST;100,"[""Skin"",""13901"",""1"",""Item"",""303"",""1"",""Item"",""301"",""1"",""Item"",""302"",""1"",""item"",""7022"",""1""]"

@@ -1,0 +1,4 @@
+﻿Index,QuestID,IdleKind,Count,QuestName
+int,string,string,int,string
+1,quest_StageIdle_Daily_1,All,2,quest_name_stageidle_all
+2,quest_StageIdle_Daily_2,Instance,1,quest_name_stageidle_instance

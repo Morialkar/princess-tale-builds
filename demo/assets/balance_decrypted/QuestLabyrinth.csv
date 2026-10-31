@@ -1,0 +1,16 @@
+﻿Index,QuestID,ClearFloor,Count,QuestName
+int,string,int,int,string
+1,quest_Labyrinth_Weekly_1,1,1,quest_name_Labyrinth
+2,quest_Labyrinth_Weekly_2,3,1,quest_name_Labyrinth
+3,quest_Labyrinth_Floor1_Main_1,1,1,quest_name_Labyrinth
+4,quest_Labyrinth_Floor2_Main_1,2,1,quest_name_Labyrinth
+5,quest_Labyrinth_Floor3_Main_1,3,1,quest_name_Labyrinth
+6,quest_Labyrinth_Floor3_Main_2,3,2,quest_name_Labyrinth
+7,quest_Labyrinth_Floor3_Main_3,3,3,quest_name_Labyrinth
+8,quest_Labyrinth_Floor3_Main_4,3,5,quest_name_Labyrinth
+9,quest_Labyrinth_Floor3_Main_5,3,8,quest_name_Labyrinth
+10,quest_Labyrinth_Floor3_Main_6,3,12,quest_name_Labyrinth
+11,quest_Labyrinth_Floor3_Main_7,3,20,quest_name_Labyrinth
+12,quest_Labyrinth_Floor3_Main_8,3,30,quest_name_Labyrinth
+13,quest_Labyrinth_Floor3_Main_9,3,50,quest_name_Labyrinth
+14,quest_Labyrinth_Floor3_Main_10,3,100,quest_name_Labyrinth

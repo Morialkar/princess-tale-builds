@@ -1,0 +1,16 @@
+﻿index,EventQuestType,EventQuestGroup,EventQuestTrigger,EventQuestCount,EventQuestPoint
+int,string,string,string,int,string
+1,Quest,quest_group_1stcake_mansion_visit,HOUSING;VISIT,1,"[""resetpoint"",""DailyEventQuestPoint"",""1"",""item"",""7016"",""1""]"
+2,Quest,quest_group_1stcake_friend_point,GET;CURRENCY;FSHIP,1,"[""resetpoint"",""DailyEventQuestPoint"",""1"",""item"",""7019"",""1""]"
+3,Quest,quest_group_1stcake_fast_idlereward,TAKE_IDLE;FAST,1,"[""resetpoint"",""DailyEventQuestPoint"",""1"",""item"",""7018"",""1""]"
+4,Quest,quest_group_1stcake_gacha,GACHA;ANY,1,"[""resetpoint"",""DailyEventQuestPoint"",""2"",""item"",""7020"",""1""]"
+5,Quest,quest_qroup_1stcake_equip_upgrade,EQUIPMENT_UPGRADE;ANY,1,"[""resetpoint"",""DailyEventQuestPoint"",""1"",""item"",""7019"",""1""]"
+6,Quest,quest_group_1stcake_arena,TRY;ARENA;NORMAL,1,"[""resetpoint"",""DailyEventQuestPoint"",""1"",""item"",""7020"",""1""]"
+7,Quest,quest_group_1stcake_eventboss,TRY;EVENTBOSS,1,"[""resetpoint"",""DailyEventQuestPoint"",""2"",""item"",""7016"",""1""]"
+8,Quest,quest_group_1stcake_solo_bounty,DISPATCH;SOLO,3,"[""resetpoint"",""DailyEventQuestPoint"",""1"",""item"",""7018"",""1""]"
+9,Quest,quest_group_1stcake_all_Quest_clear,TAKE;EVENTQUEST;1,8,"[""item"",""7021"",""130""]"
+10,Point,quest_group_1stcake_point,GET;EVENTPOINT;2,,"[""item"",""7021"",""100"",""item"",""1"",""20""]"
+11,Point,quest_group_1stcake_point,GET;EVENTPOINT;4,,"[""item"",""7021"",""170"",""Item"",""100"",""1""]"
+12,Point,quest_group_1stcake_point,GET;EVENTPOINT;6,,"[""item"",""7021"",""190"",""Item"",""203"",""5""]"
+13,Point,quest_group_1stcake_point,GET;EVENTPOINT;8,,"[""item"",""7021"",""200"",""currency"",""star"",""100""]"
+14,Point,quest_group_1stcake_point,GET;EVENTPOINT;10,,"[""item"",""7021"",""210"",""item"",""200"",""1""]"

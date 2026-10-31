@@ -1,0 +1,4 @@
+﻿Index,Name,GachaCount,PriceType,PriceArg1,PriceArg2,SubPricetype,SubPriceArg1,SubPriceArg2,LogID
+int,string,int,string,string,string,string,string,string,string
+1,ui_localize_gacah_high_btn_luckybox,1,CURRENCY,star,350,ITEM,9,1,HighGacha_1
+2,ui_localize_gacah_high_btn_luckybox,10,CURRENCY,star,3500,ITEM,9,10,HighGacha_10

@@ -1,0 +1,6 @@
+﻿index,FurnitureGrade,DismissReward
+int,string,string
+1,A,"[""item"",""11"",""1""]"
+2,S,"[""item"",""11"",""3""]"
+3,SS,"[""item"",""11"",""5""]"
+4,SSS,"[""item"",""11"",""10""]"

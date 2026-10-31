@@ -1,0 +1,16 @@
+﻿Index,QuestID,Group,Count,QuestName
+int,string,string,int,string
+1,quest_Resonance_Slot_Main_1,Slot,5,quest_name_Resonance_Slot
+2,quest_Resonance_Slot_Main_2,Slot,10,quest_name_Resonance_Slot
+3,quest_Resonance_Slot_Main_3,Slot,15,quest_name_Resonance_Slot
+4,quest_Resonance_Slot_Main_4,Slot,20,quest_name_Resonance_Slot
+5,quest_Resonance_Slot_Main_5,Slot,25,quest_name_Resonance_Slot
+6,quest_Resonance_Level_Main_1,Level,40,quest_name_Resonance_Level
+7,quest_Resonance_Level_Main_2,Level,60,quest_name_Resonance_Level
+8,quest_Resonance_Level_Main_3,Level,80,quest_name_Resonance_Level
+9,quest_Resonance_Level_Main_4,Level,100,quest_name_Resonance_Level
+10,quest_Resonance_Level_Main_5,Level,120,quest_name_Resonance_Level
+11,quest_Resonance_Level_Main_6,Level,140,quest_name_Resonance_Level
+12,quest_Resonance_Level_Main_7,Level,160,quest_name_Resonance_Level
+13,quest_Resonance_Level_Main_8,Level,180,quest_name_Resonance_Level
+14,quest_Resonance_Level_Main_9,Level,200,quest_name_Resonance_Level

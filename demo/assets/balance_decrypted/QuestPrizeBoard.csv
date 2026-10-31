@@ -1,0 +1,4 @@
+﻿Index,QuestID,PrizeKind,Count,QuestName
+int,string,string,int,string
+1,quest_PrizeBoard_Daily_1,Single,3,quest_name_prizeboard_single
+2,quest_PrizeBoard_Weekly_1,Collaboration,5,quest_name_prizeboard_collaboration

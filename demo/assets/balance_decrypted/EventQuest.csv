@@ -1,0 +1,12 @@
+﻿index,EventQuestID,EventGroup
+int,int,string
+1,1,quest_group_1stcake_mansion_visit
+2,1,quest_group_1stcake_friend_point
+3,1,quest_group_1stcake_fast_idlereward
+4,1,quest_group_1stcake_gacha
+5,1,quest_qroup_1stcake_equip_upgrade
+6,1,quest_group_1stcake_arena
+7,1,quest_group_1stcake_eventboss
+8,1,quest_group_1stcake_solo_bounty
+9,1,quest_group_1stcake_all_Quest_clear
+10,1,quest_group_1stcake_point

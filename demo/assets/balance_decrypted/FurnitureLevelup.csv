@@ -1,0 +1,8 @@
+﻿index,FurnitrueLevel,GradeA,GradeS,GradeSS,GradeSSS,FurnitureEffect_UpgradeTime,FurnitureEffect_UpgradeFastCost
+int,int,int,int,int,int,int,int
+1,1,1000,2000,4000,8000,60,200
+2,2,2000,4000,8000,16000,240,400
+3,3,3000,6000,12000,24000,480,800
+4,4,4000,8000,16000,32000,960,1600
+5,5,5000,10000,20000,40000,1440,3200
+6,6,0,0,0,0,0,0

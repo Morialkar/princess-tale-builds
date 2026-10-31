@@ -1,0 +1,16 @@
+﻿Index,RankType,RankCount,RankRange,ClosingReward
+int,string,int,int,string
+1,Count,1,0,"[""Currency"",""star"",""500"",""Currency"",""WorldCoin"",""6000""]"
+2,Count,2,0,"[""Currency"",""star"",""450"",""Currency"",""WorldCoin"",""5500""]"
+3,Count,3,0,"[""Currency"",""star"",""400"",""Currency"",""WorldCoin"",""5000""]"
+4,Range,0,5,"[""Currency"",""star"",""350"",""Currency"",""WorldCoin"",""4800""]"
+5,Range,0,10,"[""Currency"",""star"",""330"",""Currency"",""WorldCoin"",""4600""]"
+6,Range,0,20,"[""Currency"",""star"",""310"",""Currency"",""WorldCoin"",""4400""]"
+7,Range,0,30,"[""Currency"",""star"",""290"",""Currency"",""WorldCoin"",""4200""]"
+8,Range,0,40,"[""Currency"",""star"",""270"",""Currency"",""WorldCoin"",""4000""]"
+9,Range,0,50,"[""Currency"",""star"",""250"",""Currency"",""WorldCoin"",""3800""]"
+10,Range,0,60,"[""Currency"",""star"",""230"",""Currency"",""WorldCoin"",""3600""]"
+11,Range,0,70,"[""Currency"",""star"",""210"",""Currency"",""WorldCoin"",""3400""]"
+12,Range,0,80,"[""Currency"",""star"",""190"",""Currency"",""WorldCoin"",""3200""]"
+13,Range,0,90,"[""Currency"",""star"",""170"",""Currency"",""WorldCoin"",""3000""]"
+14,Range,0,100,"[""Currency"",""star"",""150"",""Currency"",""WorldCoin"",""2800""]"

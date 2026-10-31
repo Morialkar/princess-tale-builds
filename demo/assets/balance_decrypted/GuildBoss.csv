@@ -1,0 +1,4 @@
+﻿index,BossType,ChallengeTimes,BattleID,BossID,HuntingRewardID,RequireContribution,RemainTime,TryTime
+int,string,int,int,int,int,int,int,int
+1,Common,90,30001,3001,1,0,0,0
+2,Epic,90,30002,3002,2,9000,24,48

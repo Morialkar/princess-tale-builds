@@ -1,0 +1,10 @@
+﻿Index,Category,Name,GachaCount,PriceType,PriceArg1,PriceArg2,SubPricetype,SubPriceArg1,SubPriceArg2,FactionType,DropPattern,GachaProgressPt,TitleColor,TitleOutColor,UnitDropPercent,Background,Background_Small,LogID
+int,int,string,int,string,string,string,string,string,string,string,int,int,string,string,string,string,string,string
+1,1,ui_localize_gacha_title1,1,CURRENCY,star,300,ITEM,200,1,Random,1,1,#FFEF5E,#DA8500,UnitDropPercent1,BackGround_G1_Big1,BackGround_G1_Small1,character_gacha_1
+2,1,ui_localize_gacha_title1,10,CURRENCY,star,2700,ITEM,200,10,Random,1,10,#FFEF5E,#DA8500,UnitDropPercent1,BackGround_G1_Big1,BackGround_G1_Small1,character_gacha_10
+3,2,ui_localize_gacha_title2,1,ITEM,201,1,,0,0,Rotation,2,1,#B790F8,#2C1A6F,UnitDropPercent3,BackGround_P1_Big1,BackGround_P1_Small1,properties_gacha_1
+4,2,ui_localize_gacha_title2,10,ITEM,201,10,,0,0,Rotation,2,10,#B790F8,#2C1A6F,UnitDropPercent3,BackGround_P1_Big1,BackGround_P1_Small1,properties_gacha_10
+5,3,ui_localize_gacha_title3,1,CURRENCY,FSHIP,10,,0,0,Random,3,0,#FFFAF9,#DA5050,UnitDropPercent2,BackGround_R1_Big1,BackGround_R1_Small1,friendship_point_gacha_1
+6,3,ui_localize_gacha_title3,10,CURRENCY,FSHIP,100,,0,0,Random,3,0,#FFFAF9,#DA5050,UnitDropPercent2,BackGround_R1_Big1,BackGround_R1_Small1,friendship_point_gacha_10
+7,4,ui_localize_gacha_title4,1,CURRENCY,HEROCARD,1,,0,0,Select,4,0,#B790F8,#2C1A6F,UnitDropPercent4,,,
+8,4,ui_localize_gacha_title4,10,CURRENCY,HEROCARD,10,,0,0,Select,4,0,#B790F8,#2C1A6F,UnitDropPercent4,,,

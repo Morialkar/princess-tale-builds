@@ -1,0 +1,17 @@
+﻿Index,StartDate,StartTime,EndDate,EndTime,PackageId,PackageName,PackageArrangement,ResetType,PurchaseCount,PackagePrice,PackageBadge,BadgePercent,FirstPackageProduct,PackageProduct,BonusPackageProduct,PackageDesc,PackageImg,VipPoint
+int,string,string,string,string,string,string,string,string,int,int,string,int,string,string,string,string,string,int
+1,,,,,pt_week1,pt_week1_Name,3n,Weekly,1,0,,0,,"[""Currency"",""star"",""20"",""Item"",""202"",""5""]",,pt_week1_Desc,pt_week1,0
+11,,,,,pt_week15,pt_week15_Name,3n,Weekly,5,0,,0,,"[""Item"",""202"",""60"",""Item"",""1"",""100""]",,pt_week15_Desc,pt_week15,440
+12,,,,,pt_week13,pt_week13_Name,3n,Weekly,5,0,,0,,"[""Item"",""200"",""10"",""Item"",""202"",""60""]",,pt_week13_Desc,pt_week13,750
+13,,,,,pt_week14,pt_week14_Name,3n,Weekly,5,0,,0,,"[""Item"",""300"",""1"",""Item"",""6"",""1""]",,pt_week14_Desc,pt_week14,750
+14,,,,,pt_week16,pt_week16_Name,3n,Weekly,5,0,,0,,"[""Item"",""202"",""300"",""Item"",""203"",""60"",""Item"",""1"",""500""]",,pt_week16_Desc,pt_week16,2600
+15,,,,,pt_week17,pt_week17_Name,3n,Weekly,5,0,,0,,"[""Item"",""110"",""5"",""Item"",""116"",""5"",""item"",""104"",""5"",""Item"",""201"",""5""]",,pt_week17_Desc,pt_week17,2600
+2,2019-06-14,0:00:00,2021-08-04,0:00:00,pt_week2,pt_week2_Name,3n,Weekly,5,0,,0,,"[""Currency"",""star"",""60"",""Item"",""202"",""10""]",,pt_week2_Desc,pt_week2,120
+3,2021-08-04,0:00:00,2021-08-17,0:00:00,pt_week3,pt_week3_Name,3n,Weekly,5,0,,0,,"[""Currency"",""star"",""245"",""Item"",""200"",""5"",""Item"",""120"",""1""]",,pt_week3_Desc,pt_week3,490
+8,2021-08-04,0:00:00,2021-08-17,0:00:00,pt_week10,pt_week10_Name,3n,Weekly,5,0,,0,,"[""item"",""202"",""60""]",,pt_week10_Desc,pt_week10,590
+7,2021-08-04,0:00:00,2021-08-17,0:00:00,pt_week9,pt_week9_Name,3n,Weekly,5,0,,0,,"[""item"",""300"",""1"",""item"",""102"",""5""]",,pt_week9_Desc,pt_week9,990
+9,2021-08-04,0:00:00,2021-08-17,0:00:00,pt_week11,pt_week11_Name,3n,Weekly,5,0,,0,,"[""item"",""200"",""10""]",,pt_week11_Desc,pt_week4,990
+4,2019-06-14,0:00:00,2021-08-04,0:00:00,pt_week4,pt_week4_Name,3n,Weekly,5,0,,0,,"[""item"",""200"",""10""]",,pt_week4_Desc,pt_week4,1100
+5,2019-06-14,0:00:00,2020-06-18,0:00:00,pt_week5,pt_week5_Name,3n,Weekly,5,0,,0,,"[""Item"",""200"",""10"",""Item"",""108"",""15""]",,pt_week5_Desc,pt_week5,1900
+6,2019-06-14,0:00:00,2021-08-04,0:00:00,pt_week6,pt_week6_Name,3n,Weekly,5,0,,0,,"[""Item"",""201"",""12"",""Item"",""105"",""2"",""item"",""123"",""1""]",,pt_week6_Desc,pt_week6,3300
+10,2021-08-04,0:00:00,2021-08-17,0:00:00,pt_week12,pt_week12_Name,3n,Weekly,5,0,,0,,"[""item"",""122"",""1"",""item"",""201"",""15""]",,pt_week12_Desc,pt_week12,3300

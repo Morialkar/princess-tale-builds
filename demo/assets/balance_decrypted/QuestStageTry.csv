@@ -1,0 +1,6 @@
+﻿Index,QuestID,Contents,Count,QuestName
+int,string,string,int,string
+1,quest_StageTry_Daily_1,Stage,1,quest_name_stagetry_stage
+2,quest_StageTry_Daily_2,StageTower,1,quest_name_stagetry_stagetower
+3,quest_StageTry_Daily_3,Arena,1,quest_name_stagetry_arena
+4,quest_StageTry_Daily_4,GuildRaid,1,quest_name_stagetry_guildraid

@@ -1,0 +1,6 @@
+﻿AbilityGrade,GoldCost,StarCost,OptionLock,OptionLock1CostGold,OptionLock1CostStar,OptionLock2CostGold,OptionLock2CostStar,OptionUpgradePercent
+string,int,int,bool,int,int,int,int,float
+A,50000,10,FALSE,0,0,0,0,0.01
+S,100000,20,TRUE,25000,5,50000,10,0.006
+SS,150000,30,TRUE,50000,10,100000,20,0.003
+SSS,250000,50,TRUE,100000,20,150000,30,0

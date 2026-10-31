@@ -1,0 +1,10 @@
+﻿LV,Quest_STAR6,Quest_STAR5,Quest_STAR4,Quest_STAR3,Quest_STAR2,Quest_STAR1,C_RewardDust,C_RewardGold,C_RewardSoul,C_RewardStar,Lvup_SoloStar,Lvup_SoloQty,Lvup_TeamStar,Lvup_TeamQty,Lvup_Desc,Lvup_SoloCond,Lvup_TeamCond
+int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,string,string,string
+1,0,0,0,0,0,100,25,45,20,10,1,1,0,0,Lvup1_Desc,Lvup1_Solo_Cond,
+2,0,0,0,10,40,50,25,45,20,10,1,20,1,5,Lvup2_Desc,Lvup2_Solo_Cond,Lvup2_Team_Cond
+3,0,0,5,30,50,15,25,45,20,10,2,30,2,10,Lvup3_Desc,Lvup3_Solo_Cond,Lvup3_Team_Cond
+4,0,0,10,50,40,0,25,45,20,10,3,40,3,15,Lvup4_Desc,Lvup4_Solo_Cond,Lvup4_Team_Cond
+5,0,10,30,40,20,0,25,45,20,10,4,40,4,30,Lvup5_Desc,Lvup5_Solo_Cond,Lvup5_Team_Cond
+6,0,15,50,35,0,0,25,45,20,10,4,60,4,50,Lvup6_Desc,Lvup6_Solo_Cond,Lvup6_Team_Cond
+7,2,20,60,18,0,0,25,45,20,10,5,80,5,60,Lvup7_Desc,Lvup7_Solo_Cond,Lvup7_Team_Cond
+8,5,25,70,0,0,0,25,45,20,10,0,0,0,0,Lvup8_Desc,,

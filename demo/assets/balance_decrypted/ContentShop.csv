@@ -1,0 +1,8 @@
+﻿Index,ShopCatogoryId,ResetType,RequireQuestGroupId,UseCurrency,LogID
+int,string,string,string,string,string
+1,Normal,Daily,"[ContentUnlock_20,ContentUnlock_73,ContentUnlock_105,ContentUnlock_185,ContentUnlock_275,ContentUnlock_327,ContentUnlock_385,ContentUnlock_745]","[gold,star]",shop
+2,Maze,Monthly,[ContentUnlock_20],"[mazecoin,star]",labyrinth_shop
+3,Guild,Daily,"[ContentUnlock_32,ContentUnlock_73,ContentUnlock_116,ContentUnlock_185,ContentUnlock_275,ContentUnlock_327,ContentUnlock_385,ContentUnlock_625]","[guildcoin,star]",guild_shop
+4,Arena,Monthly,"[ContentUnlock_38,ContentUnlock_1045]","[arenacoin,star]",arena_shop
+5,Dismiss,Monthly,[ContentUnlock_20],"[dismiss,star]",dismiss_shop
+6,PveRanking,Weekly,[ContentUnlock_28],"[pvecoin1,pvecoin2,star]",pveranking_shop

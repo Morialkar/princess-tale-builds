@@ -1,0 +1,16 @@
+﻿Index,ArenaType,RankType,RankCount,DailyReward,SeasonReward
+int,string,string,int,string,string
+1,Arena,Rank,1,"[""Currency"",""star"",""100"",""Currency"",""arenacoin"",""2000""]","[""Currency"",""star"",""1000"",""Currency"",""arenacoin"",""20000"",""Frame"",""Profile"",""12""]"
+2,Arena,Rank,2,"[""Currency"",""star"",""90"",""Currency"",""arenacoin"",""1900""]","[""Currency"",""star"",""900"",""Currency"",""arenacoin"",""19000"",""Frame"",""Profile"",""11""]"
+3,Arena,Rank,3,"[""Currency"",""star"",""80"",""Currency"",""arenacoin"",""1800""]","[""Currency"",""star"",""800"",""Currency"",""arenacoin"",""18000"",""Frame"",""Profile"",""10""]"
+4,Arena,Range,5,"[""Currency"",""star"",""75"",""Currency"",""arenacoin"",""1750""]","[""Currency"",""star"",""750"",""Currency"",""arenacoin"",""17500""]"
+5,Arena,Range,10,"[""Currency"",""star"",""70"",""Currency"",""arenacoin"",""1700""]","[""Currency"",""star"",""700"",""Currency"",""arenacoin"",""17000""]"
+6,Arena,Range,20,"[""Currency"",""star"",""65"",""Currency"",""arenacoin"",""1650""]","[""Currency"",""star"",""650"",""Currency"",""arenacoin"",""16500""]"
+7,Arena,Range,30,"[""Currency"",""star"",""60"",""Currency"",""arenacoin"",""1600""]","[""Currency"",""star"",""600"",""Currency"",""arenacoin"",""16000""]"
+8,Arena,Range,40,"[""Currency"",""star"",""55"",""Currency"",""arenacoin"",""1550""]","[""Currency"",""star"",""550"",""Currency"",""arenacoin"",""15500""]"
+9,Arena,Range,50,"[""Currency"",""star"",""50"",""Currency"",""arenacoin"",""1500""]","[""Currency"",""star"",""500"",""Currency"",""arenacoin"",""15000""]"
+10,Arena,Range,60,"[""Currency"",""star"",""45"",""Currency"",""arenacoin"",""1450""]","[""Currency"",""star"",""450"",""Currency"",""arenacoin"",""14500""]"
+11,Arena,Range,70,"[""Currency"",""star"",""40"",""Currency"",""arenacoin"",""1400""]","[""Currency"",""star"",""400"",""Currency"",""arenacoin"",""14000""]"
+12,Arena,Range,80,"[""Currency"",""star"",""35"",""Currency"",""arenacoin"",""1350""]","[""Currency"",""star"",""350"",""Currency"",""arenacoin"",""13500""]"
+13,Arena,Range,90,"[""Currency"",""star"",""30"",""Currency"",""arenacoin"",""1300""]","[""Currency"",""star"",""300"",""Currency"",""arenacoin"",""13000""]"
+14,Arena,Range,100,"[""Currency"",""star"",""25"",""Currency"",""arenacoin"",""1250""]","[""Currency"",""star"",""250"",""Currency"",""arenacoin"",""12500""]"

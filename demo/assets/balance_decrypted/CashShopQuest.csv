@@ -1,0 +1,5 @@
+﻿Index,PackageId,PackageName,PackageArrangement,PackagePrice,PackageBadge,BadgePercent,PackageDesc,PackageImg,VipPoint
+int,string,string,string,int,string,int,string,string,int
+1,pt_growth1,pt_growth1_Name,quest,0,,,pt_growth1_Desc,,2000
+2,pt_growth2,pt_growth2_Name,quest,0,,,pt_growth2_Desc,,2000
+3,pt_growth3,pt_growth3_Name,quest,0,,,pt_growth3_Desc,,2000

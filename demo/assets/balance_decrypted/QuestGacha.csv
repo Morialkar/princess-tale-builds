@@ -1,0 +1,14 @@
+﻿Index,QuestID,Group,FactionID,Count,QuestName
+int,string,string,int,int,string
+1,quest_FireGachaCount_1,PROPERTY,1,1,quest_name_GachaCount
+2,quest_FireGachaCount_2,PROPERTY,1,5,quest_name_GachaCount
+3,quest_WindGachaCount_1,PROPERTY,2,1,quest_name_GachaCount
+4,quest_WindGachaCount_2,PROPERTY,2,5,quest_name_GachaCount
+5,quest_NatureGachaCount_1,PROPERTY,3,1,quest_name_GachaCount
+6,quest_NatureGachaCount_2,PROPERTY,3,5,quest_name_GachaCount
+7,quest_WaterGachaCount_1,PROPERTY,4,1,quest_name_GachaCount
+8,quest_WaterGachaCount_2,PROPERTY,4,5,quest_name_GachaCount
+9,quest_AllGachaCount_1,ALL,0,1,quest_name_GachaCount
+10,quest_AllGachaCount_2,ALL,0,5,quest_name_GachaCount
+11,quest_AllGachaCount_Daily_1,ALL,0,1,quest_name_GachaCount_all
+12,quest_AllGachaCount_Weekly_1,ALL,0,20,quest_name_GachaCount_all

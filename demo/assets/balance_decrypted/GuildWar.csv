@@ -1,0 +1,41 @@
+﻿Name,Value
+string,string
+SeasonTermMonth,1
+SeasonStartPoint,1000
+DailyFreeTicketMember,3
+DailyFreeTicketGuildMaster,7
+DailyFreeTicketAttackCaptain,7
+DailyFreeTicketDefenceCaptain,7
+SearchAPtRange,10
+AddSearchAPtRange,20
+AddSearchAPtRangeMax,200
+ArenaEntryItemPrice,100
+ArenaCalculationTime,9
+ArenaPreCalculationTime,3
+GuildArenaReset,100
+GuildArenaPickChar,3
+GuildArenaMainDeckCount,10
+GuildArenaSubDeckCount,10
+GuildArenaAttackerCount,20
+GuildArenaDefenderCount,20
+GuildArenaAttackerCaptain,1
+GuildArenaDefenderCaptain,1
+GuildArenaPickCharLevel,50
+WinRateApplyCount,30
+CrushingVictory,1.1
+CrushingDefeat,-1.1
+HeroicVictory,1.3
+HumiliatingDefeat,-1.3
+AttackerWinF1,ap_dp+(-ap_dp * 1.01) + 4.5
+AttackerWinF2,t * t / 3
+AttackerWinRange,1~22
+AttackerLoseF1,ap_dp+(-ap_dp * 1.01) - 8
+AttackerLoseF2,-(t * t) / 10
+AttackerLoseRange,-12~-1
+DefenderWinF1,dp_ap+(-dp_ap * 1.01) + 4
+DefenderWinF2,t * t / 4
+DefenderWinRange,1~16
+DefenderLoseF1,dp_ap+(-dp_ap * 1.01) - 7
+DefenderLoseF2,-(t * t) / 10
+DefenderLoseRange,-10~-1
+ParticipationBonus,1.2

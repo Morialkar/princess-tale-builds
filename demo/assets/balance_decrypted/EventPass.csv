@@ -1,0 +1,4 @@
+﻿EventID,PassName,CategoryType,Trigger,ResetPointType,TermDays,Repeat,EventPreset,PassInappID,NotReceivedMailName,NotReceivedMaildesc,EventListShow,SubMenuShow,SubMenuEventTitle,ContentsID,VipPoint
+int,string,string,string,string,int,bool,int,string,string,string,bool,bool,string,string,int
+1,ROYAL_PASS,Normal,,ROYALEXP,49,TRUE,4,pt_royalpass,event_not_receive_royalpass_mail_name,event_not_receive_royalpass_mail_desc,TRUE,FALSE,,EventRoyalPass,1500
+2,BATTLE_PASS,Normal,,BATTLEEXP,44,TRUE,3,pt_battlepass,event_not_receive_battlepass_mail_name,event_not_receive_battlepass_mail_desc,TRUE,FALSE,,EventBattlePass,1500

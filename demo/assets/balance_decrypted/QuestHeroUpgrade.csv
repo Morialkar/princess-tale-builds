@@ -1,0 +1,4 @@
+﻿Index,QuestID,UpgradeKind,Count,QuestName
+int,string,string,int,string
+1,quest_HeroUpgrade_Daily_1,Level,1,quest_name_heroupgrade_level
+2,quest_HeroUpgrade_Weekly_1,Enhance,2,quest_name_heroupgrade_enhance

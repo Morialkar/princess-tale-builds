@@ -1,0 +1,4 @@
+﻿Index,StartDate,StartTime,EndDate,EndTime,PackageId,PackageName,PackageArrangement,ResetType,PurchaseCount,PackagePrice,PackageBadge,BadgePercent,FirstPackageProduct,PackageProduct,BonusPackageProduct,PackageDesc,PackageImg,VipPoint
+int,string,string,string,string,string,string,string,string,int,int,string,int,string,string,string,string,string,int
+1,,,,,pt_skin2,pt_skin2_Name,3n,None,0,0,,0,,"[""item"",""8"",""60"",""Currency"",""star"",""1100"",""Currency"",""gold"",""2500000""]",,pt_skin2_Desc,pt_skin1,1700
+2,,,,,pt_skin1,pt_skin2_Name,3n,None,0,0,,0,,"[""item"",""8"",""60""]",,pt_skin2_Desc,pt_skin2,600

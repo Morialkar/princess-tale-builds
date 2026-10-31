@@ -1,0 +1,17 @@
+﻿Index,QuestID,ArenaKind,CountGroup,Count,QuestName
+int,string,string,string,int,string
+1,quest_Arena_Weekly_1,Arena,Win,15,quest_name_arena_general_win
+2,quest_ArenaWin_Main_1,Arena,Win,20,quest_name_arena_general_win
+3,quest_ArenaWin_Main_2,Arena,Win,50,quest_name_arena_general_win
+4,quest_ArenaWin_Main_3,Arena,Win,100,quest_name_arena_general_win
+5,quest_ArenaWin_Main_4,Arena,Win,200,quest_name_arena_general_win
+6,quest_ArenaWin_Main_5,Arena,Win,300,quest_name_arena_general_win
+7,quest_ArenaWin_Main_6,Arena,Win,500,quest_name_arena_general_win
+8,quest_ArenaPoint_Main_1,Arena,Point,1010,quest_name_arena_general_point
+9,quest_ArenaPoint_Main_2,Arena,Point,1030,quest_name_arena_general_point
+10,quest_ArenaPoint_Main_3,Arena,Point,1050,quest_name_arena_general_point
+11,quest_ArenaPoint_Main_4,Arena,Point,1100,quest_name_arena_general_point
+12,quest_ArenaPoint_Main_5,Arena,Point,1200,quest_name_arena_general_point
+13,quest_ArenaPoint_Main_6,Arena,Point,1400,quest_name_arena_general_point
+14,quest_ArenaPoint_Main_7,Arena,Point,1600,quest_name_arena_general_point
+15,quest_ArenaPoint_Main_8,Arena,Point,1800,quest_name_arena_general_point

@@ -1,0 +1,3 @@
+﻿Reward_IDX,UserLV,Reward1_Max,Reward2_Max,Reward3_Max,Reward4_Max,Reward1_One,Reward2_One,Reward3_One,Reward4_One
+int,int,int,int,int,int,string,string,string,string
+1,150,100,100,350,100,"[""currency"",""mazecoin"",""2""]","[""currency"",""guildcoin"",""2""]","[""currency"",""arenacoin"",""10""]","[""currency"",""dismiss"",""2""]"

@@ -1,0 +1,5 @@
+﻿Index,StartDate,StartTime,EndDate,EndTime,PackageId,PackageName,PackageArrangement,ResetType,PurchaseCount,PackagePrice,PackageBadge,BadgePercent,PackageKind,FirstPackageProduct,PackageProduct,BonusPackageProduct,SubscriptionDay,SubscriptionProduct,PackageDesc,PackageImg,VipPoint
+int,string,string,string,string,string,string,string,string,int,int,string,int,string,string,string,string,int,string,string,string,int
+1,,,2021-10-27,0:00:00,pt_daily_month1,pt_daily_month1_Name,2l,Subscription,1,0,,0,normal,,"[""Currency"",""star"",""300""]",,30,"[""Currency"",""star"",""100""]",pt_daily_month1_Desc,MontantMensuel1,490
+2,,,,,pt_daily_month2,pt_daily_month2_Name,2l,Subscription,1,0,,0,premium,,"[""Currency"",""star"",""980""]",,30,"[""Currency"",""star"",""600""]",pt_daily_month2_Desc,PremiumMontantMensuel1,1500
+3,2021-10-17,0:00:00,,,pt_daily_month3,pt_daily_month3_Name,2l,Subscription,1,0,,0,gachapremium,,"[""item"",""200"",""15"",""item"",""9"",""10"",""item"",""11"",""10""]",,30,"[""item"",""200"",""5"",""item"",""9"",""1"",""item"",""11"",""1""]",pt_daily_month3_Desc,PremiumMontantMensuel2,4400

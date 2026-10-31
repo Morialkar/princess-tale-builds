@@ -1,0 +1,5 @@
+﻿Index,QuestID,ShopGroup,Count,QuestName
+int,string,string,int,string
+1,quest_Buy_Weekly_1,Normal,5,quest_name_buy_content
+2,quest_Buy_Weekly_2,Guild,1,quest_name_buy_guild
+3,quest_Buy_Weekly_3,Maze,1,quest_name_buy_labyrinth

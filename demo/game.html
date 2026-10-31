@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Princess Tale — jeu local</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #101018; color: #e8e4f0; font-family: system-ui, sans-serif; overflow: hidden; }
+  #loading { position: fixed; inset: 0; z-index: 10; background: #101018; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; text-align: center; padding: 16px; }
+  #loading h1 { font-size: 20px; margin: 0; }
+  #loading p { margin: 0; opacity: 0.8; font-size: 14px; max-width: 420px; line-height: 1.4; }
+  #bar { width: 240px; height: 6px; background: #2a2a3a; border-radius: 3px; overflow: hidden; }
+  #bar div { height: 100%; width: 30%; background: #8fd14f; animation: slide 1.2s ease-in-out infinite; }
+  @keyframes slide { 0% { transform: translateX(-100%); } 100% { transform: translateX(340%); } }
+  canvas { display: block; margin: 0 auto; }
+  #save { position: fixed; top: 8px; right: 8px; z-index: 5; font-size: 13px; }
+  #save > button { background: #2a2a3acc; color: #e8e4f0; border: 1px solid #4a4a5a; border-radius: 6px; padding: 4px 10px; font: inherit; cursor: pointer; }
+  #menu { display: none; position: absolute; right: 0; top: 30px; background: #1c1c28; border: 1px solid #4a4a5a; border-radius: 6px; padding: 6px; width: 220px; }
+  #menu.open { display: block; }
+  #menu button, #menu label { display: block; width: 100%; box-sizing: border-box; text-align: left; background: none; color: inherit; border: 0; padding: 7px 8px; font: inherit; cursor: pointer; border-radius: 4px; }
+  #menu button:hover, #menu label:hover { background: #2a2a3a; }
+  #menu p { margin: 4px 8px 6px; font-size: 12px; opacity: 0.7; line-height: 1.35; }
+  #menu input { display: none; }
+</style>
+</head>
+<body>
+<div id="loading">
+  <h1>Princess Tale — jeu local</h1>
+  <div id="bar"><div></div></div>
+  <p>Chargement (une centaine de Mo la première fois)…</p>
+  <p>Le jeu tourne entièrement dans la page, son serveur compris. La sauvegarde reste dans ce navigateur ; le bouton Sauvegarde en haut à droite la télécharge ou en charge une autre.</p>
+</div>
+<div id="save">
+  <button id="open">Sauvegarde</button>
+  <div id="menu">
+    <p>Gardée dans ce navigateur, à chaque changement.</p>
+    <button id="download">Télécharger la sauvegarde</button>
+    <label>Charger une sauvegarde…<input id="file" type="file" accept=".db,.sqlite,application/vnd.sqlite3"></label>
+    <button id="reset">Recommencer une partie</button>
+  </div>
+</div>
+<script src="wasm_exec.js"></script>
+<script src="sql-wasm.js"></script>
+<script src="save.js"></script>
+<script>
+  const say = (e) => { const p = document.querySelector("#loading p"); if (p) p.textContent = "Erreur : " + e; else alert(e); };
+  // main_js.go: ptGame shows the local game's main screen; demoReady comes once it is set up.
+  window.ptGame = true;
+  window.demoReady = () => document.getElementById("loading").remove();
+  const menu = document.getElementById("menu");
+  document.getElementById("open").onclick = () => menu.classList.toggle("open");
+  document.getElementById("download").onclick = () => { menu.classList.remove("open"); ptSave.download(); };
+  document.getElementById("file").onchange = (e) => {
+    const f = e.target.files[0];
+    if (f && confirm("Remplacer la sauvegarde de ce navigateur par " + f.name + " ?")) ptSave.load(f).catch(say);
+  };
+  document.getElementById("reset").onclick = () => {
+    if (confirm("Effacer la sauvegarde de ce navigateur et recommencer une partie ?")) ptSave.reset().catch(say);
+  };
+  const go = new Go();
+  openSave()
+    .then(() => WebAssembly.instantiateStreaming(fetch("battle.wasm"), go.importObject))
+    .then(r => go.run(r.instance))
+    .catch(say);
+</script>
+</body>
+</html>

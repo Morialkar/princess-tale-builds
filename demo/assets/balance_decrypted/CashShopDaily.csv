@@ -1,0 +1,14 @@
+﻿Index,StartDate,StartTime,EndDate,EndTime,PackageId,PackageName,PackageArrangement,ResetType,PurchaseCount,PackagePrice,PackageBadge,BadgePercent,FirstPackageProduct,PackageProduct,BonusPackageProduct,PackageDesc,PackageImg,VipPoint
+int,string,string,string,string,string,string,string,string,int,int,string,int,string,string,string,string,string,int
+1,,,,,pt_daily1,pt_daily1_Name,3n,Daily,1,0,,,,"[""Currency"",""star"",""20"",""Item"",""202"",""2""]",,pt_daily1_Desc,pt_daily1,0
+2,2019-06-14,0:00:00,2020-06-18,0:00:00,pt_daily2,pt_daily2_Name,3n,Daily,1,0,,,,"[""Currency"",""star"",""60"",""Item"",""202"",""10"",""item"",""105"",""1""]",,pt_daily2_Desc,pt_daily2,120
+3,2019-06-14,0:00:00,2020-06-18,0:00:00,pt_daily3,pt_daily3_Name,3n,Daily,1,0,,,,"[""Currency"",""star"",""245"",""Item"",""1"",""900""]",,pt_daily3_Desc,pt_daily3,490
+4,2019-06-14,0:00:00,2020-06-18,0:00:00,pt_daily4,pt_daily4_Name,3n,Daily,1,0,,,,"[""Item"",""102"",""12"",""Currency"",""gold"",""2500000""]",,pt_daily4_Desc,pt_daily4,490
+5,2019-06-14,0:00:00,2020-06-18,0:00:00,pt_daily5,pt_daily5_Name,3n,Daily,1,0,,,,"[""item"",""5001"",""3""]",,pt_daily5_Desc,pt_daily5,490
+6,2019-06-14,0:00:00,2020-06-18,0:00:00,pt_daily6,pt_daily6_Name,3n,Daily,1,0,,,,"[""item"",""5"",""600""]",,pt_daily6_Desc,pt_daily6,490
+7,2019-06-14,0:00:00,2020-06-18,0:00:00,pt_daily7,pt_daily7_Name,3n,Daily,1,0,,,,"[""Item"",""108"",""6"",""Item"",""5"",""200""]",,pt_daily7_Desc,pt_daily7,490
+8,,,,,pt_daily8,pt_daily8_Name,3n,Daily,5,0,,,,"[""item"",""3015"",""1""]",,pt_daily8_Desc,pt_daily8,150
+9,,,,,pt_daily9,pt_daily9_Name,3n,Daily,5,0,,,,"[""item"",""3024"",""1""]",,pt_daily9_Desc,pt_daily9,150
+10,,,,,pt_daily10,pt_daily10_Name,3n,Daily,5,0,,,,"[""item"",""3031"",""1""]",,pt_daily10_Desc,pt_daily10,300
+11,,,,,pt_daily11,pt_daily11_Name,3n,Daily,5,0,,,,"[""item"",""3038"",""1""]",,pt_daily11_Desc,pt_daily11,300
+12,,,,,pt_daily12,pt_daily12_Name,3n,Daily,5,0,,,,"[""Currency"",""star"",""245"",""Item"",""202"",""10"",""Currency"",""gold"",""1000000"",""Item"",""1"",""1000"",""Item"",""5"",""300""]",,pt_daily12_Desc,pt_daily12,300

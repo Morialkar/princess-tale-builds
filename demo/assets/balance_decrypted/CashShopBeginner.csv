@@ -1,0 +1,8 @@
+﻿Index,PackageId,PackageName,PackageArrangement,ResetType,PurchaseCount,PackagePrice,PackageBadge,BadgePercent,FirstPackageProduct,PackageProduct,BonusPackageProduct,SubscriptionDay,SubscriptionProduct,PackageDesc,PackageImg,VipPoint
+int,string,string,string,string,int,int,string,int,string,string,string,int,string,string,string,int
+1,pt_beginner1,pt_beginner1_Name,3n,Limit,1,0,Add,500,,"[""Currency"",""star"",""60"",""Item"",""1"",""30"",""Item"",""203"",""60""]",,,,pt_beginner1_Desc,pt_beginner1,150
+2,pt_beginner2,pt_beginner2_Name,3n,Limit,1,0,Add,500,,"[""Currency"",""star"",""245"",""Item"",""203"",""300""]",,,,pt_beginner2_Desc,pt_beginner2,300
+3,pt_beginner3,pt_beginner3_Name,3n,Limit,1,0,Add,500,,"[""Currency"",""star"",""1100"",""Item"",""202"",""60""]",,,,pt_beginner3_Desc,pt_beginner3,990
+4,pt_beginner4,pt_beginner4_Name,3n,Limit,1,0,Add,500,,"[""Currency"",""star"",""4950"",""Item"",""202"",""120"",""equip"",""51"",""1""]",,,,pt_beginner4_Desc,pt_beginner4,2600
+5,pt_beginner5,pt_beginner5_Name,3n,Limit,1,0,Add,600,,"[""Currency"",""star"",""8250"",""Item"",""1014"",""60"",""item"",""202"",""120""]",,,,pt_beginner5_Desc,pt_beginner5,4400
+6,pt_beginner6,pt_beginner6_Name,3n,Limit,1,0,Add,600,,"[""Currency"",""star"",""14850"",""Item"",""1024"",""120"",""item"",""202"",""240""]",,,,pt_beginner6_Desc,pt_beginner6,7900

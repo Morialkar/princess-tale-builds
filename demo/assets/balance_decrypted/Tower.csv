@@ -1,0 +1,7 @@
+﻿Index,TowerId,EnterDay,UseFaction,DailyChallengeFloor,ContentId
+int,string,string,int,int,string
+1,NormalTower,ALL,0,0,StageTower
+2,FireTower,"MON,FRI,SUN",1,10,StageTowerFire
+3,WindTower,"TUE,FRI,SUN",2,10,StageTowerWind
+4,NatureTower,"WED,SAT,SUN",3,10,StageTowerNature
+5,WaterTower,"THU,SAT,SUN",4,10,StageTowerWater

@@ -1,0 +1,8 @@
+﻿Index,StartDate,StartTime,EndDate,EndTime,PackageId,PackageName,PackageArrangement,ResetType,FirstReset,PurchaseCount,PackagePrice,PackageBadge,BadgePercent,FirstPackageProduct,FirstBonusPackageProduct,PackageProduct,BonusPackageProduct,PackageDesc,PackageImg,VipPoint
+int,string,string,string,string,string,string,string,string,string,int,int,string,int,string,string,string,string,string,string,int
+1,,,,,pt_basic1,pt_basic1_Name,3n,None,None,0,0,Add,200,"[""Currency"",""star"",""245""]","[""Currency"",""star"",""245""]","[""Currency"",""star"",""245""]",,pt_basic1_Desc,pt_basic1,300
+2,,,,,pt_basic2,pt_basic2_Name,3n,None,None,0,0,Add,200,"[""Currency"",""star"",""550""]","[""Currency"",""star"",""550""]","[""Currency"",""star"",""550""]",,pt_basic2_Desc,pt_basic2,990
+3,,,,,pt_basic3,pt_basic3_Name,3n,None,None,0,0,Add,200,"[""Currency"",""star"",""1100""]","[""Currency"",""star"",""1100""]","[""Currency"",""star"",""1100""]",,pt_basic3_Desc,pt_basic3,1700
+4,,,,,pt_basic4,pt_basic4_Name,3n,None,None,0,0,Add,200,"[""Currency"",""star"",""1650""]","[""Currency"",""star"",""1650""]","[""Currency"",""star"",""1650""]",,pt_basic4_Desc,pt_basic4,2600
+5,,,,,pt_basic5,pt_basic5_Name,3n,None,None,0,0,Add,200,"[""Currency"",""star"",""2750""]","[""Currency"",""star"",""2750""]","[""Currency"",""star"",""2750""]",,pt_basic5_Desc,pt_basic5,4400
+6,,,,,pt_basic6,pt_basic6_Name,3n,None,None,0,0,Add,200,"[""Currency"",""star"",""4950""]","[""Currency"",""star"",""4950""]","[""Currency"",""star"",""4950""]",,pt_basic6_Desc,pt_basic6,7900

@@ -1,0 +1,7 @@
+﻿index,StepType,Contents,RaiseCount,BasicCost,RoationRaiseCost
+int,string,string,float,string,string
+1,Status,HP,80,"[""Currency"",""gold"",""5000"",""Currency"",""WorldCoin"",""100""]","[""Currency"",""gold"",""5000"",""Currency"",""WorldCoin"",""50""]"
+2,Auto,gold,0.2,"[""Currency"",""gold"",""5000"",""Currency"",""WorldCoin"",""100""]","[""Currency"",""gold"",""5000"",""Currency"",""WorldCoin"",""50""]"
+3,Status,ATK,3,"[""Currency"",""gold"",""5000"",""Currency"",""WorldCoin"",""100""]","[""Currency"",""gold"",""5000"",""Currency"",""WorldCoin"",""50""]"
+4,Auto,hero_exp,0.2,"[""Currency"",""gold"",""5000"",""Currency"",""WorldCoin"",""100""]","[""Currency"",""gold"",""5000"",""Currency"",""WorldCoin"",""50""]"
+5,Status,DEF,4,"[""Currency"",""gold"",""5000"",""Currency"",""WorldCoin"",""100""]","[""Currency"",""gold"",""5000"",""Currency"",""WorldCoin"",""50""]"

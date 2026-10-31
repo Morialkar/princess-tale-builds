@@ -1,0 +1,42 @@
+﻿Name,Value
+string,string
+WorldArenaListResetCost,"[""currency"",""star"",""500""]"
+WorldArenaFreeListResetCD,1800
+WorldArenaUnitHideTier,11
+WorldArenaUnitHideCount,2
+WorldArenaMatchingRangeN,"[100,50,0,-50,-100,-150]"
+DailyFreeTicket,3
+WorldArenaEntryItem,"[""item"",""7"",""1""]"
+TrainingRoationMax,150
+WorldArenaSeasonStart,2022-09-01
+WorldArenaSeasonRotation,120
+AttackerWinF1,ap_dp+(-ap_dp * 1.01) + 6
+AttackerWinF2,t * t / 3
+AttackerWinRange,1~33
+AttackerLoseF1,ap_dp+(-ap_dp * 1.01) - 8
+AttackerLoseF2,-(t * t) / 10
+AttackerLoseRange,-12~-1
+DefenderWinF1,dp_ap+(-dp_ap * 1.01) + 5.5
+DefenderWinF2,t * t / 4
+DefenderWinRange,1~23
+DefenderLoseF1,dp_ap+(-dp_ap * 1.01) - 7
+DefenderLoseF2,-(t * t) / 10
+DefenderLoseRange,-10~-1
+PointGapMax,200
+PointGapMin,-400
+DailyBreakTime,60
+Key_Mail_Title_Rank_Reward_Daily,ui_localize_new_worldarena_rank_reward_daily_title
+Key_Mail_Desc_Rank_Reward_Daily,ui_localize_new_worldarena_rank_reward_daily_desc
+Key_Mail_Title_Reward_Season,ui_localize_new_worldarena_season_reward_title
+Key_Mail_Desc_Reward_Season,ui_localize_new_worldarena_season_reward_desc
+Key_Mail_Title_Rank_Reward_Season,ui_localize_new_worldarena_rank_reward_season_title
+Key_Mail_Desc_Rank_Reward_Season,ui_localize_new_worldarena_rank_reward_season_desc
+Key_Mail_Title_Entry_Reward_Season,ui_localize_new_worldarena_entry_reward_season_title
+Key_Mail_Desc_Entry_Reward_Season,ui_localize_new_worldarena_entry_reward_season_desc
+Key_Mail_Title_Entry_Reward_Tier,ui_localize_new_worldarena_entry_reward_tier_title
+Key_Mail_Desc_Entry_Reward_Tier,ui_localize_new_worldarena_entry_reward_tier_desc
+Key_Mail_Title_Reward_Rankup,ui_localize_new_worldarena_rankup_reward_title
+Key_Mail_Desc_Reward_Rankup,ui_localize_new_worldarena_rankup_reward_desc
+key_Mail_Title_Reward_Tier,ui_localize_new_worldarena_tier_reward_title
+key_Mail_Desc_Reward_Tier,ui_localize_new_worldarena_tier_reward_desc
+WorldArenaTicketPrice,"[""currency"",""star"",""100""]"
