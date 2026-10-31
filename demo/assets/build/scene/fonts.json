@@ -1,5 +1,6 @@
 {
  "GreenFont": {
+  "ascent": 56.0,
   "chars": [
    {
     "advance": 0.0,
@@ -546,11 +547,14 @@
     ]
    }
   ],
+  "descent": -13.0,
+  "fontSize": 70.0,
   "kerning": 1,
   "lineSpacing": 69.0,
   "texture": "GreenFont.png"
  },
  "WhiteFont": {
+  "ascent": 56.0,
   "chars": [
    {
     "advance": 0.0,
@@ -1097,11 +1101,14 @@
     ]
    }
   ],
+  "descent": -13.0,
+  "fontSize": 70.0,
   "kerning": 1,
   "lineSpacing": 69.0,
   "texture": "WhiteFont.png"
  },
  "YellowFont": {
+  "ascent": 56.0,
   "chars": [
    {
     "advance": 0.0,
@@ -1648,11 +1655,14 @@
     ]
    }
   ],
+  "descent": -13.0,
+  "fontSize": 70.0,
   "kerning": 1,
   "lineSpacing": 69.0,
   "texture": "YellowFont.png"
  },
  "acro": {
+  "ascent": 59.0,
   "chars": [
    {
     "advance": 0.0,
@@ -1842,11 +1852,14 @@
     ]
    }
   ],
+  "descent": -13.0,
+  "fontSize": 58.0,
   "kerning": 1,
   "lineSpacing": 72.0,
   "texture": "acro.png"
  },
  "damage_font_white": {
+  "ascent": 26.0,
   "chars": [
    {
     "advance": 0.0,
@@ -2121,6 +2134,8 @@
     ]
    }
   ],
+  "descent": -6.0,
+  "fontSize": 32.0,
   "kerning": 1,
   "lineSpacing": 32.0,
   "texture": "damage_font_white.png"

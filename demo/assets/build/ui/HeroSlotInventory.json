@@ -301,7 +301,9 @@
          1.0
         ],
         "enabled": true,
-        "raycast": false
+        "raycast": false,
+        "hOverflow": 0,
+        "vOverflow": 1
        },
        "effects": [
         {

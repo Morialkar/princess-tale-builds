@@ -335,7 +335,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": false
+          "raycast": false,
+          "hOverflow": 0,
+          "vOverflow": 1
          },
          "effects": [
           {
@@ -1530,7 +1532,9 @@
          1.0
         ],
         "enabled": true,
-        "raycast": false
+        "raycast": false,
+        "hOverflow": 1,
+        "vOverflow": 1
        },
        "effects": [
         {
@@ -2702,6 +2706,8 @@
           ],
           "enabled": true,
           "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0,
           "bestFit": [
            2,
            27
@@ -3056,6 +3062,8 @@
           ],
           "enabled": true,
           "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0,
           "bestFit": [
            2,
            27
@@ -3410,6 +3418,8 @@
           ],
           "enabled": true,
           "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0,
           "bestFit": [
            2,
            27
@@ -3947,7 +3957,7 @@
            "active": true,
            "text": {
             "text": "<b>10</b> / 999",
-            "font": "MaplestoryBold",
+            "font": "MaplestoryLight",
             "size": 20,
             "style": 0,
             "alignment": 4,
@@ -3959,7 +3969,9 @@
              1.0
             ],
             "enabled": true,
-            "raycast": true
+            "raycast": true,
+            "hOverflow": 0,
+            "vOverflow": 0
            },
            "scripts": [
             "Text",
@@ -7117,7 +7129,7 @@
          "active": true,
          "text": {
           "text": "\ubcf4\uc720\ud55c \uc601\uc6c5\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 24,
           "style": 0,
           "alignment": 4,
@@ -7129,7 +7141,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
          },
          "localize": "ui_localize_heroslot_facation_empty",
          "scripts": [
@@ -7445,6 +7459,7 @@
             "sprite": "UIMask"
            },
            "mask": "Mask",
+           "hideMaskGraphic": true,
            "scripts": [
             "Image",
             "Mask"
@@ -7518,7 +7533,7 @@
          "active": true,
          "text": {
           "text": "\uae38\uac8c \ub20c\ub7ec \ud3b8\uc9d1 \uac00\ub2a5.",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 24,
           "style": 0,
           "alignment": 4,
@@ -7530,7 +7545,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 1,
+          "vOverflow": 1
          },
          "localize": "ui_localize_troop_description_edit",
          "scripts": [

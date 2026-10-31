@@ -709,6 +709,8 @@
         ],
         "enabled": true,
         "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
         "bestFit": [
          10,
          27
@@ -863,7 +865,9 @@
              1.0
             ],
             "enabled": true,
-            "raycast": true
+            "raycast": true,
+            "hOverflow": 0,
+            "vOverflow": 0
            },
            "effects": [
             {
@@ -1193,6 +1197,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  2,
                  22
@@ -1263,6 +1269,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  2,
                  22
@@ -1439,6 +1447,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  2,
                  22
@@ -1509,6 +1519,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  2,
                  22
@@ -1685,6 +1697,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  2,
                  22
@@ -1755,6 +1769,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  2,
                  22
@@ -2051,7 +2067,7 @@
          "active": true,
          "text": {
           "text": "\ub7ad\ud0b9",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 24,
           "style": 0,
           "alignment": 4,
@@ -2063,7 +2079,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
          },
          "localize": "ui_localize_ranking",
          "scripts": [
@@ -2102,7 +2120,7 @@
          "active": true,
          "text": {
           "text": ":",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 24,
           "style": 0,
           "alignment": 4,
@@ -2114,7 +2132,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
          },
          "scripts": [
           "Text",
@@ -2152,7 +2172,7 @@
          "active": true,
          "text": {
           "text": "263",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 24,
           "style": 0,
           "alignment": 5,
@@ -2164,7 +2184,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
          },
          "scripts": [
           "Text",
@@ -2253,7 +2275,7 @@
          "active": true,
          "text": {
           "text": "1",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 24,
           "style": 0,
           "alignment": 4,
@@ -2265,7 +2287,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
          },
          "scripts": [
           "Text",
@@ -2335,7 +2359,7 @@
          "active": true,
          "text": {
           "text": "\uac00\ub098\ub2e4\ub77c",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 24,
           "style": 0,
           "alignment": 4,
@@ -2347,7 +2371,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
          },
          "scripts": [
           "Text",
@@ -2729,7 +2755,7 @@
              "active": true,
              "text": {
               "text": "100",
-              "font": "MaplestoryBold",
+              "font": "MaplestoryLight",
               "size": 20,
               "style": 0,
               "alignment": 4,
@@ -2741,7 +2767,9 @@
                1.0
               ],
               "enabled": true,
-              "raycast": true
+              "raycast": true,
+              "hOverflow": 1,
+              "vOverflow": 1
              },
              "effects": [
               {
@@ -2951,7 +2979,7 @@
            "active": true,
            "text": {
             "text": "1500(+10)",
-            "font": "MaplestoryBold",
+            "font": "MaplestoryLight",
             "size": 24,
             "style": 0,
             "alignment": 4,
@@ -2963,7 +2991,9 @@
              1.0
             ],
             "enabled": true,
-            "raycast": true
+            "raycast": true,
+            "hOverflow": 0,
+            "vOverflow": 0
            },
            "scripts": [
             "Text",
@@ -3086,7 +3116,7 @@
          "active": true,
          "text": {
           "text": "\uac00\ub098\ub2e4\ub77c",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 24,
           "style": 0,
           "alignment": 4,
@@ -3098,7 +3128,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
          },
          "scripts": [
           "Text",
@@ -3480,7 +3512,7 @@
              "active": true,
              "text": {
               "text": "100",
-              "font": "MaplestoryBold",
+              "font": "MaplestoryLight",
               "size": 20,
               "style": 0,
               "alignment": 4,
@@ -3492,7 +3524,9 @@
                1.0
               ],
               "enabled": true,
-              "raycast": true
+              "raycast": true,
+              "hOverflow": 1,
+              "vOverflow": 1
              },
              "effects": [
               {
@@ -3702,7 +3736,7 @@
            "active": true,
            "text": {
             "text": "1500(+10)",
-            "font": "MaplestoryBold",
+            "font": "MaplestoryLight",
             "size": 24,
             "style": 0,
             "alignment": 4,
@@ -3714,7 +3748,9 @@
              1.0
             ],
             "enabled": true,
-            "raycast": true
+            "raycast": true,
+            "hOverflow": 0,
+            "vOverflow": 0
            },
            "scripts": [
             "Text",
@@ -3894,7 +3930,9 @@
          1.0
         ],
         "enabled": true,
-        "raycast": true
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
        },
        "localize": "ui_localize_Check",
        "effects": [

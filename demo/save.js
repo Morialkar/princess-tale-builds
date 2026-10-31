@@ -24,11 +24,11 @@
     });
   }
 
-  async function write(bytes) {
+  async function write(bytes, key = KEY) {
     const d = await idb();
     return new Promise((ok, ko) => {
       const t = d.transaction(STORE, "readwrite");
-      t.objectStore(STORE).put(bytes, KEY);
+      t.objectStore(STORE).put(bytes, key);
       t.oncomplete = () => ok();
       t.onerror = () => ko(t.error);
     });
@@ -79,6 +79,11 @@
       }
     }
     return n;
+  }
+
+  // A save file of the apps (.ptsave, docs/ACCOUNT_BACKUP.md) is a gzip.
+  function isGzip(b) {
+    return b.length > 2 && b[0] === 0x1f && b[1] === 0x8b;
   }
 
   // A valid save starts with SQLite's header.
@@ -181,8 +186,37 @@
       }
     });
 
-    // The page's menu: download the save, load another (then reload), start over.
+    // The page's menu: the save as the apps' file (.ptsave) and back, the database itself, start over.
     window.ptSave = {
+      async exportFile() {
+        if (!window.ptBackup) throw new Error("le jeu n'a pas fini de charger");
+        const f = await ptBackup.export();
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(new Blob([f.bytes], { type: "application/octet-stream" }));
+        a.download = f.name;
+        a.click();
+        setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+      },
+      // importFile loads a .ptsave (the apps' export: through the game's own Backup/Import, the save it replaces
+      // kept in IndexedDB as "before-import") or a .db (the database itself), then starts the game again.
+      async importFile(file) {
+        const bytes = new Uint8Array(await file.arrayBuffer());
+        if (isSave(bytes)) return this.load(file);
+        if (!isGzip(bytes)) throw new Error("ce fichier n'est pas une sauvegarde (.ptsave ou .db)");
+        if (!window.ptBackup) throw new Error("le jeu n'a pas fini de charger");
+        await write(db.export(), "before-import");
+        let got;
+        try {
+          got = await ptBackup.import(bytes);
+        } catch (e) {
+          throw new Error(e === "refused" ? "cette sauvegarde n'a pas pu être chargée (fichier abîmé ou d'un autre jeu)" : String(e));
+        }
+        clearTimeout(timer);
+        frozen = true;
+        await write(db.export());
+        alert("Sauvegarde chargée : " + got.nickname + ", niveau " + got.level + ".");
+        location.reload();
+      },
       download() {
         const a = document.createElement("a");
         a.href = URL.createObjectURL(new Blob([db.export()], { type: "application/vnd.sqlite3" }));

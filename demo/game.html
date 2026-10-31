@@ -15,7 +15,7 @@
   canvas { display: block; margin: 0 auto; }
   #save { position: fixed; top: 8px; right: 8px; z-index: 5; font-size: 13px; }
   #save > button { background: #2a2a3acc; color: #e8e4f0; border: 1px solid #4a4a5a; border-radius: 6px; padding: 4px 10px; font: inherit; cursor: pointer; }
-  #menu { display: none; position: absolute; right: 0; top: 30px; background: #1c1c28; border: 1px solid #4a4a5a; border-radius: 6px; padding: 6px; width: 220px; }
+  #menu { display: none; position: absolute; right: 0; top: 30px; background: #1c1c28; border: 1px solid #4a4a5a; border-radius: 6px; padding: 6px; width: 240px; }
   #menu.open { display: block; }
   #menu button, #menu label { display: block; width: 100%; box-sizing: border-box; text-align: left; background: none; color: inherit; border: 0; padding: 7px 8px; font: inherit; cursor: pointer; border-radius: 4px; }
   #menu button:hover, #menu label:hover { background: #2a2a3a; }
@@ -33,9 +33,10 @@
 <div id="save">
   <button id="open">Sauvegarde</button>
   <div id="menu">
-    <p>Gardée dans ce navigateur, à chaque changement.</p>
-    <button id="download">Télécharger la sauvegarde</button>
-    <label>Charger une sauvegarde…<input id="file" type="file" accept=".db,.sqlite,application/vnd.sqlite3"></label>
+    <p>Gardée dans ce navigateur, à chaque changement. Le fichier .ptsave est celui des apps (Exporter / Importer dans leurs réglages).</p>
+    <button id="export">Exporter la sauvegarde (.ptsave)</button>
+    <label>Importer une sauvegarde…<input id="file" type="file"></label>
+    <button id="download">Télécharger la base (.db)</button>
     <button id="reset">Recommencer une partie</button>
   </div>
 </div>
@@ -49,10 +50,14 @@
   window.demoReady = () => document.getElementById("loading").remove();
   const menu = document.getElementById("menu");
   document.getElementById("open").onclick = () => menu.classList.toggle("open");
+  const fail = (e) => alert("Erreur : " + (e && e.message ? e.message : e));
+  document.getElementById("export").onclick = () => { menu.classList.remove("open"); ptSave.exportFile().catch(fail); };
   document.getElementById("download").onclick = () => { menu.classList.remove("open"); ptSave.download(); };
+  // No accept filter: iOS greys out the files whose type it does not know (.ptsave); importFile checks the file.
   document.getElementById("file").onchange = (e) => {
     const f = e.target.files[0];
-    if (f && confirm("Remplacer la sauvegarde de ce navigateur par " + f.name + " ?")) ptSave.load(f).catch(say);
+    e.target.value = "";
+    if (f && confirm("Remplacer la sauvegarde de ce navigateur par " + f.name + " ?")) ptSave.importFile(f).catch(fail);
   };
   document.getElementById("reset").onclick = () => {
     if (confirm("Effacer la sauvegarde de ce navigateur et recommencer une partie ?")) ptSave.reset().catch(say);

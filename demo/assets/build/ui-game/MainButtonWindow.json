@@ -651,6 +651,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  12,
                  22
@@ -1116,6 +1118,8 @@
                   ],
                   "enabled": true,
                   "raycast": true,
+                  "hOverflow": 0,
+                  "vOverflow": 0,
                   "bestFit": [
                    12,
                    22
@@ -1391,6 +1395,8 @@
                   ],
                   "enabled": true,
                   "raycast": true,
+                  "hOverflow": 0,
+                  "vOverflow": 0,
                   "bestFit": [
                    12,
                    22
@@ -1666,6 +1672,8 @@
                   ],
                   "enabled": true,
                   "raycast": true,
+                  "hOverflow": 0,
+                  "vOverflow": 0,
                   "bestFit": [
                    12,
                    22
@@ -2873,7 +2881,7 @@
            "active": true,
            "text": {
             "text": "100",
-            "font": "MaplestoryBold",
+            "font": "MaplestoryLight",
             "size": 20,
             "style": 0,
             "alignment": 4,
@@ -2885,7 +2893,9 @@
              1.0
             ],
             "enabled": true,
-            "raycast": true
+            "raycast": true,
+            "hOverflow": 1,
+            "vOverflow": 1
            },
            "effects": [
             {
@@ -3128,6 +3138,8 @@
             ],
             "enabled": true,
             "raycast": true,
+            "hOverflow": 0,
+            "vOverflow": 0,
             "bestFit": [
              2,
              27
@@ -3345,7 +3357,7 @@
          "active": true,
          "text": {
           "text": "1234K",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 27,
           "style": 0,
           "alignment": 4,
@@ -3358,6 +3370,8 @@
           ],
           "enabled": true,
           "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0,
           "bestFit": [
            2,
            27
@@ -3593,7 +3607,7 @@
          "active": true,
          "text": {
           "text": "1234K",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 27,
           "style": 0,
           "alignment": 4,
@@ -3606,6 +3620,8 @@
           ],
           "enabled": true,
           "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0,
           "bestFit": [
            2,
            27
@@ -3737,7 +3753,7 @@
        "active": true,
        "text": {
         "text": "<color=#FFD567>Lv 5</color>    PlayerName",
-        "font": "MaplestoryBold",
+        "font": "MaplestoryLight",
         "size": 28,
         "style": 0,
         "alignment": 3,
@@ -3749,7 +3765,9 @@
          1.0
         ],
         "enabled": true,
-        "raycast": true
+        "raycast": true,
+        "hOverflow": 1,
+        "vOverflow": 1
        },
        "effects": [
         {
@@ -3906,7 +3924,7 @@
          "active": true,
          "text": {
           "text": "999K",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 28,
           "style": 0,
           "alignment": 4,
@@ -3918,7 +3936,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
          },
          "effects": [
           {
@@ -4329,6 +4349,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  2,
                  27
@@ -4804,6 +4826,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  2,
                  27
@@ -5270,6 +5294,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  2,
                  27
@@ -5545,6 +5571,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  2,
                  27
@@ -5960,6 +5988,8 @@
                 ],
                 "enabled": true,
                 "raycast": true,
+                "hOverflow": 0,
+                "vOverflow": 0,
                 "bestFit": [
                  2,
                  27
@@ -7737,6 +7767,8 @@
           ],
           "enabled": true,
           "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0,
           "bestFit": [
            10,
            32
@@ -7882,6 +7914,8 @@
           ],
           "enabled": true,
           "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0,
           "bestFit": [
            10,
            32
@@ -8068,6 +8102,8 @@
           ],
           "enabled": true,
           "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0,
           "bestFit": [
            2,
            27
@@ -8708,7 +8744,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
          },
          "effects": [
           {
@@ -9031,7 +9069,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
          },
          "effects": [
           {
@@ -9246,7 +9286,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
          },
          "effects": [
           {
@@ -9653,6 +9695,8 @@
             ],
             "enabled": true,
             "raycast": false,
+            "hOverflow": 0,
+            "vOverflow": 0,
             "bestFit": [
              10,
              15

@@ -1074,7 +1074,7 @@
      "active": true,
      "text": {
       "text": "",
-      "font": "MaplestoryBold",
+      "font": "MaplestoryLight",
       "size": 40,
       "style": 0,
       "alignment": 4,
@@ -1087,6 +1087,8 @@
       ],
       "enabled": true,
       "raycast": false,
+      "hOverflow": 0,
+      "vOverflow": 0,
       "bestFit": [
        22,
        40

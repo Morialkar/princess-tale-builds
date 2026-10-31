@@ -208,7 +208,9 @@
        1.0
       ],
       "enabled": true,
-      "raycast": false
+      "raycast": false,
+      "hOverflow": 0,
+      "vOverflow": 0
      },
      "scripts": [
       "Text"
@@ -776,7 +778,7 @@
            "active": true,
            "text": {
             "text": "100",
-            "font": "MaplestoryBold",
+            "font": "MaplestoryLight",
             "size": 20,
             "style": 0,
             "alignment": 4,
@@ -788,7 +790,9 @@
              1.0
             ],
             "enabled": true,
-            "raycast": true
+            "raycast": true,
+            "hOverflow": 1,
+            "vOverflow": 1
            },
            "effects": [
             {
@@ -1455,7 +1459,7 @@
            "active": true,
            "text": {
             "text": "100",
-            "font": "MaplestoryBold",
+            "font": "MaplestoryLight",
             "size": 20,
             "style": 0,
             "alignment": 4,
@@ -1467,7 +1471,9 @@
              1.0
             ],
             "enabled": true,
-            "raycast": true
+            "raycast": true,
+            "hOverflow": 1,
+            "vOverflow": 1
            },
            "effects": [
             {
@@ -2134,7 +2140,7 @@
            "active": true,
            "text": {
             "text": "100",
-            "font": "MaplestoryBold",
+            "font": "MaplestoryLight",
             "size": 20,
             "style": 0,
             "alignment": 4,
@@ -2146,7 +2152,9 @@
              1.0
             ],
             "enabled": true,
-            "raycast": true
+            "raycast": true,
+            "hOverflow": 1,
+            "vOverflow": 1
            },
            "effects": [
             {
@@ -2815,7 +2823,7 @@
          "active": true,
          "text": {
           "text": "100",
-          "font": "MaplestoryBold",
+          "font": "MaplestoryLight",
           "size": 20,
           "style": 0,
           "alignment": 4,
@@ -2827,7 +2835,9 @@
            1.0
           ],
           "enabled": true,
-          "raycast": true
+          "raycast": true,
+          "hOverflow": 1,
+          "vOverflow": 1
          },
          "effects": [
           {
