@@ -220,6 +220,32 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Buff_Frame2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Buff_Frame3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Buff_Gauge1": {
   "border": [
    0.0,
@@ -1078,6 +1104,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "FastUp1_Buff": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Fastest1": {
   "border": [
    0.0,
@@ -1092,6 +1131,32 @@
   "pixelsPerUnit": 100.0
  },
  "Fastest2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "FatalBlowEffectUp1_Buff": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "FatalBlowUp1_Buff": {
   "border": [
    0.0,
    0.0,
@@ -1325,6 +1390,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "GuardUp1_Buff": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "GuideArrow1": {
   "border": [
    0.0,
@@ -1391,6 +1469,19 @@
   "pixelsPerUnit": 100.0
  },
  "Hero_Stick2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "HpUp1_Buff": {
   "border": [
    0.0,
    0.0,
@@ -1703,6 +1794,19 @@
   "pixelsPerUnit": 100.0
  },
  "Minus1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "MpUp1_Buff": {
   "border": [
    0.0,
    0.0,
