@@ -1754,3 +1754,16 @@ skill/unit_40_summer
   orig: 1154, 1015
   offset: 0, 0
   index: -1
+
+UI_illust_skill23.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill/unit_59
+  rotate: false
+  xy: 2, 2
+  size: 677, 729
+  orig: 677, 729
+  offset: 0, 0
+  index: -1

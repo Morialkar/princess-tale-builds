@@ -90,6 +90,110 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Akimbo_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Akimbo_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Akimbo_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Akimbo_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Akimbo_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Alchemy_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Alchemy_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Alchemy_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "AllChestTime_Big4": {
   "border": [
    0.0,
@@ -142,6 +246,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Arrow2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Arrow3": {
   "border": [
    0.0,
@@ -156,6 +273,45 @@
   "pixelsPerUnit": 100.0
  },
  "Arrow_Shine1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Ass_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Ass_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Ass_3": {
   "border": [
    0.0,
    0.0,
@@ -285,6 +441,71 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Baba_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Baba_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Baba_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Baba_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Baba_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Back1": {
   "border": [
    0.0,
@@ -310,6 +531,19 @@
    0.5
   ],
   "pixelsPerUnit": 100.0
+ },
+ "Background": {
+  "border": [
+   10.0,
+   10.0,
+   10.0,
+   10.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 200.0
  },
  "Background_1": {
   "border": [
@@ -663,6 +897,110 @@
   "pixelsPerUnit": 100.0
  },
  "Background_9": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Bdragon_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Bdragon_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Bdragon_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Bdragon_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Bdragon_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Blacksmith_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Blacksmith_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Blacksmith_3": {
   "border": [
    0.0,
    0.0,
@@ -1065,6 +1403,84 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Breeze_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Breeze_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Breeze_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Brownpony_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Brownpony_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Brownpony_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Buff_Frame1": {
   "border": [
    0.0,
@@ -1117,6 +1533,71 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Bullygirl_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Bullygirl_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Bullygirl_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Bullygirl_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Bullygirl_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Button2": {
   "border": [
    34.0,
@@ -1131,6 +1612,32 @@
   "pixelsPerUnit": 100.0
  },
  "Button2_Press": {
+  "border": [
+   34.0,
+   28.0,
+   34.0,
+   28.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Button3": {
+  "border": [
+   34.0,
+   28.0,
+   34.0,
+   28.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Button3_Press": {
   "border": [
    34.0,
    28.0,
@@ -1162,6 +1669,58 @@
    34.0,
    68.0,
    34.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Button5": {
+  "border": [
+   34.0,
+   28.0,
+   34.0,
+   28.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Button5_Press": {
+  "border": [
+   36.0,
+   28.0,
+   36.0,
+   28.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Button7": {
+  "border": [
+   28.0,
+   28.0,
+   28.0,
+   28.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Button7_Press": {
+  "border": [
+   28.0,
+   28.0,
+   28.0,
+   28.0
   ],
   "pivot": [
    0.5,
@@ -1313,6 +1872,71 @@
   "pixelsPerUnit": 100.0
  },
  "CRI_UP": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Cake_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Cake_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Carrot_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Carrot_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Carrot_3": {
   "border": [
    0.0,
    0.0,
@@ -2040,7 +2664,189 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Cleric_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Cleric_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Cleric_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Cleric_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Coin_Small1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Cook_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Cook_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Cook_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Cook_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Cook_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Crusader_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Crusader_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Crusader_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Crusader_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Crusader_5": {
   "border": [
    0.0,
    0.0,
@@ -2170,7 +2976,280 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "DarkTemplar_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DarkTemplar_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DarkTemplar_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DarkTemplar_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DarkTemplar_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Darkelf_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Darkelf_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Darkelf_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Darkelf_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Darkelf_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Deathscythe_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Deathscythe_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Deathscythe_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Deathscythe_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Deathscythe_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Demo1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Down1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dualcross_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dualcross_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dualcross_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dualcross_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dualcross_5": {
   "border": [
    0.0,
    0.0,
@@ -2236,6 +3315,58 @@
   "pixelsPerUnit": 100.0
  },
  "Elyra_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "EvilPet_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "EvilPet_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "EvilPet_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "EvilPet_4": {
   "border": [
    0.0,
    0.0,
@@ -2352,6 +3483,71 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Fiance_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Fiance_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Fiance_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Fiance_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Fiance_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Field1": {
   "border": [
    0.0,
@@ -2391,6 +3587,110 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Flora_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Flora_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Flora_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Flower_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Flower_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Flower_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Flower_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Flower_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Formation1": {
   "border": [
    0.0,
@@ -2417,7 +3717,137 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Foxy_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Foxy_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Foxy_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Foxy_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Foxy_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Friend2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gambler_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gambler_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gambler_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gambler_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gambler_5": {
   "border": [
    0.0,
    0.0,
@@ -2475,6 +3905,162 @@
    0.0,
    5.0,
    0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gdragon_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gdragon_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gdragon_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gdragon_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gdragon_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Goldshield_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Goldshield_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Goldshield_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gom_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gom_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gom_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Gradation_BackGround2": {
+  "border": [
+   310.0,
+   195.0,
+   310.0,
+   195.0
   ],
   "pivot": [
    0.5,
@@ -2664,6 +4250,58 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Guitar_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Guitar_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Guitar_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Guitar_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "HAST_DOWN": {
   "border": [
    0.0,
@@ -2716,6 +4354,71 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Harp_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Harp_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Harp_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Harp_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Heart1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Hero1": {
   "border": [
    0.0,
@@ -2742,7 +4445,111 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Hero_Camera1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Dark1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Hero_Elite1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_EquipBG1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Fire1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Frame_Normal1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Frame_Special1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Light1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Nature1": {
   "border": [
    0.0,
    0.0,
@@ -2781,6 +4588,84 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Hero_Slot_Dark1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Slot_Fire1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Slot_Light1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Slot_Nature1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Slot_Water1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Slot_Wind1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Hero_Stick1": {
   "border": [
    0.0,
@@ -2795,6 +4680,97 @@
   "pixelsPerUnit": 100.0
  },
  "Hero_Stick2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Water1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Hero_Wind1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Highelf_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Highelf_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Highelf_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Highelf_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Highelf_5": {
   "border": [
    0.0,
    0.0,
@@ -2859,7 +4835,72 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Ice_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Ice_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Ice_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Ice_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Icon_AD1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_Ability1": {
   "border": [
    0.0,
    0.0,
@@ -2937,7 +4978,98 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Icon_Shooting1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_Skinroom1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Icon_Tier_Champion_Big1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Idol_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Idol_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Idol_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Idol_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Idol_5": {
   "border": [
    0.0,
    0.0,
@@ -3145,7 +5277,72 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "JackRabbit_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "JackRabbit_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Jewel1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Jungle_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Jungle_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Jungle_3": {
   "border": [
    0.0,
    0.0,
@@ -3275,6 +5472,123 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Ladydeath_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Ladydeath_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Ladydeath_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Ladydeath_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Ladydeath_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Lamplight_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Lamplight_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Lamplight_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Lamplight_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Letterbox1": {
   "border": [
    9.0,
@@ -3294,6 +5608,19 @@
    57.0,
    0.0,
    69.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Level1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
   ],
   "pivot": [
    0.5,
@@ -3353,6 +5680,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Lock_Open1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.683445155620575,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "MAGNUM": {
   "border": [
    0.0,
@@ -3405,6 +5745,32 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Material1_Small1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Material2_Small1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "MenuBar1": {
   "border": [
    400.0,
@@ -3418,7 +5784,241 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Middle_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Middle_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Middle_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Middle_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Middle_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Midnight_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Midnight_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Midnight_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Midnight_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Midnight_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Miko_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Miko_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Miko_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Miko_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Miko_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Minus1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Monk_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Monk_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Monk_3": {
   "border": [
    0.0,
    0.0,
@@ -3483,6 +6083,71 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Nun_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Nun_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Nun_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Nun_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Nun_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "OVERSEE": {
   "border": [
    0.0,
@@ -3535,11 +6200,232 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Pajama_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Pajama_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Pajama_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Pajama_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Pajama_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Paru_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Paru_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Paru_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Pattern1": {
   "border": [
    46.0,
    0.0,
    46.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Piece1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Pirate_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Pirate_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Pirate_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Pirate_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Pirate_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Plumehat_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Plumehat_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Plumehat_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
    0.0
   ],
   "pivot": [
@@ -3587,7 +6473,85 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Power2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "PowerUp1_Buff": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Priest_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Priest_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Priest_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Priest_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Priest_5": {
   "border": [
    0.0,
    0.0,
@@ -3627,6 +6591,71 @@
   "pixelsPerUnit": 100.0
  },
  "Profile_Frame_0": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Queen_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Queen_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Queen_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Queen_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Queen_5": {
   "border": [
    0.0,
    0.0,
@@ -3782,6 +6811,227 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Rabbit_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Rabbit_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Rabbit_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Rabbit_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Rabbit_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Rdragon_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Rdragon_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Rdragon_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Rdragon_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Rdragon_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "ReadingGlasses1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Redeye_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Redeye_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Redeye_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Redhead_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Redhead_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Redhead_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Redhood_1": {
   "border": [
    0.0,
@@ -3848,6 +7098,19 @@
   "pixelsPerUnit": 100.0
  },
  "Reset1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Ribbon1": {
   "border": [
    0.0,
    0.0,
@@ -4198,6 +7461,58 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Sabre_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Sabre_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Sabre_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Sabre_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Save1": {
   "border": [
    0.0,
@@ -4211,7 +7526,241 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Shaman_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Shaman_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Shaman_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Shaman_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Shaman_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Shield1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Skill1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Skill2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Skill_Select_Frame1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Skip": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Skyblue_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Skyblue_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Skyblue_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Slime_01_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Slime_02_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Slime_03_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Slime_04_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Slime_05_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Slime_06_1": {
   "border": [
    0.0,
    0.0,
@@ -4328,6 +7877,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "SlotBar2": {
+  "border": [
+   36.0,
+   0.0,
+   36.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "SlotDeco1": {
   "border": [
    0.0,
@@ -4342,19 +7904,6 @@
   "pixelsPerUnit": 100.0
  },
  "SlotFrame1": {
-  "border": [
-   0.0,
-   0.0,
-   0.0,
-   0.0
-  ],
-  "pivot": [
-   0.5,
-   0.5
-  ],
-  "pixelsPerUnit": 100.0
- },
- "SlotFrame2": {
   "border": [
    0.0,
    0.0,
@@ -4399,6 +7948,45 @@
    0.0,
    0.0,
    0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Square1": {
+  "border": [
+   16.0,
+   16.0,
+   16.0,
+   16.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Square_Frame1": {
+  "border": [
+   32.0,
+   32.0,
+   32.0,
+   32.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Square_Slot1": {
+  "border": [
+   10.0,
+   10.0,
+   10.0,
+   10.0
   ],
   "pivot": [
    0.5,
@@ -4472,6 +8060,188 @@
   "pixelsPerUnit": 100.0
  },
  "Stop1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Story1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Story2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Sugar_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Sugar_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Sugar_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Sugar_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Sugar_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "SuitCat_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "SuitCat_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Swordcat_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Swordcat_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Swordcat_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Swordcat_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Swordcat_5": {
   "border": [
    0.0,
    0.0,
@@ -4601,6 +8371,45 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Tulu_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Tulu_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Tulu_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "UIMask": {
   "border": [
    10.0,
@@ -4613,6 +8422,19 @@
    0.5
   ],
   "pixelsPerUnit": 200.0
+ },
+ "Ultra_Frame1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
  },
  "VS_Text1": {
   "border": [
@@ -4641,6 +8463,71 @@
   "pixelsPerUnit": 100.0
  },
  "Water1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Water_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Water_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Water_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Water_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Water_5": {
   "border": [
    0.0,
    0.0,
@@ -5044,6 +8931,19 @@
   "pixelsPerUnit": 100.0
  },
  "deathscythe_bride": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "dex": {
   "border": [
    0.0,
    0.0,
@@ -5498,6 +9398,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "int": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "jackrabbit": {
   "border": [
    0.0,
@@ -5537,6 +9450,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "knight": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "ladydeath": {
   "border": [
    0.0,
@@ -5564,6 +9490,19 @@
   "pixelsPerUnit": 100.0
  },
  "lamplight": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "mage": {
   "border": [
    0.0,
    0.0,
@@ -6018,6 +9957,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "ranger": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "rdragon": {
   "border": [
    0.0,
@@ -6343,6 +10295,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "str": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "sugar": {
   "border": [
    0.0,
@@ -6383,6 +10348,19 @@
   "pixelsPerUnit": 100.0
  },
  "suitcat": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "supporter": {
   "border": [
    0.0,
    0.0,
@@ -6448,6 +10426,19 @@
   "pixelsPerUnit": 100.0
  },
  "tulu": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "warrior": {
   "border": [
    0.0,
    0.0,
