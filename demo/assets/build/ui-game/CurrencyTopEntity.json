@@ -1,0 +1,179 @@
+{
+ "name": "CurrencyTopEntity",
+ "active": true,
+ "image": {
+  "type": 1,
+  "fillMethod": 4,
+  "fillAmount": 1.0,
+  "fillOrigin": 0,
+  "fillClockwise": true,
+  "preserveAspect": false,
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "enabled": true,
+  "raycast": true,
+  "sprite": "SlotBar1"
+ },
+ "scripts": [
+  "Image",
+  "AtlasImage",
+  "CurrencyTopEntity",
+  "TooltipTargetUI",
+  "TooltipData_Desc"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   0.0,
+   0.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Icon",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Jewel1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.5
+    ],
+    "anchorMax": [
+     0.0,
+     0.5
+    ],
+    "position": [
+     12.800000190734863,
+     0.0
+    ],
+    "size": [
+     44.0,
+     44.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Amount",
+   "active": true,
+   "text": {
+    "text": "1234K",
+    "font": "MaplestoryLight",
+    "size": 27,
+    "style": 0,
+    "alignment": 4,
+    "lineSpacing": 1.0,
+    "color": [
+     0.6179245710372925,
+     0.9581591486930847,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "hOverflow": 0,
+    "vOverflow": 0,
+    "bestFit": [
+     2,
+     27
+    ]
+   },
+   "effects": [
+    {
+     "kind": "Shadow",
+     "color": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "distance": [
+      1.0,
+      -1.0
+     ]
+    }
+   ],
+   "scripts": [
+    "Text",
+    "Shadow",
+    "LocalizeString"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.5
+    ],
+    "anchorMax": [
+     1.0,
+     0.5
+    ],
+    "position": [
+     12.75,
+     -0.9999451041221619
+    ],
+    "size": [
+     -44.099998474121094,
+     29.360000610351562
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}

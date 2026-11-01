@@ -1,0 +1,20 @@
+{
+ "character_bar": {
+  "asset": "character_bar_SkeletonData",
+  "atlases": [
+   "UI_illust"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "shop_cat": {
+  "asset": "shop_cat_SkeletonData",
+  "atlases": [
+   "shop_cat"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}

@@ -1,0 +1,83 @@
+
+shop_cat.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+acce_in
+  rotate: false
+  xy: 903, 385
+  size: 109, 195
+  orig: 109, 195
+  offset: 0, 0
+  index: -1
+arm_in_01
+  rotate: false
+  xy: 783, 121
+  size: 138, 177
+  orig: 138, 177
+  offset: 0, 0
+  index: -1
+arm_out_01
+  rotate: false
+  xy: 783, 2
+  size: 199, 117
+  orig: 199, 117
+  offset: 0, 0
+  index: -1
+body_02
+  rotate: false
+  xy: 514, 76
+  size: 267, 222
+  orig: 267, 222
+  offset: 0, 0
+  index: -1
+eye_in_01
+  rotate: false
+  xy: 923, 269
+  size: 87, 24
+  orig: 87, 24
+  offset: 0, 0
+  index: -1
+eye_out_01
+  rotate: false
+  xy: 903, 307
+  size: 67, 42
+  orig: 67, 42
+  offset: 0, 0
+  index: -1
+eyebrow_in_01
+  rotate: false
+  xy: 972, 323
+  size: 33, 26
+  orig: 33, 26
+  offset: 0, 0
+  index: -1
+eyebrow_out_01
+  rotate: false
+  xy: 972, 295
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+flare02
+  rotate: false
+  xy: 2, 70
+  size: 510, 510
+  orig: 510, 510
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 514, 300
+  size: 387, 280
+  orig: 387, 280
+  offset: 0, 0
+  index: -1
+mouth_01
+  rotate: false
+  xy: 903, 351
+  size: 92, 32
+  orig: 92, 32
+  offset: 0, 0
+  index: -1

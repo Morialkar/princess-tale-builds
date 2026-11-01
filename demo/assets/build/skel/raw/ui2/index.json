@@ -1,0 +1,83 @@
+{
+ "card_in": {
+  "asset": "card_in_SkeletonData",
+  "atlases": [
+   "UI_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "card_open": {
+  "asset": "card_open_SkeletonData",
+  "atlases": [
+   "UI_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "card_open_legend": {
+  "asset": "card_open_legend_SkeletonData",
+  "atlases": [
+   "UI_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "card_open_legend_bg": {
+  "asset": "card_open_legend_bg_SkeletonData",
+  "atlases": [
+   "UI_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "confirm_open": {
+  "asset": "confirm_open_SkeletonData",
+  "atlases": [
+   "UI_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "dice": {
+  "asset": "dice_SkeletonData",
+  "atlases": [
+   "UI_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "loading": {
+  "asset": "loading_SkeletonData",
+  "atlases": [
+   "UI_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "page": {
+  "asset": "page_SkeletonData",
+  "atlases": [
+   "UI_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "property_open": {
+  "asset": "property_open_SkeletonData",
+  "atlases": [
+   "UI_02"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}

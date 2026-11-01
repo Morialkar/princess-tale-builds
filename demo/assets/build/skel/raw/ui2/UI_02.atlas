@@ -1,0 +1,321 @@
+
+UI_02.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dice/Dice1
+  rotate: false
+  xy: 1490, 1668
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+dice/Dice2
+  rotate: false
+  xy: 1682, 1668
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+dice/Dice3
+  rotate: false
+  xy: 2, 1576
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+dice/Dice4
+  rotate: false
+  xy: 194, 1576
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+dice/Dice5
+  rotate: false
+  xy: 386, 1576
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+dice/Dice6
+  rotate: false
+  xy: 578, 1538
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+dice/dice_a
+  rotate: false
+  xy: 1542, 994
+  size: 360, 414
+  orig: 360, 414
+  offset: 0, 0
+  index: -1
+dice/effect_single
+  rotate: false
+  xy: 962, 1519
+  size: 212, 209
+  orig: 212, 209
+  offset: 0, 0
+  index: -1
+dice/effect_single_a
+  rotate: false
+  xy: 770, 1538
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+effect/bg_speed
+  rotate: false
+  xy: 2, 862
+  size: 256, 454
+  orig: 256, 454
+  offset: 0, 0
+  index: -1
+effect/bg_speed_02
+  rotate: false
+  xy: 260, 773
+  size: 256, 455
+  orig: 256, 455
+  offset: 0, 0
+  index: -1
+effect/circle04a
+  rotate: false
+  xy: 1176, 1472
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/circle_fire
+  rotate: false
+  xy: 580, 1730
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+effect/circle_gold
+  rotate: false
+  xy: 1230, 1730
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+effect/circle_magic
+  rotate: false
+  xy: 1434, 1410
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/flare_wipe
+  rotate: false
+  xy: 848, 5
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+effect/flare_wipe_02
+  rotate: false
+  xy: 1362, 2
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+effect/gacha_effect_01
+  rotate: false
+  xy: 710, 1730
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+effect/shine_01
+  rotate: false
+  xy: 1360, 1730
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+effect/sun_fire
+  rotate: false
+  xy: 840, 1730
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+effect/sun_gold
+  rotate: false
+  xy: 1100, 1730
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+effect/sun_normal
+  rotate: false
+  xy: 970, 1730
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+effect/weapon_trail_01
+  rotate: false
+  xy: 1692, 1410
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/weapon_trail_02
+  rotate: false
+  xy: 2, 1318
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+gacha/Card_Fire1
+  rotate: false
+  xy: 518, 647
+  size: 280, 476
+  orig: 280, 476
+  offset: 0, 0
+  index: -1
+gacha/Card_Fire1_Off
+  rotate: false
+  xy: 800, 581
+  size: 280, 476
+  orig: 280, 476
+  offset: 0, 0
+  index: -1
+gacha/Card_Nature1
+  rotate: false
+  xy: 1082, 519
+  size: 280, 476
+  orig: 280, 476
+  offset: 0, 0
+  index: -1
+gacha/Card_Nature1_Off
+  rotate: false
+  xy: 1364, 516
+  size: 280, 476
+  orig: 280, 476
+  offset: 0, 0
+  index: -1
+gacha/Card_Water1
+  rotate: false
+  xy: 1646, 516
+  size: 280, 476
+  orig: 280, 476
+  offset: 0, 0
+  index: -1
+gacha/Card_Water1_Off
+  rotate: false
+  xy: 2, 295
+  size: 280, 476
+  orig: 280, 476
+  offset: 0, 0
+  index: -1
+gacha/Card_Wind1
+  rotate: false
+  xy: 284, 169
+  size: 280, 476
+  orig: 280, 476
+  offset: 0, 0
+  index: -1
+gacha/Card_Wind1_Off
+  rotate: false
+  xy: 566, 103
+  size: 280, 476
+  orig: 280, 476
+  offset: 0, 0
+  index: -1
+gacha/SummonCard_Back1
+  rotate: false
+  xy: 260, 1268
+  size: 192, 306
+  orig: 192, 306
+  offset: 0, 0
+  index: -1
+gacha/card_effect_01
+  rotate: false
+  xy: 454, 1230
+  size: 192, 306
+  orig: 192, 306
+  offset: 0, 0
+  index: -1
+gacha/effecr_epic
+  rotate: false
+  xy: 648, 1125
+  size: 296, 411
+  orig: 296, 411
+  offset: 0, 0
+  index: -1
+gacha/effecr_gold
+  rotate: false
+  xy: 1244, 997
+  size: 296, 411
+  orig: 296, 411
+  offset: 0, 0
+  index: -1
+gacha/effecr_rare
+  rotate: false
+  xy: 946, 1059
+  size: 296, 411
+  orig: 296, 411
+  offset: 0, 0
+  index: -1
+light/highlight
+  rotate: false
+  xy: 2, 1848
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+loading/text_a
+  rotate: false
+  xy: 14, 1768
+  size: 86, 90
+  orig: 86, 90
+  offset: 0, 0
+  index: -1
+loading/text_d
+  rotate: false
+  xy: 102, 1768
+  size: 80, 90
+  orig: 80, 90
+  offset: 0, 0
+  index: -1
+loading/text_g
+  rotate: false
+  xy: 184, 1768
+  size: 85, 90
+  orig: 85, 90
+  offset: 0, 0
+  index: -1
+loading/text_i
+  rotate: false
+  xy: 271, 1768
+  size: 54, 90
+  orig: 54, 90
+  offset: 0, 0
+  index: -1
+loading/text_l
+  rotate: false
+  xy: 327, 1768
+  size: 72, 90
+  orig: 72, 90
+  offset: 0, 0
+  index: -1
+loading/text_n
+  rotate: false
+  xy: 401, 1768
+  size: 86, 90
+  orig: 86, 90
+  offset: 0, 0
+  index: -1
+loading/text_o
+  rotate: false
+  xy: 489, 1768
+  size: 89, 90
+  orig: 89, 90
+  offset: 0, 0
+  index: -1

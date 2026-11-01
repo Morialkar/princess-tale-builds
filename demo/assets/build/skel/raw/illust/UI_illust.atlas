@@ -1,0 +1,125 @@
+
+UI_illust.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bar/Group 15
+  rotate: false
+  xy: 178, 297
+  size: 150, 211
+  orig: 150, 211
+  offset: 0, 0
+  index: -1
+bar/Group 16
+  rotate: false
+  xy: 623, 260
+  size: 44, 119
+  orig: 44, 119
+  offset: 0, 0
+  index: -1
+bar/Group 17
+  rotate: false
+  xy: 553, 204
+  size: 68, 143
+  orig: 68, 143
+  offset: 0, 0
+  index: -1
+bar/Group 22
+  rotate: false
+  xy: 179, 105
+  size: 232, 190
+  orig: 232, 190
+  offset: 0, 0
+  index: -1
+bar/Group 22 copy
+  rotate: false
+  xy: 330, 326
+  size: 162, 182
+  orig: 162, 182
+  offset: 0, 0
+  index: -1
+bar/Group 23
+  rotate: false
+  xy: 494, 349
+  size: 91, 159
+  orig: 91, 159
+  offset: 0, 0
+  index: -1
+bar/Group 24
+  rotate: false
+  xy: 464, 7
+  size: 224, 146
+  orig: 224, 146
+  offset: 0, 0
+  index: -1
+bar/Group 36
+  rotate: false
+  xy: 413, 155
+  size: 138, 169
+  orig: 138, 169
+  offset: 0, 0
+  index: -1
+bar/Group 37
+  rotate: false
+  xy: 179, 18
+  size: 208, 85
+  orig: 208, 85
+  offset: 0, 0
+  index: -1
+bar/Group 38
+  rotate: false
+  xy: 2, 251
+  size: 174, 257
+  orig: 174, 257
+  offset: 0, 0
+  index: -1
+bar/Group 40 copy
+  rotate: false
+  xy: 2, 15
+  size: 29, 18
+  orig: 29, 18
+  offset: 0, 0
+  index: -1
+bar/Group 40 copy 2
+  rotate: false
+  xy: 389, 38
+  size: 73, 65
+  orig: 73, 65
+  offset: 0, 0
+  index: -1
+bar/Group 41 copy
+  rotate: false
+  xy: 2, 2
+  size: 27, 11
+  orig: 27, 11
+  offset: 0, 0
+  index: -1
+bar/Group 41 copy 2
+  rotate: false
+  xy: 623, 202
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+bar/Group 42 copy
+  rotate: false
+  xy: 2, 35
+  size: 175, 214
+  orig: 175, 214
+  offset: 0, 0
+  index: -1
+bar/Layer 413
+  rotate: false
+  xy: 33, 17
+  size: 96, 16
+  orig: 96, 16
+  offset: 0, 0
+  index: -1
+bar/Layer 566 copy
+  rotate: false
+  xy: 587, 381
+  size: 163, 127
+  orig: 163, 127
+  offset: 0, 0
+  index: -1
