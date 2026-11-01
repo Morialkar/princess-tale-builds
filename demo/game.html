@@ -107,15 +107,23 @@
       return src;
     };
     let music = null, musicURL = "";
+    let next = null; // a music decoded ahead (preload: a fight's end's), {url, p}
+    const clipOf = (url) => {
+      let p = clips.get(url);
+      if (!p) {
+        p = decode(url);
+        clips.set(url, p);
+        p.catch(() => clips.delete(url));
+      }
+      return p;
+    };
     return {
-      clip(url) {
-        let p = clips.get(url);
-        if (!p) {
-          p = decode(url);
-          clips.set(url, p);
-          p.catch(() => clips.delete(url));
-        }
-        p.then(b => play(b, false)).catch(() => {});
+      clip(url) { clipOf(url).then(b => play(b, false)).catch(() => {}); },
+      // preload decodes a clip, or a music (the next one: one kept), before it plays.
+      preload(url, isMusic) {
+        if (!isMusic) { clipOf(url).catch(() => {}); return; }
+        if (!next || next.url !== url) next = { url, p: decode(url) };
+        next.p.catch(() => { if (next && next.url === url) next = null; });
       },
       pcm(bytes) { // 16 bits, stereo, 44.1 kHz
         const n = bytes.length >> 2, buf = context().createBuffer(2, n, 44100), v = new DataView(bytes.buffer);
@@ -129,7 +137,9 @@
       music(url, loop) {
         if (music) { try { music.stop(); } catch (e) {} music = null; }
         musicURL = url;
-        if (url) decode(url).then(b => { if (musicURL === url) music = play(b, loop); }).catch(() => {});
+        let p = null;
+        if (next && next.url === url) { p = next.p; next = null; }
+        if (url) (p || decode(url)).then(b => { if (musicURL === url) music = play(b, loop); }).catch(() => {});
       },
     };
   })();
@@ -169,7 +179,7 @@
   };
   // The installed game's worker (sw.js: the files kept for offline play), this build's: one of an older build still
   // in charge would answer from its cache, so the files wait until this one takes over (a few seconds at most).
-  const BUILD = "20261101175448"; // build_demo.sh's stamp
+  const BUILD = "20261101184126"; // build_demo.sh's stamp
   async function worker() {
     if (!("serviceWorker" in navigator)) return;
     const mine = () => (navigator.serviceWorker.controller || {}).scriptURL || "";
