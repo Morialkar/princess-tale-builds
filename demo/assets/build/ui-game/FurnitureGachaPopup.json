@@ -599,7 +599,8 @@
        1.0
       ],
       "enabled": true,
-      "raycast": true
+      "raycast": true,
+      "sprite": "BG_house_gamble"
      },
      "scripts": [
       "Image"
