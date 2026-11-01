@@ -1,0 +1,445 @@
+{
+ "name": "GachaPercentDesc",
+ "active": true,
+ "scripts": [
+  "GachaPercentDesc"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   0.0,
+   0.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   480.0,
+   200.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Background",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": false,
+    "raycast": true,
+    "sprite": "Gradation_Title1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     1.0
+    ],
+    "anchorMax": [
+     0.5,
+     1.0
+    ],
+    "position": [
+     0.0,
+     -38.0
+    ],
+    "size": [
+     291.8999938964844,
+     32.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "TitleName",
+     "active": true,
+     "text": {
+      "text": "\uc2e0\ud654",
+      "font": "MaplestoryBold",
+      "size": 24,
+      "style": 1,
+      "alignment": 4,
+      "lineSpacing": 1.0,
+      "color": [
+       0.7254902124404907,
+       1.0,
+       0.5921568870544434,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 0,
+      "vOverflow": 0
+     },
+     "effects": [
+      {
+       "kind": "Outline",
+       "color": [
+        0.3803921937942505,
+        0.6039215922355652,
+        0.26274511218070984,
+        1.0
+       ],
+       "distance": [
+        1.0,
+        -1.0
+       ]
+      },
+      {
+       "kind": "Shadow",
+       "color": [
+        0.1919698566198349,
+        0.30188679695129395,
+        0.13243146240711212,
+        1.0
+       ],
+       "distance": [
+        1.0,
+        -1.0
+       ]
+      }
+     ],
+     "scripts": [
+      "Text",
+      "Outline",
+      "Shadow",
+      "LocalizeString"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       -25.089996337890625,
+       7.619998931884766
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "CardTierImage",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Hero_Normal1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       0.0,
+       3.5
+      ],
+      "size": [
+       618.0,
+       64.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      0.800000011920929,
+      0.800000011920929
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Amount",
+   "active": true,
+   "text": {
+    "text": "99%",
+    "font": "MaplestoryBold",
+    "size": 28,
+    "style": 1,
+    "alignment": 4,
+    "lineSpacing": 1.0,
+    "color": [
+     0.5215686559677124,
+     0.7803922295570374,
+     0.019607843831181526,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "hOverflow": 1,
+    "vOverflow": 1
+   },
+   "effects": [
+    {
+     "kind": "Outline",
+     "color": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "distance": [
+      1.0,
+      -1.0
+     ]
+    }
+   ],
+   "scripts": [
+    "Text",
+    "LocalizeString",
+    "Outline"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     1.0
+    ],
+    "anchorMax": [
+     0.5,
+     1.0
+    ],
+    "position": [
+     0.0,
+     -82.3000717163086
+    ],
+    "size": [
+     160.0,
+     30.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Scroll View",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     0.6000000238418579
+    ],
+    "enabled": true,
+    "raycast": false,
+    "sprite": "Slot3"
+   },
+   "scripts": [
+    "Image",
+    "ScrollRect",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     -44.0
+    ],
+    "size": [
+     -10.0,
+     -112.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Viewport",
+     "active": true,
+     "image": {
+      "type": 1,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "sprite": "UIMask"
+     },
+     "mask": "Mask",
+     "hideMaskGraphic": true,
+     "scripts": [
+      "Image",
+      "Mask"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       5.0,
+       -10.0
+      ],
+      "size": [
+       -10.0,
+       -20.0
+      ],
+      "pivot": [
+       0.0,
+       1.0
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Content",
+       "active": true,
+       "scroll": {
+        "kind": "ScrollContent_GachaPercentCharacter",
+        "scrollType": 0,
+        "alignType": 0,
+        "itemAlignType": 0,
+        "lineCount": 2,
+        "itemScale": 0.8999999761581421,
+        "itemMargin": {
+         "left": 15.0,
+         "top": 2.5,
+         "right": -5.0,
+         "bottom": 2.5
+        }
+       },
+       "scripts": [
+        "ScrollContent_GachaPercentCharacter"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         1.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         300.0
+        ],
+        "pivot": [
+         0.0,
+         1.0
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

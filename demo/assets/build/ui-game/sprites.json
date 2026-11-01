@@ -870,6 +870,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "BackGround3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "BackGround_Chapter1": {
   "border": [
    0.0,
@@ -2496,6 +2509,19 @@
   "pixelsPerUnit": 100.0
  },
  "CampBackground": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Card_Fire1": {
   "border": [
    0.0,
    0.0,
@@ -4680,6 +4706,19 @@
   "pixelsPerUnit": 100.0
  },
  "EXP1_Big1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Effect2": {
   "border": [
    0.0,
    0.0,
@@ -7422,6 +7461,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Icon_Ability_SSS_Big1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Icon_ArtifactCloakPiece_Big1": {
   "border": [
    0.0,
@@ -8176,6 +8228,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Icon_FurnitureList1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Icon_FurnitureSummon1": {
   "border": [
    0.0,
@@ -8216,6 +8281,32 @@
   "pixelsPerUnit": 100.0
  },
  "Icon_Guildwar1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_HeroSelect1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_HouseShop1": {
   "border": [
    0.0,
    0.0,
@@ -8307,6 +8398,19 @@
   "pixelsPerUnit": 100.0
  },
  "Icon_LuckyBox_Big1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_LuckyProduct1": {
   "border": [
    0.0,
    0.0,
@@ -14663,6 +14767,32 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Victory_Glitter1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Victory_Glitter2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "WATCHER": {
   "border": [
    0.0,
@@ -14846,6 +14976,32 @@
   "pixelsPerUnit": 100.0
  },
  "ass_h": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "attic_back": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "attic_up": {
   "border": [
    0.0,
    0.0,
