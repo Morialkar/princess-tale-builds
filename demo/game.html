@@ -73,6 +73,66 @@
   // main_js.go: ptGame shows the local game's main screen; demoReady comes once it is set up.
   window.ptGame = true;
   window.demoReady = () => document.getElementById("loading").remove();
+  // internal/imgdec: the game's pictures decoded by the browser in a worker (decode.js), off the game's frames and
+  // several times faster than Go's decoder in WebAssembly; without OffscreenCanvas in workers, Go decodes them.
+  if (typeof OffscreenCanvas !== "undefined" && "createImageBitmap" in self) {
+    const decoder = new Worker("decode.js"), waiting = new Map();
+    let next = 0;
+    decoder.onmessage = (e) => { const done = waiting.get(e.data.id); waiting.delete(e.data.id); if (done) done(e.data); };
+    window.ptDecodeImage = (bytes, done) => {
+      const id = next++;
+      waiting.set(id, done);
+      decoder.postMessage({ id, bytes }, [bytes.buffer]);
+    };
+  }
+  // The game's sounds, played by the page (sound.go's webAudio, main_js.go): Web Audio decodes them (cmd/webaudio's
+  // AAC, the voices' samples the game decoded) off the game's frames. Its context starts at the first touch.
+  window.ptAudio = (() => {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return undefined;
+    let ctx = null;
+    const context = () => ctx || (ctx = new AC());
+    for (const t of ["pointerdown", "touchend", "keydown"]) {
+      addEventListener(t, () => { if (context().state !== "running") ctx.resume(); }, true);
+    }
+    const decode = (url) => fetch(url).then(r => { if (!r.ok) throw new Error(url + ": " + r.status); return r.arrayBuffer(); })
+      .then(b => new Promise((ok, ko) => context().decodeAudioData(b, ok, ko)));
+    const clips = new Map(); // a clip's decoded samples, kept (the music's are not: a minute of it is 20 MB)
+    const play = (buf, loop) => {
+      const src = context().createBufferSource();
+      src.buffer = buf;
+      src.loop = loop;
+      src.connect(ctx.destination);
+      src.start();
+      return src;
+    };
+    let music = null, musicURL = "";
+    return {
+      clip(url) {
+        let p = clips.get(url);
+        if (!p) {
+          p = decode(url);
+          clips.set(url, p);
+          p.catch(() => clips.delete(url));
+        }
+        p.then(b => play(b, false)).catch(() => {});
+      },
+      pcm(bytes) { // 16 bits, stereo, 44.1 kHz
+        const n = bytes.length >> 2, buf = context().createBuffer(2, n, 44100), v = new DataView(bytes.buffer);
+        const l = buf.getChannelData(0), r = buf.getChannelData(1);
+        for (let i = 0; i < n; i++) {
+          l[i] = v.getInt16(4 * i, true) / 32768;
+          r[i] = v.getInt16(4 * i + 2, true) / 32768;
+        }
+        play(buf, false);
+      },
+      music(url, loop) {
+        if (music) { try { music.stop(); } catch (e) {} music = null; }
+        musicURL = url;
+        if (url) decode(url).then(b => { if (musicURL === url) music = play(b, loop); }).catch(() => {});
+      },
+    };
+  })();
   // main_js.go: the files the game does not start with, brought into the cache by the worker (sw.js), not kept in
   // the game's memory; without a worker each comes when the game reads it.
   window.ptWarm = (names) => {
@@ -109,7 +169,7 @@
   };
   // The installed game's worker (sw.js: the files kept for offline play), this build's: one of an older build still
   // in charge would answer from its cache, so the files wait until this one takes over (a few seconds at most).
-  const BUILD = "20261101160836"; // build_demo.sh's stamp
+  const BUILD = "20261101172300"; // build_demo.sh's stamp
   async function worker() {
     if (!("serviceWorker" in navigator)) return;
     const mine = () => (navigator.serviceWorker.controller || {}).scriptURL || "";
