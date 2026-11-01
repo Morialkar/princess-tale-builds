@@ -1,0 +1,5141 @@
+{
+ "name": "CampMainWindow",
+ "active": true,
+ "scripts": [
+  "CampMainWindow",
+  "SafeArea"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   1.0,
+   1.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Scroll View",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     0.3919999897480011
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Background"
+   },
+   "scripts": [
+    "Image",
+    "ScrollRect"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.0
+    ],
+    "anchorMax": [
+     0.5,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1024.0,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     1.0
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Viewport",
+     "active": true,
+     "image": {
+      "type": 1,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "UIMask"
+     },
+     "mask": "RectMask2D",
+     "scripts": [
+      "Image",
+      "RectMask2D"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       2.5
+      ],
+      "size": [
+       0.0,
+       2.5
+      ],
+      "pivot": [
+       0.0,
+       1.0
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "GameObject",
+       "active": true,
+       "rect": {
+        "anchorMin": [
+         0.5,
+         1.0
+        ],
+        "anchorMax": [
+         0.5,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         1024.0,
+         1841.129638671875
+        ],
+        "pivot": [
+         0.5,
+         1.0
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Background",
+         "active": true,
+         "image": {
+          "type": 0,
+          "fillMethod": 4,
+          "fillAmount": 1.0,
+          "fillOrigin": 0,
+          "fillClockwise": true,
+          "preserveAspect": false,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": true,
+          "sprite": "CampBackground"
+         },
+         "scripts": [
+          "Image",
+          "Theme"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           1.0
+          ],
+          "anchorMax": [
+           0.5,
+           1.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           1024.0,
+           2048.0
+          ],
+          "pivot": [
+           0.5,
+           1.0
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Pub",
+           "active": true,
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.8999999761581421,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/GameObject/Background/Pub/Open"
+            ],
+            "downSound": "Btn_Main",
+            "upSound": ""
+           },
+           "unlock": {
+            "content": 9,
+            "objects": [
+             "Scroll View/Viewport/GameObject/Background/Pub/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/GameObject/Background/Pub/Open",
+             "Scroll View/Viewport/GameObject/Background/Pub/ContentsBuildingTitle"
+            ],
+            "lock": [
+             "Scroll View/Viewport/GameObject/Background/Pub/Disable/Lock"
+            ]
+           },
+           "scripts": [
+            "CustomButton",
+            "UnlockComponent",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.0
+            ],
+            "anchorMax": [
+             0.5,
+             0.0
+            ],
+            "position": [
+             129.89999389648438,
+             1140.5999755859375
+            ],
+            "size": [
+             320.0,
+             273.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Open",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "B_pub"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               257.0,
+               220.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "B_pub_close"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/GameObject/Background/Pub/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               3.5
+              ],
+              "size": [
+               250.0,
+               213.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 69.0,
+                 84.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 -0.6450200080871582,
+                 -18.700000762939453
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.4000000059604645,
+                0.4000000059604645
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               -39.79999923706055,
+               -143.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_camp_nobletavern",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "RedDotBase",
+               "active": true,
+               "scripts": [
+                "RedDotEffect"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 155.0,
+                 28.0
+                ],
+                "size": [
+                 34.0,
+                 34.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.5,
+                1.5
+               ],
+               "children": [
+                {
+                 "name": "RedDot",
+                 "active": true,
+                 "image": {
+                  "type": 0,
+                  "fillMethod": 4,
+                  "fillAmount": 1.0,
+                  "fillOrigin": 0,
+                  "fillClockwise": true,
+                  "preserveAspect": false,
+                  "color": [
+                   1.0,
+                   1.0,
+                   1.0,
+                   1.0
+                  ],
+                  "enabled": true,
+                  "raycast": false,
+                  "sprite": "New1"
+                 },
+                 "scripts": [
+                  "Image",
+                  "AtlasImage",
+                  "RedDotGacha"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.0,
+                   0.0
+                  ],
+                  "anchorMax": [
+                   1.0,
+                   1.0
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   0.0,
+                   0.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "RedDotEffect",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     0.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "New1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     0.0,
+                     0.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Ascension",
+           "active": true,
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.8999999761581421,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/GameObject/Background/Ascension/Open"
+            ],
+            "downSound": "Btn_Main",
+            "upSound": ""
+           },
+           "unlock": {
+            "content": 5,
+            "objects": [
+             "Scroll View/Viewport/GameObject/Background/Ascension/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/GameObject/Background/Ascension/Open",
+             "Scroll View/Viewport/GameObject/Background/Ascension/ContentsBuildingTitle"
+            ],
+            "lock": [
+             "Scroll View/Viewport/GameObject/Background/Ascension/Disable/Lock"
+            ]
+           },
+           "scripts": [
+            "CustomButton",
+            "UnlockComponent",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.0
+            ],
+            "anchorMax": [
+             0.5,
+             0.0
+            ],
+            "position": [
+             -212.39999389648438,
+             1341.800048828125
+            ],
+            "size": [
+             303.0,
+             353.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Open",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "B_church"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               240.0,
+               279.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "B_church_close"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/GameObject/Background/Ascension/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               -0.5,
+               3.5
+              ],
+              "size": [
+               233.0,
+               272.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 20.0,
+                 -40.0
+                ],
+                "size": [
+                 69.0,
+                 84.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 19.354999542236328,
+                 -62.542999267578125
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               13.0,
+               -187.60000610351562
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_camp_ascension",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "RedDotBase",
+               "active": true,
+               "scripts": [
+                "RedDotEffect"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 154.0,
+                 25.0
+                ],
+                "size": [
+                 34.0,
+                 34.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.5,
+                1.5
+               ],
+               "children": [
+                {
+                 "name": "RedDot",
+                 "active": true,
+                 "image": {
+                  "type": 0,
+                  "fillMethod": 4,
+                  "fillAmount": 1.0,
+                  "fillOrigin": 0,
+                  "fillClockwise": true,
+                  "preserveAspect": false,
+                  "color": [
+                   1.0,
+                   1.0,
+                   1.0,
+                   1.0
+                  ],
+                  "enabled": true,
+                  "raycast": false,
+                  "sprite": "New1"
+                 },
+                 "scripts": [
+                  "Image",
+                  "AtlasImage",
+                  "RedDotAsend"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.0,
+                   0.0
+                  ],
+                  "anchorMax": [
+                   1.0,
+                   1.0
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   0.0,
+                   0.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "RedDotEffect",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     0.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "New1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     0.0,
+                     0.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "RankingBoard",
+           "active": true,
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.8999999761581421,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/GameObject/Background/RankingBoard/Open"
+            ],
+            "downSound": "Btn_Main",
+            "upSound": ""
+           },
+           "unlock": {
+            "content": 10,
+            "objects": [
+             "Scroll View/Viewport/GameObject/Background/RankingBoard/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/GameObject/Background/RankingBoard/Open",
+             "Scroll View/Viewport/GameObject/Background/RankingBoard/ContentsBuildingTitle"
+            ],
+            "lock": [
+             "Scroll View/Viewport/GameObject/Background/RankingBoard/Disable/Lock"
+            ]
+           },
+           "scripts": [
+            "CustomButton",
+            "UnlockComponent",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.0
+            ],
+            "anchorMax": [
+             0.5,
+             0.0
+            ],
+            "position": [
+             -186.0,
+             1636.0
+            ],
+            "size": [
+             162.0,
+             363.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Open",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "B_rankingboard"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               117.0,
+               259.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "B_rankingboard_close"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/GameObject/Background/RankingBoard/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.5,
+               3.5
+              ],
+              "size": [
+               113.0,
+               255.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 4.0,
+                 -58.0
+                ],
+                "size": [
+                 69.0,
+                 84.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 3.3550000190734863,
+                 -77.5999984741211
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               12.0,
+               -189.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_camp_legends",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "RedDotBase",
+               "active": true,
+               "scripts": [
+                "RedDotEffect"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 156.5,
+                 26.799999237060547
+                ],
+                "size": [
+                 34.0,
+                 34.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.5,
+                1.5
+               ],
+               "children": [
+                {
+                 "name": "RedDot",
+                 "active": true,
+                 "image": {
+                  "type": 0,
+                  "fillMethod": 4,
+                  "fillAmount": 1.0,
+                  "fillOrigin": 0,
+                  "fillClockwise": true,
+                  "preserveAspect": false,
+                  "color": [
+                   1.0,
+                   1.0,
+                   1.0,
+                   1.0
+                  ],
+                  "enabled": true,
+                  "raycast": false,
+                  "sprite": "New1"
+                 },
+                 "scripts": [
+                  "Image",
+                  "AtlasImage",
+                  "RedDotRankingBoard"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.0,
+                   0.0
+                  ],
+                  "anchorMax": [
+                   1.0,
+                   1.0
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   0.0,
+                   0.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "RedDotEffect",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     0.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "New1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     0.0,
+                     0.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Wagon",
+           "active": true,
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.8999999761581421,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/GameObject/Background/Wagon/Open"
+            ],
+            "downSound": "Btn_Main",
+            "upSound": ""
+           },
+           "unlock": {
+            "content": 11,
+            "objects": [
+             "Scroll View/Viewport/GameObject/Background/Wagon/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/GameObject/Background/Wagon/Open",
+             "Scroll View/Viewport/GameObject/Background/Wagon/ContentsBuildingTitle"
+            ],
+            "lock": [
+             "Scroll View/Viewport/GameObject/Background/Wagon/Disable/Lock"
+            ]
+           },
+           "scripts": [
+            "CustomButton",
+            "UnlockComponent",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.0
+            ],
+            "anchorMax": [
+             0.5,
+             0.0
+            ],
+            "position": [
+             256.79998779296875,
+             1339.5
+            ],
+            "size": [
+             320.0,
+             273.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Open",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "B_herodelet"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               173.0,
+               200.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "herodelet_close"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/GameObject/Background/Wagon/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               173.0,
+               200.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 4.0,
+                 1.0
+                ],
+                "size": [
+                 69.0,
+                 84.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 -0.6450200080871582,
+                 -17.600000381469727
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               -4.0,
+               -127.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_camp_cart",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Shop",
+           "active": true,
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.8999999761581421,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/GameObject/Background/Shop/Open"
+            ],
+            "downSound": "Btn_Main",
+            "upSound": ""
+           },
+           "unlock": {
+            "content": 2,
+            "objects": [
+             "Scroll View/Viewport/GameObject/Background/Shop/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/GameObject/Background/Shop/ContentsBuildingTitle",
+             "Scroll View/Viewport/GameObject/Background/Shop/Open"
+            ],
+            "lock": [
+             "Scroll View/Viewport/GameObject/Background/Shop/Disable/Lock"
+            ]
+           },
+           "scripts": [
+            "CustomButton",
+            "UnlockComponent",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.0
+            ],
+            "anchorMax": [
+             0.5,
+             0.0
+            ],
+            "position": [
+             -179.8000030517578,
+             954.2999877929688
+            ],
+            "size": [
+             320.0,
+             273.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Open",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "B_shop"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               240.0,
+               290.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "shop_close"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/GameObject/Background/Shop/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               240.0,
+               290.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 4.0,
+                 -5.0
+                ],
+                "size": [
+                 69.0,
+                 84.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 3.3550000190734863,
+                 -22.930999755859375
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               6.0,
+               -130.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_camp_contentstore",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Resonance",
+           "active": true,
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.8999999761581421,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/GameObject/Background/Resonance/Open"
+            ],
+            "downSound": "Btn_Main",
+            "upSound": ""
+           },
+           "unlock": {
+            "content": 14,
+            "objects": [
+             "Scroll View/Viewport/GameObject/Background/Resonance/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/GameObject/Background/Resonance/Open",
+             "Scroll View/Viewport/GameObject/Background/Resonance/ContentsBuildingTitle"
+            ],
+            "lock": [
+             "Scroll View/Viewport/GameObject/Background/Resonance/Disable/Lock"
+            ]
+           },
+           "scripts": [
+            "CustomButton",
+            "UnlockComponent",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.0
+            ],
+            "anchorMax": [
+             0.5,
+             0.0
+            ],
+            "position": [
+             212.8000030517578,
+             877.9000244140625
+            ],
+            "size": [
+             320.0,
+             273.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Open",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "B_crystal"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               223.0,
+               283.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "B_crystal_close"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/GameObject/Background/Resonance/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               223.0,
+               283.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 4.0,
+                 1.0
+                ],
+                "size": [
+                 69.0,
+                 84.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 3.3550000190734863,
+                 -18.700000762939453
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               1.0,
+               -150.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_camp_resonating",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "RedDotBase",
+               "active": true,
+               "scripts": [
+                "RedDotEffect"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 155.0,
+                 25.0
+                ],
+                "size": [
+                 34.0,
+                 34.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.4999998807907104,
+                1.4999998807907104
+               ],
+               "children": [
+                {
+                 "name": "RedDot",
+                 "active": true,
+                 "image": {
+                  "type": 0,
+                  "fillMethod": 4,
+                  "fillAmount": 1.0,
+                  "fillOrigin": 0,
+                  "fillClockwise": true,
+                  "preserveAspect": false,
+                  "color": [
+                   1.0,
+                   1.0,
+                   1.0,
+                   1.0
+                  ],
+                  "enabled": true,
+                  "raycast": false,
+                  "sprite": "New1"
+                 },
+                 "scripts": [
+                  "Image",
+                  "AtlasImage",
+                  "RedDotResonance"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.0,
+                   0.0
+                  ],
+                  "anchorMax": [
+                   1.0,
+                   1.0
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   0.0,
+                   0.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "RedDotEffect",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     0.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "New1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     0.0,
+                     0.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Guild",
+           "active": true,
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.8999999761581421,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/GameObject/Background/Guild/Open"
+            ],
+            "downSound": "Btn_Main",
+            "upSound": ""
+           },
+           "unlock": {
+            "content": 22,
+            "objects": [
+             "Scroll View/Viewport/GameObject/Background/Guild/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/GameObject/Background/Guild/Open",
+             "Scroll View/Viewport/GameObject/Background/Guild/ContentsBuildingTitle"
+            ],
+            "lock": [
+             "Scroll View/Viewport/GameObject/Background/Guild/Disable/Lock"
+            ]
+           },
+           "scripts": [
+            "CustomButton",
+            "UnlockComponent",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.0
+            ],
+            "anchorMax": [
+             0.5,
+             0.0
+            ],
+            "position": [
+             151.89999389648438,
+             1542.5
+            ],
+            "size": [
+             320.0,
+             273.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Open",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "guild_line"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               296.0,
+               392.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "lock_guild"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/GameObject/Background/Guild/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               296.0,
+               392.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 4.0,
+                 1.0
+                ],
+                "size": [
+                 69.0,
+                 84.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 3.3550000190734863,
+                 -18.700000762939453
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               1.0,
+               -116.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_camp_guild",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "RedDotBase",
+               "active": true,
+               "scripts": [
+                "RedDotEffect"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 155.0,
+                 25.0
+                ],
+                "size": [
+                 34.0,
+                 34.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.4999998807907104,
+                1.4999998807907104
+               ],
+               "children": [
+                {
+                 "name": "RedDot",
+                 "active": true,
+                 "image": {
+                  "type": 0,
+                  "fillMethod": 4,
+                  "fillAmount": 1.0,
+                  "fillOrigin": 0,
+                  "fillClockwise": true,
+                  "preserveAspect": false,
+                  "color": [
+                   1.0,
+                   1.0,
+                   1.0,
+                   1.0
+                  ],
+                  "enabled": true,
+                  "raycast": false,
+                  "sprite": "New1"
+                 },
+                 "scripts": [
+                  "Image",
+                  "AtlasImage",
+                  "RedDotGuild"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.0,
+                   0.0
+                  ],
+                  "anchorMax": [
+                   1.0,
+                   1.0
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   0.0,
+                   0.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "RedDotEffect",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     0.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "New1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     0.0,
+                     0.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Relation",
+           "active": true,
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.8999999761581421,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/GameObject/Background/Relation/Open"
+            ],
+            "downSound": "Btn_Main",
+            "upSound": ""
+           },
+           "unlock": {
+            "content": 29,
+            "objects": [
+             "Scroll View/Viewport/GameObject/Background/Relation/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/GameObject/Background/Relation/ContentsBuildingTitle",
+             "Scroll View/Viewport/GameObject/Background/Relation/Open"
+            ],
+            "lock": [
+             "Scroll View/Viewport/GameObject/Background/Relation/Disable/Lock"
+            ]
+           },
+           "scripts": [
+            "CustomButton",
+            "UnlockComponent",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.0
+            ],
+            "anchorMax": [
+             0.5,
+             0.0
+            ],
+            "position": [
+             -162.3000030517578,
+             696.2999877929688
+            ],
+            "size": [
+             320.0,
+             273.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Open",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "relationship_line"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               220.0,
+               229.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "lock_relationship"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/GameObject/Background/Relation/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               215.0,
+               233.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 4.0,
+                 -5.0
+                ],
+                "size": [
+                 69.0,
+                 84.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 3.3550000190734863,
+                 -22.930999755859375
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               6.0,
+               -130.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_rel_name",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "RedDotBase",
+               "active": true,
+               "scripts": [
+                "RedDotEffect"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 150.0,
+                 28.0
+                ],
+                "size": [
+                 34.0,
+                 34.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.4999998807907104,
+                1.4999998807907104
+               ],
+               "children": [
+                {
+                 "name": "RedDot",
+                 "active": true,
+                 "image": {
+                  "type": 0,
+                  "fillMethod": 4,
+                  "fillAmount": 1.0,
+                  "fillOrigin": 0,
+                  "fillClockwise": true,
+                  "preserveAspect": false,
+                  "color": [
+                   1.0,
+                   1.0,
+                   1.0,
+                   1.0
+                  ],
+                  "enabled": true,
+                  "raycast": false,
+                  "sprite": "New1"
+                 },
+                 "scripts": [
+                  "Image",
+                  "AtlasImage",
+                  "RedDotRelation"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.0,
+                   0.0
+                  ],
+                  "anchorMax": [
+                   1.0,
+                   1.0
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   0.0,
+                   0.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "RedDotEffect",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     0.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "New1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     0.0,
+                     0.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Housing",
+           "active": true,
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.8999999761581421,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/GameObject/Background/Housing/Open"
+            ],
+            "downSound": "Btn_Main",
+            "upSound": ""
+           },
+           "unlock": {
+            "content": 48,
+            "objects": [
+             "Scroll View/Viewport/GameObject/Background/Housing/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/GameObject/Background/Housing/ContentsBuildingTitle",
+             "Scroll View/Viewport/GameObject/Background/Housing/Open"
+            ],
+            "lock": [
+             "Scroll View/Viewport/GameObject/Background/Housing/Disable/Lock"
+            ]
+           },
+           "scripts": [
+            "CustomButton",
+            "UnlockComponent",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.0
+            ],
+            "anchorMax": [
+             0.5,
+             0.0
+            ],
+            "position": [
+             217.6999969482422,
+             500.0
+            ],
+            "size": [
+             320.0,
+             273.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Open",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "mansion_line"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               354.0,
+               342.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "lock_mansion"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/GameObject/Background/Housing/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.0
+              ],
+              "anchorMax": [
+               0.5,
+               0.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               354.0,
+               342.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 4.0,
+                 -5.0
+                ],
+                "size": [
+                 69.0,
+                 84.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 3.3550000190734863,
+                 -22.930999755859375
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               -21.0,
+               -91.80000305175781
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_housing_title",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "RedDotBase",
+               "active": true,
+               "scripts": [
+                "RedDotEffect"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 150.0,
+                 28.0
+                ],
+                "size": [
+                 34.0,
+                 34.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.4999998807907104,
+                1.4999998807907104
+               ],
+               "children": [
+                {
+                 "name": "RedDot",
+                 "active": true,
+                 "image": {
+                  "type": 0,
+                  "fillMethod": 4,
+                  "fillAmount": 1.0,
+                  "fillOrigin": 0,
+                  "fillClockwise": true,
+                  "preserveAspect": false,
+                  "color": [
+                   1.0,
+                   1.0,
+                   1.0,
+                   1.0
+                  ],
+                  "enabled": true,
+                  "raycast": false,
+                  "sprite": "New1"
+                 },
+                 "scripts": [
+                  "Image",
+                  "AtlasImage",
+                  "RedDotHousingLike"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.0,
+                   0.0
+                  ],
+                  "anchorMax": [
+                   1.0,
+                   1.0
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   0.0,
+                   0.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "RedDotEffect",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     0.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "New1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     0.0,
+                     0.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

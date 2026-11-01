@@ -26658,6 +26658,20 @@
             {
              "name": "Content",
              "active": true,
+             "scroll": {
+              "kind": "ScrollContent_HeroSlotInventory",
+              "scrollType": 0,
+              "alignType": 1,
+              "itemAlignType": 0,
+              "lineCount": 5,
+              "itemScale": 1.0,
+              "itemMargin": {
+               "left": 0.0,
+               "top": 0.0,
+               "right": 0.0,
+               "bottom": 0.0
+              }
+             },
              "scripts": [
               "ScrollContent_HeroSlotInventory"
              ],
@@ -29980,6 +29994,20 @@
             {
              "name": "Content",
              "active": true,
+             "scroll": {
+              "kind": "ScrollContent_TroopTeamEntitySelector",
+              "scrollType": 0,
+              "alignType": 1,
+              "itemAlignType": 0,
+              "lineCount": 2,
+              "itemScale": 1.0,
+              "itemMargin": {
+               "left": 0.0,
+               "top": 0.0,
+               "right": 0.0,
+               "bottom": 0.0
+              }
+             },
              "scripts": [
               "ScrollContent_TroopTeamEntitySelector"
              ],

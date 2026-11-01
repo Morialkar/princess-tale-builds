@@ -245,7 +245,8 @@
          1.0,
          1.0,
          1.0
-        ]
+        ],
+        "skeleton": "character_illust_view"
        },
        "scripts": [
         "SkeletonGraphic",

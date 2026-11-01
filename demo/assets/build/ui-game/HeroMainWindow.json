@@ -4113,6 +4113,20 @@
             {
              "name": "Content",
              "active": true,
+             "scroll": {
+              "kind": "ScrollContent_HeroSlot",
+              "scrollType": 0,
+              "alignType": 0,
+              "itemAlignType": 0,
+              "lineCount": 5,
+              "itemScale": 1.0,
+              "itemMargin": {
+               "left": 1.5,
+               "top": 1.5,
+               "right": 1.5,
+               "bottom": 1.5
+              }
+             },
              "scripts": [
               "ScrollContent_HeroSlot"
              ],
@@ -7494,6 +7508,20 @@
             {
              "name": "Content",
              "active": true,
+             "scroll": {
+              "kind": "ScrollContent_TroopTeamEntity",
+              "scrollType": 0,
+              "alignType": 0,
+              "itemAlignType": 0,
+              "lineCount": 2,
+              "itemScale": 1.0,
+              "itemMargin": {
+               "left": 0.0,
+               "top": 0.0,
+               "right": 0.0,
+               "bottom": 0.0
+              }
+             },
              "scripts": [
               "ScrollContent_TroopTeamEntity"
              ],

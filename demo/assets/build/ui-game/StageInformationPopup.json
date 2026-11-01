@@ -11680,6 +11680,20 @@
             {
              "name": "Content",
              "active": true,
+             "scroll": {
+              "kind": "ScrollContent_StageReward",
+              "scrollType": 1,
+              "alignType": 0,
+              "itemAlignType": 0,
+              "lineCount": 1,
+              "itemScale": 1.0,
+              "itemMargin": {
+               "left": 1.5,
+               "top": 0.0,
+               "right": 1.5,
+               "bottom": 0.0
+              }
+             },
              "scripts": [
               "ScrollContent_StageReward"
              ],
