@@ -7747,7 +7747,33 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Icon_Attic2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Icon_Bar1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_Bar2": {
   "border": [
    0.0,
    0.0,
@@ -8320,6 +8346,19 @@
   "pixelsPerUnit": 100.0
  },
  "Icon_FurnitureSummon1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_FurnitureSummon2": {
   "border": [
    0.0,
    0.0,

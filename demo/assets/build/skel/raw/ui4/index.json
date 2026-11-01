@@ -1,0 +1,56 @@
+{
+ "Open_Box": {
+  "asset": "Open_Box_SkeletonData",
+  "atlases": [
+   "UI_04"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "atti_box": {
+  "asset": "atti_box_SkeletonData",
+  "atlases": [
+   "UI_04"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "crystal": {
+  "asset": "crystal_SkeletonData",
+  "atlases": [
+   "UI_04"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "gate_att": {
+  "asset": "gate_att_SkeletonData",
+  "atlases": [
+   "UI_04"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "guild_vs": {
+  "asset": "guild_vs_SkeletonData",
+  "atlases": [
+   "UI_04"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "star": {
+  "asset": "star_SkeletonData",
+  "atlases": [
+   "UI_04"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}

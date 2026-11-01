@@ -1,0 +1,286 @@
+
+UI_04.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Attic/Attic_Box_Body
+  rotate: false
+  xy: 1206, 1345
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+Attic/Attic_Box_Body_Premium
+  rotate: false
+  xy: 1514, 1345
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+Attic/Attic_Box_Top_01
+  rotate: false
+  xy: 2, 139
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+Attic/Attic_Box_Top_02
+  rotate: false
+  xy: 761, 522
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+Attic/Attic_Box_Top_Premium_01
+  rotate: false
+  xy: 761, 260
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+Attic/Attic_Box_Top_Premium_02
+  rotate: false
+  xy: 310, 82
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+crystal/Crystal_Altar1
+  rotate: false
+  xy: 1807, 1626
+  size: 100, 120
+  orig: 100, 120
+  offset: 0, 0
+  index: -1
+crystal/Crystal_Altar2
+  rotate: false
+  xy: 1206, 1223
+  size: 100, 120
+  orig: 100, 120
+  offset: 0, 0
+  index: -1
+crystal/Crystal_Crystal1
+  rotate: false
+  xy: 1365, 1253
+  size: 50, 90
+  orig: 50, 90
+  offset: 0, 0
+  index: -1
+crystal/Crystal_Crystal1_effect
+  rotate: false
+  xy: 1308, 1250
+  size: 55, 93
+  orig: 55, 93
+  offset: 0, 0
+  index: -1
+effect/flare03
+  rotate: false
+  xy: 740, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/gradetion
+  rotate: false
+  xy: 1168, 1264
+  size: 36, 341
+  orig: 36, 341
+  offset: 0, 0
+  index: -1
+gacha_h/gacha_h_ToolBox1_Body
+  rotate: false
+  xy: 1480, 541
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+gacha_h/gacha_h_ToolBox2_Body
+  rotate: false
+  xy: 1525, 993
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+gacha_h/gacha_h_ToolBox2_Top_01
+  rotate: false
+  xy: 1480, 279
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+gacha_h/gacha_h_ToolBox2_Top_02
+  rotate: false
+  xy: 1069, 120
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+guildwar/guildwar_s
+  rotate: false
+  xy: 618, 182
+  size: 120, 160
+  orig: 120, 160
+  offset: 0, 0
+  index: -1
+guildwar/guildwar_s_effect
+  rotate: false
+  xy: 1807, 1748
+  size: 124, 160
+  orig: 124, 160
+  offset: 0, 0
+  index: -1
+guildwar/guildwar_v
+  rotate: false
+  xy: 1822, 1464
+  size: 120, 160
+  orig: 120, 160
+  offset: 0, 0
+  index: -1
+guildwar/guildwar_v_effect
+  rotate: false
+  xy: 1822, 1302
+  size: 120, 160
+  orig: 120, 160
+  offset: 0, 0
+  index: -1
+light/highlight
+  rotate: false
+  xy: 1807, 1614
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+lock/lock
+  rotate: false
+  xy: 1417, 1255
+  size: 108, 88
+  orig: 108, 88
+  offset: 0, 0
+  index: -1
+lock/lock_02
+  rotate: false
+  xy: 128, 79
+  size: 96, 58
+  orig: 96, 58
+  offset: 0, 0
+  index: -1
+lock/lock_02_effect
+  rotate: false
+  xy: 2, 51
+  size: 124, 86
+  orig: 124, 86
+  offset: 0, 0
+  index: -1
+lock/lock_effect
+  rotate: false
+  xy: 1807, 1910
+  size: 136, 116
+  orig: 136, 116
+  offset: 0, 0
+  index: -1
+star/Star
+  rotate: false
+  xy: 2, 803
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+star/Star2
+  rotate: false
+  xy: 1123, 803
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+star/Star3
+  rotate: false
+  xy: 766, 1205
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+star/Star_Back
+  rotate: false
+  xy: 2, 1205
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+star/Star_effect
+  rotate: false
+  xy: 2, 401
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+tower_gate/gate_left
+  rotate: false
+  xy: 2, 1607
+  size: 360, 419
+  orig: 360, 419
+  offset: 0, 0
+  index: -1
+tower_gate/gate_left_fire
+  rotate: false
+  xy: 364, 1607
+  size: 360, 419
+  orig: 360, 419
+  offset: 0, 0
+  index: -1
+tower_gate/gate_left_nature
+  rotate: false
+  xy: 404, 1186
+  size: 360, 419
+  orig: 360, 419
+  offset: 0, 0
+  index: -1
+tower_gate/gate_left_water
+  rotate: false
+  xy: 726, 1607
+  size: 360, 419
+  orig: 360, 419
+  offset: 0, 0
+  index: -1
+tower_gate/gate_left_wind
+  rotate: false
+  xy: 1088, 1607
+  size: 360, 419
+  orig: 360, 419
+  offset: 0, 0
+  index: -1
+tower_gate/gate_right
+  rotate: false
+  xy: 766, 784
+  size: 355, 419
+  orig: 355, 419
+  offset: 0, 0
+  index: -1
+tower_gate/gate_right_fire
+  rotate: false
+  xy: 404, 765
+  size: 355, 419
+  orig: 355, 419
+  offset: 0, 0
+  index: -1
+tower_gate/gate_right_nature
+  rotate: false
+  xy: 1450, 1607
+  size: 355, 419
+  orig: 355, 419
+  offset: 0, 0
+  index: -1
+tower_gate/gate_right_water
+  rotate: false
+  xy: 1123, 382
+  size: 355, 419
+  orig: 355, 419
+  offset: 0, 0
+  index: -1
+tower_gate/gate_right_wind
+  rotate: false
+  xy: 404, 344
+  size: 355, 419
+  orig: 355, 419
+  offset: 0, 0
+  index: -1
