@@ -95,7 +95,8 @@
      1.0,
      1.0,
      1.0
-    ]
+    ],
+    "skeleton": "cloud"
    },
    "scripts": [
     "SkeletonGraphic"
@@ -321,7 +322,8 @@
      1.0,
      1.0,
      1.0
-    ]
+    ],
+    "skeleton": "grass"
    },
    "scripts": [
     "SkeletonGraphic"

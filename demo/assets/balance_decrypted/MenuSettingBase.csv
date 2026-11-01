@@ -1,0 +1,15 @@
+﻿Index,Key,Name,AssBundle,Icon,Component,RedDotComponent,HotIcon
+int,string,string,string,string,string,string,bool
+1,SHOP,ui_localize_Store,UIICON,Shop1,TopMenuShop,RedDotCashShop,FALSE
+2,EVENT,ui_localize_Event,UIICON,Event1,TopMenuEvent,ReddotEvent,FALSE
+3,DAILY,ui_localize_Attendance book,UIICON,Calender1,TopMenuDaily,,FALSE
+4,POST,ui_localize_letter,UIICON,Message1,TopMenuPost,RedDotMail,FALSE
+5,FRIEND,ui_localize_friend,UIICON,Friend1,TopMenuFriend,RedDotFriend,FALSE
+6,INVENTORY,ui_localize_bag,UIICON,Bag1,TopMenuInventory,RedDotInventory,FALSE
+7,QUEST,ui_localize_Quest,UIICON,Quest1,TopMenuQuest,RedDotQuest,FALSE
+8,NOTICE,ui_localize_notice,UIICON,Megaphone1,TopMenuNotice,RedDotNotice,FALSE
+9,SPECIAL_SELLER,ui_localize_instant_package_name_detail,UIICON,Icon_Surpresent1,TopMenuSpecialSeller,,FALSE
+10,EVENT_MENU,event_first_charge_title,UIICON,FirstCharge1,TopMenuBuyInApp,,FALSE
+11,LIMITED_SELLER,ui_localize_cash_shop_sub_limit,UIICON,Icon_Limited1,TopMenuLimitedSeller,,FALSE
+12,FIRST_INAPP,event_first_charge_title,UIICON,FirstCharge1,TopMenuBuyInApp,,TRUE
+13,SPECIAL_SELLER_SELECT,pt_selectpopup1200_1_Name,UIICON,First_Select_1,TopMenuSpecialSeller,,TRUE

@@ -1,0 +1,65 @@
+{
+ "cloud": {
+  "asset": "cloud_SkeletonData",
+  "atlases": [
+   "cloud"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "cloud_guild": {
+  "asset": "cloud_guild_SkeletonData",
+  "atlases": [
+   "cloud"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "cloud_noshadow": {
+  "asset": "cloud_noshadow_SkeletonData",
+  "atlases": [
+   "cloud"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "grass": {
+  "asset": "grass_SkeletonData",
+  "atlases": [
+   "grass"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "maze": {
+  "asset": "maze_SkeletonData",
+  "atlases": [
+   "area"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "minigame": {
+  "asset": "minigame_SkeletonData",
+  "atlases": [
+   "area"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "tower": {
+  "asset": "tower_SkeletonData",
+  "atlases": [
+   "area"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}

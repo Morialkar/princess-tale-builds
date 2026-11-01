@@ -909,6 +909,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Bag1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Bdragon_1": {
   "border": [
    0.0,
@@ -3327,6 +3340,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Event1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "EvilPet_1": {
   "border": [
    0.0,
@@ -3587,6 +3613,32 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "FirstCharge1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "First_Select_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Flora_1": {
   "border": [
    0.0,
@@ -3770,6 +3822,19 @@
   "pixelsPerUnit": 100.0
  },
  "Foxy_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Friend1": {
   "border": [
    0.0,
    0.0,
@@ -4952,6 +5017,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Icon_Limited1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Icon_Mercenary_Mark1": {
   "border": [
    0.0,
@@ -4992,6 +5070,19 @@
   "pixelsPerUnit": 100.0
  },
  "Icon_Skinroom1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_Surpresent1": {
   "border": [
    0.0,
    0.0,
@@ -5472,6 +5563,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Label1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Ladydeath_1": {
   "border": [
    0.0,
@@ -5771,11 +5875,37 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Megaphone1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "MenuBar1": {
   "border": [
    400.0,
    0.0,
    400.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Message1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
    0.0
   ],
   "pivot": [
@@ -6656,6 +6786,19 @@
   "pixelsPerUnit": 100.0
  },
  "Queen_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Quest1": {
   "border": [
    0.0,
    0.0,
@@ -7592,6 +7735,19 @@
   "pixelsPerUnit": 100.0
  },
  "Shield1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Shop1": {
   "border": [
    0.0,
    0.0,

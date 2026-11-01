@@ -1,0 +1,41 @@
+
+grass.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+foreground/bg_00_02
+  rotate: false
+  xy: 377, 2
+  size: 413, 315
+  orig: 413, 315
+  offset: 0, 0
+  index: -1
+foreground/bg_00_04
+  rotate: false
+  xy: 2, 61
+  size: 373, 840
+  orig: 373, 840
+  offset: 0, 0
+  index: -1
+foreground/bg_01_02
+  rotate: false
+  xy: 377, 319
+  size: 426, 582
+  orig: 426, 582
+  offset: 0, 0
+  index: -1
+foreground/bg_01_03
+  rotate: false
+  xy: 805, 464
+  size: 234, 437
+  orig: 234, 437
+  offset: 0, 0
+  index: -1
+foreground/bg_02_01
+  rotate: false
+  xy: 792, 14
+  size: 298, 303
+  orig: 298, 303
+  offset: 0, 0
+  index: -1
