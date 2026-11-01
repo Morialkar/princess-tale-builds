@@ -7,15 +7,15 @@
  "rect": {
   "anchorMin": [
    0.5,
-   1.0
+   0.5
   ],
   "anchorMax": [
    0.5,
-   1.0
+   0.5
   ],
   "position": [
    0.0,
-   -69.5
+   0.0
   ],
   "size": [
    130.0,
@@ -27,8 +27,8 @@
   ]
  },
  "scale": [
-  0.8999999761581421,
-  0.8999999761581421
+  1.0,
+  1.0
  ],
  "children": [
   {
@@ -45,7 +45,7 @@
     ],
     "position": [
      0.0,
-     12.500000953674316
+     12.5
     ],
     "size": [
      130.0,
@@ -84,13 +84,13 @@
      "mask": "Mask",
      "button": {
       "kind": "CustomButton",
-      "down": 0.8500000238418579,
-      "up": 0.8999999761581421,
+      "down": 0.949999988079071,
+      "up": 1.0,
       "mirror": false,
       "targets": [
        ""
       ],
-      "downSound": "",
+      "downSound": "Button01_02",
       "upSound": ""
      },
      "scripts": [
@@ -399,7 +399,7 @@
        0.0,
        0.0,
        0.0,
-       0.0
+       0.7843137383460999
       ],
       "enabled": true,
       "raycast": false,
@@ -450,7 +450,7 @@
          1.0,
          1.0,
          1.0,
-         0.0
+         1.0
         ],
         "enabled": true,
         "raycast": false,
@@ -565,19 +565,19 @@
    "active": true,
    "rect": {
     "anchorMin": [
-     0.5,
-     1.0
+     0.0,
+     0.0
     ],
     "anchorMax": [
-     0.5,
-     1.0
+     1.0,
+     0.0
     ],
     "position": [
      0.0,
-     -142.5
+     12.5
     ],
     "size": [
-     130.0,
+     0.0,
      25.0
     ],
     "pivot": [
@@ -715,57 +715,6 @@
       }
      ]
     }
-   ]
-  },
-  {
-   "name": "Grade",
-   "active": true,
-   "image": {
-    "type": 0,
-    "fillMethod": 4,
-    "fillAmount": 1.0,
-    "fillOrigin": 0,
-    "fillClockwise": true,
-    "preserveAspect": false,
-    "color": [
-     1.0,
-     1.0,
-     1.0,
-     1.0
-    ],
-    "enabled": true,
-    "raycast": false,
-    "sprite": "Icon_Ability_SSS_Big1"
-   },
-   "scripts": [
-    "Image",
-    "AtlasImage"
-   ],
-   "rect": {
-    "anchorMin": [
-     1.0,
-     1.0
-    ],
-    "anchorMax": [
-     1.0,
-     1.0
-    ],
-    "position": [
-     -25.5,
-     -23.600000381469727
-    ],
-    "size": [
-     82.0,
-     80.0
-    ],
-    "pivot": [
-     0.5,
-     0.5
-    ]
-   },
-   "scale": [
-    0.6000000238418579,
-    0.6000000238418579
    ]
   }
  ]
