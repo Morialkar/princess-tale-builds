@@ -3,7 +3,9 @@
 // game.html registers sw.js?v=BUILD): a new build is a new worker and a new cache, the old ones dropped once it takes
 // over (game.html waits for it before asking for the game's files).
 //   - assets/ (the game's files: the same for a build) from the cache first, kept as they come;
-//   - the rest (game.html, battle.wasm, the scripts, the lists) from the network first, the cache when it fails.
+//   - the rest (game.html, battle.wasm, the scripts, the lists) from the network first, the cache when it fails;
+//   - {warm: [paths]} from the page (game.html's ptWarm: the files the game does not start with) brings those files
+//     into the cache, two at a time, out of the page's memory: the game reads each from here when it needs it.
 const BUILD = new URL(self.location).searchParams.get("v") || "dev";
 const CACHE = "princess-tale-" + BUILD;
 
@@ -46,3 +48,27 @@ async function networkFirst(r) {
     throw err;
   }
 }
+
+self.addEventListener("message", (e) => {
+  const names = e.data && e.data.warm;
+  if (!Array.isArray(names)) return;
+  e.waitUntil((async () => {
+    const c = await caches.open(CACHE);
+    const base = new URL("./", self.location).href;
+    let next = 0;
+    const one = async () => {
+      while (next < names.length) {
+        const url = base + names[next++];
+        try {
+          if (await c.match(url)) continue;
+          const res = await fetch(url);
+          if (res.ok) await c.put(url, res);
+        } catch (err) {
+          // a file not brought now comes when the game reads it
+        }
+      }
+    };
+    await Promise.all([one(), one()]);
+  })());
+});
+

@@ -73,6 +73,12 @@
   // main_js.go: ptGame shows the local game's main screen; demoReady comes once it is set up.
   window.ptGame = true;
   window.demoReady = () => document.getElementById("loading").remove();
+  // main_js.go: the files the game does not start with, brought into the cache by the worker (sw.js), not kept in
+  // the game's memory; without a worker each comes when the game reads it.
+  window.ptWarm = (names) => {
+    if (!("serviceWorker" in navigator)) return;
+    navigator.serviceWorker.ready.then(r => r.active && r.active.postMessage({ warm: names }));
+  };
   async function wasm() {
     const r = await fetch("battle.wasm");
     if (!r.ok) throw new Error("battle.wasm: " + r.status);
@@ -103,7 +109,7 @@
   };
   // The installed game's worker (sw.js: the files kept for offline play), this build's: one of an older build still
   // in charge would answer from its cache, so the files wait until this one takes over (a few seconds at most).
-  const BUILD = "20261101152426"; // build_demo.sh's stamp
+  const BUILD = "20261101154301"; // build_demo.sh's stamp
   async function worker() {
     if (!("serviceWorker" in navigator)) return;
     const mine = () => (navigator.serviceWorker.controller || {}).scriptURL || "";
