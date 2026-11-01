@@ -2767,7 +2767,13 @@
               "alignType": 1,
               "itemAlignType": 1,
               "lineCount": 7,
-              "itemScale": 0.7599999904632568
+              "itemScale": 0.7599999904632568,
+              "itemMargin": {
+               "left": 0.0,
+               "top": 0.0,
+               "right": 0.0,
+               "bottom": 0.0
+              }
              },
              "scripts": [
               "ScrollContent_ItemReward"

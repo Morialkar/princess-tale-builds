@@ -9164,6 +9164,19 @@
   ],
   "pixelsPerUnit": 200.0
  },
+ "Knob~2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 200.0
+ },
  "LOAD_MAG": {
   "border": [
    0.0,
@@ -10113,7 +10126,7 @@
   ],
   "pixelsPerUnit": 100.0
  },
- "PIRATE": {
+ "PIRATE~2": {
   "border": [
    0.0,
    0.0,
@@ -14729,6 +14742,19 @@
   "pixelsPerUnit": 100.0
  },
  "UIMask": {
+  "border": [
+   10.0,
+   10.0,
+   10.0,
+   10.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 200.0
+ },
+ "UISprite": {
   "border": [
    10.0,
    10.0,
