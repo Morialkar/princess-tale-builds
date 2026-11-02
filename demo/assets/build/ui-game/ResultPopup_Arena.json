@@ -2108,6 +2108,10 @@
           "vOverflow": 0
          },
          "localize": "ui_localize_ranking",
+         "fit": [
+          true,
+          false
+         ],
          "scripts": [
           "Text",
           "LocalizeString"
@@ -2160,6 +2164,10 @@
           "hOverflow": 0,
           "vOverflow": 0
          },
+         "fit": [
+          true,
+          false
+         ],
          "scripts": [
           "Text",
           "LocalizeString"
@@ -2315,6 +2323,10 @@
           "hOverflow": 0,
           "vOverflow": 0
          },
+         "fit": [
+          true,
+          false
+         ],
          "scripts": [
           "Text",
           "LocalizeString"
@@ -2399,6 +2411,10 @@
           "hOverflow": 0,
           "vOverflow": 0
          },
+         "fit": [
+          true,
+          false
+         ],
          "scripts": [
           "Text",
           "LocalizeString"
@@ -3019,6 +3035,10 @@
             "hOverflow": 0,
             "vOverflow": 0
            },
+           "fit": [
+            true,
+            false
+           ],
            "scripts": [
             "Text",
             "LocalizeString"
@@ -3156,6 +3176,10 @@
           "hOverflow": 0,
           "vOverflow": 0
          },
+         "fit": [
+          true,
+          false
+         ],
          "scripts": [
           "Text",
           "LocalizeString"
@@ -3776,6 +3800,10 @@
             "hOverflow": 0,
             "vOverflow": 0
            },
+           "fit": [
+            true,
+            false
+           ],
            "scripts": [
             "Text",
             "LocalizeString"

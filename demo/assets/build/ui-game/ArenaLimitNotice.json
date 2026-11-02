@@ -1,0 +1,179 @@
+{
+ "name": "ArenaLimit",
+ "active": false,
+ "image": {
+  "type": 1,
+  "fillMethod": 4,
+  "fillAmount": 1.0,
+  "fillOrigin": 0,
+  "fillClockwise": true,
+  "preserveAspect": false,
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "enabled": true,
+  "raycast": true,
+  "sprite": "Popup1"
+ },
+ "scripts": [
+  "Image",
+  "AtlasImage",
+  "ArenaLimitNotice"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   1.0
+  ],
+  "anchorMax": [
+   0.0,
+   1.0
+  ],
+  "position": [
+   318.29974365234375,
+   -1016.7252197265625
+  ],
+  "size": [
+   636.5999755859375,
+   140.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "BG",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     0.5882353186607361
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Slot3"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     -50.0,
+     -50.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Text",
+     "active": true,
+     "text": {
+      "text": "\uc624\ub298 \uc2b9\ub9ac\ub85c \ud68d\ub4dd \uac00\ub2a5\ud55c \ub0a8\uc740 \ubcf4\uc0c1 \ud69f\uc218 : 0\ud68c",
+      "font": "MaplestoryBold",
+      "size": 24,
+      "style": 1,
+      "alignment": 4,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 0,
+      "vOverflow": 0,
+      "bestFit": [
+       14,
+       24
+      ]
+     },
+     "effects": [
+      {
+       "kind": "NicerOutline",
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        0.75,
+        -0.75
+       ]
+      }
+     ],
+     "scripts": [
+      "Text",
+      "LocalizeString",
+      "NicerOutline"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       -30.0,
+       -30.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  }
+ ]
+}

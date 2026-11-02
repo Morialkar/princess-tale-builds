@@ -1689,6 +1689,10 @@
              ]
             }
            ],
+           "fit": [
+            false,
+            true
+           ],
            "scripts": [
             "Text",
             "Outline",
@@ -1860,6 +1864,10 @@
               -1.0
              ]
             }
+           ],
+           "fit": [
+            false,
+            true
            ],
            "scripts": [
             "Text",

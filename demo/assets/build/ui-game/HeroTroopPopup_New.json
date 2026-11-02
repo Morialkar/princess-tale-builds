@@ -25471,6 +25471,10 @@
               "hOverflow": 0,
               "vOverflow": 0
              },
+             "fit": [
+              true,
+              false
+             ],
              "effects": [
               {
                "kind": "NicerOutline",
@@ -25592,6 +25596,10 @@
               "hOverflow": 0,
               "vOverflow": 0
              },
+             "fit": [
+              true,
+              false
+             ],
              "effects": [
               {
                "kind": "NicerOutline",
@@ -25713,6 +25721,10 @@
               "hOverflow": 0,
               "vOverflow": 0
              },
+             "fit": [
+              true,
+              false
+             ],
              "effects": [
               {
                "kind": "NicerOutline",
@@ -25834,6 +25846,10 @@
               "hOverflow": 0,
               "vOverflow": 0
              },
+             "fit": [
+              true,
+              false
+             ],
              "effects": [
               {
                "kind": "NicerOutline",
@@ -25955,6 +25971,10 @@
               "hOverflow": 0,
               "vOverflow": 0
              },
+             "fit": [
+              true,
+              false
+             ],
              "effects": [
               {
                "kind": "NicerOutline",

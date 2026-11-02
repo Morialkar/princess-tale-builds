@@ -1,0 +1,5412 @@
+{
+ "name": "AreaMainWindow",
+ "active": true,
+ "scripts": [
+  "AreaMainWindow",
+  "SafeArea"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   1.0,
+   1.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Scroll View",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     0.3919999897480011
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Background"
+   },
+   "scripts": [
+    "Image",
+    "ScrollRect"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.0
+    ],
+    "anchorMax": [
+     0.5,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     1024.0,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     1.0
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Viewport",
+     "active": true,
+     "image": {
+      "type": 1,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "UIMask"
+     },
+     "mask": "RectMask2D",
+     "scripts": [
+      "Image",
+      "RectMask2D"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       2.5
+      ],
+      "size": [
+       0.0,
+       2.5
+      ],
+      "pivot": [
+       0.0,
+       1.0
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Parent",
+       "active": true,
+       "rect": {
+        "anchorMin": [
+         0.5,
+         1.0
+        ],
+        "anchorMax": [
+         0.5,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         1024.0,
+         1280.0
+        ],
+        "pivot": [
+         0.5,
+         1.0
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Background",
+         "active": true,
+         "image": {
+          "type": 0,
+          "fillMethod": 4,
+          "fillAmount": 1.0,
+          "fillOrigin": 0,
+          "fillClockwise": true,
+          "preserveAspect": false,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": true,
+          "sprite": "Background_Area"
+         },
+         "scripts": [
+          "Image",
+          "Theme"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           1.0
+          ],
+          "anchorMax": [
+           0.5,
+           1.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           1024.0,
+           2048.0
+          ],
+          "pivot": [
+           0.5,
+           1.0
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "ChallengeTower",
+           "active": true,
+           "unlock": {
+            "content": 12,
+            "objects": [
+             "Scroll View/Viewport/Parent/Background/ChallengeTower/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/Parent/Background/ChallengeTower/ContentsBuildingTitle",
+             "Scroll View/Viewport/Parent/Background/ChallengeTower/Tower/TowerEeffect",
+             "Scroll View/Viewport/Parent/Background/ChallengeTower/Tower"
+            ],
+            "lock": [
+             "Scroll View/Viewport/Parent/Background/ChallengeTower/Disable/Lock"
+            ]
+           },
+           "scripts": [
+            "UnlockComponent",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             -30.299999237060547,
+             641.949951171875
+            ],
+            "size": [
+             0.0,
+             0.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Tower",
+             "active": true,
+             "skeleton": {
+              "animation": "idle",
+              "loop": true,
+              "skin": "normal",
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "skeleton": "tower"
+             },
+             "scripts": [
+              "SkeletonGraphic",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               6.0,
+               -117.449951171875
+              ],
+              "size": [
+               0.0,
+               0.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "TowerEeffect",
+               "active": true,
+               "scripts": [
+                "ParticleBase"
+               ],
+               "scale": [
+                0.5,
+                0.5
+               ],
+               "children": [
+                {
+                 "name": "root",
+                 "active": true,
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "star_dust_up_02",
+                   "active": true,
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "star_dust_up_01",
+                   "active": true,
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "dome",
+                   "active": true,
+                   "scale": [
+                    1.0,
+                    1.2000000476837158
+                   ]
+                  },
+                  {
+                   "name": "damage",
+                   "active": true,
+                   "scale": [
+                    0.05000000074505806,
+                    1.2999999523162842
+                   ]
+                  },
+                  {
+                   "name": "damage (1)",
+                   "active": true,
+                   "scale": [
+                    0.5,
+                    1.2999999523162842
+                   ]
+                  },
+                  {
+                   "name": "star_dust_speed",
+                   "active": true,
+                   "scale": [
+                    0.05000000074505806,
+                    2.0
+                   ]
+                  },
+                  {
+                   "name": "stone",
+                   "active": false,
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "circle_base",
+                   "active": false,
+                   "scale": [
+                    2.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "circle_outline_out",
+                   "active": false,
+                   "scale": [
+                    2.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "circle_outline_in",
+                   "active": false,
+                   "scale": [
+                    2.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "dome (1)",
+                   "active": false,
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "impact",
+                   "active": false,
+                   "scale": [
+                    1.3614000082015991,
+                    0.6807000041007996
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "name": "Touch",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "empty"
+               },
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.949999988079071,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Scroll View/Viewport/Parent/Background/ChallengeTower"
+                ],
+                "downSound": "",
+                "upSound": ""
+               },
+               "scripts": [
+                "Image",
+                "CustomButton",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 121.0
+                ],
+                "size": [
+                 208.0,
+                 305.20001220703125
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "skeleton": {
+              "animation": "quit",
+              "loop": true,
+              "skin": "default",
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "skeleton": "tower"
+             },
+             "scripts": [
+              "SkeletonGraphic",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               6.0,
+               -117.449951171875
+              ],
+              "size": [
+               0.0,
+               0.0
+              ],
+              "pivot": [
+               0.5,
+               0.10000000149011612
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 7.0,
+                 67.0
+                ],
+                "size": [
+                 46.31999969482422,
+                 56.38999938964844
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Touch",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "empty"
+               },
+               "button": {
+                "kind": "Button",
+                "transition": 0,
+                "normal": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "pressed": [
+                 0.7843137383460999,
+                 0.7843137383460999,
+                 0.7843137383460999,
+                 1.0
+                ],
+                "multiplier": 1.0,
+                "fade": 0.10000000149011612,
+                "target": "Scroll View/Viewport/Parent/Background/ChallengeTower/Disable/Touch",
+                "interactable": true
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage",
+                "Button"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 121.0
+                ],
+                "size": [
+                 208.0,
+                 305.20001220703125
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 6.355000019073486,
+                 45.5
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               19.0,
+               -170.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_area_cromanyon",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Arena",
+           "active": true,
+           "unlock": {
+            "content": 4,
+            "objects": [
+             "Scroll View/Viewport/Parent/Background/Arena/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/Parent/Background/Arena/ContentsBuildingTitle",
+             "Scroll View/Viewport/Parent/Background/Arena/ArenaImage",
+             "Scroll View/Viewport/Parent/Background/Arena/arena_prob_effect"
+            ],
+            "lock": [
+             "Scroll View/Viewport/Parent/Background/Arena/Disable/Lock"
+            ]
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/Parent/Background/Arena"
+            ],
+            "downSound": "",
+            "upSound": ""
+           },
+           "scripts": [
+            "UnlockComponent",
+            "CustomButton",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             -172.39999389648438,
+             499.5
+            ],
+            "size": [
+             174.5,
+             300.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "arena_prob_effect",
+             "active": true,
+             "scripts": [
+              "ParticleBase"
+             ],
+             "scale": [
+              5.0,
+              5.0
+             ],
+             "children": [
+              {
+               "name": "root",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 -1.2999999523162842
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ],
+               "children": [
+                {
+                 "name": "dust_up",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "flare_centa",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  2.0,
+                  2.200000047683716
+                 ]
+                },
+                {
+                 "name": "flare_in",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  2.0,
+                  2.0
+                 ]
+                },
+                {
+                 "name": "circle_out",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "flare_base",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  3.0
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ArenaImage",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "B_arena"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               -93.2498779296875
+              ],
+              "size": [
+               145.0,
+               184.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "arena_close"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/Parent/Background/Arena/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               -93.2498779296875
+              ],
+              "size": [
+               145.0,
+               184.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 46.31999969482422,
+                 56.38999938964844
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 -0.6450200080871582,
+                 -23.700000762939453
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               6.0,
+               -105.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_area_arenaheroes",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Cave",
+           "active": true,
+           "unlock": {
+            "content": 7,
+            "objects": [
+             "Scroll View/Viewport/Parent/Background/Cave/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/Parent/Background/Cave/ContentsBuildingTitle",
+             "Scroll View/Viewport/Parent/Background/Cave/Maze"
+            ],
+            "lock": [
+             "Scroll View/Viewport/Parent/Background/Cave/Disable/Lock"
+            ]
+           },
+           "scripts": [
+            "UnlockComponent",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             165.0,
+             457.75
+            ],
+            "size": [
+             252.5,
+             300.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Maze",
+             "active": true,
+             "skeleton": {
+              "animation": "idle",
+              "loop": true,
+              "skin": "normal",
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "skeleton": "maze"
+             },
+             "scripts": [
+              "SkeletonGraphic",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               -2.0,
+               0.0
+              ],
+              "size": [
+               0.0,
+               0.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Touch",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "empty"
+               },
+               "button": {
+                "kind": "CustomButton",
+                "down": 0.949999988079071,
+                "up": 1.0,
+                "mirror": false,
+                "targets": [
+                 "Scroll View/Viewport/Parent/Background/Cave"
+                ],
+                "downSound": "",
+                "upSound": ""
+               },
+               "scripts": [
+                "Image",
+                "CustomButton",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 1.100000023841858
+                ],
+                "size": [
+                 208.0,
+                 253.3000030517578
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "maze_effect",
+               "active": true,
+               "scripts": [
+                "ParticleBase"
+               ],
+               "scale": [
+                100.0,
+                100.0
+               ],
+               "children": [
+                {
+                 "name": "root",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "dust_up",
+                   "active": true,
+                   "scripts": [
+                    "UIParticleSystem"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.5
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.5
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     100.0,
+                     100.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "circle_main",
+                   "active": false,
+                   "scripts": [
+                    "UIParticleSystem"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.5
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.5
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     100.0,
+                     100.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    0.5,
+                    0.25
+                   ]
+                  },
+                  {
+                   "name": "flare_01",
+                   "active": false,
+                   "scripts": [
+                    "UIParticleSystem"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.5
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.5
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     100.0,
+                     100.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    0.5,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "dust_up_02",
+                   "active": false,
+                   "scripts": [
+                    "UIParticleSystem"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.5
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.5
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     100.0,
+                     100.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    0.009999999776482582,
+                    0.30000001192092896
+                   ]
+                  },
+                  {
+                   "name": "star_up",
+                   "active": false,
+                   "scripts": [
+                    "UIParticleSystem"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.5
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.5
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     100.0,
+                     100.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "wave_01",
+                   "active": false,
+                   "scripts": [
+                    "UIParticleSystem"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.5
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.5
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     100.0,
+                     100.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    0.5,
+                    0.25
+                   ]
+                  },
+                  {
+                   "name": "wave_02",
+                   "active": false,
+                   "scripts": [
+                    "UIParticleSystem"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.5
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.5
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     100.0,
+                     100.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    0.5,
+                    0.25
+                   ]
+                  },
+                  {
+                   "name": "circle_out",
+                   "active": false,
+                   "scripts": [
+                    "UIParticleSystem"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.5
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.5
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     100.0,
+                     100.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    3.0,
+                    1.5
+                   ]
+                  },
+                  {
+                   "name": "fireball_01",
+                   "active": false,
+                   "scripts": [
+                    "UIParticleSystem"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.5
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.5
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     100.0,
+                     100.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    0.5,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "circle_out",
+                   "active": false,
+                   "scripts": [
+                    "UIParticleSystem"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.5
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.5
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     100.0,
+                     100.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    3.0,
+                    1.5
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "skeleton": {
+              "animation": "quit",
+              "loop": true,
+              "skin": "normal",
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "skeleton": "maze"
+             },
+             "scripts": [
+              "SkeletonGraphic",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               -2.0,
+               -1.399999976158142
+              ],
+              "size": [
+               0.0,
+               0.0
+              ],
+              "pivot": [
+               0.5,
+               0.10000000149011612
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 -20.0
+                ],
+                "size": [
+                 46.31999969482422,
+                 56.38999938964844
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Touch",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "empty"
+               },
+               "button": {
+                "kind": "Button",
+                "transition": 0,
+                "normal": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "pressed": [
+                 0.7843137383460999,
+                 0.7843137383460999,
+                 0.7843137383460999,
+                 1.0
+                ],
+                "multiplier": 1.0,
+                "fade": 0.10000000149011612,
+                "target": "Scroll View/Viewport/Parent/Background/Cave/Disable/Touch",
+                "interactable": true
+               },
+               "scripts": [
+                "Image",
+                "Button",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 1.100000023841858
+                ],
+                "size": [
+                 208.0,
+                 253.3000030517578
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 -0.6450200080871582,
+                 -37.29999923706055
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               -139.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_area_labyrinth",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Bounty",
+           "active": true,
+           "unlock": {
+            "content": 23,
+            "objects": [
+             "Scroll View/Viewport/Parent/Background/Bounty/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/Parent/Background/Bounty/ContentsBuildingTitle",
+             "Scroll View/Viewport/Parent/Background/Bounty/BountyImage",
+             "Scroll View/Viewport/Parent/Background/Bounty/area_bounty"
+            ],
+            "lock": [
+             "Scroll View/Viewport/Parent/Background/Bounty/Disable/Lock"
+            ]
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/Parent/Background/Bounty"
+            ],
+            "downSound": "",
+            "upSound": ""
+           },
+           "scripts": [
+            "UnlockComponent",
+            "CustomButton",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             86.5999984741211,
+             88.80000305175781
+            ],
+            "size": [
+             174.5,
+             230.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "area_bounty",
+             "active": true,
+             "scripts": [
+              "ParticleBase"
+             ],
+             "scale": [
+              100.0,
+              100.0
+             ],
+             "children": [
+              {
+               "name": "root",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ],
+               "children": [
+                {
+                 "name": "circle_main",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  0.20000000298023224
+                 ]
+                },
+                {
+                 "name": "dust_up",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "BountyImage",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "board_line"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               -2.288818359375e-05,
+               -67.7498779296875
+              ],
+              "size": [
+               114.0,
+               133.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "lock_board"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/Parent/Background/Bounty/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               -2.288818359375e-05,
+               -64.2498779296875
+              ],
+              "size": [
+               109.0,
+               126.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 46.31999969482422,
+                 56.38999938964844
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 -0.6450200080871582,
+                 -23.700000762939453
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               6.0,
+               -87.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_bounty_name",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "RedDotBase",
+               "active": true,
+               "scripts": [
+                "RedDotEffect"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 166.1999969482422,
+                 27.700000762939453
+                ],
+                "size": [
+                 34.0,
+                 34.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.5,
+                1.5
+               ],
+               "children": [
+                {
+                 "name": "RedDot",
+                 "active": true,
+                 "image": {
+                  "type": 0,
+                  "fillMethod": 4,
+                  "fillAmount": 1.0,
+                  "fillOrigin": 0,
+                  "fillClockwise": true,
+                  "preserveAspect": false,
+                  "color": [
+                   1.0,
+                   1.0,
+                   1.0,
+                   1.0
+                  ],
+                  "enabled": true,
+                  "raycast": false,
+                  "sprite": "New1"
+                 },
+                 "scripts": [
+                  "Image",
+                  "AtlasImage",
+                  "RedDotBounty"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.0,
+                   0.0
+                  ],
+                  "anchorMax": [
+                   1.0,
+                   1.0
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   0.0,
+                   0.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "RedDotEffect",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     0.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "New1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     0.0,
+                     0.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Minigame",
+           "active": true,
+           "unlock": {
+            "content": 31,
+            "objects": [
+             "Scroll View/Viewport/Parent/Background/Minigame/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/Parent/Background/Minigame/ContentsBuildingTitle",
+             "Scroll View/Viewport/Parent/Background/Minigame/minigame_effect",
+             "Scroll View/Viewport/Parent/Background/Minigame/Open"
+            ],
+            "lock": [
+             "Scroll View/Viewport/Parent/Background/Minigame/Disable/Lock"
+            ]
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/Parent/Background/Minigame"
+            ],
+            "downSound": "",
+            "upSound": ""
+           },
+           "scripts": [
+            "UnlockComponent",
+            "CustomButton",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             -172.0,
+             223.6999969482422
+            ],
+            "size": [
+             174.5,
+             230.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Open",
+             "active": true,
+             "skeleton": {
+              "animation": "idle",
+              "loop": true,
+              "skin": "normal",
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "skeleton": "minigame"
+             },
+             "scripts": [
+              "SkeletonGraphic",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               -2.700000047683716,
+               5.199999809265137
+              ],
+              "size": [
+               189.0,
+               237.99996948242188
+              ],
+              "pivot": [
+               0.4906507730484009,
+               0.3597690463066101
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "minigame_effect",
+             "active": true,
+             "scripts": [
+              "ParticleBase"
+             ],
+             "scale": [
+              100.0,
+              100.0
+             ],
+             "children": [
+              {
+               "name": "root",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ],
+               "children": [
+                {
+                 "name": "dust_up",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "circle_main",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  0.25
+                 ]
+                },
+                {
+                 "name": "flare_01",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "dust_up_02",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.009999999776482582,
+                  0.30000001192092896
+                 ]
+                },
+                {
+                 "name": "star_up",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "wave_01",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  0.25
+                 ]
+                },
+                {
+                 "name": "wave_02",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  0.25
+                 ]
+                },
+                {
+                 "name": "circle_out",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  3.0,
+                  1.5
+                 ]
+                },
+                {
+                 "name": "fireball_01",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.5,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "circle_out",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  3.0,
+                  1.5
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "skeleton": {
+              "animation": "quit",
+              "loop": true,
+              "skin": "",
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "skeleton": "minigame"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/Parent/Background/Minigame/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "SkeletonGraphic",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               -2.700000047683716,
+               5.199999809265137
+              ],
+              "size": [
+               189.0,
+               237.99996948242188
+              ],
+              "pivot": [
+               0.4906507730484009,
+               0.3597690463066101
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.9329986572265625,
+                 -50.074951171875
+                ],
+                "size": [
+                 46.31999969482422,
+                 56.38999938964844
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.2879786491394043,
+                 -71.0
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               6.0,
+               -88.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_area_minigame",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "RedDotBase",
+               "active": true,
+               "scripts": [
+                "RedDotEffect"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 166.1999969482422,
+                 27.700000762939453
+                ],
+                "size": [
+                 34.0,
+                 34.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.5,
+                1.5
+               ],
+               "children": [
+                {
+                 "name": "RedDot",
+                 "active": true,
+                 "image": {
+                  "type": 0,
+                  "fillMethod": 4,
+                  "fillAmount": 1.0,
+                  "fillOrigin": 0,
+                  "fillClockwise": true,
+                  "preserveAspect": false,
+                  "color": [
+                   1.0,
+                   1.0,
+                   1.0,
+                   1.0
+                  ],
+                  "enabled": true,
+                  "raycast": false,
+                  "sprite": "New1"
+                 },
+                 "scripts": [
+                  "Image",
+                  "AtlasImage",
+                  "RedDotMinigame"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.0,
+                   0.0
+                  ],
+                  "anchorMax": [
+                   1.0,
+                   1.0
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   0.0,
+                   0.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "RedDotEffect",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     0.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "New1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     0.0,
+                     0.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Dungeon",
+           "active": true,
+           "unlock": {
+            "content": 33,
+            "objects": [
+             "Scroll View/Viewport/Parent/Background/Dungeon/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/Parent/Background/Dungeon/ContentsBuildingTitle",
+             "Scroll View/Viewport/Parent/Background/Dungeon/DungeonImage",
+             "Scroll View/Viewport/Parent/Background/Dungeon/area_dungeon"
+            ],
+            "lock": [
+             "Scroll View/Viewport/Parent/Background/Dungeon/Disable/Lock"
+            ]
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/Parent/Background/Dungeon"
+            ],
+            "downSound": "",
+            "upSound": ""
+           },
+           "scripts": [
+            "UnlockComponent",
+            "CustomButton",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             -139.3000030517578,
+             6.5
+            ],
+            "size": [
+             174.5,
+             230.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "area_dungeon",
+             "active": true,
+             "scripts": [
+              "ParticleBase"
+             ],
+             "scale": [
+              5.0,
+              5.0
+             ],
+             "children": [
+              {
+               "name": "root",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 -1.2999999523162842
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ],
+               "children": [
+                {
+                 "name": "dust_up",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "flare_base",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.2000000476837158,
+                  3.0
+                 ]
+                },
+                {
+                 "name": "flare_centa",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  2.0,
+                  2.200000047683716
+                 ]
+                },
+                {
+                 "name": "circle_main_02",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   -0.49000000953674316,
+                   -14.510000228881836
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  5.0,
+                  2.0
+                 ]
+                },
+                {
+                 "name": "flare_in",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  2.0,
+                  2.0
+                 ]
+                },
+                {
+                 "name": "circle_out",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                },
+                {
+                 "name": "circle_main_01",
+                 "active": false,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   -0.49000000953674316,
+                   -14.510000228881836
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  5.0,
+                  2.0
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "DungeonImage",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "dungeon_line"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               -1.2498779296875
+              ],
+              "size": [
+               223.0,
+               295.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "dungeon_close"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/Parent/Background/Dungeon/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               -1.2498779296875
+              ],
+              "size": [
+               223.0,
+               295.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 46.31999969482422,
+                 56.38999938964844
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 -0.6450200080871582,
+                 -23.700000762939453
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               6.0,
+               -87.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "\uc9c0\ud558\ub358\uc804",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_area_dungeon",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "PveRanking",
+           "active": true,
+           "unlock": {
+            "content": 45,
+            "objects": [
+             "Scroll View/Viewport/Parent/Background/PveRanking/Disable"
+            ],
+            "views": [
+             "Scroll View/Viewport/Parent/Background/PveRanking/ContentsBuildingTitle",
+             "Scroll View/Viewport/Parent/Background/PveRanking/BountyImage",
+             "Scroll View/Viewport/Parent/Background/PveRanking/area_pve"
+            ],
+            "lock": [
+             "Scroll View/Viewport/Parent/Background/PveRanking/Disable/Lock"
+            ]
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Scroll View/Viewport/Parent/Background/PveRanking"
+            ],
+            "downSound": "",
+            "upSound": ""
+           },
+           "scripts": [
+            "UnlockComponent",
+            "CustomButton",
+            "ShaderChanger_Dissolve"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             243.5,
+             206.60000610351562
+            ],
+            "size": [
+             174.5,
+             230.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "BountyImage",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "PveRanking_line"
+             },
+             "scripts": [
+              "Image",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               -101.0
+              ],
+              "size": [
+               205.0,
+               202.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "area_pve",
+             "active": true,
+             "scripts": [
+              "ParticleBase"
+             ],
+             "scale": [
+              75.0,
+              75.0
+             ],
+             "children": [
+              {
+               "name": "root",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ],
+               "children": [
+                {
+                 "name": "circle_main",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.44999998807907104,
+                  0.5
+                 ]
+                },
+                {
+                 "name": "circle_main (1)",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.44999998807907104,
+                  0.5
+                 ]
+                },
+                {
+                 "name": "circle_main (2)",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.44999998807907104,
+                  0.5
+                 ]
+                },
+                {
+                 "name": "dust_up",
+                 "active": true,
+                 "scripts": [
+                  "UIParticleSystem"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   0.0
+                  ],
+                  "size": [
+                   100.0,
+                   100.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Disable",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "lock_PveRanking"
+             },
+             "button": {
+              "kind": "Button",
+              "transition": 0,
+              "normal": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "pressed": [
+               0.7843137383460999,
+               0.7843137383460999,
+               0.7843137383460999,
+               1.0
+              ],
+              "multiplier": 1.0,
+              "fade": 0.10000000149011612,
+              "target": "Scroll View/Viewport/Parent/Background/PveRanking/Disable",
+              "interactable": true
+             },
+             "scripts": [
+              "Image",
+              "Button",
+              "Theme"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               2.5999755859375,
+               -101.0
+              ],
+              "size": [
+               199.0,
+               202.0
+              ],
+              "pivot": [
+               0.5,
+               0.0
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "Lock",
+               "active": true,
+               "image": {
+                "type": 0,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": true,
+                "sprite": "Lock_Locked1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 46.31999969482422,
+                 56.38999938964844
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "UnlockSkeleton",
+               "active": false,
+               "skeleton": {
+                "animation": "in",
+                "loop": false,
+                "skin": "default",
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 1.0
+                ],
+                "skeleton": "unlock"
+               },
+               "scripts": [
+                "SkeletonGraphic"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 -0.6450200080871582,
+                 -23.700000762939453
+                ],
+                "size": [
+                 464.28997802734375,
+                 241.38824462890625
+                ],
+                "pivot": [
+                 0.4986107647418976,
+                 0.30430999398231506
+                ]
+               },
+               "scale": [
+                0.3999999761581421,
+                0.3999999761581421
+               ]
+              }
+             ]
+            },
+            {
+             "name": "ContentsBuildingTitle",
+             "active": true,
+             "scripts": [
+              "ContentsBuildingTitle"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               6.0,
+               -87.0
+              ],
+              "size": [
+               312.0,
+               44.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              0.6000000238418579,
+              0.6000000238418579
+             ],
+             "children": [
+              {
+               "name": "Background",
+               "active": true,
+               "image": {
+                "type": 1,
+                "fillMethod": 4,
+                "fillAmount": 1.0,
+                "fillOrigin": 0,
+                "fillClockwise": true,
+                "preserveAspect": false,
+                "color": [
+                 1.0,
+                 1.0,
+                 1.0,
+                 0.7843137383460999
+                ],
+                "enabled": true,
+                "raycast": false,
+                "sprite": "Gradation_Black1"
+               },
+               "scripts": [
+                "Image",
+                "AtlasImage"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 35.058807373046875,
+                 19.864696502685547
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "Title",
+               "active": true,
+               "text": {
+                "text": "",
+                "font": "MaplestoryLight",
+                "size": 36,
+                "style": 0,
+                "alignment": 4,
+                "lineSpacing": 1.0,
+                "color": [
+                 0.8156863451004028,
+                 0.7372549176216125,
+                 0.6078431606292725,
+                 1.0
+                ],
+                "enabled": true,
+                "raycast": false,
+                "hOverflow": 1,
+                "vOverflow": 1
+               },
+               "localize": "ui_localize_pveranking_name",
+               "effects": [
+                {
+                 "kind": "NicerOutline",
+                 "color": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                 ],
+                 "distance": [
+                  1.0,
+                  -1.0
+                 ]
+                }
+               ],
+               "scripts": [
+                "Text",
+                "LocalizeString",
+                "NicerOutline"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.0,
+                 0.0
+                ],
+                "anchorMax": [
+                 1.0,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 3.0517578125e-05,
+                 4.1961669921875e-05
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

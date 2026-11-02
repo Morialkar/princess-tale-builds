@@ -1229,6 +1229,10 @@
           "hOverflow": 0,
           "vOverflow": 0
          },
+         "fit": [
+          false,
+          true
+         ],
          "scripts": [
           "Text",
           "LocalizeString"
