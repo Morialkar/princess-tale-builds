@@ -144,6 +144,9 @@
   window.ptAudio = (() => {
     const AC = window.AudioContext || window.webkitAudioContext;
     if (!AC) return undefined;
+    // As the apps (Unity's muteOtherAudioSources off: the ambient category): the phone's silent switch mutes the
+    // game, and the game leaves the music or podcast playing alone (Safari's Audio Session API, where it is).
+    try { if (navigator.audioSession) navigator.audioSession.type = "ambient"; } catch (e) {}
     let ctx = null;
     const context = () => ctx || (ctx = new AC());
     for (const t of ["pointerdown", "touchend", "keydown"]) {
@@ -247,7 +250,7 @@
   };
   // The installed game's worker (sw.js: the files kept for offline play), this build's: one of an older build still
   // in charge would answer from its cache, so the files wait until this one takes over (a few seconds at most).
-  const BUILD = "20261101211749"; // build_demo.sh's stamp
+  const BUILD = "20261101212136"; // build_demo.sh's stamp
   async function worker() {
     if (!("serviceWorker" in navigator)) return;
     const mine = () => (navigator.serviceWorker.controller || {}).scriptURL || "";
