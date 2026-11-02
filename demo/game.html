@@ -51,6 +51,9 @@
 </style>
 </head>
 <body>
+<!-- The screen's safe area (under an iPhone's notch, above its home indicator), read by the game (main_js.go's screenSize). -->
+<div id="safe" style="position: fixed; top: 0; left: 0; width: 0; height: 0; visibility: hidden; pointer-events: none;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)"></div>
 <div id="splash">
   <img src="splash-avatar.png" alt="">
   <video muted playsinline></video>
@@ -250,7 +253,7 @@
   };
   // The installed game's worker (sw.js: the files kept for offline play), this build's: one of an older build still
   // in charge would answer from its cache, so the files wait until this one takes over (a few seconds at most).
-  const BUILD = "20261101221513"; // build_demo.sh's stamp
+  const BUILD = "20261101232303"; // build_demo.sh's stamp
   async function worker() {
     if (!("serviceWorker" in navigator)) return;
     const mine = () => (navigator.serviceWorker.controller || {}).scriptURL || "";
