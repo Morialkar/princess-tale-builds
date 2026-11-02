@@ -58,6 +58,7 @@
     <label>Importer une sauvegarde…<input id="file" type="file"></label>
     <button id="download">Télécharger la base (.db)</button>
     <button id="reset">Recommencer une partie</button>
+    <p id="memory"></p>
   </div>
 </div>
 <script src="wasm_exec.js"></script>
@@ -79,10 +80,10 @@
     const decoder = new Worker("decode.js"), waiting = new Map();
     let next = 0;
     decoder.onmessage = (e) => { const done = waiting.get(e.data.id); waiting.delete(e.data.id); if (done) done(e.data); };
-    window.ptDecodeImage = (bytes, done) => {
+    window.ptDecodeImage = (bytes, done, max) => {
       const id = next++;
       waiting.set(id, done);
-      decoder.postMessage({ id, bytes }, [bytes.buffer]);
+      decoder.postMessage({ id, bytes, max: max || 0 }, [bytes.buffer]);
     };
   }
   // The game's sounds, played by the page (sound.go's webAudio, main_js.go): Web Audio decodes them (cmd/webaudio's
@@ -179,7 +180,7 @@
   };
   // The installed game's worker (sw.js: the files kept for offline play), this build's: one of an older build still
   // in charge would answer from its cache, so the files wait until this one takes over (a few seconds at most).
-  const BUILD = "20261101190339"; // build_demo.sh's stamp
+  const BUILD = "20261101200442"; // build_demo.sh's stamp
   async function worker() {
     if (!("serviceWorker" in navigator)) return;
     const mine = () => (navigator.serviceWorker.controller || {}).scriptURL || "";
@@ -194,6 +195,18 @@
       setTimeout(ok, 8000);
     });
   }
+  // The game's memory (ptMemStats) kept every two seconds: a phone that stops the page shows, once it opens again, what
+  // its memory was just before (the menu's last line, the console's ptPrevious).
+  const memory = document.getElementById("memory");
+  try {
+    window.ptPrevious = localStorage.getItem("pt-memory") || "";
+    if (ptPrevious) memory.textContent = "Mémoire à la dernière session : " + ptPrevious;
+  } catch (e) {}
+  setInterval(() => {
+    if (typeof ptMemStats !== "function") return;
+    const now = new Date().toLocaleTimeString() + " — " + ptMemStats();
+    try { localStorage.setItem("pt-memory", now); } catch (e) {}
+  }, 2000);
   const go = new Go();
   show(0.01, "Loading Resource..");
   worker()
