@@ -13,6 +13,7 @@
 <meta name="apple-mobile-web-app-title" content="Princess Tale">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="preload" as="image" href="splash-avatar.png">
 <link rel="preload" as="image" href="loading.jpg">
 <style>
   html, body { margin: 0; height: 100%; background: #000; color: #e8e4f0; font-family: system-ui, sans-serif; overflow: hidden; }
@@ -20,7 +21,15 @@
      DownloadBar under them and its line), in a 9:16 screen as the game's. */
   #loading { position: fixed; inset: 0; z-index: 10; background: #000; display: flex; align-items: center; justify-content: center; }
   #screen { position: relative; height: min(100dvh, calc(100vw * 16 / 9)); aspect-ratio: 9 / 16; overflow: hidden;
-    background: #6aaef0 url(loading.jpg) center / cover no-repeat; container-type: size; }
+    background: #000 url(loading.jpg) center / cover no-repeat; container-type: size; }
+  /* The apps' splash (apk/branding: brand_ios.py's, brand_android.py's): the avatar, then its short video over it,
+     filling the screen; it stays until the video ended and the loading screen's art is there, then fades. */
+  #splash { position: fixed; inset: 0; z-index: 20; background: #000; display: flex; align-items: center; justify-content: center;
+    transition: opacity 0.35s; }
+  #splash.gone { opacity: 0; pointer-events: none; }
+  #splash img { width: min(46vw, 26vh); aspect-ratio: 1; }
+  #splash video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.15s; }
+  #splash video.playing { opacity: 1; }
   #logo { position: absolute; left: 50%; top: 20.5%; width: 61%; transform: translate(-50%, -50%);
     filter: drop-shadow(0 0.6cqh 0.8cqh #0004); }
   #bar { position: absolute; left: 8.6%; width: 82.8%; top: 93.2%; height: max(7px, 1.5cqh); box-sizing: border-box;
@@ -42,6 +51,10 @@
 </style>
 </head>
 <body>
+<div id="splash">
+  <img src="splash-avatar.png" alt="">
+  <video muted playsinline></video>
+</div>
 <div id="loading">
   <div id="screen">
     <img id="logo" src="logo.png" alt="Princess Tale">
@@ -65,6 +78,30 @@
 <script src="sql-wasm.js"></script>
 <script src="save.js"></script>
 <script>
+  // The splash goes once its video ended (or could not play: 2.5 s at most) and the loading screen's art came.
+  (() => {
+    const splash = document.getElementById("splash"), video = splash.querySelector("video");
+    let played = false, art = false;
+    const done = () => {
+      if (!played || !art) return;
+      splash.classList.add("gone");
+      setTimeout(() => splash.remove(), 400);
+    };
+    const end = () => { played = true; done(); };
+    video.addEventListener("playing", () => video.classList.add("playing"));
+    video.addEventListener("ended", end);
+    video.addEventListener("error", end);
+    setTimeout(end, 2500);
+    // Its bytes whole (from the worker's cache), played from a blob: Safari asks a worker for parts of a video,
+    // which a cache's whole answer does not give.
+    fetch("splash.mp4").then(r => r.ok ? r.blob() : Promise.reject()).then(b => {
+      video.src = URL.createObjectURL(b);
+      return video.play();
+    }).catch(end);
+    const img = new Image();
+    img.onload = img.onerror = () => { art = true; done(); };
+    img.src = "loading.jpg";
+  })();
   const step = document.getElementById("step"), fill = document.querySelector("#bar div");
   const say = (e) => { if (step) step.textContent = "Error: " + e; else alert(e); };
   // The bar: the save and sql.js (5%), battle.wasm (35%, by its bytes), the files the game starts with (55%: main_js.go's
@@ -196,7 +233,7 @@
   };
   // The installed game's worker (sw.js: the files kept for offline play), this build's: one of an older build still
   // in charge would answer from its cache, so the files wait until this one takes over (a few seconds at most).
-  const BUILD = "20261101203834"; // build_demo.sh's stamp
+  const BUILD = "20261101204722"; // build_demo.sh's stamp
   async function worker() {
     if (!("serviceWorker" in navigator)) return;
     const mine = () => (navigator.serviceWorker.controller || {}).scriptURL || "";

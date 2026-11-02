@@ -23,7 +23,9 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   const r = e.request;
   if (r.method !== "GET" || new URL(r.url).origin !== self.location.origin) return;
-  const asset = new URL(r.url).pathname.includes("/assets/") && !r.url.endsWith(".json");
+  const path = new URL(r.url).pathname;
+  // The game's files, and the page's pictures and splash (the same for a build: shown at once, not after the network).
+  const asset = path.includes("/assets/") && !r.url.endsWith(".json") || /\.(jpg|png|mp4)$/.test(path);
   e.respondWith(asset ? cacheFirst(r) : networkFirst(r));
 });
 
