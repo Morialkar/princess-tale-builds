@@ -76,10 +76,26 @@
   window.demoReady = () => document.getElementById("loading").remove();
   // internal/imgdec: the game's pictures decoded by the browser in a worker (decode.js), off the game's frames and
   // several times faster than Go's decoder in WebAssembly; without OffscreenCanvas in workers, Go decodes them.
+  // Its worker is made anew once it decoded 128 MB of pixels and has nothing left to do: an iPhone's worker kept its
+  // bitmaps' and canvases' memory (the page was stopped past 2 GB, the game's own 300), a worker's end gives it all back.
   if (typeof OffscreenCanvas !== "undefined" && "createImageBitmap" in self) {
-    const decoder = new Worker("decode.js"), waiting = new Map();
-    let next = 0;
-    decoder.onmessage = (e) => { const done = waiting.get(e.data.id); waiting.delete(e.data.id); if (done) done(e.data); };
+    const waiting = new Map();
+    let next = 0, decoder = null, decoded = 0;
+    const spawn = () => {
+      decoder = new Worker("decode.js");
+      decoded = 0;
+      decoder.onmessage = (e) => {
+        const done = waiting.get(e.data.id);
+        waiting.delete(e.data.id);
+        if (e.data.pixels) decoded += e.data.pixels.length;
+        if (done) done(e.data);
+        if (decoded > 128 << 20 && waiting.size === 0) {
+          decoder.terminate();
+          spawn();
+        }
+      };
+    };
+    spawn();
     window.ptDecodeImage = (bytes, done, max) => {
       const id = next++;
       waiting.set(id, done);
@@ -180,7 +196,7 @@
   };
   // The installed game's worker (sw.js: the files kept for offline play), this build's: one of an older build still
   // in charge would answer from its cache, so the files wait until this one takes over (a few seconds at most).
-  const BUILD = "20261101200442"; // build_demo.sh's stamp
+  const BUILD = "20261101201115"; // build_demo.sh's stamp
   async function worker() {
     if (!("serviceWorker" in navigator)) return;
     const mine = () => (navigator.serviceWorker.controller || {}).scriptURL || "";
