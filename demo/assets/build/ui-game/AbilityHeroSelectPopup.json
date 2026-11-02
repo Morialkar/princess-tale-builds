@@ -1,0 +1,5079 @@
+{
+ "name": "AbilityHeroSelectPopup",
+ "active": true,
+ "scripts": [
+  "AbilityHeroSelectPopup"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   1.0,
+   1.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Background",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     0.0,
+     0.0,
+     0.0,
+     0.5882353186607361
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "empty"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.0,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Parent",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.0
+    ],
+    "anchorMax": [
+     0.5,
+     0.0
+    ],
+    "position": [
+     0.0,
+     430.0
+    ],
+    "size": [
+     720.0,
+     900.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Title",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Title_Frame1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       1.0
+      ],
+      "anchorMax": [
+       0.5,
+       1.0
+      ],
+      "position": [
+       0.0,
+       -20.0
+      ],
+      "size": [
+       562.0,
+       95.0
+      ],
+      "pivot": [
+       0.5,
+       0.0
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Text",
+       "active": true,
+       "text": {
+        "text": "",
+        "font": "MaplestoryBold",
+        "size": 28,
+        "style": 1,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         0.9098039865493774,
+         0.7568628191947937,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "localize": "ui_localize_ability_title_select_hero",
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         -18.0
+        ],
+        "size": [
+         355.80999755859375,
+         47.91999816894531
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "BottomWindow",
+     "active": true,
+     "image": {
+      "type": 1,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Popup1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       40.0,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.0
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Text",
+     "active": true,
+     "text": {
+      "text": "",
+      "font": "MaplestoryLight",
+      "size": 24,
+      "style": 0,
+      "alignment": 4,
+      "lineSpacing": 1.100000023841858,
+      "color": [
+       0.4901960790157318,
+       0.37254902720451355,
+       0.24705882370471954,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 0,
+      "vOverflow": 0,
+      "bestFit": [
+       2,
+       24
+      ]
+     },
+     "localize": "ui_localize_ability_desc_select_hero",
+     "scripts": [
+      "Text",
+      "LocalizeString"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       1.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       -94.4000015258789
+      ],
+      "size": [
+       -144.0,
+       98.82598876953125
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "SelectHero",
+     "active": true,
+     "scripts": [
+      "WishSlot"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.0
+      ],
+      "anchorMax": [
+       0.5,
+       0.0
+      ],
+      "position": [
+       0.0,
+       675.0
+      ],
+      "size": [
+       130.0,
+       130.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Background",
+       "active": true,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Character_Slot1"
+       },
+       "mask": "Mask",
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "Parent/SelectHero"
+        ],
+        "downSound": "Btn_Normal",
+        "upSound": ""
+       },
+       "scripts": [
+        "Image",
+        "Mask",
+        "AtlasImage",
+        "CustomButton"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         -10.0,
+         -10.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Character",
+         "active": false,
+         "image": {
+          "type": 0,
+          "fillMethod": 4,
+          "fillAmount": 1.0,
+          "fillOrigin": 0,
+          "fillClockwise": true,
+          "preserveAspect": false,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": false,
+          "sprite": "brownpony"
+         },
+         "scripts": [
+          "Image",
+          "AtlasImage"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.0
+          ],
+          "anchorMax": [
+           1.0,
+           1.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           -3.8199996948242188,
+           -3.8199996948242188
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Frame",
+       "active": true,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "sprite": "Character_Frame1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Plus",
+       "active": true,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "sprite": "Plus1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         32.0,
+         32.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "EpicClassIcon",
+       "active": false,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Character_Class1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.0
+        ],
+        "anchorMax": [
+         0.5,
+         0.0
+        ],
+        "position": [
+         0.0,
+         12.5
+        ],
+        "size": [
+         130.0,
+         40.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "New",
+       "active": false,
+       "text": {
+        "text": "NEW",
+        "font": "MaplestoryLight",
+        "size": 24,
+        "style": 1,
+        "alignment": 5,
+        "lineSpacing": 1.0,
+        "color": [
+         0.9686275124549866,
+         0.8235294818878174,
+         0.3176470696926117,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.5921568870544434,
+          0.37254902720451355,
+          0.23137256503105164,
+          1.0
+         ],
+         "distance": [
+          1.0,
+          -1.0
+         ]
+        }
+       ],
+       "localize": "ui_localize_new",
+       "scripts": [
+        "Text",
+        "Outline",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         1.0,
+         1.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         -52.70000076293945,
+         -108.30000305175781
+        ],
+        "size": [
+         72.3599853515625,
+         40.6199951171875
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.25,
+        1.25
+       ]
+      }
+     ]
+    },
+    {
+     "name": "HeroSelectWindow",
+     "active": true,
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       380.0
+      ],
+      "size": [
+       0.0,
+       400.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Scroll View",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         0.3919999897480011
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Slot3"
+       },
+       "scripts": [
+        "Image",
+        "ScrollRect",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         25.0
+        ],
+        "size": [
+         -100.0,
+         -50.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Viewport",
+         "active": true,
+         "image": {
+          "type": 1,
+          "fillMethod": 4,
+          "fillAmount": 1.0,
+          "fillOrigin": 0,
+          "fillClockwise": true,
+          "preserveAspect": false,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": true,
+          "sprite": "UIMask"
+         },
+         "mask": "Mask",
+         "hideMaskGraphic": true,
+         "scripts": [
+          "Image",
+          "Mask"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.0
+          ],
+          "anchorMax": [
+           1.0,
+           1.0
+          ],
+          "position": [
+           8.0,
+           -5.0
+          ],
+          "size": [
+           -16.0,
+           -10.0
+          ],
+          "pivot": [
+           0.0,
+           1.0
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Content",
+           "active": true,
+           "scroll": {
+            "kind": "ScrollContent_AbilityHeroSlot",
+            "scrollType": 0,
+            "alignType": 1,
+            "itemAlignType": 0,
+            "lineCount": 5,
+            "itemScale": 0.949999988079071,
+            "itemMargin": {
+             "left": 0.0,
+             "top": 2.0,
+             "right": 0.0,
+             "bottom": 0.0
+            }
+           },
+           "scripts": [
+            "ScrollContent_AbilityHeroSlot"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             1.0
+            ],
+            "anchorMax": [
+             1.0,
+             1.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             0.0,
+             140.0
+            ],
+            "pivot": [
+             0.0,
+             1.0
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "AbilityHeroSlot",
+             "active": false,
+             "scripts": [
+              "AbilityHeroSlot"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               -5.70001220703125,
+               -8.050000190734863
+              ],
+              "size": [
+               125.0,
+               141.08526611328125
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "WishPropertySlot",
+               "active": true,
+               "scripts": [
+                "WishPropertySlot"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 1.0
+                ],
+                "anchorMax": [
+                 0.5,
+                 1.0
+                ],
+                "position": [
+                 0.0,
+                 -69.5
+                ],
+                "size": [
+                 130.0,
+                 155.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.8999999761581421,
+                0.8999999761581421
+               ],
+               "children": [
+                {
+                 "name": "Parent",
+                 "active": true,
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   0.5
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   0.5
+                  ],
+                  "position": [
+                   0.0,
+                   12.500000953674316
+                  ],
+                  "size": [
+                   130.0,
+                   130.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "Background",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     1.0
+                    ],
+                    "enabled": true,
+                    "raycast": true,
+                    "sprite": "Character_Slot1"
+                   },
+                   "mask": "Mask",
+                   "button": {
+                    "kind": "CustomButton",
+                    "down": 0.8500000238418579,
+                    "up": 0.8999999761581421,
+                    "mirror": false,
+                    "targets": [
+                     "Parent/HeroSelectWindow/Scroll View/Viewport/Content/AbilityHeroSlot/WishPropertySlot"
+                    ],
+                    "downSound": "",
+                    "upSound": ""
+                   },
+                   "scripts": [
+                    "Image",
+                    "Mask",
+                    "AtlasImage",
+                    "CustomButton"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     -20.0,
+                     -20.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ],
+                   "children": [
+                    {
+                     "name": "Character",
+                     "active": true,
+                     "image": {
+                      "type": 0,
+                      "fillMethod": 4,
+                      "fillAmount": 1.0,
+                      "fillOrigin": 0,
+                      "fillClockwise": true,
+                      "preserveAspect": false,
+                      "color": [
+                       1.0,
+                       1.0,
+                       1.0,
+                       1.0
+                      ],
+                      "enabled": true,
+                      "raycast": false,
+                      "sprite": "brownpony"
+                     },
+                     "scripts": [
+                      "Image",
+                      "AtlasImage"
+                     ],
+                     "rect": {
+                      "anchorMin": [
+                       0.0,
+                       0.0
+                      ],
+                      "anchorMax": [
+                       1.0,
+                       1.0
+                      ],
+                      "position": [
+                       0.0,
+                       0.0
+                      ],
+                      "size": [
+                       -3.8199996948242188,
+                       -3.8199996948242188
+                      ],
+                      "pivot": [
+                       0.5,
+                       0.5
+                      ]
+                     },
+                     "scale": [
+                      1.0,
+                      1.0
+                     ]
+                    }
+                   ]
+                  },
+                  {
+                   "name": "Frame",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     1.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "Character_Frame1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     0.0,
+                     0.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "Property",
+                   "active": true,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     1.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "Wind1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.5
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.5
+                    ],
+                    "position": [
+                     -44.19999694824219,
+                     44.20000076293945
+                    ],
+                    "size": [
+                     30.19000244140625,
+                     30.19000244140625
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ],
+                   "children": [
+                    {
+                     "name": "Frame",
+                     "active": true,
+                     "image": {
+                      "type": 0,
+                      "fillMethod": 4,
+                      "fillAmount": 1.0,
+                      "fillOrigin": 0,
+                      "fillClockwise": true,
+                      "preserveAspect": false,
+                      "color": [
+                       1.0,
+                       1.0,
+                       1.0,
+                       1.0
+                      ],
+                      "enabled": true,
+                      "raycast": false,
+                      "sprite": "SlotFrame4"
+                     },
+                     "scripts": [
+                      "Image",
+                      "AtlasImage"
+                     ],
+                     "rect": {
+                      "anchorMin": [
+                       0.0,
+                       0.0
+                      ],
+                      "anchorMax": [
+                       1.0,
+                       1.0
+                      ],
+                      "position": [
+                       0.0,
+                       0.0
+                      ],
+                      "size": [
+                       2.640000104904175,
+                       2.640000104904175
+                      ],
+                      "pivot": [
+                       0.5,
+                       0.5
+                      ]
+                     },
+                     "scale": [
+                      1.0,
+                      1.0
+                     ]
+                    }
+                   ]
+                  },
+                  {
+                   "name": "EpicClassIcon",
+                   "active": false,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     1.0,
+                     1.0,
+                     1.0,
+                     1.0
+                    ],
+                    "enabled": true,
+                    "raycast": true,
+                    "sprite": "Character_Class1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.5,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     0.5,
+                     0.0
+                    ],
+                    "position": [
+                     0.0,
+                     12.5
+                    ],
+                    "size": [
+                     130.0,
+                     40.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "name": "Fade",
+                   "active": false,
+                   "image": {
+                    "type": 0,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     0.0,
+                     0.0,
+                     0.0,
+                     0.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "sprite": "Character_Slot1"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     -2.656698703765869
+                    ],
+                    "size": [
+                     -8.630000114440918,
+                     -3.3133974075317383
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ],
+                   "children": [
+                    {
+                     "name": "Check",
+                     "active": true,
+                     "image": {
+                      "type": 0,
+                      "fillMethod": 4,
+                      "fillAmount": 1.0,
+                      "fillOrigin": 0,
+                      "fillClockwise": true,
+                      "preserveAspect": false,
+                      "color": [
+                       1.0,
+                       1.0,
+                       1.0,
+                       0.0
+                      ],
+                      "enabled": true,
+                      "raycast": false,
+                      "sprite": "Check2"
+                     },
+                     "scripts": [
+                      "Image",
+                      "AtlasImage"
+                     ],
+                     "rect": {
+                      "anchorMin": [
+                       0.5,
+                       0.5
+                      ],
+                      "anchorMax": [
+                       0.5,
+                       0.5
+                      ],
+                      "position": [
+                       0.0,
+                       0.0
+                      ],
+                      "size": [
+                       60.0,
+                       50.0
+                      ],
+                      "pivot": [
+                       0.5,
+                       0.5
+                      ]
+                     },
+                     "scale": [
+                      1.0,
+                      1.0
+                     ]
+                    }
+                   ]
+                  },
+                  {
+                   "name": "New",
+                   "active": false,
+                   "text": {
+                    "text": "NEW",
+                    "font": "MaplestoryLight",
+                    "size": 24,
+                    "style": 1,
+                    "alignment": 5,
+                    "lineSpacing": 1.0,
+                    "color": [
+                     0.9686275124549866,
+                     0.8235294818878174,
+                     0.3176470696926117,
+                     1.0
+                    ],
+                    "enabled": true,
+                    "raycast": false,
+                    "hOverflow": 0,
+                    "vOverflow": 0
+                   },
+                   "effects": [
+                    {
+                     "kind": "Outline",
+                     "color": [
+                      0.5921568870544434,
+                      0.37254902720451355,
+                      0.23137256503105164,
+                      1.0
+                     ],
+                     "distance": [
+                      1.0,
+                      -1.0
+                     ]
+                    }
+                   ],
+                   "localize": "ui_localize_new",
+                   "scripts": [
+                    "Text",
+                    "Outline",
+                    "LocalizeString"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     1.0,
+                     1.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     -42.5,
+                     -111.0
+                    ],
+                    "size": [
+                     72.3599853515625,
+                     40.6199951171875
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "name": "GameObject",
+                 "active": true,
+                 "rect": {
+                  "anchorMin": [
+                   0.5,
+                   1.0
+                  ],
+                  "anchorMax": [
+                   0.5,
+                   1.0
+                  ],
+                  "position": [
+                   0.0,
+                   -142.5
+                  ],
+                  "size": [
+                   130.0,
+                   25.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  1.0,
+                  1.0
+                 ],
+                 "children": [
+                  {
+                   "name": "Image",
+                   "active": true,
+                   "image": {
+                    "type": 1,
+                    "fillMethod": 4,
+                    "fillAmount": 1.0,
+                    "fillOrigin": 0,
+                    "fillClockwise": true,
+                    "preserveAspect": false,
+                    "color": [
+                     0.0,
+                     0.0,
+                     0.0,
+                     0.40392157435417175
+                    ],
+                    "enabled": true,
+                    "raycast": true,
+                    "sprite": "Slot3"
+                   },
+                   "scripts": [
+                    "Image",
+                    "AtlasImage"
+                   ],
+                   "rect": {
+                    "anchorMin": [
+                     0.0,
+                     0.0
+                    ],
+                    "anchorMax": [
+                     1.0,
+                     1.0
+                    ],
+                    "position": [
+                     0.0,
+                     0.0
+                    ],
+                    "size": [
+                     0.0,
+                     0.0
+                    ],
+                    "pivot": [
+                     0.5,
+                     0.5
+                    ]
+                   },
+                   "scale": [
+                    1.0,
+                    1.0
+                   ],
+                   "children": [
+                    {
+                     "name": "Text",
+                     "active": true,
+                     "text": {
+                      "text": "New Text",
+                      "font": "MaplestoryLight",
+                      "size": 21,
+                      "style": 0,
+                      "alignment": 4,
+                      "lineSpacing": 1.0,
+                      "color": [
+                       1.0,
+                       1.0,
+                       1.0,
+                       1.0
+                      ],
+                      "enabled": true,
+                      "raycast": true,
+                      "hOverflow": 0,
+                      "vOverflow": 0,
+                      "bestFit": [
+                       8,
+                       21
+                      ]
+                     },
+                     "effects": [
+                      {
+                       "kind": "NicerOutline",
+                       "color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                       ],
+                       "distance": [
+                        0.75,
+                        -0.75
+                       ]
+                      }
+                     ],
+                     "scripts": [
+                      "Text",
+                      "LocalizeString",
+                      "NicerOutline"
+                     ],
+                     "rect": {
+                      "anchorMin": [
+                       0.0,
+                       0.0
+                      ],
+                      "anchorMax": [
+                       1.0,
+                       1.0
+                      ],
+                      "position": [
+                       0.0,
+                       0.0
+                      ],
+                      "size": [
+                       -20.0,
+                       -4.0
+                      ],
+                      "pivot": [
+                       0.5,
+                       0.5
+                      ]
+                     },
+                     "scale": [
+                      1.0,
+                      1.0
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "name": "Grade",
+                 "active": true,
+                 "image": {
+                  "type": 0,
+                  "fillMethod": 4,
+                  "fillAmount": 1.0,
+                  "fillOrigin": 0,
+                  "fillClockwise": true,
+                  "preserveAspect": false,
+                  "color": [
+                   1.0,
+                   1.0,
+                   1.0,
+                   1.0
+                  ],
+                  "enabled": true,
+                  "raycast": false,
+                  "sprite": "Icon_Ability_SSS_Big1"
+                 },
+                 "scripts": [
+                  "Image",
+                  "AtlasImage"
+                 ],
+                 "rect": {
+                  "anchorMin": [
+                   1.0,
+                   1.0
+                  ],
+                  "anchorMax": [
+                   1.0,
+                   1.0
+                  ],
+                  "position": [
+                   -25.5,
+                   -23.600000381469727
+                  ],
+                  "size": [
+                   82.0,
+                   80.0
+                  ],
+                  "pivot": [
+                   0.5,
+                   0.5
+                  ]
+                 },
+                 "scale": [
+                  0.6000000238418579,
+                  0.6000000238418579
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "HeroPropertySlotWindow",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Pattern1"
+       },
+       "layout": {
+        "kind": "HorizontalLayoutGroup",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "childAlignment": 4,
+        "enabled": true,
+        "spacing": 5.0,
+        "controlWidth": false,
+        "controlHeight": false,
+        "expandWidth": false,
+        "expandHeight": true,
+        "reverse": false
+       },
+       "scripts": [
+        "Image",
+        "HorizontalLayoutGroup",
+        "AtlasImage",
+        "HeroPropertySlotWindow"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.0
+        ],
+        "anchorMax": [
+         0.5,
+         0.0
+        ],
+        "position": [
+         0.5,
+         0.0
+        ],
+        "size": [
+         650.4000244140625,
+         20.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.8999999761581421,
+        0.8999999761581421
+       ],
+       "children": [
+        {
+         "name": "HeroPropertySlot",
+         "active": true,
+         "scripts": [
+          "HeroPropertySlot"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.0
+          ],
+          "anchorMax": [
+           0.0,
+           0.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           76.5,
+           76.5
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Back",
+           "active": true,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "Slot1"
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Parent/HeroSelectWindow/HeroPropertySlotWindow/HeroPropertySlot/Back"
+            ],
+            "downSound": "Btn_Tap",
+            "upSound": ""
+           },
+           "scripts": [
+            "Image",
+            "CustomButton",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             1.0,
+             1.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             -10.0,
+             -10.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Icon",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "Image_Font1"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               59.0,
+               26.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Frame",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "SlotFrame4"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.0,
+               0.0
+              ],
+              "anchorMax": [
+               1.0,
+               1.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               10.0,
+               10.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            }
+           ]
+          },
+          {
+           "name": "select_on",
+           "active": false,
+           "scripts": [
+            "ParticleBase"
+           ],
+           "scale": [
+            112.5,
+            112.5
+           ],
+           "children": [
+            {
+             "name": "root",
+             "active": true,
+             "scripts": [
+              "UIParticleSystem"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               100.0,
+               100.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "circle_in",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "dust_spine",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01 (1)",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "base",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "HeroPropertySlot",
+         "active": true,
+         "scripts": [
+          "HeroPropertySlot"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.0
+          ],
+          "anchorMax": [
+           0.0,
+           0.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           76.5,
+           76.5
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Back",
+           "active": true,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "Slot1"
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Parent/HeroSelectWindow/HeroPropertySlotWindow/HeroPropertySlot/Back"
+            ],
+            "downSound": "Btn_Tap",
+            "upSound": ""
+           },
+           "scripts": [
+            "Image",
+            "CustomButton",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             1.0,
+             1.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             -10.0,
+             -10.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Icon",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "Image_Font1"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               59.0,
+               26.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Frame",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "SlotFrame4"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.0,
+               0.0
+              ],
+              "anchorMax": [
+               1.0,
+               1.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               10.0,
+               10.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            }
+           ]
+          },
+          {
+           "name": "select_on",
+           "active": false,
+           "scripts": [
+            "ParticleBase"
+           ],
+           "scale": [
+            112.5,
+            112.5
+           ],
+           "children": [
+            {
+             "name": "root",
+             "active": true,
+             "scripts": [
+              "UIParticleSystem"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               100.0,
+               100.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "circle_in",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "dust_spine",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01 (1)",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "base",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "HeroPropertySlot",
+         "active": true,
+         "scripts": [
+          "HeroPropertySlot"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.0
+          ],
+          "anchorMax": [
+           0.0,
+           0.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           76.5,
+           76.5
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Back",
+           "active": true,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "Slot1"
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Parent/HeroSelectWindow/HeroPropertySlotWindow/HeroPropertySlot/Back"
+            ],
+            "downSound": "Btn_Tap",
+            "upSound": ""
+           },
+           "scripts": [
+            "Image",
+            "CustomButton",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             1.0,
+             1.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             -10.0,
+             -10.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Icon",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "Image_Font1"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               59.0,
+               26.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Frame",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "SlotFrame4"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.0,
+               0.0
+              ],
+              "anchorMax": [
+               1.0,
+               1.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               10.0,
+               10.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            }
+           ]
+          },
+          {
+           "name": "select_on",
+           "active": false,
+           "scripts": [
+            "ParticleBase"
+           ],
+           "scale": [
+            112.5,
+            112.5
+           ],
+           "children": [
+            {
+             "name": "root",
+             "active": true,
+             "scripts": [
+              "UIParticleSystem"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               100.0,
+               100.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "circle_in",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "dust_spine",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01 (1)",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "base",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "HeroPropertySlot",
+         "active": true,
+         "scripts": [
+          "HeroPropertySlot"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.0
+          ],
+          "anchorMax": [
+           0.0,
+           0.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           76.5,
+           76.5
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Back",
+           "active": true,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "Slot1"
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Parent/HeroSelectWindow/HeroPropertySlotWindow/HeroPropertySlot/Back"
+            ],
+            "downSound": "Btn_Tap",
+            "upSound": ""
+           },
+           "scripts": [
+            "Image",
+            "CustomButton",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             1.0,
+             1.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             -10.0,
+             -10.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Icon",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "Image_Font1"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               59.0,
+               26.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Frame",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "SlotFrame4"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.0,
+               0.0
+              ],
+              "anchorMax": [
+               1.0,
+               1.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               10.0,
+               10.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            }
+           ]
+          },
+          {
+           "name": "select_on",
+           "active": false,
+           "scripts": [
+            "ParticleBase"
+           ],
+           "scale": [
+            112.5,
+            112.5
+           ],
+           "children": [
+            {
+             "name": "root",
+             "active": true,
+             "scripts": [
+              "UIParticleSystem"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               100.0,
+               100.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "circle_in",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "dust_spine",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01 (1)",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "base",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "HeroPropertySlot",
+         "active": true,
+         "scripts": [
+          "HeroPropertySlot"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.0
+          ],
+          "anchorMax": [
+           0.0,
+           0.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           76.5,
+           76.5
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Back",
+           "active": true,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "Slot1"
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Parent/HeroSelectWindow/HeroPropertySlotWindow/HeroPropertySlot/Back"
+            ],
+            "downSound": "Btn_Tap",
+            "upSound": ""
+           },
+           "scripts": [
+            "Image",
+            "CustomButton",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             1.0,
+             1.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             -10.0,
+             -10.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Icon",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "Image_Font1"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               59.0,
+               26.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Frame",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "SlotFrame4"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.0,
+               0.0
+              ],
+              "anchorMax": [
+               1.0,
+               1.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               10.0,
+               10.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            }
+           ]
+          },
+          {
+           "name": "select_on",
+           "active": false,
+           "scripts": [
+            "ParticleBase"
+           ],
+           "scale": [
+            112.5,
+            112.5
+           ],
+           "children": [
+            {
+             "name": "root",
+             "active": true,
+             "scripts": [
+              "UIParticleSystem"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               100.0,
+               100.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "circle_in",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "dust_spine",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01 (1)",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "base",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "HeroPropertySlot",
+         "active": true,
+         "scripts": [
+          "HeroPropertySlot"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.0
+          ],
+          "anchorMax": [
+           0.0,
+           0.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           76.5,
+           76.5
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Back",
+           "active": true,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "Slot1"
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Parent/HeroSelectWindow/HeroPropertySlotWindow/HeroPropertySlot/Back"
+            ],
+            "downSound": "Btn_Tap",
+            "upSound": ""
+           },
+           "scripts": [
+            "Image",
+            "CustomButton",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             1.0,
+             1.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             -10.0,
+             -10.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Icon",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "Image_Font1"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               59.0,
+               26.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Frame",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "SlotFrame4"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.0,
+               0.0
+              ],
+              "anchorMax": [
+               1.0,
+               1.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               10.0,
+               10.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            }
+           ]
+          },
+          {
+           "name": "select_on",
+           "active": false,
+           "scripts": [
+            "ParticleBase"
+           ],
+           "scale": [
+            112.5,
+            112.5
+           ],
+           "children": [
+            {
+             "name": "root",
+             "active": true,
+             "scripts": [
+              "UIParticleSystem"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               100.0,
+               100.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "circle_in",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "dust_spine",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01 (1)",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "base",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "HeroPropertySlot",
+         "active": true,
+         "scripts": [
+          "HeroPropertySlot"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.0
+          ],
+          "anchorMax": [
+           0.0,
+           0.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           76.5,
+           76.5
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Back",
+           "active": true,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "Slot1"
+           },
+           "button": {
+            "kind": "CustomButton",
+            "down": 0.949999988079071,
+            "up": 1.0,
+            "mirror": false,
+            "targets": [
+             "Parent/HeroSelectWindow/HeroPropertySlotWindow/HeroPropertySlot/Back"
+            ],
+            "downSound": "Btn_Tap",
+            "upSound": ""
+           },
+           "scripts": [
+            "Image",
+            "CustomButton",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             1.0,
+             1.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             -10.0,
+             -10.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Icon",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "Image_Font1"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               59.0,
+               26.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Frame",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "SlotFrame4"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.0,
+               0.0
+              ],
+              "anchorMax": [
+               1.0,
+               1.0
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               10.0,
+               10.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            }
+           ]
+          },
+          {
+           "name": "select_on",
+           "active": false,
+           "scripts": [
+            "ParticleBase"
+           ],
+           "scale": [
+            112.5,
+            112.5
+           ],
+           "children": [
+            {
+             "name": "root",
+             "active": true,
+             "scripts": [
+              "UIParticleSystem"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               100.0,
+               100.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ],
+             "children": [
+              {
+               "name": "circle_in",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "dust_spine",
+               "active": true,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                1.0,
+                1.0
+               ]
+              },
+              {
+               "name": "circle_01 (1)",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              },
+              {
+               "name": "base",
+               "active": false,
+               "scripts": [
+                "UIParticleSystem"
+               ],
+               "rect": {
+                "anchorMin": [
+                 0.5,
+                 0.5
+                ],
+                "anchorMax": [
+                 0.5,
+                 0.5
+                ],
+                "position": [
+                 0.0,
+                 0.0
+                ],
+                "size": [
+                 100.0,
+                 100.0
+                ],
+                "pivot": [
+                 0.5,
+                 0.5
+                ]
+               },
+               "scale": [
+                0.5,
+                0.5
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "SideLineL",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Pattern1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         30.0,
+         330.0
+        ],
+        "size": [
+         680.0,
+         20.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "SideLineR",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Pattern1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         1.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         0.0
+        ],
+        "position": [
+         -30.0,
+         330.0
+        ],
+        "size": [
+         680.0,
+         20.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Bottom",
+     "active": true,
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       70.0
+      ],
+      "size": [
+       0.0,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "BackButton",
+       "active": true,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Slot4"
+       },
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "Parent/Bottom/BackButton"
+        ],
+        "downSound": "Effect_Back",
+        "upSound": ""
+       },
+       "scripts": [
+        "Image",
+        "CustomButton",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         56.0,
+         11.0
+        ],
+        "size": [
+         108.0,
+         108.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Icon",
+         "active": true,
+         "image": {
+          "type": 0,
+          "fillMethod": 4,
+          "fillAmount": 1.0,
+          "fillOrigin": 0,
+          "fillClockwise": true,
+          "preserveAspect": false,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": true,
+          "sprite": "Back1"
+         },
+         "scripts": [
+          "Image",
+          "AtlasImage"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           72.0,
+           63.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Select",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Button3"
+       },
+       "button": {
+        "kind": "Button",
+        "transition": 2,
+        "normal": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "pressed": [
+         0.7843137383460999,
+         0.7843137383460999,
+         0.7843137383460999,
+         1.0
+        ],
+        "multiplier": 1.0,
+        "fade": 0.10000000149011612,
+        "target": "Parent/Bottom/Select",
+        "interactable": true,
+        "pressedSprite": "Button3_Press"
+       },
+       "scripts": [
+        "Image",
+        "Button",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.0
+        ],
+        "anchorMax": [
+         0.5,
+         0.0
+        ],
+        "position": [
+         0.0,
+         10.0
+        ],
+        "size": [
+         209.10000610351562,
+         79.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Text",
+         "active": true,
+         "text": {
+          "text": "qq",
+          "font": "MaplestoryLight",
+          "size": 32,
+          "style": 0,
+          "alignment": 4,
+          "lineSpacing": 1.0,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0,
+          "bestFit": [
+           3,
+           32
+          ]
+         },
+         "effects": [
+          {
+           "kind": "Outline",
+           "color": [
+            0.22347810864448547,
+            0.547985315322876,
+            0.5849056243896484,
+            1.0
+           ],
+           "distance": [
+            1.0,
+            -1.0
+           ]
+          }
+         ],
+         "localize": "ui_localize_gacha_get",
+         "scripts": [
+          "Text",
+          "Outline",
+          "LocalizeString"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.0
+          ],
+          "anchorMax": [
+           1.0,
+           1.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           -19.1200008392334,
+           -24.860000610351562
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
