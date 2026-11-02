@@ -287,6 +287,24 @@
   "mixes": [],
   "scale": 0.009999999776482582
  },
+ "Elyra": {
+  "asset": "Elyra_SkeletonData",
+  "atlases": [
+   "unit_staff_elyra"
+  ],
+  "defaultMix": 0.2,
+  "mixes": [],
+  "scale": 0.01
+ },
+ "Elyra_H": {
+  "asset": "Elyra_H_SkeletonData",
+  "atlases": [
+   "unit_staff_elyra"
+  ],
+  "defaultMix": 0.2,
+  "mixes": [],
+  "scale": 0.01
+ },
  "Fiance": {
   "asset": "Fiance_SkeletonData",
   "atlases": [
