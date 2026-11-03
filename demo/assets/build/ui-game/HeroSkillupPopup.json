@@ -310,7 +310,9 @@
         "controlHeight": false,
         "expandWidth": true,
         "expandHeight": true,
-        "reverse": false
+        "reverse": false,
+        "scaleWidth": false,
+        "scaleHeight": false
        },
        "scripts": [
         "HorizontalLayoutGroup",
@@ -1484,7 +1486,9 @@
         "controlHeight": false,
         "expandWidth": false,
         "expandHeight": true,
-        "reverse": false
+        "reverse": false,
+        "scaleWidth": false,
+        "scaleHeight": false
        },
        "scripts": [
         "HorizontalLayoutGroup"
@@ -1779,7 +1783,9 @@
           "controlHeight": false,
           "expandWidth": false,
           "expandHeight": true,
-          "reverse": false
+          "reverse": false,
+          "scaleWidth": false,
+          "scaleHeight": false
          },
          "scripts": [
           "HorizontalLayoutGroup"
@@ -1829,7 +1835,9 @@
             "controlHeight": false,
             "expandWidth": false,
             "expandHeight": true,
-            "reverse": false
+            "reverse": false,
+            "scaleWidth": false,
+            "scaleHeight": false
            },
            "colors": [
             [
@@ -2021,7 +2029,9 @@
             "controlHeight": false,
             "expandWidth": false,
             "expandHeight": true,
-            "reverse": false
+            "reverse": false,
+            "scaleWidth": false,
+            "scaleHeight": false
            },
            "colors": [
             [
@@ -2213,7 +2223,9 @@
             "controlHeight": false,
             "expandWidth": false,
             "expandHeight": true,
-            "reverse": false
+            "reverse": false,
+            "scaleWidth": false,
+            "scaleHeight": false
            },
            "colors": [
             [
@@ -2409,7 +2421,9 @@
         "controlHeight": false,
         "expandWidth": true,
         "expandHeight": false,
-        "reverse": false
+        "reverse": false,
+        "scaleWidth": false,
+        "scaleHeight": false
        },
        "scripts": [
         "HorizontalLayoutGroup"

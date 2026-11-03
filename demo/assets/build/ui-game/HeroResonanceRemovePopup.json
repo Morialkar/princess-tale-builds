@@ -396,7 +396,9 @@
       "controlHeight": false,
       "expandWidth": false,
       "expandHeight": false,
-      "reverse": false
+      "reverse": false,
+      "scaleWidth": false,
+      "scaleHeight": false
      },
      "scripts": [
       "HorizontalLayoutGroup"
@@ -944,7 +946,9 @@
             "controlHeight": false,
             "expandWidth": false,
             "expandHeight": false,
-            "reverse": false
+            "reverse": false,
+            "scaleWidth": false,
+            "scaleHeight": false
            },
            "scripts": [
             "HorizontalLayoutGroup"
@@ -1251,7 +1255,9 @@
             "controlHeight": false,
             "expandWidth": false,
             "expandHeight": false,
-            "reverse": false
+            "reverse": false,
+            "scaleWidth": false,
+            "scaleHeight": false
            },
            "scripts": [
             "HorizontalLayoutGroup"
@@ -1558,7 +1564,9 @@
             "controlHeight": false,
             "expandWidth": false,
             "expandHeight": false,
-            "reverse": false
+            "reverse": false,
+            "scaleWidth": false,
+            "scaleHeight": false
            },
            "scripts": [
             "HorizontalLayoutGroup"
@@ -3003,7 +3011,9 @@
             "controlHeight": false,
             "expandWidth": false,
             "expandHeight": false,
-            "reverse": false
+            "reverse": false,
+            "scaleWidth": false,
+            "scaleHeight": false
            },
            "scripts": [
             "HorizontalLayoutGroup"
@@ -3310,7 +3320,9 @@
             "controlHeight": false,
             "expandWidth": false,
             "expandHeight": false,
-            "reverse": false
+            "reverse": false,
+            "scaleWidth": false,
+            "scaleHeight": false
            },
            "scripts": [
             "HorizontalLayoutGroup"
@@ -3617,7 +3629,9 @@
             "controlHeight": false,
             "expandWidth": false,
             "expandHeight": false,
-            "reverse": false
+            "reverse": false,
+            "scaleWidth": false,
+            "scaleHeight": false
            },
            "scripts": [
             "HorizontalLayoutGroup"
@@ -4548,7 +4562,9 @@
       "controlHeight": false,
       "expandWidth": true,
       "expandHeight": false,
-      "reverse": false
+      "reverse": false,
+      "scaleWidth": false,
+      "scaleHeight": false
      },
      "scripts": [
       "HorizontalLayoutGroup"

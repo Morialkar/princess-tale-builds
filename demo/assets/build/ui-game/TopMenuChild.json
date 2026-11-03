@@ -214,7 +214,9 @@
         "controlHeight": false,
         "expandWidth": true,
         "expandHeight": true,
-        "reverse": false
+        "reverse": false,
+        "scaleWidth": false,
+        "scaleHeight": false
        },
        "scripts": [
         "VerticalLayoutGroup"

@@ -12206,6 +12206,58 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Icon_PVECOIN1_Big1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_PVECOIN1_Small1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_PVECOIN2_Big1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_PVECOIN2_Small1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Icon_PVEShop1": {
   "border": [
    0.0,
@@ -12245,6 +12297,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Icon_PVE_Count_Big1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Icon_PVE_Duke_Big1": {
   "border": [
    0.0,
@@ -12258,7 +12323,59 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Icon_PVE_Marquis_Big1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Icon_PVE_Top1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_PVE_Top2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_PVE_Top3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_PVE_Viscount_Big1": {
   "border": [
    0.0,
    0.0,
@@ -16827,6 +16944,45 @@
    78.0,
    39.0,
    78.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "PVE_Frame2": {
+  "border": [
+   46.0,
+   78.0,
+   39.0,
+   78.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "PVE_Frame3": {
+  "border": [
+   46.0,
+   78.0,
+   39.0,
+   78.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "PVE_Frame4": {
+  "border": [
+   46.0,
+   79.0,
+   39.0,
+   79.0
   ],
   "pivot": [
    0.5,

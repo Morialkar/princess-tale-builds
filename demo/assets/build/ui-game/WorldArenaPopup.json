@@ -440,7 +440,9 @@
         "controlHeight": false,
         "expandWidth": false,
         "expandHeight": false,
-        "reverse": false
+        "reverse": false,
+        "scaleWidth": false,
+        "scaleHeight": false
        },
        "scripts": [
         "Image",
@@ -671,7 +673,9 @@
         "controlHeight": false,
         "expandWidth": false,
         "expandHeight": true,
-        "reverse": false
+        "reverse": false,
+        "scaleWidth": false,
+        "scaleHeight": false
        },
        "scripts": [
         "HorizontalLayoutGroup"
@@ -878,7 +882,9 @@
         "controlHeight": false,
         "expandWidth": false,
         "expandHeight": true,
-        "reverse": false
+        "reverse": false,
+        "scaleWidth": false,
+        "scaleHeight": false
        },
        "scripts": [
         "HorizontalLayoutGroup"
@@ -1413,7 +1419,9 @@
       "controlHeight": false,
       "expandWidth": false,
       "expandHeight": false,
-      "reverse": false
+      "reverse": false,
+      "scaleWidth": false,
+      "scaleHeight": false
      },
      "scripts": [
       "HorizontalLayoutGroup",
@@ -2856,7 +2864,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": true,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "image": {
                     "type": 1,
@@ -3099,7 +3109,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": true,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -3272,7 +3284,9 @@
                   "controlHeight": false,
                   "expandWidth": false,
                   "expandHeight": false,
-                  "reverse": false
+                  "reverse": false,
+                  "scaleWidth": true,
+                  "scaleHeight": true
                  },
                  "scripts": [
                   "HorizontalLayoutGroup"
@@ -3820,7 +3834,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -4127,7 +4143,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -4727,7 +4745,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -5910,7 +5930,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -6217,7 +6239,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -6817,7 +6841,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -8000,7 +8026,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -8307,7 +8335,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -8907,7 +8937,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -10090,7 +10122,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -10397,7 +10431,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -10997,7 +11033,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -12180,7 +12218,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -12487,7 +12527,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -13087,7 +13129,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -14010,7 +14054,9 @@
         "controlHeight": false,
         "expandWidth": false,
         "expandHeight": false,
-        "reverse": false
+        "reverse": false,
+        "scaleWidth": false,
+        "scaleHeight": false
        },
        "button": {
         "kind": "CustomButton",
@@ -14957,7 +15003,9 @@
                 "controlHeight": false,
                 "expandWidth": false,
                 "expandHeight": true,
-                "reverse": false
+                "reverse": false,
+                "scaleWidth": false,
+                "scaleHeight": false
                },
                "image": {
                 "type": 1,
@@ -15200,7 +15248,9 @@
                 "controlHeight": false,
                 "expandWidth": false,
                 "expandHeight": true,
-                "reverse": false
+                "reverse": false,
+                "scaleWidth": false,
+                "scaleHeight": false
                },
                "scripts": [
                 "HorizontalLayoutGroup"
@@ -15373,7 +15423,9 @@
               "controlHeight": false,
               "expandWidth": false,
               "expandHeight": false,
-              "reverse": false
+              "reverse": false,
+              "scaleWidth": true,
+              "scaleHeight": true
              },
              "scripts": [
               "HorizontalLayoutGroup"
@@ -15921,7 +15973,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -16228,7 +16282,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -16828,7 +16884,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -18011,7 +18069,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -18318,7 +18378,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -18918,7 +18980,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -20101,7 +20165,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -20408,7 +20474,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -21008,7 +21076,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -22191,7 +22261,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -22498,7 +22570,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -23098,7 +23172,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -24281,7 +24357,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -24588,7 +24666,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -25188,7 +25268,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -26771,7 +26853,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": true,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "image": {
                     "type": 1,
@@ -27014,7 +27098,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": true,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "HorizontalLayoutGroup"
@@ -27187,7 +27273,9 @@
                   "controlHeight": false,
                   "expandWidth": false,
                   "expandHeight": false,
-                  "reverse": false
+                  "reverse": false,
+                  "scaleWidth": true,
+                  "scaleHeight": true
                  },
                  "scripts": [
                   "HorizontalLayoutGroup"
@@ -27735,7 +27823,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -28042,7 +28132,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -28642,7 +28734,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -29825,7 +29919,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -30132,7 +30228,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -30732,7 +30830,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -31915,7 +32015,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -32222,7 +32324,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -32822,7 +32926,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -34005,7 +34111,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -34312,7 +34420,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -34912,7 +35022,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -36095,7 +36207,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -36402,7 +36516,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -37002,7 +37118,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "HorizontalLayoutGroup"
@@ -37912,7 +38030,9 @@
         "controlHeight": false,
         "expandWidth": false,
         "expandHeight": false,
-        "reverse": false
+        "reverse": false,
+        "scaleWidth": false,
+        "scaleHeight": false
        },
        "scripts": [
         "HorizontalLayoutGroup"
@@ -38793,7 +38913,9 @@
                   "controlHeight": false,
                   "expandWidth": false,
                   "expandHeight": false,
-                  "reverse": false
+                  "reverse": false,
+                  "scaleWidth": false,
+                  "scaleHeight": false
                  },
                  "scripts": [
                   "HorizontalLayoutGroup"
@@ -38941,7 +39063,9 @@
                         "controlHeight": false,
                         "expandWidth": false,
                         "expandHeight": false,
-                        "reverse": false
+                        "reverse": false,
+                        "scaleWidth": false,
+                        "scaleHeight": false
                        },
                        "scripts": [
                         "Image",
@@ -39132,7 +39256,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "VerticalLayoutGroup"
@@ -39182,7 +39308,9 @@
                       "controlHeight": false,
                       "expandWidth": false,
                       "expandHeight": false,
-                      "reverse": false
+                      "reverse": false,
+                      "scaleWidth": false,
+                      "scaleHeight": false
                      },
                      "scripts": [
                       "WorldArenaRewardSlot",
@@ -39346,7 +39474,9 @@
                       "controlHeight": false,
                       "expandWidth": false,
                       "expandHeight": false,
-                      "reverse": false
+                      "reverse": false,
+                      "scaleWidth": false,
+                      "scaleHeight": false
                      },
                      "scripts": [
                       "WorldArenaRewardSlot",
@@ -39563,7 +39693,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "VerticalLayoutGroup"
@@ -39613,7 +39745,9 @@
                       "controlHeight": false,
                       "expandWidth": false,
                       "expandHeight": false,
-                      "reverse": false
+                      "reverse": false,
+                      "scaleWidth": false,
+                      "scaleHeight": false
                      },
                      "scripts": [
                       "WorldArenaRewardSlot",
@@ -39777,7 +39911,9 @@
                       "controlHeight": false,
                       "expandWidth": false,
                       "expandHeight": false,
-                      "reverse": false
+                      "reverse": false,
+                      "scaleWidth": false,
+                      "scaleHeight": false
                      },
                      "scripts": [
                       "WorldArenaRewardSlot",
@@ -39994,7 +40130,9 @@
                     "controlHeight": false,
                     "expandWidth": false,
                     "expandHeight": false,
-                    "reverse": false
+                    "reverse": false,
+                    "scaleWidth": false,
+                    "scaleHeight": false
                    },
                    "scripts": [
                     "VerticalLayoutGroup"
@@ -40044,7 +40182,9 @@
                       "controlHeight": false,
                       "expandWidth": false,
                       "expandHeight": false,
-                      "reverse": false
+                      "reverse": false,
+                      "scaleWidth": false,
+                      "scaleHeight": false
                      },
                      "scripts": [
                       "WorldArenaRewardSlot",
@@ -40208,7 +40348,9 @@
                       "controlHeight": false,
                       "expandWidth": false,
                       "expandHeight": false,
-                      "reverse": false
+                      "reverse": false,
+                      "scaleWidth": false,
+                      "scaleHeight": false
                      },
                      "scripts": [
                       "WorldArenaRewardSlot",
@@ -40403,7 +40545,9 @@
         "controlHeight": false,
         "expandWidth": false,
         "expandHeight": false,
-        "reverse": false
+        "reverse": false,
+        "scaleWidth": false,
+        "scaleHeight": false
        },
        "scripts": [
         "Image",
@@ -40456,7 +40600,9 @@
           "controlHeight": false,
           "expandWidth": false,
           "expandHeight": false,
-          "reverse": false
+          "reverse": false,
+          "scaleWidth": true,
+          "scaleHeight": false
          },
          "scripts": [
           "HorizontalLayoutGroup"
@@ -41334,7 +41480,9 @@
                 "controlHeight": false,
                 "expandWidth": false,
                 "expandHeight": false,
-                "reverse": false
+                "reverse": false,
+                "scaleWidth": false,
+                "scaleHeight": false
                },
                "scripts": [
                 "HorizontalLayoutGroup"
@@ -41641,7 +41789,9 @@
                 "controlHeight": false,
                 "expandWidth": false,
                 "expandHeight": false,
-                "reverse": false
+                "reverse": false,
+                "scaleWidth": false,
+                "scaleHeight": false
                },
                "scripts": [
                 "HorizontalLayoutGroup"
@@ -42297,7 +42447,9 @@
           "controlHeight": false,
           "expandWidth": false,
           "expandHeight": false,
-          "reverse": false
+          "reverse": false,
+          "scaleWidth": true,
+          "scaleHeight": false
          },
          "scripts": [
           "HorizontalLayoutGroup"
@@ -43175,7 +43327,9 @@
                 "controlHeight": false,
                 "expandWidth": false,
                 "expandHeight": false,
-                "reverse": false
+                "reverse": false,
+                "scaleWidth": false,
+                "scaleHeight": false
                },
                "scripts": [
                 "HorizontalLayoutGroup"
@@ -43482,7 +43636,9 @@
                 "controlHeight": false,
                 "expandWidth": false,
                 "expandHeight": false,
-                "reverse": false
+                "reverse": false,
+                "scaleWidth": false,
+                "scaleHeight": false
                },
                "scripts": [
                 "HorizontalLayoutGroup"
@@ -44242,7 +44398,9 @@
           "controlHeight": false,
           "expandWidth": false,
           "expandHeight": false,
-          "reverse": false
+          "reverse": false,
+          "scaleWidth": true,
+          "scaleHeight": false
          },
          "scripts": [
           "HorizontalLayoutGroup"
@@ -45120,7 +45278,9 @@
                 "controlHeight": false,
                 "expandWidth": false,
                 "expandHeight": false,
-                "reverse": false
+                "reverse": false,
+                "scaleWidth": false,
+                "scaleHeight": false
                },
                "scripts": [
                 "HorizontalLayoutGroup"
@@ -45427,7 +45587,9 @@
                 "controlHeight": false,
                 "expandWidth": false,
                 "expandHeight": false,
-                "reverse": false
+                "reverse": false,
+                "scaleWidth": false,
+                "scaleHeight": false
                },
                "scripts": [
                 "HorizontalLayoutGroup"

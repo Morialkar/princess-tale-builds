@@ -334,7 +334,9 @@
             "controlHeight": true,
             "expandWidth": false,
             "expandHeight": true,
-            "reverse": false
+            "reverse": false,
+            "scaleWidth": false,
+            "scaleHeight": false
            },
            "scripts": [
             "HorizontalLayoutGroup",
