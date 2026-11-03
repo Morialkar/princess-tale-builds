@@ -1,0 +1,613 @@
+{
+ "name": "EventBannerEntity",
+ "active": true,
+ "scripts": [
+  "EventBannerEntity"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.5
+  ],
+  "anchorMax": [
+   0.5,
+   0.5
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   722.0,
+   240.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "BannerImage",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true
+   },
+   "button": {
+    "kind": "Button",
+    "transition": 1,
+    "normal": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "pressed": [
+     0.7843137383460999,
+     0.7843137383460999,
+     0.7843137383460999,
+     1.0
+    ],
+    "multiplier": 1.0,
+    "fade": 0.10000000149011612,
+    "target": "BannerImage",
+    "interactable": true
+   },
+   "scripts": [
+    "Image",
+    "Button"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.0,
+     -24.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "title",
+     "active": true,
+     "text": {
+      "text": "7\uc77c \uc644\uc131\n\ucd08\ubcf4\uc790 \uac00\uc774\ub4dc",
+      "font": "MaplestoryBold",
+      "size": 49,
+      "style": 1,
+      "alignment": 2,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "hOverflow": 0,
+      "vOverflow": 0,
+      "bestFit": [
+       30,
+       49
+      ]
+     },
+     "effects": [
+      {
+       "kind": "Outline",
+       "color": [
+        0.06603771448135376,
+        0.06603771448135376,
+        0.06603771448135376,
+        1.0
+       ],
+       "distance": [
+        1.0,
+        -1.0
+       ]
+      }
+     ],
+     "scripts": [
+      "Text",
+      "LocalizeString",
+      "Outline"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       134.0,
+       29.0
+      ],
+      "size": [
+       409.329833984375,
+       136.780029296875
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "LeftTime",
+     "active": true,
+     "text": {
+      "text": "N\uc77c N\uc2dc\uac04 \ud6c4 \uc885\ub8cc",
+      "font": "MaplestoryBold",
+      "size": 19,
+      "style": 1,
+      "alignment": 8,
+      "lineSpacing": 1.0,
+      "color": [
+       0.9019607901573181,
+       0.8156862854957581,
+       0.6784313917160034,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "hOverflow": 0,
+      "vOverflow": 0
+     },
+     "effects": [
+      {
+       "kind": "Outline",
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        1.0,
+        -1.0
+       ]
+      }
+     ],
+     "scripts": [
+      "Text",
+      "LocalizeString",
+      "Outline"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       205.0,
+       -85.2040023803711
+      ],
+      "size": [
+       302.9970703125,
+       45.5916748046875
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Info",
+     "active": true,
+     "image": {
+      "type": 1,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       0.5529412031173706
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Gradation_Black1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       -192.0,
+       -87.40799713134766
+      ],
+      "size": [
+       500.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Info",
+       "active": true,
+       "text": {
+        "text": "\ubcc4\ub3c4 \ucd94\uac00 \uc815\ubcf4 \ub610\ub294 \uc870\uac74",
+        "font": "MaplestoryBold",
+        "size": 25,
+        "style": 1,
+        "alignment": 3,
+        "lineSpacing": 1.0,
+        "color": [
+         0.9019607901573181,
+         0.8156862854957581,
+         0.6784313917160034,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         10,
+         25
+        ]
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "distance": [
+          1.0,
+          -1.0
+         ]
+        }
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString",
+        "Outline"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         55.529998779296875,
+         2.9800000190734863
+        ],
+        "size": [
+         -111.06619262695312,
+         -5.95013427734375
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Image",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Stick1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     1.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     -10.0
+    ],
+    "size": [
+     4.0,
+     5.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Image (1)",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Stick1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     10.0
+    ],
+    "size": [
+     4.0,
+     5.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "RedDotBase",
+   "active": true,
+   "scripts": [
+    "RedDotEffect"
+   ],
+   "rect": {
+    "anchorMin": [
+     1.0,
+     1.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     -22.0,
+     -30.0
+    ],
+    "size": [
+     34.0,
+     34.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "RedDot",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "sprite": "New1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.0,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "RedDotEffect",
+       "active": true,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         0.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "sprite": "New1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,404 @@
+{
+ "name": "AttendanceContinueEntity",
+ "active": false,
+ "scripts": [
+  "AttendanceContinueEntity"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.5
+  ],
+  "anchorMax": [
+   0.0,
+   0.5
+  ],
+  "position": [
+   205.39999389648438,
+   -5.0
+  ],
+  "size": [
+   100.0,
+   100.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  0.8999999761581421,
+  0.8999999761581421
+ ],
+ "children": [
+  {
+   "name": "Background",
+   "active": false,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     0.0,
+     0.0,
+     0.0,
+     0.501960813999176
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "empty"
+   },
+   "button": {
+    "kind": "Button",
+    "transition": 0,
+    "normal": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "pressed": [
+     0.7843137383460999,
+     0.7843137383460999,
+     0.7843137383460999,
+     1.0
+    ],
+    "multiplier": 1.0,
+    "fade": 0.10000000149011612,
+    "target": "Background",
+    "interactable": true
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage",
+    "Button"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     -180.0,
+     -852.5
+    ],
+    "size": [
+     20000.0,
+     20000.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "RewardList",
+   "active": false,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Slot3"
+   },
+   "layout": {
+    "kind": "HorizontalLayoutGroup",
+    "padding": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "childAlignment": 5,
+    "enabled": true,
+    "spacing": -50.0,
+    "controlWidth": false,
+    "controlHeight": false,
+    "expandWidth": false,
+    "expandHeight": false,
+    "reverse": false
+   },
+   "button": {
+    "kind": "Button",
+    "transition": 0,
+    "normal": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "pressed": [
+     0.7843137383460999,
+     0.7843137383460999,
+     0.7843137383460999,
+     1.0
+    ],
+    "multiplier": 1.0,
+    "fade": 0.10000000149011612,
+    "target": "RewardList",
+    "interactable": true
+   },
+   "scripts": [
+    "Image",
+    "HorizontalLayoutGroup",
+    "ContentSizeFitter",
+    "Button",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     30.599998474121094
+    ],
+    "size": [
+     30.0,
+     100.0
+    ],
+    "pivot": [
+     1.0,
+     0.0
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "BoxSkel",
+   "active": true,
+   "skeleton": {
+    "animation": "",
+    "loop": true,
+    "skin": "default",
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "skeleton": "treasure_box"
+   },
+   "button": {
+    "kind": "Button",
+    "transition": 1,
+    "normal": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "pressed": [
+     0.7843137383460999,
+     0.7843137383460999,
+     0.7843137383460999,
+     1.0
+    ],
+    "multiplier": 1.0,
+    "fade": 0.10000000149011612,
+    "target": "BoxIcon",
+    "interactable": true
+   },
+   "scripts": [
+    "SkeletonGraphic",
+    "Button"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     -0.5,
+     12.0
+    ],
+    "size": [
+     93.0,
+     75.0
+    ],
+    "pivot": [
+     0.49462366104125977,
+     0.4933333396911621
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "BoxIcon",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Quest_Chest_Close1"
+   },
+   "button": {
+    "kind": "Button",
+    "transition": 1,
+    "normal": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "pressed": [
+     0.7843137383460999,
+     0.7843137383460999,
+     0.7843137383460999,
+     1.0
+    ],
+    "multiplier": 1.0,
+    "fade": 0.10000000149011612,
+    "target": "BoxIcon",
+    "interactable": true
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage",
+    "Button"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     12.5
+    ],
+    "size": [
+     93.0,
+     75.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Text",
+   "active": true,
+   "text": {
+    "text": "5",
+    "font": "MaplestoryLight",
+    "size": 24,
+    "style": 0,
+    "alignment": 4,
+    "lineSpacing": 1.0,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": false,
+    "hOverflow": 1,
+    "vOverflow": 1
+   },
+   "effects": [
+    {
+     "kind": "Outline",
+     "color": [
+      0.4313725531101227,
+      0.37254902720451355,
+      0.2666666805744171,
+      1.0
+     ],
+     "distance": [
+      1.0,
+      -1.0
+     ]
+    }
+   ],
+   "scripts": [
+    "Text",
+    "LocalizeString",
+    "Outline"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     -8.0,
+     -35.0
+    ],
+    "size": [
+     100.0,
+     30.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}

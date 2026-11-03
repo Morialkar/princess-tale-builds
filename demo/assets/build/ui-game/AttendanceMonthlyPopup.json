@@ -1,0 +1,2462 @@
+{
+ "name": "AttendanceMonthlyPopup",
+ "active": true,
+ "scripts": [
+  "AttendanceMonthlyPopup"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   1.0,
+   1.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Top",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     478.9499206542969
+    ],
+    "size": [
+     720.0,
+     317.9000244140625
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "EventBannerImage",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Attendance_BG1"
+     },
+     "mask": "Mask",
+     "scripts": [
+      "Image",
+      "Mask",
+      "EventEntity"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       1.0
+      ],
+      "anchorMax": [
+       0.5,
+       1.0
+      ],
+      "position": [
+       0.0,
+       -190.0
+      ],
+      "size": [
+       712.0,
+       370.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "TitleBG",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         0.729411780834198
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Gradation_Black1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         193.60000610351562,
+         62.5
+        ],
+        "size": [
+         600.0,
+         140.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "TitleText1",
+         "active": true,
+         "text": {
+          "text": "\ub9e4\uc77c\ub9e4\uc77c \ucd9c\uc11d \ub3c4\uc7a5",
+          "font": "MaplestoryBold",
+          "size": 45,
+          "style": 1,
+          "alignment": 5,
+          "lineSpacing": 1.0,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": true,
+          "hOverflow": 1,
+          "vOverflow": 1
+         },
+         "effects": [
+          {
+           "kind": "Outline",
+           "color": [
+            0.6980392336845398,
+            0.501960813999176,
+            0.8509804010391235,
+            1.0
+           ],
+           "distance": [
+            1.0,
+            -1.0
+           ]
+          },
+          {
+           "kind": "Shadow",
+           "color": [
+            0.6980392336845398,
+            0.501960813999176,
+            0.8509804010391235,
+            1.0
+           ],
+           "distance": [
+            1.0,
+            -1.0
+           ]
+          }
+         ],
+         "scripts": [
+          "Text",
+          "LocalizeString",
+          "Outline",
+          "Shadow",
+          "EventEntity"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           -90.0,
+           20.0
+          ],
+          "size": [
+           450.0,
+           55.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        },
+        {
+         "name": "TitleText2",
+         "active": true,
+         "text": {
+          "text": "\ub9e4\uc77c \ucd9c\uc11d\ud574\uc11c \ubcf4\uc0c1\uc744 \ubc1b\uc73c\uc138\uc694.",
+          "font": "MaplestoryBold",
+          "size": 22,
+          "style": 1,
+          "alignment": 5,
+          "lineSpacing": 1.0,
+          "color": [
+           0.5254902243614197,
+           1.0,
+           0.6823529601097107,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": true,
+          "hOverflow": 1,
+          "vOverflow": 1
+         },
+         "effects": [
+          {
+           "kind": "Outline",
+           "color": [
+            0.33725491166114807,
+            0.24705882370471954,
+            0.9058823585510254,
+            1.0
+           ],
+           "distance": [
+            1.0,
+            -1.0
+           ]
+          },
+          {
+           "kind": "Shadow",
+           "color": [
+            0.33725491166114807,
+            0.24705882370471954,
+            0.9058823585510254,
+            1.0
+           ],
+           "distance": [
+            1.0,
+            -1.0
+           ]
+          }
+         ],
+         "scripts": [
+          "Text",
+          "LocalizeString",
+          "Outline",
+          "Shadow",
+          "EventEntity"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           -90.0,
+           -27.399999618530273
+          ],
+          "size": [
+           450.0,
+           42.3408203125
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        }
+       ]
+      },
+      {
+       "name": "InfoBG",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         0.6745098233222961
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Slot3_Gray"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         146.82000732421875,
+         -58.0
+        ],
+        "size": [
+         418.3639221191406,
+         75.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "InfoText",
+         "active": true,
+         "text": {
+          "text": "\uc655\uc774 \uc77c\ud558\uae30 \uc2eb\uc73c\uba74\n\uad81\uc2dc\ub801\uad81\uc2dc\ub801",
+          "font": "MaplestoryLight",
+          "size": 21,
+          "style": 0,
+          "alignment": 4,
+          "lineSpacing": 1.0,
+          "color": [
+           0.9607843160629272,
+           0.8705882430076599,
+           0.7254902124404907,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0,
+          "bestFit": [
+           10,
+           21
+          ]
+         },
+         "effects": [
+          {
+           "kind": "Outline",
+           "color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+           ],
+           "distance": [
+            0.75,
+            -0.75
+           ]
+          }
+         ],
+         "scripts": [
+          "Text",
+          "LocalizeString",
+          "Outline",
+          "EventEntity"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.0
+          ],
+          "anchorMax": [
+           1.0,
+           1.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           -10.0,
+           -10.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bot",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     -160.0
+    ],
+    "size": [
+     720.0,
+     960.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "BG",
+     "active": true,
+     "image": {
+      "type": 1,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Square1"
+     },
+     "layout": {
+      "kind": "GridLayoutGroup",
+      "padding": [
+       20,
+       20,
+       20,
+       20
+      ],
+      "childAlignment": 4,
+      "enabled": true,
+      "cellSize": [
+       200.0,
+       200.0
+      ],
+      "spacing": [
+       40.0,
+       40.0
+      ],
+      "constraint": 0,
+      "constraintCount": 2,
+      "startCorner": 0,
+      "startAxis": 0
+     },
+     "scripts": [
+      "Image",
+      "GridLayoutGroup",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.0,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Scroll View",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "empty"
+     },
+     "scripts": [
+      "Image",
+      "ScrollRect",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       -51.9647216796875
+      ],
+      "size": [
+       -80.0,
+       -156.0706787109375
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Image",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Pattern3"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         5.000002861022949
+        ],
+        "size": [
+         40.0,
+         29.99999237060547
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Viewport",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "UIMask"
+       },
+       "mask": "RectMask2D",
+       "scripts": [
+        "Image",
+        "RectMask2D"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         0.0
+        ],
+        "pivot": [
+         0.0,
+         1.0
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Content",
+         "active": true,
+         "scroll": {
+          "kind": "ScrollContent_AttendanceEntity",
+          "scrollType": 0,
+          "alignType": 1,
+          "itemAlignType": 0,
+          "lineCount": 5,
+          "itemScale": 0.8500000238418579,
+          "itemMargin": {
+           "left": 7.5,
+           "top": 20.0,
+           "right": 7.5,
+           "bottom": 10.0
+          }
+         },
+         "scripts": [
+          "ScrollContent_AttendanceEntity"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           1.0
+          ],
+          "anchorMax": [
+           1.0,
+           1.0
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           0.0,
+           300.0
+          ],
+          "pivot": [
+           0.0,
+           1.0
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "ContinueAttendance",
+     "active": true,
+     "rect": {
+      "anchorMin": [
+       0.0,
+       1.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       -55.0
+      ],
+      "size": [
+       0.0,
+       100.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "BG",
+       "active": true,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "BackGround4"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "StickTop",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "sprite": "Stick1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         1.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         7.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "StickBot",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "sprite": "Stick1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         7.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "ContinueProgress",
+       "active": true,
+       "rect": {
+        "anchorMin": [
+         0.0,
+         1.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         -38.400001525878906
+        ],
+        "size": [
+         -80.0,
+         105.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "AttendanceGauge",
+         "active": true,
+         "image": {
+          "type": 1,
+          "fillMethod": 4,
+          "fillAmount": 1.0,
+          "fillOrigin": 0,
+          "fillClockwise": true,
+          "preserveAspect": false,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": false,
+          "sprite": "RoundGauge_Bar2"
+         },
+         "slider": {
+          "value": 0.0,
+          "min": 0.0,
+          "max": 1.0,
+          "direction": 0
+         },
+         "scripts": [
+          "Image",
+          "AtlasImage",
+          "Slider"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           15.0,
+           0.0
+          ],
+          "size": [
+           520.0,
+           40.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Fill",
+           "active": true,
+           "image": {
+            "type": 1,
+            "fillMethod": 0,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": false,
+            "sprite": "Gauge4"
+           },
+           "scripts": [
+            "Image",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             0.0,
+             0.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             -20.0,
+             -20.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ]
+          },
+          {
+           "name": "ContinueReward",
+           "active": true,
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             1.0,
+             1.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             0.0,
+             0.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ]
+          }
+         ]
+        },
+        {
+         "name": "ContinueDay",
+         "active": true,
+         "image": {
+          "type": 1,
+          "fillMethod": 4,
+          "fillAmount": 1.0,
+          "fillOrigin": 0,
+          "fillClockwise": true,
+          "preserveAspect": false,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": false,
+          "sprite": "RoundGauge_Bar2"
+         },
+         "scripts": [
+          "Image",
+          "AtlasImage"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           -275.0,
+           0.0
+          ],
+          "size": [
+           110.0,
+           55.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "ContinueText",
+           "active": true,
+           "text": {
+            "text": "0\uc77c",
+            "font": "MaplestoryLight",
+            "size": 21,
+            "style": 0,
+            "alignment": 4,
+            "lineSpacing": 1.0,
+            "color": [
+             0.9607843160629272,
+             0.8705882430076599,
+             0.7254902124404907,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": false,
+            "hOverflow": 0,
+            "vOverflow": 0
+           },
+           "effects": [
+            {
+             "kind": "Outline",
+             "color": [
+              0.0,
+              0.0,
+              0.0,
+              0.5
+             ],
+             "distance": [
+              1.0,
+              -1.0
+             ]
+            }
+           ],
+           "scripts": [
+            "Text",
+            "LocalizeString",
+            "Outline"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.0,
+             0.0
+            ],
+            "anchorMax": [
+             1.0,
+             1.0
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             0.0,
+             0.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ]
+          }
+         ]
+        },
+        {
+         "name": "BannerInfoText (1)",
+         "active": true,
+         "text": {
+          "text": "\uc5f0\uc18d \ucd9c\uc11d(*)",
+          "font": "MaplestoryLight",
+          "size": 20,
+          "style": 0,
+          "alignment": 4,
+          "lineSpacing": 1.0,
+          "color": [
+           0.9607843160629272,
+           0.8705882430076599,
+           0.7254902124404907,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": false,
+          "hOverflow": 0,
+          "vOverflow": 0,
+          "bestFit": [
+           10,
+           20
+          ]
+         },
+         "localize": "event_30day_atten_continual",
+         "effects": [
+          {
+           "kind": "Outline",
+           "color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+           ],
+           "distance": [
+            1.0,
+            -1.0
+           ]
+          }
+         ],
+         "scripts": [
+          "Text",
+          "LocalizeString",
+          "Outline"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           -275.0,
+           -40.0
+          ],
+          "size": [
+           150.0,
+           36.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        },
+        {
+         "name": "AttendanceContinueEntity",
+         "active": false,
+         "scripts": [
+          "AttendanceContinueEntity"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.0,
+           0.5
+          ],
+          "anchorMax": [
+           0.0,
+           0.5
+          ],
+          "position": [
+           205.39999389648438,
+           -5.0
+          ],
+          "size": [
+           100.0,
+           100.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          0.8999999761581421,
+          0.8999999761581421
+         ],
+         "children": [
+          {
+           "name": "Background",
+           "active": false,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             0.0,
+             0.0,
+             0.0,
+             0.501960813999176
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "empty"
+           },
+           "button": {
+            "kind": "Button",
+            "transition": 0,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "Bot/ContinueAttendance/ContinueProgress/AttendanceContinueEntity/Background",
+            "interactable": true
+           },
+           "scripts": [
+            "Image",
+            "AtlasImage",
+            "Button"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             -180.0,
+             -852.5
+            ],
+            "size": [
+             20000.0,
+             20000.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ]
+          },
+          {
+           "name": "RewardList",
+           "active": false,
+           "image": {
+            "type": 1,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "Slot3"
+           },
+           "layout": {
+            "kind": "HorizontalLayoutGroup",
+            "padding": [
+             0,
+             0,
+             0,
+             0
+            ],
+            "childAlignment": 5,
+            "enabled": true,
+            "spacing": -50.0,
+            "controlWidth": false,
+            "controlHeight": false,
+            "expandWidth": false,
+            "expandHeight": false,
+            "reverse": false
+           },
+           "button": {
+            "kind": "Button",
+            "transition": 0,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "Bot/ContinueAttendance/ContinueProgress/AttendanceContinueEntity/RewardList",
+            "interactable": true
+           },
+           "scripts": [
+            "Image",
+            "HorizontalLayoutGroup",
+            "ContentSizeFitter",
+            "Button",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             0.0,
+             30.599998474121094
+            ],
+            "size": [
+             30.0,
+             100.0
+            ],
+            "pivot": [
+             1.0,
+             0.0
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ]
+          },
+          {
+           "name": "BoxSkel",
+           "active": true,
+           "skeleton": {
+            "animation": "",
+            "loop": true,
+            "skin": "default",
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "skeleton": "treasure_box"
+           },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "Bot/ContinueAttendance/ContinueProgress/AttendanceContinueEntity/BoxIcon",
+            "interactable": true
+           },
+           "scripts": [
+            "SkeletonGraphic",
+            "Button"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             -0.5,
+             12.0
+            ],
+            "size": [
+             93.0,
+             75.0
+            ],
+            "pivot": [
+             0.49462366104125977,
+             0.4933333396911621
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ]
+          },
+          {
+           "name": "BoxIcon",
+           "active": true,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "Quest_Chest_Close1"
+           },
+           "button": {
+            "kind": "Button",
+            "transition": 1,
+            "normal": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "pressed": [
+             0.7843137383460999,
+             0.7843137383460999,
+             0.7843137383460999,
+             1.0
+            ],
+            "multiplier": 1.0,
+            "fade": 0.10000000149011612,
+            "target": "Bot/ContinueAttendance/ContinueProgress/AttendanceContinueEntity/BoxIcon",
+            "interactable": true
+           },
+           "scripts": [
+            "Image",
+            "AtlasImage",
+            "Button"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             0.0,
+             12.5
+            ],
+            "size": [
+             93.0,
+             75.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ]
+          },
+          {
+           "name": "Text",
+           "active": true,
+           "text": {
+            "text": "5",
+            "font": "MaplestoryLight",
+            "size": 24,
+            "style": 0,
+            "alignment": 4,
+            "lineSpacing": 1.0,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": false,
+            "hOverflow": 1,
+            "vOverflow": 1
+           },
+           "effects": [
+            {
+             "kind": "Outline",
+             "color": [
+              0.4313725531101227,
+              0.37254902720451355,
+              0.2666666805744171,
+              1.0
+             ],
+             "distance": [
+              1.0,
+              -1.0
+             ]
+            }
+           ],
+           "scripts": [
+            "Text",
+            "LocalizeString",
+            "Outline"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             -8.0,
+             -35.0
+            ],
+            "size": [
+             100.0,
+             30.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ]
+          }
+         ]
+        },
+        {
+         "name": "ContinueBoxParent",
+         "active": true,
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           15.0,
+           0.0
+          ],
+          "size": [
+           520.0,
+           40.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Notice",
+     "active": true,
+     "text": {
+      "text": "\ub2f9\uc77c \ucd9c\uc11d\uc740 \ub85c\uadf8\uc778 \uc2dc\uc5d0\ub9cc \uccb4\ud06c\uac00 \ub429\ub2c8\ub2e4.",
+      "font": "MaplestoryBold",
+      "size": 21,
+      "style": 1,
+      "alignment": 4,
+      "lineSpacing": 1.0,
+      "color": [
+       0.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 0,
+      "vOverflow": 0,
+      "bestFit": [
+       10,
+       21
+      ]
+     },
+     "localize": "event_7day_atten_notice",
+     "scripts": [
+      "Text",
+      "LocalizeString",
+      "EventEntity"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       35.0
+      ],
+      "size": [
+       -30.0,
+       70.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LetterBox",
+   "active": true,
+   "scripts": [
+    "LetterBox"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.0,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Left",
+     "active": true,
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.5,
+       1.0
+      ],
+      "position": [
+       -182.5,
+       0.0
+      ],
+      "size": [
+       -355.0000305175781,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      -1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "LeftImage",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Letterbox1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        -1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Right",
+     "active": true,
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       182.5,
+       0.0
+      ],
+      "size": [
+       -355.0,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "RightImage",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Letterbox1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        -1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Top",
+     "active": true,
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       1.0
+      ],
+      "position": [
+       0.0,
+       640.0
+      ],
+      "size": [
+       1024.0,
+       -640.0
+      ],
+      "pivot": [
+       0.5,
+       0.0
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "TopImage",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Letterbox2"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Image",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Stick1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         5.0
+        ],
+        "size": [
+         0.0,
+         10.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Bottom",
+     "active": true,
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.0
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       0.0,
+       -640.0
+      ],
+      "size": [
+       1024.0,
+       -640.0
+      ],
+      "pivot": [
+       0.5,
+       1.0
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "BotImage",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Letterbox2"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        -1.0
+       ]
+      },
+      {
+       "name": "Image",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Stick1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         1.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         -5.0
+        ],
+        "size": [
+         0.0,
+         10.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Border",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": false,
+    "sprite": "Square_Frame3"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     740.0,
+     1290.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "ExitButton",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Slot5"
+     },
+     "button": {
+      "kind": "CustomButton",
+      "down": 0.6499999761581421,
+      "up": 0.699999988079071,
+      "mirror": false,
+      "targets": [
+       "Border/ExitButton"
+      ],
+      "downSound": "",
+      "upSound": ""
+     },
+     "scripts": [
+      "Image",
+      "CustomButton",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       1.0,
+       1.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       -40.0,
+       -36.0
+      ],
+      "size": [
+       86.0,
+       86.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      0.699999988079071,
+      0.699999988079071
+     ],
+     "children": [
+      {
+       "name": "Icon",
+       "active": true,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Closed1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         45.0,
+         45.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
