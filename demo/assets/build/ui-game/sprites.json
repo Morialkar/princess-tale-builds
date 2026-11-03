@@ -1767,6 +1767,71 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "BackGround_tower": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "BackGround_tower_fire": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "BackGround_tower_nature": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "BackGround_tower_water": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "BackGround_tower_wind": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Background": {
   "border": [
    10.0,
@@ -4420,6 +4485,19 @@
   "pixelsPerUnit": 100.0
  },
  "Class_SSS1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Clear_Text": {
   "border": [
    0.0,
    0.0,
@@ -17926,6 +18004,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Ranking1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Ranking1_Small1": {
   "border": [
    0.0,
@@ -21059,6 +21150,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Square_Frame3_Small": {
+  "border": [
+   58.0,
+   45.0,
+   59.0,
+   83.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Square_Slot1": {
   "border": [
    10.0,
@@ -21801,6 +21905,162 @@
   "pixelsPerUnit": 100.0
  },
  "Title_Frame1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "TowerBG_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "TowerBG_2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "TowerBG_3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "TowerBG_4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "TowerBG_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "TowerBaseBG": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Tower_List_Fire1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Tower_List_Nature1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Tower_List_Origin1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Tower_List_Water1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Tower_List_Wind1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Tower_Spirit_BG1": {
   "border": [
    0.0,
    0.0,
