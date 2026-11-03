@@ -1,0 +1,369 @@
+{
+ "name": "EquipPromoteStatusEntity",
+ "active": true,
+ "layout": {
+  "kind": "HorizontalLayoutGroup",
+  "padding": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "childAlignment": 3,
+  "enabled": true,
+  "spacing": 0.0,
+  "controlWidth": false,
+  "controlHeight": false,
+  "expandWidth": false,
+  "expandHeight": true,
+  "reverse": false
+ },
+ "scripts": [
+  "HorizontalLayoutGroup",
+  "EquipPromoteStatusEntity"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   0.0,
+   0.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   584.0478515625,
+   48.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Name",
+   "active": true,
+   "text": {
+    "text": "\uba85\uc911",
+    "font": "MaplestoryLight",
+    "size": 24,
+    "style": 1,
+    "alignment": 3,
+    "lineSpacing": 1.0,
+    "color": [
+     0.9215686917304993,
+     0.8901961445808411,
+     0.847058892250061,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "hOverflow": 0,
+    "vOverflow": 0
+   },
+   "localize": "ui_localize_hero_acc_abbreviation",
+   "effects": [
+    {
+     "kind": "Outline",
+     "color": [
+      0.22745099663734436,
+      0.0784313753247261,
+      0.0784313753247261,
+      1.0
+     ],
+     "distance": [
+      1.0,
+      -1.0
+     ]
+    }
+   ],
+   "scripts": [
+    "Text",
+    "LocalizeString",
+    "Outline"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     208.20999145507812,
+     40.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Before",
+   "active": true,
+   "text": {
+    "text": "1234K",
+    "font": "MaplestoryLight",
+    "size": 28,
+    "style": 0,
+    "alignment": 4,
+    "lineSpacing": 1.0,
+    "color": [
+     0.9215686917304993,
+     0.8901961445808411,
+     0.847058892250061,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "hOverflow": 0,
+    "vOverflow": 0
+   },
+   "effects": [
+    {
+     "kind": "Outline",
+     "color": [
+      0.23137256503105164,
+      0.09019608050584793,
+      0.08627451211214066,
+      1.0
+     ],
+     "distance": [
+      1.0,
+      -1.0
+     ]
+    }
+   ],
+   "scripts": [
+    "Text",
+    "Outline",
+    "LocalizeString"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     139.8946990966797,
+     48.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Empty",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     32.83990478515625,
+     40.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Arrow",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Common_Arrow_Green1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     30.0,
+     30.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Empty",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     32.83990478515625,
+     40.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "After",
+   "active": true,
+   "text": {
+    "text": "1234K",
+    "font": "MaplestoryLight",
+    "size": 28,
+    "style": 0,
+    "alignment": 4,
+    "lineSpacing": 1.0,
+    "color": [
+     0.458823561668396,
+     0.6509804129600525,
+     0.0313725508749485,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "hOverflow": 0,
+    "vOverflow": 0
+   },
+   "effects": [
+    {
+     "kind": "Outline",
+     "color": [
+      0.23137256503105164,
+      0.09019608050584793,
+      0.08627451211214066,
+      1.0
+     ],
+     "distance": [
+      1.0,
+      -1.0
+     ]
+    }
+   ],
+   "scripts": [
+    "Text",
+    "Outline",
+    "LocalizeString"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     139.8946990966797,
+     48.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}
