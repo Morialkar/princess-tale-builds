@@ -1,0 +1,38 @@
+{
+ "ObjectImage": {
+  "asset": "ObjectImage_SkeletonData",
+  "atlases": [
+   "UI_05"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "__artifact2": {
+  "asset": "__artifact2_SkeletonData",
+  "atlases": [
+   "UI_05"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "artifact": {
+  "asset": "artifact_SkeletonData",
+  "atlases": [
+   "UI_05"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "newrecord": {
+  "asset": "newrecord_SkeletonData",
+  "atlases": [
+   "UI_05"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}

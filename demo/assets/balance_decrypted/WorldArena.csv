@@ -1,0 +1,3 @@
+﻿InterimDay,InterimCalTime,ArenaPreCalTime,ResetPoint,ArenaEntryItem,DailyFreeTicket,SearchAPtRange,AddSearchAPtRange,AddSearchAptRangeMax,TrainingRoationMax,ChannelCount,WDCount_Asia1,WDCount_Asia2,WDCount_Europe,WDCount_NorthAmerica
+int,int,int,int,int,int,int,int,int,int,int,int,int,int,int
+2,1,3,1000,7,3,10,5,800,150,500,8000,5000,4000,2500

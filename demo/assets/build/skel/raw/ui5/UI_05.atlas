@@ -1,0 +1,181 @@
+
+UI_05.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arena/Arena_NewRecord1
+  rotate: false
+  xy: 1084, 558
+  size: 262, 216
+  orig: 262, 216
+  offset: 0, 0
+  index: -1
+Arena/Arena_NewRecord1_White
+  rotate: false
+  xy: 2, 2
+  size: 300, 250
+  orig: 300, 250
+  offset: 0, 0
+  index: -1
+Arena/Arena_Newtier1
+  rotate: false
+  xy: 1348, 558
+  size: 262, 216
+  orig: 262, 216
+  offset: 0, 0
+  index: -1
+Arena/Arena_Newtier1_White
+  rotate: false
+  xy: 1184, 208
+  size: 262, 216
+  orig: 262, 216
+  offset: 0, 0
+  index: -1
+Artifact/Artifact_Altar1
+  rotate: false
+  xy: 2, 776
+  size: 640, 660
+  orig: 640, 660
+  offset: 0, 0
+  index: -1
+Artifact/Artifact_Altar2
+  rotate: false
+  xy: 644, 776
+  size: 640, 660
+  orig: 640, 660
+  offset: 0, 0
+  index: -1
+Artifact/Artifact_Altar3
+  rotate: false
+  xy: 1286, 776
+  size: 640, 660
+  orig: 640, 660
+  offset: 0, 0
+  index: -1
+dungeon/DG_Battle
+  rotate: false
+  xy: 776, 644
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_BuffAtk1
+  rotate: false
+  xy: 776, 512
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_BuffDefense1
+  rotate: false
+  xy: 2, 386
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_DebuffAtk1
+  rotate: false
+  xy: 310, 386
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_DebuffDefense1
+  rotate: false
+  xy: 1084, 426
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Heal1
+  rotate: false
+  xy: 618, 380
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Jail1
+  rotate: false
+  xy: 2, 254
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Mate1
+  rotate: false
+  xy: 310, 254
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_MoveL1
+  rotate: false
+  xy: 304, 122
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_MoveL2
+  rotate: false
+  xy: 612, 122
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_MoveR1
+  rotate: false
+  xy: 1392, 426
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_MoveR2
+  rotate: false
+  xy: 1612, 644
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Random1
+  rotate: false
+  xy: 1184, 76
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Reset1
+  rotate: false
+  xy: 1448, 294
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+effect/circle01
+  rotate: false
+  xy: 2, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/circle04a
+  rotate: false
+  xy: 260, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/flare_sprite
+  rotate: false
+  xy: 518, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/runecircle_02
+  rotate: false
+  xy: 926, 168
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
