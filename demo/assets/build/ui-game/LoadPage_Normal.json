@@ -262,7 +262,7 @@
         ],
         "enabled": true,
         "raycast": true,
-        "sprite": "UISprite"
+        "sprite": "UISprite~2"
        },
        "scripts": [
         "Image"
