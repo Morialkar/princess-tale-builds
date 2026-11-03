@@ -1,0 +1,38 @@
+{
+ "Evilpet": {
+  "asset": "Evilpet",
+  "atlases": [
+   "Evilpet"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "Suitcat": {
+  "asset": "Suitcat",
+  "atlases": [
+   "boss_guild"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "cake": {
+  "asset": "Cake",
+  "atlases": [
+   "boss_guild"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "jackrabbit": {
+  "asset": "JackRabbit",
+  "atlases": [
+   "boss_guild"
+  ],
+  "defaultMix": 0.0,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}
