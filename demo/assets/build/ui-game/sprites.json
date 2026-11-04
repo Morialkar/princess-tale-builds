@@ -4432,6 +4432,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Circle_BackGround1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Circle_Effect1": {
   "border": [
    0.0,
@@ -5836,6 +5849,539 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "DG_Battle": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Bomb1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Bomb_Dismantle1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Boss1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Boss2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Broken1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Buff1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_BuffAtk1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_BuffDefense1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_CoinReward1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Debuff1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_DebuffAtk1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_DebuffDefense1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Escape1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Explore1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Fixed1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Fixed2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Heal1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Jail1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Mate1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_MoveL1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_MoveL2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_MoveR1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_MoveR2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Object_Entry1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Object_Pillar1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Object_Rock1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Object_Rock2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Random1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Reset1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Revival1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Tile_Mushroom1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Tile_Rail1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Tile_Tile1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Tile_Wood1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Trap1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Wall1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Wall_Fire1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Wall_Nature1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Wall_Water1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "DG_Wall_Wind1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "DISARM": {
   "border": [
    0.0,
@@ -6383,6 +6929,266 @@
   "pixelsPerUnit": 100.0
  },
  "Dualcross_5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_BackGround1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner10": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner11": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner12": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner3": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner4": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner5": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner6": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner7": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner8": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Banner9": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Bomb1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Frame1": {
+  "border": [
+   202.0,
+   0.0,
+   202.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_MapFrame1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_MapPlayer1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_MapPoint1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Stick1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Dungeon_Stick2": {
   "border": [
    0.0,
    0.0,
@@ -12440,6 +13246,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Icon_DungeonINFO1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Icon_Equipment1": {
   "border": [
    0.0,
@@ -13260,6 +14079,32 @@
   "pixelsPerUnit": 100.0
  },
  "Icon_KeyBox_Big1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_Key_Big1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Icon_Key_Small1": {
   "border": [
    0.0,
    0.0,
@@ -24777,6 +25622,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "arrow_levelup": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "ass": {
   "border": [
    0.0,
@@ -24843,6 +25701,136 @@
   "pixelsPerUnit": 100.0
  },
  "baba_h": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "background_dungeon01": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "background_dungeon01~2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "background_dungeon02": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "background_dungeon03": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "background_dungeon04": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "background_dungeon05": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "background_dungeon06": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "background_dungeon07": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "background_dungeon08": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "background_dungeon09": {
   "border": [
    0.0,
    0.0,
@@ -25713,6 +26701,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "flare_sprite": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "flora": {
   "border": [
    0.0,
@@ -26272,6 +27273,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "lamp_spotlight": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "lamplight": {
   "border": [
    0.0,
@@ -26364,6 +27378,32 @@
   "pixelsPerUnit": 100.0
  },
  "mansion_line": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "maze_green": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "maze_yellow": {
   "border": [
    0.0,
    0.0,

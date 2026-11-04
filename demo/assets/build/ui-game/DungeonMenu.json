@@ -1,0 +1,1164 @@
+{
+ "name": "DungeonMenu",
+ "active": true,
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   1.0,
+   0.0
+  ],
+  "position": [
+   0.0,
+   51.0
+  ],
+  "size": [
+   0.0,
+   181.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "BG",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "MenuBar1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.0
+    ],
+    "anchorMax": [
+     0.5,
+     0.0
+    ],
+    "position": [
+     0.0,
+     85.0
+    ],
+    "size": [
+     800.0,
+     181.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "LeftGrid",
+     "active": true,
+     "layout": {
+      "kind": "HorizontalLayoutGroup",
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "childAlignment": 4,
+      "enabled": true,
+      "spacing": 0.0,
+      "controlWidth": false,
+      "controlHeight": false,
+      "expandWidth": true,
+      "expandHeight": true,
+      "reverse": false,
+      "scaleWidth": false,
+      "scaleHeight": false
+     },
+     "scripts": [
+      "HorizontalLayoutGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.0
+      ],
+      "anchorMax": [
+       0.5,
+       0.0
+      ],
+      "position": [
+       -230.0,
+       111.0
+      ],
+      "size": [
+       250.0,
+       100.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "DiceBackBtn",
+       "active": true,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Slot4"
+       },
+       "button": {
+        "kind": "CustomButton",
+        "down": 0.949999988079071,
+        "up": 1.0,
+        "mirror": false,
+        "targets": [
+         "BG/LeftGrid/DiceBackBtn"
+        ],
+        "downSound": "",
+        "upSound": ""
+       },
+       "scripts": [
+        "Image",
+        "CustomButton",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         108.0,
+         108.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Icon",
+         "active": true,
+         "image": {
+          "type": 0,
+          "fillMethod": 4,
+          "fillAmount": 1.0,
+          "fillOrigin": 0,
+          "fillClockwise": true,
+          "preserveAspect": false,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": true,
+          "sprite": "Back1"
+         },
+         "scripts": [
+          "Image",
+          "AtlasImage"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           72.0,
+           63.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        }
+       ]
+      },
+      {
+       "name": "MissionButton",
+       "active": true,
+       "scripts": [
+        "DungeonMissionButton"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         112.0,
+         112.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Background",
+         "active": true,
+         "image": {
+          "type": 0,
+          "fillMethod": 4,
+          "fillAmount": 1.0,
+          "fillOrigin": 0,
+          "fillClockwise": true,
+          "preserveAspect": false,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           0.7843137383460999
+          ],
+          "enabled": true,
+          "raycast": true,
+          "sprite": "Slot1"
+         },
+         "button": {
+          "kind": "CustomButton",
+          "down": 0.949999988079071,
+          "up": 1.0,
+          "mirror": false,
+          "targets": [
+           "BG/LeftGrid/MissionButton/Background"
+          ],
+          "downSound": "",
+          "upSound": ""
+         },
+         "scripts": [
+          "Image",
+          "CustomButton",
+          "AtlasImage"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           100.0,
+           100.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Frame",
+           "active": true,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "SlotFrame1"
+           },
+           "scripts": [
+            "Image",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             112.0,
+             112.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Icon",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "Wish_List1"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               4.639999866485596,
+               0.0
+              ],
+              "size": [
+               134.0,
+               134.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Name",
+             "active": true,
+             "text": {
+              "text": "",
+              "font": "MaplestoryBold",
+              "size": 27,
+              "style": 1,
+              "alignment": 4,
+              "lineSpacing": 1.0,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "hOverflow": 0,
+              "vOverflow": 0,
+              "bestFit": [
+               10,
+               27
+              ]
+             },
+             "effects": [
+              {
+               "kind": "Outline",
+               "color": [
+                0.20754718780517578,
+                0.0,
+                0.0,
+                1.0
+               ],
+               "distance": [
+                1.2000000476837158,
+                -1.2000000476837158
+               ]
+              }
+             ],
+             "localize": "ui_localize_dungeon_box_mission",
+             "scripts": [
+              "Text",
+              "Outline",
+              "LocalizeString"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               -48.099998474121094
+              ],
+              "size": [
+               110.0,
+               40.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Empty",
+       "active": true,
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         112.0,
+         112.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "RightGrid",
+     "active": true,
+     "layout": {
+      "kind": "HorizontalLayoutGroup",
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "childAlignment": 4,
+      "enabled": true,
+      "spacing": 0.0,
+      "controlWidth": false,
+      "controlHeight": false,
+      "expandWidth": true,
+      "expandHeight": true,
+      "reverse": false,
+      "scaleWidth": false,
+      "scaleHeight": false
+     },
+     "scripts": [
+      "HorizontalLayoutGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.0
+      ],
+      "anchorMax": [
+       0.5,
+       0.0
+      ],
+      "position": [
+       230.0,
+       111.0
+      ],
+      "size": [
+       250.0,
+       100.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Info",
+       "active": true,
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         112.0,
+         112.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Background",
+         "active": true,
+         "image": {
+          "type": 0,
+          "fillMethod": 4,
+          "fillAmount": 1.0,
+          "fillOrigin": 0,
+          "fillClockwise": true,
+          "preserveAspect": false,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           0.7843137383460999
+          ],
+          "enabled": true,
+          "raycast": true,
+          "sprite": "Slot1"
+         },
+         "button": {
+          "kind": "CustomButton",
+          "down": 0.949999988079071,
+          "up": 1.0,
+          "mirror": false,
+          "targets": [
+           "BG/RightGrid/Info/Background"
+          ],
+          "downSound": "Btn_Normal",
+          "upSound": ""
+         },
+         "scripts": [
+          "Image",
+          "CustomButton",
+          "AtlasImage"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           100.0,
+           100.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Frame",
+           "active": true,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "SlotFrame1"
+           },
+           "scripts": [
+            "Image",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             112.0,
+             112.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Icon",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "Icon_DungeonINFO1"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               134.0,
+               134.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Name",
+             "active": true,
+             "text": {
+              "text": "\ub358\uc804 \uc815\ubcf4",
+              "font": "MaplestoryBold",
+              "size": 27,
+              "style": 1,
+              "alignment": 4,
+              "lineSpacing": 1.0,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "hOverflow": 0,
+              "vOverflow": 0,
+              "bestFit": [
+               10,
+               27
+              ]
+             },
+             "effects": [
+              {
+               "kind": "Outline",
+               "color": [
+                0.20754718780517578,
+                0.0,
+                0.0,
+                1.0
+               ],
+               "distance": [
+                1.2000000476837158,
+                -1.2000000476837158
+               ]
+              }
+             ],
+             "localize": "ui_localize_dungeon_menu_info",
+             "scripts": [
+              "Text",
+              "Outline",
+              "LocalizeString"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               -48.099998474121094
+              ],
+              "size": [
+               110.0,
+               40.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Hero",
+       "active": true,
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         112.0,
+         112.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Background",
+         "active": true,
+         "image": {
+          "type": 0,
+          "fillMethod": 4,
+          "fillAmount": 1.0,
+          "fillOrigin": 0,
+          "fillClockwise": true,
+          "preserveAspect": false,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           0.7843137383460999
+          ],
+          "enabled": true,
+          "raycast": true,
+          "sprite": "Slot1"
+         },
+         "button": {
+          "kind": "CustomButton",
+          "down": 0.949999988079071,
+          "up": 1.0,
+          "mirror": false,
+          "targets": [
+           "BG/RightGrid/Hero/Background"
+          ],
+          "downSound": "Btn_Normal",
+          "upSound": ""
+         },
+         "scripts": [
+          "Image",
+          "CustomButton",
+          "AtlasImage"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           100.0,
+           100.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ],
+         "children": [
+          {
+           "name": "Frame",
+           "active": true,
+           "image": {
+            "type": 0,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillOrigin": 0,
+            "fillClockwise": true,
+            "preserveAspect": false,
+            "color": [
+             1.0,
+             1.0,
+             1.0,
+             1.0
+            ],
+            "enabled": true,
+            "raycast": true,
+            "sprite": "SlotFrame1"
+           },
+           "scripts": [
+            "Image",
+            "AtlasImage"
+           ],
+           "rect": {
+            "anchorMin": [
+             0.5,
+             0.5
+            ],
+            "anchorMax": [
+             0.5,
+             0.5
+            ],
+            "position": [
+             0.0,
+             0.0
+            ],
+            "size": [
+             112.0,
+             112.0
+            ],
+            "pivot": [
+             0.5,
+             0.5
+            ]
+           },
+           "scale": [
+            1.0,
+            1.0
+           ],
+           "children": [
+            {
+             "name": "Icon",
+             "active": true,
+             "image": {
+              "type": 0,
+              "fillMethod": 4,
+              "fillAmount": 1.0,
+              "fillOrigin": 0,
+              "fillClockwise": true,
+              "preserveAspect": false,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "sprite": "Hero1"
+             },
+             "scripts": [
+              "Image",
+              "AtlasImage"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               0.0
+              ],
+              "size": [
+               134.0,
+               134.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            },
+            {
+             "name": "Name",
+             "active": true,
+             "text": {
+              "text": "",
+              "font": "MaplestoryBold",
+              "size": 27,
+              "style": 1,
+              "alignment": 4,
+              "lineSpacing": 1.0,
+              "color": [
+               1.0,
+               1.0,
+               1.0,
+               1.0
+              ],
+              "enabled": true,
+              "raycast": true,
+              "hOverflow": 0,
+              "vOverflow": 0,
+              "bestFit": [
+               10,
+               27
+              ]
+             },
+             "effects": [
+              {
+               "kind": "Outline",
+               "color": [
+                0.20754718780517578,
+                0.0,
+                0.0,
+                1.0
+               ],
+               "distance": [
+                1.2000000476837158,
+                -1.2000000476837158
+               ]
+              }
+             ],
+             "localize": "ui_localize_Hero",
+             "scripts": [
+              "Text",
+              "Outline",
+              "LocalizeString"
+             ],
+             "rect": {
+              "anchorMin": [
+               0.5,
+               0.5
+              ],
+              "anchorMax": [
+               0.5,
+               0.5
+              ],
+              "position": [
+               0.0,
+               -48.099998474121094
+              ],
+              "size": [
+               110.0,
+               40.0
+              ],
+              "pivot": [
+               0.5,
+               0.5
+              ]
+             },
+             "scale": [
+              1.0,
+              1.0
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

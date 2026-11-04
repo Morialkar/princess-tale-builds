@@ -1,0 +1,20 @@
+{
+ "ObjectImage": {
+  "asset": "ObjectImage_SkeletonData",
+  "atlases": [
+   "UI_03"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ },
+ "SortObjectImage": {
+  "asset": "SortObjectImage_SkeletonData",
+  "atlases": [
+   "UI_03"
+  ],
+  "defaultMix": 0.20000000298023224,
+  "mixes": [],
+  "scale": 0.009999999776482582
+ }
+}

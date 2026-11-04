@@ -1,0 +1,110 @@
+{
+ "name": "DungeonCurrencyTopWindow",
+ "active": true,
+ "image": {
+  "type": 0,
+  "fillMethod": 4,
+  "fillAmount": 1.0,
+  "fillOrigin": 0,
+  "fillClockwise": true,
+  "preserveAspect": false,
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "enabled": true,
+  "raycast": true,
+  "sprite": "MenuBar2"
+ },
+ "scripts": [
+  "Image",
+  "AtlasImage",
+  "DungeonCurrencyTopWindow"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   1.0
+  ],
+  "anchorMax": [
+   0.5,
+   1.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   800.0,
+   155.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Grid",
+   "active": true,
+   "layout": {
+    "kind": "GridLayoutGroup",
+    "padding": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "childAlignment": 4,
+    "enabled": true,
+    "cellSize": [
+     160.0,
+     34.0
+    ],
+    "spacing": [
+     60.0,
+     0.0
+    ],
+    "constraint": 0,
+    "constraintCount": 2,
+    "startCorner": 0,
+    "startAxis": 0
+   },
+   "scripts": [
+    "GridLayoutGroup"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     10.0,
+     -44.0
+    ],
+    "size": [
+     707.0999755859375,
+     41.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}

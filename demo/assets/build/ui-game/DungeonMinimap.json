@@ -1,0 +1,765 @@
+{
+ "name": "DungeonMinimap",
+ "active": true,
+ "scripts": [
+  "ScrollRect",
+  "DungeonMinimap"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.0
+  ],
+  "anchorMax": [
+   0.5,
+   0.0
+  ],
+  "position": [
+   0.0,
+   126.29000091552734
+  ],
+  "size": [
+   175.0,
+   175.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.100000023841858,
+  1.100000023841858
+ ],
+ "children": [
+  {
+   "name": "Mask",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": false,
+    "sprite": "Circle_BackGround1"
+   },
+   "mask": "Mask",
+   "scripts": [
+    "Image",
+    "AtlasImage",
+    "RectMask2D",
+    "Mask"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.0,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "BG",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       0.12941177189350128,
+       0.12941177189350128,
+       0.12941177189350128,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "empty"
+     },
+     "button": {
+      "kind": "Button",
+      "transition": 0,
+      "normal": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "pressed": [
+       0.7843137383460999,
+       0.7843137383460999,
+       0.7843137383460999,
+       1.0
+      ],
+      "multiplier": 1.0,
+      "fade": 0.10000000149011612,
+      "target": "Mask/BG",
+      "interactable": true
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage",
+      "Button"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.0,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Camera",
+     "active": true,
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       2048.0,
+       2732.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Parent",
+       "active": true,
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "TileObjectParent",
+         "active": true,
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           0.0,
+           0.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Arrow",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": false,
+    "sprite": "Dungeon_MapPlayer1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     24.0,
+     24.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Image",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": false,
+    "sprite": "Gradation_Black1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     -67.5
+    ],
+    "size": [
+     120.0,
+     44.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Text",
+     "active": true,
+     "text": {
+      "text": "0%",
+      "font": "MaplestoryBold",
+      "size": 20,
+      "style": 1,
+      "alignment": 1,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 0,
+      "vOverflow": 0
+     },
+     "effects": [
+      {
+       "kind": "NicerOutline",
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        0.75,
+        -0.75
+       ]
+      }
+     ],
+     "scripts": [
+      "Text",
+      "LocalizeString",
+      "NicerOutline",
+      "TooltipTargetUI",
+      "TooltipData_Desc"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       -20.0,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Frame",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": false,
+    "sprite": "Dungeon_MapFrame1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     60.0,
+     60.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "GameObject",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.0
+    ],
+    "anchorMax": [
+     0.5,
+     0.0
+    ],
+    "position": [
+     0.0,
+     1.52587890625e-05
+    ],
+    "size": [
+     235.0,
+     60.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "-",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Slot5"
+     },
+     "button": {
+      "kind": "Button",
+      "transition": 1,
+      "normal": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "pressed": [
+       0.7843137383460999,
+       0.7843137383460999,
+       0.7843137383460999,
+       1.0
+      ],
+      "multiplier": 1.0,
+      "fade": 0.10000000149011612,
+      "target": "GameObject/-",
+      "interactable": true
+     },
+     "scripts": [
+      "Image",
+      "Button",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       70.0,
+       29.0
+      ],
+      "size": [
+       86.0,
+       86.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      0.6000000238418579,
+      0.6000000238418579
+     ],
+     "children": [
+      {
+       "name": "Minus",
+       "active": true,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "sprite": "Minus1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         32.0,
+         14.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.5,
+        1.5
+       ]
+      }
+     ]
+    },
+    {
+     "name": "+",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Slot5"
+     },
+     "button": {
+      "kind": "Button",
+      "transition": 1,
+      "normal": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "pressed": [
+       0.7843137383460999,
+       0.7843137383460999,
+       0.7843137383460999,
+       1.0
+      ],
+      "multiplier": 1.0,
+      "fade": 0.10000000149011612,
+      "target": "GameObject/+",
+      "interactable": true
+     },
+     "scripts": [
+      "Image",
+      "Button",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       1.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       0.0
+      ],
+      "position": [
+       -70.0,
+       30.0
+      ],
+      "size": [
+       86.0,
+       86.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      0.6000000238418579,
+      0.6000000238418579
+     ],
+     "children": [
+      {
+       "name": "Plus",
+       "active": true,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "sprite": "Plus1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         32.0,
+         32.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.5,
+        1.5
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

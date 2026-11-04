@@ -1,0 +1,349 @@
+
+UI_03.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Attic/Attic_Box_Body
+  rotate: false
+  xy: 522, 1080
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+Attic/Attic_Box_Body_Premium
+  rotate: false
+  xy: 830, 1040
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+Attic/Attic_Box_Top_01
+  rotate: false
+  xy: 1138, 1010
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+Attic/Attic_Box_Top_02
+  rotate: false
+  xy: 1446, 980
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+Attic/Attic_Box_Top_Premium_01
+  rotate: false
+  xy: 2, 864
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+Attic/Attic_Box_Top_Premium_02
+  rotate: false
+  xy: 310, 818
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+dungeon/DG_Battle
+  rotate: false
+  xy: 926, 1788
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Bomb1
+  rotate: false
+  xy: 618, 1808
+  size: 306, 110
+  orig: 306, 110
+  offset: 0, 0
+  index: -1
+dungeon/DG_Bomb_Dismantle1
+  rotate: false
+  xy: 617, 1342
+  size: 306, 200
+  orig: 306, 200
+  offset: 0, 0
+  index: -1
+dungeon/DG_Boss1
+  rotate: false
+  xy: 2, 1126
+  size: 306, 256
+  orig: 306, 256
+  offset: 0, 0
+  index: -1
+dungeon/DG_BuffAtk1
+  rotate: false
+  xy: 1234, 1788
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_BuffDefense1
+  rotate: false
+  xy: 1542, 1788
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_CoinReward1
+  rotate: false
+  xy: 925, 1302
+  size: 305, 220
+  orig: 305, 220
+  offset: 0, 0
+  index: -1
+dungeon/DG_DebuffAtk1
+  rotate: false
+  xy: 2, 1678
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_DebuffDefense1
+  rotate: false
+  xy: 310, 1678
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Escape1
+  rotate: false
+  xy: 310, 1354
+  size: 305, 190
+  orig: 305, 190
+  offset: 0, 0
+  index: -1
+dungeon/DG_Explore1
+  rotate: false
+  xy: 618, 506
+  size: 306, 270
+  orig: 306, 270
+  offset: 0, 0
+  index: -1
+dungeon/DG_Heal1
+  rotate: false
+  xy: 618, 1676
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Jail1
+  rotate: false
+  xy: 926, 1656
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Mate1
+  rotate: false
+  xy: 1234, 1656
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_MoveL1
+  rotate: false
+  xy: 1542, 1656
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_MoveL2
+  rotate: false
+  xy: 2, 1546
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_MoveR1
+  rotate: false
+  xy: 310, 1546
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_MoveR2
+  rotate: false
+  xy: 618, 1544
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Object_Entry1
+  rotate: false
+  xy: 1232, 1272
+  size: 306, 250
+  orig: 306, 250
+  offset: 0, 0
+  index: -1
+dungeon/DG_Object_Entry2
+  rotate: false
+  xy: 310, 1090
+  size: 210, 262
+  orig: 210, 262
+  offset: 0, 0
+  index: -1
+dungeon/DG_Object_Pillar1
+  rotate: false
+  xy: 1540, 1242
+  size: 306, 250
+  orig: 306, 250
+  offset: 0, 0
+  index: -1
+dungeon/DG_Object_Rock1
+  rotate: false
+  xy: 1542, 1494
+  size: 306, 160
+  orig: 306, 160
+  offset: 0, 0
+  index: -1
+dungeon/DG_Object_Rock2
+  rotate: false
+  xy: 2, 1384
+  size: 306, 160
+  orig: 306, 160
+  offset: 0, 0
+  index: -1
+dungeon/DG_Random1
+  rotate: false
+  xy: 926, 1524
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Reset1
+  rotate: false
+  xy: 1234, 1524
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+dungeon/DG_Revival1
+  rotate: false
+  xy: 2, 2
+  size: 306, 280
+  orig: 306, 280
+  offset: 0, 0
+  index: -1
+dungeon/DG_Trap1
+  rotate: false
+  xy: 2, 1810
+  size: 306, 108
+  orig: 306, 108
+  offset: 0, 0
+  index: -1
+dungeon/DG_Trap1_effect
+  rotate: false
+  xy: 310, 1810
+  size: 306, 108
+  orig: 306, 108
+  offset: 0, 0
+  index: -1
+dungeon/DG_Wall1
+  rotate: false
+  xy: 926, 476
+  size: 305, 270
+  orig: 305, 270
+  offset: 0, 0
+  index: -1
+dungeon/DG_Wall_Fire1
+  rotate: false
+  xy: 1233, 446
+  size: 305, 270
+  orig: 305, 270
+  offset: 0, 0
+  index: -1
+dungeon/DG_Wall_Fire1_Open
+  rotate: false
+  xy: 1540, 446
+  size: 305, 270
+  orig: 305, 270
+  offset: 0, 0
+  index: -1
+dungeon/DG_Wall_Nature1
+  rotate: false
+  xy: 2, 330
+  size: 305, 270
+  orig: 305, 270
+  offset: 0, 0
+  index: -1
+dungeon/DG_Wall_Nature1_Open
+  rotate: false
+  xy: 309, 284
+  size: 305, 270
+  orig: 305, 270
+  offset: 0, 0
+  index: -1
+dungeon/DG_Wall_Water1
+  rotate: false
+  xy: 616, 234
+  size: 305, 270
+  orig: 305, 270
+  offset: 0, 0
+  index: -1
+dungeon/DG_Wall_Water1_Open
+  rotate: false
+  xy: 923, 204
+  size: 305, 270
+  orig: 305, 270
+  offset: 0, 0
+  index: -1
+dungeon/DG_Wall_Wind1
+  rotate: false
+  xy: 1230, 174
+  size: 305, 270
+  orig: 305, 270
+  offset: 0, 0
+  index: -1
+dungeon/DG_Wall_Wind1_Open
+  rotate: false
+  xy: 1537, 174
+  size: 305, 270
+  orig: 305, 270
+  offset: 0, 0
+  index: -1
+dungeon/DG_fixed_body
+  rotate: false
+  xy: 618, 778
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+dungeon/DG_fixed_body_gold
+  rotate: false
+  xy: 926, 748
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+dungeon/DG_fixed_top_01
+  rotate: false
+  xy: 1234, 718
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+dungeon/DG_fixed_top_02
+  rotate: false
+  xy: 1542, 718
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+dungeon/DG_fixed_top_gold_01
+  rotate: false
+  xy: 2, 602
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1
+dungeon/DG_fixed_top_gold_02
+  rotate: false
+  xy: 310, 556
+  size: 306, 260
+  orig: 306, 260
+  offset: 0, 0
+  index: -1

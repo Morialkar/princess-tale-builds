@@ -1,0 +1,248 @@
+{
+ "name": "DungeonBombWindow",
+ "active": true,
+ "scripts": [
+  "DungeonBombUI"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   1.0,
+   1.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Parent",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     330.0
+    ],
+    "size": [
+     220.0,
+     136.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "BG",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "sprite": "Dungeon_Bomb1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       220.0,
+       136.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Count",
+       "active": true,
+       "text": {
+        "text": "10",
+        "font": "MaplestoryLight",
+        "size": 40,
+        "style": 1,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         0.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         10,
+         40
+        ]
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         1.0
+        ],
+        "size": [
+         77.87999725341797,
+         44.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Info",
+     "active": true,
+     "text": {
+      "text": "\ud3ed\ubc1c\uae4c\uc9c0 \ub0a8\uc740 \uc774\ub3d9 \uce78 \uc218",
+      "font": "MaplestoryLight",
+      "size": 22,
+      "style": 0,
+      "alignment": 4,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "hOverflow": 0,
+      "vOverflow": 0,
+      "bestFit": [
+       10,
+       22
+      ]
+     },
+     "effects": [
+      {
+       "kind": "NicerOutline",
+       "color": [
+        0.1882353127002716,
+        0.10588236153125763,
+        0.06666667014360428,
+        1.0
+       ],
+       "distance": [
+        0.75,
+        -0.75
+       ]
+      }
+     ],
+     "scripts": [
+      "Text",
+      "NicerOutline",
+      "LocalizeString"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       1.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       20.0
+      ],
+      "size": [
+       200.0,
+       60.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  }
+ ]
+}

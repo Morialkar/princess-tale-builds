@@ -1,0 +1,137 @@
+{
+ "name": "DungeonFullMapTile",
+ "active": true,
+ "scripts": [
+  "DungeonFullMapTile"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.5
+  ],
+  "anchorMax": [
+   0.5,
+   0.5
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   60.0,
+   60.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Image",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": false,
+    "sprite": "Dungeon_MapPoint1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     8.0,
+     8.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    0.5
+   ]
+  },
+  {
+   "name": "ObjectImage",
+   "active": false,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "DG_Fixed1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     3.0
+    ],
+    "size": [
+     306.0,
+     190.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    0.20000000298023224,
+    0.20000000298023224
+   ]
+  }
+ ]
+}

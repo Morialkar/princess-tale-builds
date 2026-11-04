@@ -1,0 +1,473 @@
+{
+ "name": "DungeonStateWindow",
+ "active": true,
+ "layout": {
+  "kind": "GridLayoutGroup",
+  "padding": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "childAlignment": 1,
+  "enabled": true,
+  "cellSize": [
+   250.0,
+   50.0
+  ],
+  "spacing": [
+   0.0,
+   5.0
+  ],
+  "constraint": 0,
+  "constraintCount": 2,
+  "startCorner": 0,
+  "startAxis": 0
+ },
+ "scripts": [
+  "GridLayoutGroup",
+  "DungeonStateWindow"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.5
+  ],
+  "anchorMax": [
+   0.5,
+   0.5
+  ],
+  "position": [
+   -235.0,
+   -65.0
+  ],
+  "size": [
+   250.0,
+   220.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Jail",
+   "active": true,
+   "scripts": [
+    "DungeonStateEntity"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.0,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Icon",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "FREEZE"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       -85.0,
+       0.0
+      ],
+      "size": [
+       50.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Value",
+     "active": true,
+     "text": {
+      "text": "x2",
+      "font": "MaplestoryBold",
+      "size": 26,
+      "style": 1,
+      "alignment": 6,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 0,
+      "vOverflow": 0
+     },
+     "scripts": [
+      "Text",
+      "LocalizeString"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       37.5,
+       0.0
+      ],
+      "size": [
+       -75.0,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Atk",
+   "active": true,
+   "scripts": [
+    "DungeonStateEntity"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.0,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Icon",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "ATTACK_UP"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       -85.0,
+       0.0
+      ],
+      "size": [
+       50.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Value",
+     "active": true,
+     "text": {
+      "text": "20%",
+      "font": "MaplestoryBold",
+      "size": 26,
+      "style": 1,
+      "alignment": 6,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 0,
+      "vOverflow": 0
+     },
+     "scripts": [
+      "Text",
+      "LocalizeString"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       37.5,
+       0.0
+      ],
+      "size": [
+       -75.0,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Def",
+   "active": true,
+   "scripts": [
+    "DungeonStateEntity"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.0,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Icon",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "DEFENSE_UP"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       -85.0,
+       0.0
+      ],
+      "size": [
+       50.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Value",
+     "active": true,
+     "text": {
+      "text": "20%",
+      "font": "MaplestoryBold",
+      "size": 26,
+      "style": 1,
+      "alignment": 6,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 0,
+      "vOverflow": 0
+     },
+     "scripts": [
+      "Text",
+      "LocalizeString"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       37.5,
+       0.0
+      ],
+      "size": [
+       -75.0,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  }
+ ]
+}
