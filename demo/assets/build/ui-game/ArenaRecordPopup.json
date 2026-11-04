@@ -1565,7 +1565,8 @@
                     "fade": 0.10000000149011612,
                     "target": "GameObject/GameObject/Parent/Scroll View/Viewport/Content/GeneralArenaRecordEntity/Background/ChallangeBtn",
                     "interactable": true,
-                    "pressedSprite": "Button3_Press"
+                    "pressedSprite": "Button3_Press",
+                    "disabledSprite": "Button3_Off"
                    },
                    "layout": {
                     "kind": "HorizontalLayoutGroup",

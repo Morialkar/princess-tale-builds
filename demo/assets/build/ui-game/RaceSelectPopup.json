@@ -987,7 +987,8 @@
             "fade": 0.10000000149011612,
             "target": "Parent/Open/PlayerSelectList/RacePlayerSelectEntity/SelectBtn",
             "interactable": true,
-            "pressedSprite": "Button3_Press"
+            "pressedSprite": "Button3_Press",
+            "disabledSprite": "Button3_Off"
            },
            "scripts": [
             "Image",
@@ -1811,7 +1812,8 @@
             "fade": 0.10000000149011612,
             "target": "Parent/Open/PlayerSelectList/RacePlayerSelectEntity (1)/SelectBtn",
             "interactable": true,
-            "pressedSprite": "Button3_Press"
+            "pressedSprite": "Button3_Press",
+            "disabledSprite": "Button3_Off"
            },
            "scripts": [
             "Image",
@@ -2635,7 +2637,8 @@
             "fade": 0.10000000149011612,
             "target": "Parent/Open/PlayerSelectList/RacePlayerSelectEntity (2)/SelectBtn",
             "interactable": true,
-            "pressedSprite": "Button3_Press"
+            "pressedSprite": "Button3_Press",
+            "disabledSprite": "Button3_Off"
            },
            "scripts": [
             "Image",
@@ -3459,7 +3462,8 @@
             "fade": 0.10000000149011612,
             "target": "Parent/Open/PlayerSelectList/RacePlayerSelectEntity (3)/SelectBtn",
             "interactable": true,
-            "pressedSprite": "Button3_Press"
+            "pressedSprite": "Button3_Press",
+            "disabledSprite": "Button3_Off"
            },
            "scripts": [
             "Image",
@@ -4283,7 +4287,8 @@
             "fade": 0.10000000149011612,
             "target": "Parent/Open/PlayerSelectList/RacePlayerSelectEntity (4)/SelectBtn",
             "interactable": true,
-            "pressedSprite": "Button3_Press"
+            "pressedSprite": "Button3_Press",
+            "disabledSprite": "Button3_Off"
            },
            "scripts": [
             "Image",

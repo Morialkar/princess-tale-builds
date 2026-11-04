@@ -7106,7 +7106,8 @@
       "fade": 0.10000000149011612,
       "target": "Parent/SignaturePromoteBtn",
       "interactable": true,
-      "pressedSprite": "Button3_Press"
+      "pressedSprite": "Button3_Press",
+      "disabledSprite": "Button3_Off"
      },
      "scripts": [
       "Image",
@@ -7301,7 +7302,8 @@
         "fade": 0.10000000149011612,
         "target": "Parent/FastLevelUP/FastButton",
         "interactable": true,
-        "pressedSprite": "Button7_Press"
+        "pressedSprite": "Button7_Press",
+        "disabledSprite": "Button5_Off"
        },
        "scripts": [
         "Image",

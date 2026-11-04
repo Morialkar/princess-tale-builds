@@ -2364,7 +2364,8 @@
       "fade": 0.10000000149011612,
       "target": "Background/RewardBtn",
       "interactable": true,
-      "pressedSprite": "Button3_Press"
+      "pressedSprite": "Button3_Press",
+      "disabledSprite": "Button3_Off"
      },
      "scripts": [
       "Image",
@@ -2512,7 +2513,8 @@
       "fade": 0.10000000149011612,
       "target": "Background/QuickMoveBtn",
       "interactable": true,
-      "pressedSprite": "Button5_Press"
+      "pressedSprite": "Button5_Press",
+      "disabledSprite": "Button5_Off"
      },
      "scripts": [
       "Image",

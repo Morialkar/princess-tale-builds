@@ -406,7 +406,8 @@
         "fade": 0.10000000149011612,
         "target": "Parent/ButtonGrid/MazeLeftBtn",
         "interactable": true,
-        "pressedSprite": "Button2_Press"
+        "pressedSprite": "Button2_Press",
+        "disabledSprite": "Button2_Off"
        },
        "scripts": [
         "Image",
@@ -550,7 +551,8 @@
         "fade": 0.10000000149011612,
         "target": "Parent/ButtonGrid/MazeRightBtn",
         "interactable": true,
-        "pressedSprite": "Button3_Press"
+        "pressedSprite": "Button3_Press",
+        "disabledSprite": "Button3_Off"
        },
        "scripts": [
         "Image",

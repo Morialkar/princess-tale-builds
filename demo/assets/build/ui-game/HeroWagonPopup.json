@@ -11157,7 +11157,8 @@
           "fade": 0.10000000149011612,
           "target": "Background/HeroResetGroup/HeroResetSubWindow/ResetButton",
           "interactable": true,
-          "pressedSprite": "Button3_Press"
+          "pressedSprite": "Button3_Press",
+          "disabledSprite": "Button3_Off"
          },
          "layout": {
           "kind": "HorizontalLayoutGroup",
@@ -19428,7 +19429,8 @@
             "fade": 0.10000000149011612,
             "target": "Background/HeroDismissGroup/HeroDismissSubWindow/ButtonGrid/AutoDismiss",
             "interactable": true,
-            "pressedSprite": "Button2_Press"
+            "pressedSprite": "Button2_Press",
+            "disabledSprite": "Button2_Off"
            },
            "scripts": [
             "Image",
@@ -19572,7 +19574,8 @@
             "fade": 0.10000000149011612,
             "target": "Background/HeroDismissGroup/HeroDismissSubWindow/ButtonGrid/SelectButton",
             "interactable": true,
-            "pressedSprite": "Button2_Press"
+            "pressedSprite": "Button2_Press",
+            "disabledSprite": "Button2_Off"
            },
            "scripts": [
             "Image",
@@ -19716,7 +19719,8 @@
             "fade": 0.10000000149011612,
             "target": "Background/HeroDismissGroup/HeroDismissSubWindow/ButtonGrid/DismissButton",
             "interactable": true,
-            "pressedSprite": "Button3_Press"
+            "pressedSprite": "Button3_Press",
+            "disabledSprite": "Button3_Off"
            },
            "scripts": [
             "Image",
@@ -22491,7 +22495,8 @@
             "fade": 0.10000000149011612,
             "target": "Background/FurnitureGroup/HeroDismissSubWindow/ButtonGrid/SelectButton",
             "interactable": true,
-            "pressedSprite": "Button2_Press"
+            "pressedSprite": "Button2_Press",
+            "disabledSprite": "Button2_Off"
            },
            "scripts": [
             "Image",
@@ -22635,7 +22640,8 @@
             "fade": 0.10000000149011612,
             "target": "Background/FurnitureGroup/HeroDismissSubWindow/ButtonGrid/DismissButton",
             "interactable": true,
-            "pressedSprite": "Button3_Press"
+            "pressedSprite": "Button3_Press",
+            "disabledSprite": "Button3_Off"
            },
            "scripts": [
             "Image",

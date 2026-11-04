@@ -847,7 +847,8 @@
             "fade": 0.10000000149011612,
             "target": "BackGround/Platform/AccountPlatformEntity/Button/Button01",
             "interactable": true,
-            "pressedSprite": "Button2_Press"
+            "pressedSprite": "Button2_Press",
+            "disabledSprite": "Button2_Off"
            },
            "scripts": [
             "Image",
@@ -1363,7 +1364,8 @@
             "fade": 0.10000000149011612,
             "target": "BackGround/Platform/AccountPlatformEntity (1)/Button/Button01",
             "interactable": true,
-            "pressedSprite": "Button2_Press"
+            "pressedSprite": "Button2_Press",
+            "disabledSprite": "Button2_Off"
            },
            "scripts": [
             "Image",
@@ -1879,7 +1881,8 @@
             "fade": 0.10000000149011612,
             "target": "BackGround/Platform/AccountPlatformEntity (2)/Button/Button01",
             "interactable": true,
-            "pressedSprite": "Button2_Press"
+            "pressedSprite": "Button2_Press",
+            "disabledSprite": "Button2_Off"
            },
            "scripts": [
             "Image",
@@ -2085,7 +2088,8 @@
         "fade": 0.10000000149011612,
         "target": "BackGround/ButtonGrid/Button02",
         "interactable": true,
-        "pressedSprite": "Button6_Press"
+        "pressedSprite": "Button6_Press",
+        "disabledSprite": "Button5_Off"
        },
        "scripts": [
         "Image",
@@ -2229,7 +2233,8 @@
         "fade": 0.10000000149011612,
         "target": "BackGround/ButtonGrid/Button01",
         "interactable": true,
-        "pressedSprite": "Button2_Press"
+        "pressedSprite": "Button2_Press",
+        "disabledSprite": "Button2_Off"
        },
        "scripts": [
         "Image",

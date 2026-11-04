@@ -3444,7 +3444,8 @@
           "fade": 0.10000000149011612,
           "target": "Parent/InfoBackground/TopButtonGrid/Promote",
           "interactable": true,
-          "pressedSprite": "Button2_Press"
+          "pressedSprite": "Button2_Press",
+          "disabledSprite": "Button2_Off"
          },
          "scripts": [
           "Image",
@@ -3588,7 +3589,8 @@
           "fade": 0.10000000149011612,
           "target": "Parent/InfoBackground/TopButtonGrid/Reset",
           "interactable": true,
-          "pressedSprite": "Button2_Press"
+          "pressedSprite": "Button2_Press",
+          "disabledSprite": "Button2_Off"
          },
          "scripts": [
           "Image",
@@ -8335,7 +8337,8 @@
         "fade": 0.10000000149011612,
         "target": "Parent/BottomButtonGrid/Unequip",
         "interactable": true,
-        "pressedSprite": "Button5_Press"
+        "pressedSprite": "Button5_Press",
+        "disabledSprite": "Button5_Off"
        },
        "scripts": [
         "Image",
@@ -8479,7 +8482,8 @@
         "fade": 0.10000000149011612,
         "target": "Parent/BottomButtonGrid/Upgrade",
         "interactable": true,
-        "pressedSprite": "Button3_Press"
+        "pressedSprite": "Button3_Press",
+        "disabledSprite": "Button3_Off"
        },
        "scripts": [
         "Image",
@@ -8762,7 +8766,8 @@
         "fade": 0.10000000149011612,
         "target": "Parent/BottomButtonGrid/Trade",
         "interactable": true,
-        "pressedSprite": "Button2_Press"
+        "pressedSprite": "Button2_Press",
+        "disabledSprite": "Button2_Off"
        },
        "scripts": [
         "Image",

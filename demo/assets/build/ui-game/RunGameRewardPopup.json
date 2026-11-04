@@ -16824,7 +16824,8 @@
             "fade": 0.10000000149011612,
             "target": "Win/RewardParent/Grid/Buttons/Exit",
             "interactable": true,
-            "pressedSprite": "Button3_Press"
+            "pressedSprite": "Button3_Press",
+            "disabledSprite": "Button3_Off"
            },
            "scripts": [
             "Image",
@@ -16968,7 +16969,8 @@
             "fade": 0.10000000149011612,
             "target": "Win/RewardParent/Grid/Buttons/Restart",
             "interactable": true,
-            "pressedSprite": "Button2_Press"
+            "pressedSprite": "Button2_Press",
+            "disabledSprite": "Button2_Off"
            },
            "scripts": [
             "Image",
@@ -26265,7 +26267,8 @@
         "fade": 0.10000000149011612,
         "target": "Lose/RewardParent/Exit",
         "interactable": true,
-        "pressedSprite": "Button3_Press"
+        "pressedSprite": "Button3_Press",
+        "disabledSprite": "Button3_Off"
        },
        "scripts": [
         "Image",
@@ -26408,7 +26411,8 @@
         "fade": 0.10000000149011612,
         "target": "Lose/RewardParent/Restart",
         "interactable": true,
-        "pressedSprite": "Button2_Press"
+        "pressedSprite": "Button2_Press",
+        "disabledSprite": "Button2_Off"
        },
        "scripts": [
         "Image",

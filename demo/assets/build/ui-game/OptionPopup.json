@@ -12473,7 +12473,8 @@
             "fade": 0.10000000149011612,
             "target": "BackGround/UserInfoView/BottomGrid/ButtonGrid/Account",
             "interactable": true,
-            "pressedSprite": "Button5_Press"
+            "pressedSprite": "Button5_Press",
+            "disabledSprite": "Button5_Off"
            },
            "scripts": [
             "Image",
@@ -12621,7 +12622,8 @@
             "fade": 0.10000000149011612,
             "target": "BackGround/UserInfoView/BottomGrid/ButtonGrid/Language",
             "interactable": true,
-            "pressedSprite": "Button5_Press"
+            "pressedSprite": "Button5_Press",
+            "disabledSprite": "Button5_Off"
            },
            "scripts": [
             "Image",
@@ -12769,7 +12771,8 @@
             "fade": 0.10000000149011612,
             "target": "BackGround/UserInfoView/BottomGrid/ButtonGrid/Community",
             "interactable": true,
-            "pressedSprite": "Button5_Press"
+            "pressedSprite": "Button5_Press",
+            "disabledSprite": "Button5_Off"
            },
            "scripts": [
             "Image",
@@ -12917,7 +12920,8 @@
             "fade": 0.10000000149011612,
             "target": "BackGround/UserInfoView/BottomGrid/ButtonGrid/FAQ",
             "interactable": true,
-            "pressedSprite": "Button5_Press"
+            "pressedSprite": "Button5_Press",
+            "disabledSprite": "Button5_Off"
            },
            "scripts": [
             "Image",
@@ -13300,7 +13304,8 @@
                 "fade": 0.10000000149011612,
                 "target": "BackGround/UserSystemInfo/Scroll View/Viewport/Content/ButtonGrid(1)/Btn_MoveServer",
                 "interactable": true,
-                "pressedSprite": "Button5_Press"
+                "pressedSprite": "Button5_Press",
+                "disabledSprite": "Button5_Off"
                },
                "scripts": [
                 "Image",
@@ -13444,7 +13449,8 @@
                 "fade": 0.10000000149011612,
                 "target": "BackGround/UserSystemInfo/Scroll View/Viewport/Content/ButtonGrid(1)/Btn_MoveChannel",
                 "interactable": true,
-                "pressedSprite": "Button5_Press"
+                "pressedSprite": "Button5_Press",
+                "disabledSprite": "Button5_Off"
                },
                "scripts": [
                 "Image",
@@ -13618,7 +13624,8 @@
                   "fade": 0.10000000149011612,
                   "target": "BackGround/UserSystemInfo/Scroll View/Viewport/Content/ButtonGrid(1)/GameObject/Btn_Server",
                   "interactable": true,
-                  "pressedSprite": "Button5_Press"
+                  "pressedSprite": "Button5_Press",
+                  "disabledSprite": "Button5_Off"
                  },
                  "scripts": [
                   "Image",
@@ -13762,7 +13769,8 @@
                   "fade": 0.10000000149011612,
                   "target": "BackGround/UserSystemInfo/Scroll View/Viewport/Content/ButtonGrid(1)/GameObject/Btn_Intro",
                   "interactable": true,
-                  "pressedSprite": "Button5_Press"
+                  "pressedSprite": "Button5_Press",
+                  "disabledSprite": "Button5_Off"
                  },
                  "scripts": [
                   "Image",
@@ -13906,7 +13914,8 @@
                   "fade": 0.10000000149011612,
                   "target": "BackGround/UserSystemInfo/Scroll View/Viewport/Content/ButtonGrid(1)/GameObject/Btn_advence_Option",
                   "interactable": true,
-                  "pressedSprite": "Button5_Press"
+                  "pressedSprite": "Button5_Press",
+                  "disabledSprite": "Button5_Off"
                  },
                  "scripts": [
                   "Image",
@@ -14052,7 +14061,8 @@
                 "fade": 0.10000000149011612,
                 "target": "BackGround/UserSystemInfo/Scroll View/Viewport/Content/ButtonGrid(1)/Btn_Cupon",
                 "interactable": true,
-                "pressedSprite": "Button5_Press"
+                "pressedSprite": "Button5_Press",
+                "disabledSprite": "Button5_Off"
                },
                "scripts": [
                 "Image",
@@ -14196,7 +14206,8 @@
                 "fade": 0.10000000149011612,
                 "target": "BackGround/UserSystemInfo/Scroll View/Viewport/Content/ButtonGrid(1)/Btn_Terms_of_Service",
                 "interactable": true,
-                "pressedSprite": "Button5_Press"
+                "pressedSprite": "Button5_Press",
+                "disabledSprite": "Button5_Off"
                },
                "scripts": [
                 "Image",
@@ -14340,7 +14351,8 @@
                 "fade": 0.10000000149011612,
                 "target": "BackGround/UserSystemInfo/Scroll View/Viewport/Content/ButtonGrid(1)/Btn_Credit",
                 "interactable": true,
-                "pressedSprite": "Button5_Press"
+                "pressedSprite": "Button5_Press",
+                "disabledSprite": "Button5_Off"
                },
                "scripts": [
                 "Image",

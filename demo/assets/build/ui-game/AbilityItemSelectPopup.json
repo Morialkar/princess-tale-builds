@@ -3065,7 +3065,8 @@
         "fade": 0.10000000149011612,
         "target": "Parent/Bottom/Select",
         "interactable": true,
-        "pressedSprite": "Button3_Press"
+        "pressedSprite": "Button3_Press",
+        "disabledSprite": "Button3_Off"
        },
        "scripts": [
         "Image",

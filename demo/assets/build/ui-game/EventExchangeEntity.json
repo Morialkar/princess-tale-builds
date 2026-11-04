@@ -288,7 +288,8 @@
       "fade": 0.10000000149011612,
       "target": "Background/ExchangeBtn",
       "interactable": true,
-      "pressedSprite": "Button5_Press"
+      "pressedSprite": "Button5_Press",
+      "disabledSprite": "Button5_Off"
      },
      "scripts": [
       "Image",

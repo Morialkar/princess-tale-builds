@@ -2715,7 +2715,8 @@
           "fade": 0.10000000149011612,
           "target": "Bottom/Bottom/Buttons/BattleButton",
           "interactable": true,
-          "pressedSprite": "Button4_Press"
+          "pressedSprite": "Button4_Press",
+          "disabledSprite": "Button3_Off"
          },
          "layout": {
           "kind": "HorizontalLayoutGroup",
@@ -2928,7 +2929,8 @@
           "fade": 0.10000000149011612,
           "target": "Bottom/Bottom/Buttons/SweepButton",
           "interactable": true,
-          "pressedSprite": "Button6_Press"
+          "pressedSprite": "Button6_Press",
+          "disabledSprite": "Button5_Off"
          },
          "layout": {
           "kind": "HorizontalLayoutGroup",

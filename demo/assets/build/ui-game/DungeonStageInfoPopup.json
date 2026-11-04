@@ -2185,7 +2185,8 @@
         "fade": 0.10000000149011612,
         "target": "Parent/ButtonGrid/StopTravelBtn",
         "interactable": true,
-        "pressedSprite": "Button2_Press"
+        "pressedSprite": "Button2_Press",
+        "disabledSprite": "Button2_Off"
        },
        "scripts": [
         "Image",
@@ -2329,7 +2330,8 @@
         "fade": 0.10000000149011612,
         "target": "Parent/ButtonGrid/TravelBtn",
         "interactable": true,
-        "pressedSprite": "Button4_Press"
+        "pressedSprite": "Button4_Press",
+        "disabledSprite": "Button3_Off"
        },
        "scripts": [
         "Image",

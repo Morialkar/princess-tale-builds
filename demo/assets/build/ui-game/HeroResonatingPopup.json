@@ -5646,7 +5646,8 @@
         "fade": 0.10000000149011612,
         "target": "Background/Bottom/LimitButton",
         "interactable": true,
-        "pressedSprite": "Button3_Press"
+        "pressedSprite": "Button3_Press",
+        "disabledSprite": "Button3_Off"
        },
        "scripts": [
         "Image",
@@ -6586,7 +6587,8 @@
           "fade": 0.10000000149011612,
           "target": "Background/Bottom/HeroButtonGroup/Levelup",
           "interactable": true,
-          "pressedSprite": "Button3_Press"
+          "pressedSprite": "Button3_Press",
+          "disabledSprite": "Button3_Off"
          },
          "scripts": [
           "Image",

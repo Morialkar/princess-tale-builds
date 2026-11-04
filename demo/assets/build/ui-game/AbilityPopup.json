@@ -3181,7 +3181,8 @@
             "fade": 0.10000000149011612,
             "target": "Parent/Abilitymain/ButtonTabs/FreeParent/AbilityFreeButton",
             "interactable": true,
-            "pressedSprite": "Button3_Press"
+            "pressedSprite": "Button3_Press",
+            "disabledSprite": "Button3_Off"
            },
            "scripts": [
             "Image",
@@ -3510,7 +3511,8 @@
             "fade": 0.10000000149011612,
             "target": "Parent/Abilitymain/ButtonTabs/AmountParent/GoldButton",
             "interactable": true,
-            "pressedSprite": "Button2_Press"
+            "pressedSprite": "Button2_Press",
+            "disabledSprite": "Button2_Off"
            },
            "scripts": [
             "Image",
@@ -3654,7 +3656,8 @@
             "fade": 0.10000000149011612,
             "target": "Parent/Abilitymain/ButtonTabs/AmountParent/StarButton",
             "interactable": true,
-            "pressedSprite": "Button3_Press"
+            "pressedSprite": "Button3_Press",
+            "disabledSprite": "Button3_Off"
            },
            "scripts": [
             "Image",
@@ -4451,7 +4454,8 @@
             "fade": 0.10000000149011612,
             "target": "Parent/Abilitymain/ButtonTabs/ItemParent/Button",
             "interactable": true,
-            "pressedSprite": "Button3_Press"
+            "pressedSprite": "Button3_Press",
+            "disabledSprite": "Button3_Off"
            },
            "scripts": [
             "Image",

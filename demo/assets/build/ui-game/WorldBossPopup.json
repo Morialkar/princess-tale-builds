@@ -7240,7 +7240,8 @@
           "fade": 0.10000000149011612,
           "target": "Bottom/Bottom/Buttons/BattleButton",
           "interactable": true,
-          "pressedSprite": "Button4_Press"
+          "pressedSprite": "Button4_Press",
+          "disabledSprite": "Button4_Off"
          },
          "layout": {
           "kind": "HorizontalLayoutGroup",
