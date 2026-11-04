@@ -8306,6 +8306,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "GuideHand1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Guild1": {
   "border": [
    0.0,
@@ -22243,6 +22256,19 @@
   "pixelsPerUnit": 100.0
  },
  "Skip": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Skip1": {
   "border": [
    0.0,
    0.0,

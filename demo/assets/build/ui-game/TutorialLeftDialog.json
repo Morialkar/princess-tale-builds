@@ -1,0 +1,736 @@
+{
+ "name": "TutorialLeftDialog",
+ "active": true,
+ "scripts": [
+  "TutorialDialog"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   1.0,
+   1.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "ChatType",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.5
+    ],
+    "anchorMax": [
+     1.0,
+     0.5
+    ],
+    "position": [
+     0.0,
+     -730.0
+    ],
+    "size": [
+     0.0,
+     150.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "TextBox",
+     "active": true,
+     "image": {
+      "type": 1,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "sprite": "TextBox_Team1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       50.0,
+       0.0
+      ],
+      "size": [
+       500.0,
+       125.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "ChatText",
+       "active": true,
+       "text": {
+        "text": "BLABLABLABLABLABLABLABLABLABLABLABLABLABLA",
+        "font": "MaplestoryLight",
+        "size": 25,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.4745098054409027,
+         0.3529411852359772,
+         0.22745098173618317,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         18,
+         25
+        ]
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         -80.0,
+         -26.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Face",
+     "active": true,
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       -275.0,
+       0.0
+      ],
+      "size": [
+       125.0,
+       125.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "FillImage",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "sprite": "Square_Slot1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         -20.0,
+         -20.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "ChatFace",
+       "active": true,
+       "image": {
+        "type": 0,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         -24.0,
+         -24.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "BorderImage",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "sprite": "Square_Frame1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ImageType",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     1.0
+    ],
+    "position": [
+     -720.0,
+     0.0
+    ],
+    "size": [
+     720.0,
+     0.0
+    ],
+    "pivot": [
+     0.0,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "ImageFace",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false
+     },
+     "scripts": [
+      "Image"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.0
+      ],
+      "anchorMax": [
+       0.5,
+       0.0
+      ],
+      "position": [
+       -689.0,
+       0.0
+      ],
+      "size": [
+       2229.0,
+       1951.46337890625
+      ],
+      "pivot": [
+       0.0,
+       0.0
+      ]
+     },
+     "scale": [
+      0.5699999928474426,
+      0.5699999928474426
+     ]
+    },
+    {
+     "name": "TextBox",
+     "active": true,
+     "image": {
+      "type": 1,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "sprite": "TextBox_Team1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.0
+      ],
+      "anchorMax": [
+       0.5,
+       0.0
+      ],
+      "position": [
+       115.0,
+       233.0
+      ],
+      "size": [
+       450.0,
+       125.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "ImageText",
+       "active": true,
+       "text": {
+        "text": "BLABLABLABLABLABLABLABLABLABLABLABLA",
+        "font": "MaplestoryLight",
+        "size": 25,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.4745098054409027,
+         0.3529411852359772,
+         0.22745098173618317,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         18,
+         25
+        ]
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         -80.0,
+         -26.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SpineType",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     1.0
+    ],
+    "position": [
+     -720.0,
+     0.0
+    ],
+    "size": [
+     720.0,
+     0.0
+    ],
+    "pivot": [
+     0.0,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Spine",
+     "active": true,
+     "skeleton": {
+      "animation": "",
+      "loop": true,
+      "skin": "npc_01",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "skeleton": "dialog"
+     },
+     "scripts": [
+      "SkeletonGraphic"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.0
+      ],
+      "anchorMax": [
+       0.5,
+       0.0
+      ],
+      "position": [
+       -154.0,
+       554.0
+      ],
+      "size": [
+       0.0,
+       0.0
+      ],
+      "pivot": [
+       0.0,
+       0.0
+      ]
+     },
+     "scale": [
+      1.5,
+      1.5
+     ]
+    },
+    {
+     "name": "TextBox",
+     "active": true,
+     "image": {
+      "type": 1,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "sprite": "TextBox_Team1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.0
+      ],
+      "anchorMax": [
+       0.5,
+       0.0
+      ],
+      "position": [
+       115.0,
+       233.0
+      ],
+      "size": [
+       450.0,
+       125.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "SpineText",
+       "active": true,
+       "text": {
+        "text": "BLABLABLABLABLABLABLABLABLABLABLABLA",
+        "font": "MaplestoryLight",
+        "size": 25,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.4745098054409027,
+         0.3529411852359772,
+         0.22745098173618317,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": false,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         18,
+         25
+        ]
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         -80.0,
+         -26.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
