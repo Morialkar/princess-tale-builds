@@ -3093,6 +3093,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Button2_Off": {
+  "border": [
+   32.0,
+   32.0,
+   32.0,
+   32.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Button2_Press": {
   "border": [
    34.0,
