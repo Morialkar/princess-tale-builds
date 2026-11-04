@@ -1,0 +1,9 @@
+﻿Index,TileType,TileSpriteName,Percent,Limit,Interval,AnimType,StartOffset,BeginTileTime,BeginSpeedValue,FinishTileTime,FinishSpeedValue,EnableObject,ObjectSpriteName,ObjectOffsetX,ObjectOffsetY
+int,string,string,float,int,int,string,int,float,float,float,float,bool,string,float,float
+1,NORMAL,"Run_WoodTile1,Run_WoodTile_Break1,Run_WoodTile_Break2",0.68,40,1,run_unarmed,0,0,1,0,1,FALSE,,0,0
+2,START,Grass_Pebble1,0,1,1,run_unarmed,0,0,1,0,1,FALSE,,0,0
+3,FINISH,Grass_Pebble1,0,1,1,idle_unarmed,0,0,1,0,1,FALSE,,0,0
+4,ICE,"Run_WoodTile1,Run_WoodTile_Break1,Run_WoodTile_Break2",0.08,3,4,cc_fall_unarmed,0,0.66,0.3,0.3,0,TRUE,Run_Ice1,0,126
+5,SCREAM,"Run_WoodTile1,Run_WoodTile_Break1,Run_WoodTile_Break2",0.04,2,3,cc_terror_unarmed,0,0.53,0,0,1,TRUE,Run_Fear1,0,126
+6,FALL,"Run_WoodTile1,Run_WoodTile_Break1,Run_WoodTile_Break2",0.1,2,3,cc_fall_unarmed,0,0.76,0,0,1,TRUE,Run_Hurdle_rock,0,111
+7,JUMP,"Run_WoodTile1,Run_WoodTile_Break1,Run_WoodTile_Break2",0.1,2,4,jump_unarmed,-1,0.46,1,1,0.8,TRUE,Run_Hurdle_rock,0,111
