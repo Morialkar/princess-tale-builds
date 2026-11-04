@@ -2274,6 +2274,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "BattlePass_Exp_Big1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Battle_Tile1": {
   "border": [
    0.0,
@@ -7605,6 +7618,19 @@
   "pixelsPerUnit": 100.0
  },
  "Fixed_Dice1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Fixed_Dice2": {
   "border": [
    0.0,
    0.0,
@@ -16627,6 +16653,19 @@
   "pixelsPerUnit": 100.0
  },
  "LabyrinthHeal_Menul1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "LabyrinthHeal_Menul2": {
   "border": [
    0.0,
    0.0,
