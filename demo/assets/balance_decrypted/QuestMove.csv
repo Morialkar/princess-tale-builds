@@ -1,0 +1,6 @@
+﻿Index,QuestID,Group,MoveContent,Count,QuestName
+int,string,string,string,int,string
+1,quest_MoveFacebook_Main_1,Site,https://www.facebook.com/GamepubGlo/,1,quest_name_Move_Facebook
+2,quest_MoveTwitter_Main_2,Site,www.twitter.com,1,quest_name_Move
+3,quest_MoveInstagram_Main_3,Site,www.instagram.com,1,quest_name_Move
+4,quest_MoveCommunity_Main_4,Content,Community,1,quest_name_Community
