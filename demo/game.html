@@ -187,6 +187,27 @@
       }
       return p;
     };
+    const fromPCM = (bytes) => { // 16 bits, stereo, 44.1 kHz
+      const n = bytes.length >> 2, buf = context().createBuffer(2, n, 44100), v = new DataView(bytes.buffer);
+      const l = buf.getChannelData(0), r = buf.getChannelData(1);
+      for (let i = 0; i < n; i++) {
+        l[i] = v.getInt16(4 * i, true) / 32768;
+        r[i] = v.getInt16(4 * i + 2, true) / 32768;
+      }
+      return buf;
+    };
+    let talk = null, talkN = 0, talkOn = false; // the line on the voices' track, its number, a line under way
+    const talkStop = () => {
+      talkN++;
+      talkOn = false;
+      if (talk) { try { talk.stop(); } catch (e) {} talk = null; }
+    };
+    const talkStart = () => { talkStop(); talkOn = true; return talkN; };
+    const talkPlay = (n, buf) => {
+      if (n !== talkN) return;
+      talk = play(buf, false, 2);
+      talk.onended = () => { if (n === talkN) { talk = null; talkOn = false; } };
+    };
     return {
       clip(url) { clipOf(url).then(b => play(b, false, url.includes("/voice/") ? 2 : 1)).catch(() => {}); },
       volume(kind, v) {
@@ -199,15 +220,15 @@
         if (!next || next.url !== url) next = { url, p: decode(url) };
         next.p.catch(() => { if (next && next.url === url) next = null; });
       },
-      pcm(bytes) { // 16 bits, stereo, 44.1 kHz
-        const n = bytes.length >> 2, buf = context().createBuffer(2, n, 44100), v = new DataView(bytes.buffer);
-        const l = buf.getChannelData(0), r = buf.getChannelData(1);
-        for (let i = 0; i < n; i++) {
-          l[i] = v.getInt16(4 * i, true) / 32768;
-          r[i] = v.getInt16(4 * i + 2, true) / 32768;
-        }
-        play(buf, false, 2); // a voice
+      pcm(bytes) { play(fromPCM(bytes), false, 2); }, // a voice
+      // The voices' track: one line at a time, the one before it stopped (even while it is being decoded).
+      talkClip(url) {
+        const n = talkStart();
+        clipOf(url).then(b => talkPlay(n, b)).catch(() => { if (n === talkN) talkOn = false; });
       },
+      talkPCM(bytes) { talkPlay(talkStart(), fromPCM(bytes)); },
+      talkStop,
+      talkBusy() { return talkOn; },
       music(url, loop) {
         if (music) { try { music.stop(); } catch (e) {} music = null; }
         musicURL = url;
@@ -253,7 +274,7 @@
   };
   // The installed game's worker (sw.js: the files kept for offline play), this build's: one of an older build still
   // in charge would answer from its cache, so the files wait until this one takes over (a few seconds at most).
-  const BUILD = "20261104203110"; // build_demo.sh's stamp
+  const BUILD = "20261104215841"; // build_demo.sh's stamp
   async function worker() {
     if (!("serviceWorker" in navigator)) return;
     const mine = () => (navigator.serviceWorker.controller || {}).scriptURL || "";
