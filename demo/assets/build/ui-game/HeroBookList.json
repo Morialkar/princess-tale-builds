@@ -1,0 +1,212 @@
+{
+ "name": "HeroBookList",
+ "active": true,
+ "layout": {
+  "kind": "VerticalLayoutGroup",
+  "padding": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "childAlignment": 0,
+  "enabled": true,
+  "spacing": -5.0,
+  "controlWidth": false,
+  "controlHeight": false,
+  "expandWidth": false,
+  "expandHeight": false,
+  "reverse": false,
+  "scaleWidth": false,
+  "scaleHeight": false
+ },
+ "image": {
+  "type": 0,
+  "fillMethod": 4,
+  "fillAmount": 1.0,
+  "fillOrigin": 0,
+  "fillClockwise": true,
+  "preserveAspect": false,
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   0.0
+  ],
+  "enabled": true,
+  "raycast": true
+ },
+ "scripts": [
+  "HeroBookList",
+  "VerticalLayoutGroup",
+  "ContentSizeFitter",
+  "Image"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   1.0
+  ],
+  "anchorMax": [
+   0.0,
+   1.0
+  ],
+  "position": [
+   360.0,
+   0.0
+  ],
+  "size": [
+   671.4000244140625,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   1.0
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Title",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     671.4000244140625,
+     65.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "GradeNameCard",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Hero_Normal1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       618.0,
+       64.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      0.800000011920929,
+      0.800000011920929
+     ]
+    }
+   ]
+  },
+  {
+   "name": "List",
+   "active": true,
+   "layout": {
+    "kind": "GridLayoutGroup",
+    "padding": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "childAlignment": 0,
+    "enabled": true,
+    "cellSize": [
+     170.0,
+     364.0
+    ],
+    "spacing": [
+     -3.0,
+     0.0
+    ],
+    "constraint": 1,
+    "constraintCount": 4,
+    "startCorner": 0,
+    "startAxis": 0
+   },
+   "scripts": [
+    "GridLayoutGroup"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     671.4000244140625,
+     364.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}

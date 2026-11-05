@@ -1,0 +1,253 @@
+{
+ "name": "ArtifactStatusEntity",
+ "active": true,
+ "layout": {
+  "kind": "HorizontalLayoutGroup",
+  "padding": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "childAlignment": 3,
+  "enabled": true,
+  "spacing": 0.0,
+  "controlWidth": false,
+  "controlHeight": false,
+  "expandWidth": false,
+  "expandHeight": false,
+  "reverse": false,
+  "scaleWidth": false,
+  "scaleHeight": false
+ },
+ "scripts": [
+  "HorizontalLayoutGroup",
+  "ArtifactStatusEntity"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   0.0,
+   0.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "StatName",
+   "active": true,
+   "text": {
+    "text": "HP :",
+    "font": "MaplestoryBold",
+    "size": 22,
+    "style": 1,
+    "alignment": 3,
+    "lineSpacing": 1.0,
+    "color": [
+     0.4745098352432251,
+     0.3529411852359772,
+     0.22745099663734436,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "hOverflow": 0,
+    "vOverflow": 0
+   },
+   "fit": [
+    true,
+    false
+   ],
+   "scripts": [
+    "Text",
+    "LocalizeString"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     45.0,
+     40.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Empty",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     5.41802978515625,
+     30.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "StatValue",
+   "active": true,
+   "text": {
+    "text": "2.1%",
+    "font": "MaplestoryLight",
+    "size": 22,
+    "style": 0,
+    "alignment": 3,
+    "lineSpacing": 1.0,
+    "color": [
+     0.4745098352432251,
+     0.3529411852359772,
+     0.22745099663734436,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "hOverflow": 0,
+    "vOverflow": 0
+   },
+   "fit": [
+    true,
+    false
+   ],
+   "scripts": [
+    "Text",
+    "LocalizeString"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     51.0,
+     40.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "AddValue",
+   "active": true,
+   "text": {
+    "text": "(+2.1%)",
+    "font": "MaplestoryLight",
+    "size": 22,
+    "style": 0,
+    "alignment": 3,
+    "lineSpacing": 1.0,
+    "color": [
+     0.5215686559677124,
+     0.7803922295570374,
+     0.019607843831181526,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "hOverflow": 0,
+    "vOverflow": 0
+   },
+   "fit": [
+    true,
+    false
+   ],
+   "scripts": [
+    "Text",
+    "LocalizeString"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     78.0,
+     40.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}

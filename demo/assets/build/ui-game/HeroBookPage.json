@@ -1,0 +1,176 @@
+{
+ "name": "HeroBookPage",
+ "active": true,
+ "image": {
+  "type": 1,
+  "fillMethod": 4,
+  "fillAmount": 1.0,
+  "fillOrigin": 0,
+  "fillClockwise": true,
+  "preserveAspect": false,
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   0.3921568691730499
+  ],
+  "enabled": true,
+  "raycast": true,
+  "sprite": "Slot3"
+ },
+ "scripts": [
+  "Image",
+  "AtlasImage",
+  "HeroBookPage"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.0
+  ],
+  "anchorMax": [
+   0.5,
+   1.0
+  ],
+  "position": [
+   0.0,
+   101.19999694824219
+  ],
+  "size": [
+   682.7999877929688,
+   -267.79998779296875
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "HeroBook",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     -15.899999618530273,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Loop Vertical Scroll Rect",
+     "active": true,
+     "mask": "RectMask2D",
+     "scripts": [
+      "LoopVerticalScrollRect",
+      "RectMask2D"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.0,
+       0.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Content",
+       "active": true,
+       "layout": {
+        "kind": "VerticalLayoutGroup",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "childAlignment": 1,
+        "enabled": true,
+        "spacing": 0.0,
+        "controlWidth": false,
+        "controlHeight": false,
+        "expandWidth": true,
+        "expandHeight": false,
+        "reverse": false,
+        "scaleWidth": false,
+        "scaleHeight": false
+       },
+       "scripts": [
+        "VerticalLayoutGroup",
+        "ContentSizeFitter"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         1.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         0.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         1.0
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
