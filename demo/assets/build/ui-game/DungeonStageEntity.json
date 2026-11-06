@@ -355,6 +355,10 @@
        "scripts": [
         "ParticleBase"
        ],
+       "transform": [
+        -321.70001220703125,
+        72.19999694824219
+       ],
        "scale": [
         1.0,
         1.0
@@ -567,6 +571,10 @@
        "active": true,
        "scripts": [
         "ParticleBase"
+       ],
+       "transform": [
+        317.79998779296875,
+        72.19999694824219
        ],
        "scale": [
         1.0,

@@ -264,6 +264,10 @@
      "scripts": [
       "ParticleBase"
      ],
+     "transform": [
+      0.0,
+      -31.0
+     ],
      "scale": [
       250.0,
       250.0

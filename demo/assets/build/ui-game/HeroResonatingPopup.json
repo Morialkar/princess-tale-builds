@@ -170,6 +170,10 @@
          "scripts": [
           "ParticleBase"
          ],
+         "transform": [
+          0.0,
+          -521.0
+         ],
          "scale": [
           380.0,
           380.0
@@ -1676,6 +1680,10 @@
              "scripts": [
               "ParticleBase"
              ],
+             "transform": [
+              0.0,
+              -31.0
+             ],
              "scale": [
               250.0,
               250.0
@@ -2241,6 +2249,10 @@
              "active": false,
              "scripts": [
               "ParticleBase"
+             ],
+             "transform": [
+              0.0,
+              -31.0
              ],
              "scale": [
               250.0,
@@ -2808,6 +2820,10 @@
              "scripts": [
               "ParticleBase"
              ],
+             "transform": [
+              0.0,
+              -31.0
+             ],
              "scale": [
               250.0,
               250.0
@@ -3373,6 +3389,10 @@
              "active": false,
              "scripts": [
               "ParticleBase"
+             ],
+             "transform": [
+              0.0,
+              -31.0
              ],
              "scale": [
               250.0,
@@ -3940,6 +3960,10 @@
              "scripts": [
               "ParticleBase"
              ],
+             "transform": [
+              0.0,
+              -31.0
+             ],
              "scale": [
               250.0,
               250.0
@@ -4437,6 +4461,10 @@
          "active": true,
          "scripts": [
           "ParticleBase"
+         ],
+         "transform": [
+          -3.0,
+          -127.79998779296875
          ],
          "scale": [
           600.0,

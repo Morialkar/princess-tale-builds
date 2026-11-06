@@ -1,0 +1,176 @@
+{
+ "name": "GuildWarCaptainStatusEntity",
+ "active": true,
+ "layout": {
+  "kind": "HorizontalLayoutGroup",
+  "padding": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "childAlignment": 3,
+  "enabled": true,
+  "spacing": 5.0,
+  "controlWidth": false,
+  "controlHeight": false,
+  "expandWidth": false,
+  "expandHeight": false,
+  "reverse": false,
+  "scaleWidth": false,
+  "scaleHeight": false
+ },
+ "scripts": [
+  "HorizontalLayoutGroup",
+  "GuildWarCaptainStatusEntity"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   0.0
+  ],
+  "anchorMax": [
+   0.0,
+   0.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   333.86505126953125,
+   59.4454345703125
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Icon",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Icon_Guildwar_Total1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage",
+    "TooltipTargetUI",
+    "TooltipData_Desc"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     74.0,
+     54.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Text",
+   "active": true,
+   "text": {
+    "text": "22\uc2b9 13\ud328 (62.8%)",
+    "font": "MaplestoryLight",
+    "size": 24,
+    "style": 0,
+    "alignment": 3,
+    "lineSpacing": 1.0,
+    "color": [
+     1.0,
+     0.9098039865493774,
+     0.7568628191947937,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "hOverflow": 0,
+    "vOverflow": 0
+   },
+   "effects": [
+    {
+     "kind": "Outline",
+     "color": [
+      0.19607844948768616,
+      0.1098039299249649,
+      0.05882353335618973,
+      1.0
+     ],
+     "distance": [
+      1.0,
+      -1.0
+     ]
+    }
+   ],
+   "scripts": [
+    "Text",
+    "Outline",
+    "LocalizeString"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     254.86505126953125,
+     59.4454345703125
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}
