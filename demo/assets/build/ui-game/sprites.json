@@ -1793,6 +1793,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "BackGround1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "BackGround3": {
   "border": [
    0.0,
@@ -5876,6 +5889,19 @@
   "pixelsPerUnit": 100.0
  },
  "CircleButton2": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "CircleButton3": {
   "border": [
    0.0,
    0.0,
@@ -12168,6 +12194,19 @@
   "pixelsPerUnit": 100.0
  },
  "Heart_Give1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Heart_Give_Gray1": {
   "border": [
    0.0,
    0.0,
@@ -21020,6 +21059,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Mercenary1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Message1": {
   "border": [
    0.0,
@@ -28951,6 +29003,19 @@
   "pixelsPerUnit": 100.0
  },
  "SummonCard_Wind1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "Sword1": {
   "border": [
    0.0,
    0.0,
