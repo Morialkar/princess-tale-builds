@@ -28833,6 +28833,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Slot5_Select1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Slot6": {
   "border": [
    0.0,
@@ -33487,6 +33500,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "loading": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "lock_PveRanking": {
   "border": [
    0.0,
@@ -37050,6 +37076,19 @@
   "pixelsPerUnit": 100.0
  },
  "tulu": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
+ "twitter_64x": {
   "border": [
    0.0,
    0.0,

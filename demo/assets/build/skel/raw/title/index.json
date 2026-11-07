@@ -1,0 +1,20 @@
+{
+ "title": {
+  "asset": "title_SkeletonData",
+  "atlases": [
+   "title"
+  ],
+  "defaultMix": 0.2,
+  "mixes": [],
+  "scale": 0.01
+ },
+ "title_logo": {
+  "asset": "title_logo_SkeletonData",
+  "atlases": [
+   "title_logo"
+  ],
+  "defaultMix": 0.2,
+  "mixes": [],
+  "scale": 0.01
+ }
+}

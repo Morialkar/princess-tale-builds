@@ -1,0 +1,83 @@
+
+title_logo_page.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+acce_bg
+  rotate: false
+  xy: 2, 88
+  size: 422, 422
+  orig: 422, 422
+  offset: 0, 0
+  index: -1
+acce_bg_effect
+  rotate: false
+  xy: 892, 192
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+acce_crown
+  rotate: false
+  xy: 737, 33
+  size: 198, 135
+  orig: 198, 135
+  offset: 0, 0
+  index: -1
+effect_left_01
+  rotate: true
+  xy: 2, 2
+  size: 84, 122
+  orig: 84, 122
+  offset: 0, 0
+  index: -1
+effect_white
+  rotate: false
+  xy: 126, 13
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+text_adventure
+  rotate: false
+  xy: 426, 170
+  size: 464, 128
+  orig: 464, 128
+  offset: 0, 0
+  index: -1
+text_princess
+  rotate: false
+  xy: 426, 300
+  size: 628, 210
+  orig: 628, 210
+  offset: 0, 0
+  index: -1
+text_princess.png_effect
+  rotate: false
+  xy: 126, 25
+  size: 164, 61
+  orig: 164, 61
+  offset: 0, 0
+  index: -1
+text_project_effect
+  rotate: false
+  xy: 292, 50
+  size: 121, 36
+  orig: 121, 36
+  offset: 0, 0
+  index: -1
+text_tale
+  rotate: false
+  xy: 426, 54
+  size: 309, 114
+  orig: 309, 114
+  offset: 0, 0
+  index: -1
+text_tale_effect
+  rotate: false
+  xy: 292, 10
+  size: 84, 38
+  orig: 84, 38
+  offset: 0, 0
+  index: -1
