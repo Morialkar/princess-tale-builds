@@ -2956,6 +2956,10 @@
            ]
           }
          ],
+         "tooltip": {
+          "title": "",
+          "desc": "tooltip_dungeon_map_progress_rate"
+         },
          "scripts": [
           "Text",
           "LocalizeString",

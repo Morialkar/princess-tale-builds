@@ -347,6 +347,10 @@
       {
        "name": "MemberCount",
        "active": true,
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Friends_Limit"
+       },
        "scripts": [
         "TooltipTargetUI",
         "TooltipData_Desc"
@@ -555,6 +559,10 @@
       {
        "name": "CrownCount",
        "active": true,
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Friends_Limit"
+       },
        "scripts": [
         "TooltipTargetUI",
         "TooltipData_Desc"

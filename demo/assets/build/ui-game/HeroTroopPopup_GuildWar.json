@@ -133971,6 +133971,10 @@
         {
          "name": "Time",
          "active": false,
+         "tooltip": {
+          "title": "",
+          "desc": "Tooltip_Ingame_Time"
+         },
          "scripts": [
           "TooltipData_Desc",
           "TooltipTargetUI"

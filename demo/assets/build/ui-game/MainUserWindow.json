@@ -2318,6 +2318,10 @@
           "max": 1.0,
           "direction": 0
          },
+         "tooltip": {
+          "title": "",
+          "desc": "Tooltip_Currency_UserExp"
+         },
          "scripts": [
           "Slider",
           "TooltipTargetUI",
@@ -3355,6 +3359,10 @@
             "raycast": true,
             "sprite": "Coin_Small1"
            },
+           "tooltip": {
+            "title": "",
+            "desc": "Tooltip_Currency_Gold"
+           },
            "scripts": [
             "Image",
             "AtlasImage",
@@ -3604,6 +3612,10 @@
             "enabled": true,
             "raycast": true,
             "sprite": "Jewel1"
+           },
+           "tooltip": {
+            "title": "",
+            "desc": "Tooltip_Currency_Star"
            },
            "scripts": [
             "Image",
@@ -3923,6 +3935,10 @@
             "enabled": true,
             "raycast": true,
             "sprite": "Power1"
+           },
+           "tooltip": {
+            "title": "",
+            "desc": "Tooltip_All_AtkRating"
            },
            "scripts": [
             "Image",

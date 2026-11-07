@@ -995,6 +995,10 @@
              1.0
             ]
            ],
+           "tooltip": {
+            "title": "",
+            "desc": "Tooltip_Currency_Gold"
+           },
            "scripts": [
             "HorizontalLayoutGroup",
             "HeroNeedItem",
@@ -1189,6 +1193,10 @@
              1.0
             ]
            ],
+           "tooltip": {
+            "title": "",
+            "desc": "Tooltip_Currency_HeroExp"
+           },
            "scripts": [
             "HorizontalLayoutGroup",
             "HeroNeedItem",
@@ -1383,6 +1391,10 @@
              1.0
             ]
            ],
+           "tooltip": {
+            "title": "",
+            "desc": "Tooltip_Item_Dust"
+           },
            "scripts": [
             "HorizontalLayoutGroup",
             "HeroNeedItem",

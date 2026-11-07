@@ -987,6 +987,10 @@
     "max": 1.0,
     "direction": 0
    },
+   "tooltip": {
+    "title": "",
+    "desc": "tooltip_dungeon_total_progress_rate"
+   },
    "scripts": [
     "Image",
     "AtlasImage",

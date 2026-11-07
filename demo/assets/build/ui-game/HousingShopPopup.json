@@ -3755,6 +3755,10 @@
           "raycast": true,
           "sprite": "Coin_Small1"
          },
+         "tooltip": {
+          "title": "",
+          "desc": "Tooltip_Currency_Gold"
+         },
          "scripts": [
           "Image",
           "AtlasImage",
@@ -4005,6 +4009,10 @@
           "enabled": true,
           "raycast": true,
           "sprite": "Coin_Small1"
+         },
+         "tooltip": {
+          "title": "",
+          "desc": "Tooltip_Currency_Star"
          },
          "scripts": [
           "Image",

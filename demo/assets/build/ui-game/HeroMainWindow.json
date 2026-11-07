@@ -3760,6 +3760,10 @@
           "raycast": true,
           "sprite": "Square_Frame1"
          },
+         "tooltip": {
+          "title": "",
+          "desc": "Tootip_Hero_Limit"
+         },
          "scripts": [
           "Image",
           "AtlasImage",

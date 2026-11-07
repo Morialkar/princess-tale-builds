@@ -703,6 +703,10 @@
       "raycast": true,
       "sprite": "Icon_Immunity1"
      },
+     "tooltip": {
+      "title": "",
+      "desc": "tooltip_worldboss_immunity_desc"
+     },
      "scripts": [
       "Image",
       "AtlasImage",
@@ -7115,6 +7119,10 @@
          2,
          24
         ]
+       },
+       "tooltip": {
+        "title": "",
+        "desc": "tooltip_worldboss_bouns_try"
        },
        "scripts": [
         "Text",

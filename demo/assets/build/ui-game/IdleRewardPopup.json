@@ -2220,6 +2220,10 @@
         "raycast": true,
         "sprite": "SlotBar1"
        },
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Currency_Gold"
+       },
        "scripts": [
         "Image",
         "AtlasImage",
@@ -2395,6 +2399,10 @@
         "raycast": true,
         "sprite": "SlotBar1"
        },
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Currency_HeroExp"
+       },
        "scripts": [
         "Image",
         "AtlasImage",
@@ -2569,6 +2577,10 @@
         "enabled": true,
         "raycast": true,
         "sprite": "SlotBar1"
+       },
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Currency_UserExp"
        },
        "scripts": [
         "Image",

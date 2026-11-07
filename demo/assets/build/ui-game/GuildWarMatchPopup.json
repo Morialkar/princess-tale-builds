@@ -285,6 +285,10 @@
       "raycast": true,
       "sprite": "Square_Frame1"
      },
+     "tooltip": {
+      "title": "",
+      "desc": "tooltip_guild_entrance_count_info"
+     },
      "scripts": [
       "Image",
       "AtlasImage",

@@ -1397,6 +1397,10 @@
           "max": 1.0,
           "direction": 0
          },
+         "tooltip": {
+          "title": "",
+          "desc": "tooltip_dungeon_total_progress_rate"
+         },
          "scripts": [
           "Image",
           "AtlasImage",
@@ -2464,6 +2468,10 @@
       "enabled": true,
       "raycast": true,
       "sprite": "SlotBar2"
+     },
+     "tooltip": {
+      "title": "",
+      "desc": "tooltip_dungeon_coin_Limit"
      },
      "scripts": [
       "Image",

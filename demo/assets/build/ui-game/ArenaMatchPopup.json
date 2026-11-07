@@ -366,6 +366,10 @@
           "raycast": true,
           "sprite": "Square_Frame1"
          },
+         "tooltip": {
+          "title": "",
+          "desc": "item_desc_entryticket"
+         },
          "scripts": [
           "Image",
           "AtlasImage",

@@ -1362,6 +1362,10 @@
     "raycast": true,
     "sprite": "Mark_Speech_Red1"
    },
+   "tooltip": {
+    "title": "",
+    "desc": "tooltip_housing_visit_like_count"
+   },
    "scripts": [
     "Image",
     "AtlasImage",

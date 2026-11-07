@@ -3574,6 +3574,10 @@
                   "raycast": true,
                   "sprite": "Guild_Master1"
                  },
+                 "tooltip": {
+                  "title": "tooltip_guild_master_title",
+                  "desc": "tooltip_guild_master_desc"
+                 },
                  "scripts": [
                   "Image",
                   "AtlasImage",
@@ -3626,6 +3630,10 @@
                   "enabled": true,
                   "raycast": true,
                   "sprite": "Guild_Elder1"
+                 },
+                 "tooltip": {
+                  "title": "tooltip_guild_vicemaster_title",
+                  "desc": "tooltip_guild_vicemaster_desc"
                  },
                  "scripts": [
                   "Image",
@@ -3680,6 +3688,10 @@
                   "raycast": true,
                   "sprite": "Guild_MercenaryCaptain1"
                  },
+                 "tooltip": {
+                  "title": "tooltip_guild_general_title",
+                  "desc": "tooltip_guild_general_desc"
+                 },
                  "scripts": [
                   "Image",
                   "AtlasImage",
@@ -3733,6 +3745,10 @@
                   "raycast": true,
                   "sprite": "Icon_Guildwar_AttackCaptain1"
                  },
+                 "tooltip": {
+                  "title": "ui_localize_guild_attacker_captain",
+                  "desc": "tooltip_guild_attack_captain_desc"
+                 },
                  "scripts": [
                   "Image",
                   "AtlasImage",
@@ -3785,6 +3801,10 @@
                   "enabled": true,
                   "raycast": true,
                   "sprite": "Icon_Guildwar_DefenseCaptain1"
+                 },
+                 "tooltip": {
+                  "title": "ui_localize_guild_defender_captain",
+                  "desc": "tooltip_guild_defend_captain_desc"
                  },
                  "scripts": [
                   "Image",

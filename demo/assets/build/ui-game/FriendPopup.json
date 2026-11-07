@@ -1799,6 +1799,10 @@
           "raycast": true,
           "sprite": "Stats_Slot1"
          },
+         "tooltip": {
+          "title": "",
+          "desc": "Tooltip_Currency_Fship"
+         },
          "scripts": [
           "Image",
           "AtlasImage",
@@ -1940,6 +1944,10 @@
         {
          "name": "FriendCount",
          "active": true,
+         "tooltip": {
+          "title": "",
+          "desc": "Tooltip_Friends_Limit"
+         },
          "scripts": [
           "TooltipTargetUI",
           "TooltipData_Desc"

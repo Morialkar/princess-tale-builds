@@ -5380,6 +5380,10 @@
             "raycast": true,
             "sprite": "RoundGauge_Bar2"
            },
+           "tooltip": {
+            "title": "",
+            "desc": "Tooltip_Gacha_Progress"
+           },
            "scripts": [
             "Image",
             "AtlasImage",

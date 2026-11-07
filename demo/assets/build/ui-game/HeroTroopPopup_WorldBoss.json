@@ -22653,6 +22653,10 @@
         "raycast": true,
         "sprite": "SlotBar1"
        },
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Party_AtkRating"
+       },
        "scripts": [
         "Image",
         "AtlasImage",
@@ -22880,6 +22884,10 @@
         "enabled": true,
         "raycast": true,
         "sprite": "SlotBar1"
+       },
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Enermy_AtkRation"
        },
        "scripts": [
         "Image",

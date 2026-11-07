@@ -44090,6 +44090,10 @@
       {
        "name": "Time",
        "active": true,
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Ingame_Time"
+       },
        "scripts": [
         "TooltipData_Desc",
         "TooltipTargetUI"
@@ -44434,6 +44438,10 @@
         "raycast": true,
         "sprite": "SlotBar1"
        },
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Party_AtkRating"
+       },
        "scripts": [
         "Image",
         "AtlasImage",
@@ -44661,6 +44669,10 @@
         "enabled": true,
         "raycast": true,
         "sprite": "SlotBar1"
+       },
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Enermy_AtkRation"
        },
        "scripts": [
         "Image",

@@ -830,6 +830,10 @@
       {
        "name": "Kill",
        "active": true,
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_BattleData_Atk"
+       },
        "scripts": [
         "TooltipTargetUI",
         "TooltipData_Desc"
@@ -917,6 +921,10 @@
       {
        "name": "Power",
        "active": true,
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_BattleData_Atk"
+       },
        "scripts": [
         "TooltipTargetUI",
         "TooltipData_Desc"
@@ -1055,6 +1063,10 @@
       {
        "name": "Hit",
        "active": true,
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_BattleData_Atk"
+       },
        "scripts": [
         "TooltipTargetUI",
         "TooltipData_Desc"
@@ -1193,6 +1205,10 @@
       {
        "name": "Heal",
        "active": true,
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_BattleData_Atk"
+       },
        "scripts": [
         "TooltipTargetUI",
         "TooltipData_Desc"

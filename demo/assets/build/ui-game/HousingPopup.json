@@ -74435,6 +74435,10 @@
               "raycast": true,
               "sprite": "Slot3"
              },
+             "tooltip": {
+              "title": "",
+              "desc": "tooltip_housing_effect_furniture_limit"
+             },
              "scripts": [
               "Image",
               "AtlasImage",
@@ -74909,6 +74913,10 @@
               "enabled": true,
               "raycast": true,
               "sprite": "Slot3"
+             },
+             "tooltip": {
+              "title": "",
+              "desc": "tooltip_housing_effect_furniture_limit"
              },
              "scripts": [
               "Image",
@@ -80317,6 +80325,10 @@
             "raycast": true,
             "sprite": "Coin_Small1"
            },
+           "tooltip": {
+            "title": "",
+            "desc": "Tooltip_Currency_Gold"
+           },
            "scripts": [
             "Image",
             "AtlasImage",
@@ -80568,6 +80580,10 @@
             "raycast": true,
             "sprite": "Coin_Small1"
            },
+           "tooltip": {
+            "title": "",
+            "desc": "Tooltip_Currency_Star"
+           },
            "scripts": [
             "Image",
             "AtlasImage",
@@ -80818,6 +80834,10 @@
             "enabled": true,
             "raycast": true,
             "sprite": "Coin_Small1"
+           },
+           "tooltip": {
+            "title": "",
+            "desc": "Tooltip_Currency_Dismiss"
            },
            "scripts": [
             "Image",

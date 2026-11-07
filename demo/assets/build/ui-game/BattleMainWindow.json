@@ -65,6 +65,10 @@
     {
      "name": "Time",
      "active": true,
+     "tooltip": {
+      "title": "",
+      "desc": "Tooltip_Ingame_Time"
+     },
      "scripts": [
       "TooltipData_Desc",
       "TooltipTargetUI"
@@ -2297,6 +2301,10 @@
       {
        "name": "Coin",
        "active": false,
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Ingame_gold"
+       },
        "scripts": [
         "TooltipTargetUI",
         "TooltipData_Desc"
@@ -2503,6 +2511,10 @@
       {
        "name": "Chast",
        "active": false,
+       "tooltip": {
+        "title": "",
+        "desc": "Tooltip_Ingame_item"
+       },
        "scripts": [
         "TooltipTargetUI",
         "TooltipData_Desc"

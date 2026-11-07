@@ -1021,6 +1021,10 @@
                 {
                  "name": "Power",
                  "active": true,
+                 "tooltip": {
+                  "title": "",
+                  "desc": "Tooltip_BattleData_Atk"
+                 },
                  "scripts": [
                   "TooltipTargetUI",
                   "TooltipData_Desc"
@@ -1189,6 +1193,10 @@
                 {
                  "name": "Defense",
                  "active": true,
+                 "tooltip": {
+                  "title": "",
+                  "desc": "Tooltip_BattleData_Dmg"
+                 },
                  "scripts": [
                   "TooltipTargetUI",
                   "TooltipData_Desc"
@@ -1357,6 +1365,10 @@
                 {
                  "name": "Health",
                  "active": true,
+                 "tooltip": {
+                  "title": "",
+                  "desc": "Tooltip_BattleData_Heal"
+                 },
                  "scripts": [
                   "TooltipTargetUI",
                   "TooltipData_Desc"
@@ -17248,6 +17260,10 @@
                 {
                  "name": "Power",
                  "active": true,
+                 "tooltip": {
+                  "title": "",
+                  "desc": "Tooltip_BattleData_Atk"
+                 },
                  "scripts": [
                   "TooltipTargetUI",
                   "TooltipData_Desc"
@@ -17416,6 +17432,10 @@
                 {
                  "name": "Defense",
                  "active": true,
+                 "tooltip": {
+                  "title": "",
+                  "desc": "Tooltip_BattleData_Dmg"
+                 },
                  "scripts": [
                   "TooltipTargetUI",
                   "TooltipData_Desc"
@@ -17584,6 +17604,10 @@
                 {
                  "name": "Health",
                  "active": true,
+                 "tooltip": {
+                  "title": "",
+                  "desc": "Tooltip_BattleData_Heal"
+                 },
                  "scripts": [
                   "TooltipTargetUI",
                   "TooltipData_Desc"
