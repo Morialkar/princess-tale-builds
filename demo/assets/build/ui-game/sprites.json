@@ -6668,6 +6668,19 @@
   ],
   "pixelsPerUnit": 100.0
  },
+ "Continue1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0
+ },
  "Cook_1": {
   "border": [
    0.0,
