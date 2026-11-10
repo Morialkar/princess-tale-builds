@@ -1,0 +1,200 @@
+{
+ "name": "RaceResultEntity",
+ "active": true,
+ "image": {
+  "type": 0,
+  "fillMethod": 4,
+  "fillAmount": 1.0,
+  "fillOrigin": 0,
+  "fillClockwise": true,
+  "preserveAspect": false,
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "enabled": true,
+  "raycast": true,
+  "sprite": "Run_Tile_White1"
+ },
+ "scripts": [
+  "Image",
+  "RaceResultEntity",
+  "AtlasImage"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.5
+  ],
+  "anchorMax": [
+   0.5,
+   0.5
+  ],
+  "position": [
+   0.0,
+   -25.6015625
+  ],
+  "size": [
+   305.0,
+   270.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Tile",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Run_Tile_White1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     92.0
+    ],
+    "size": [
+     305.0,
+     270.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Tile",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Run_Tile_White1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     184.0
+    ],
+    "size": [
+     305.0,
+     270.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Character",
+   "active": true,
+   "skeleton": {
+    "animation": "idle",
+    "loop": false,
+    "skin": "baba",
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "scripts": [
+    "SkeletonGraphic"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     233.0
+    ],
+    "size": [
+     100.0,
+     100.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    0.15000000596046448,
+    0.15000000596046448
+   ]
+  }
+ ]
+}

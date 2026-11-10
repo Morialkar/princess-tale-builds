@@ -1,0 +1,339 @@
+{
+ "name": "TooltipUI_TitleDesc",
+ "active": true,
+ "scripts": [
+  "TooltipUI_TitleDesc"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   1.0
+  ],
+  "anchorMax": [
+   0.0,
+   1.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   350.0,
+   221.39999389648438
+  ],
+  "pivot": [
+   0.0,
+   1.0
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "BG",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     0.8823529481887817
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Slot3_Gray"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     -6.0,
+     -6.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Grid",
+   "active": true,
+   "layout": {
+    "kind": "VerticalLayoutGroup",
+    "padding": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "childAlignment": 1,
+    "enabled": true,
+    "spacing": 0.0,
+    "controlWidth": false,
+    "controlHeight": false,
+    "expandWidth": false,
+    "expandHeight": false,
+    "reverse": false,
+    "scaleWidth": false,
+    "scaleHeight": false
+   },
+   "scripts": [
+    "VerticalLayoutGroup"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     313.7699890136719,
+     186.89999389648438
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "txt_title",
+     "active": true,
+     "text": {
+      "text": "\ud14d\uc2a4\ud2b8\uc81c\ubaa9",
+      "font": "MaplestoryLight",
+      "size": 20,
+      "style": 0,
+      "alignment": 4,
+      "lineSpacing": 1.0,
+      "color": [
+       0.9529412388801575,
+       0.8666667342185974,
+       0.3764706254005432,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 1,
+      "vOverflow": 1
+     },
+     "fit": [
+      false,
+      true
+     ],
+     "effects": [
+      {
+       "kind": "Outline",
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        0.5
+       ],
+       "distance": [
+        1.5,
+        1.5
+       ]
+      }
+     ],
+     "scripts": [
+      "Text",
+      "LocalizeString",
+      "Outline"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       319.44000244140625,
+       28.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "BGline",
+     "active": true,
+     "image": {
+      "type": 1,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       0.3921568691730499
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Pattern1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       318.9599914550781,
+       20.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Desc",
+     "active": true,
+     "text": {
+      "text": "\ud14d\uc2a4\ud2b8",
+      "font": "MaplestoryLight",
+      "size": 18,
+      "style": 0,
+      "alignment": 4,
+      "lineSpacing": 0.8999999761581421,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 0,
+      "vOverflow": 0,
+      "bestFit": [
+       17,
+       18
+      ]
+     },
+     "fit": [
+      false,
+      true
+     ],
+     "effects": [
+      {
+       "kind": "Outline",
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        0.5
+       ],
+       "distance": [
+        1.5,
+        1.5
+       ]
+      }
+     ],
+     "scripts": [
+      "Text",
+      "LocalizeString",
+      "Outline"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       319.44000244140625,
+       22.0
+      ],
+      "pivot": [
+       0.0,
+       1.0
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  }
+ ]
+}

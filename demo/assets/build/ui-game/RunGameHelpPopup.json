@@ -1,0 +1,546 @@
+{
+ "name": "RunGameHelpPopup",
+ "active": true,
+ "scripts": [
+  "RunGameHelpPopup"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   1.0
+  ],
+  "anchorMax": [
+   0.0,
+   1.0
+  ],
+  "position": [
+   245.39999389648438,
+   -168.3000030517578
+  ],
+  "size": [
+   2048.0,
+   2732.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Background(ExitButton)",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "UISprite"
+   },
+   "button": {
+    "kind": "Button",
+    "transition": 1,
+    "normal": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "pressed": [
+     0.7843137383460999,
+     0.7843137383460999,
+     0.7843137383460999,
+     1.0
+    ],
+    "multiplier": 1.0,
+    "fade": 0.10000000149011612,
+    "target": "Background(ExitButton)",
+    "interactable": true
+   },
+   "scripts": [
+    "Image",
+    "Button"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     2000.0,
+     3000.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "BG",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Slot3"
+   },
+   "button": {
+    "kind": "Button",
+    "transition": 1,
+    "normal": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "pressed": [
+     0.7843137383460999,
+     0.7843137383460999,
+     0.7843137383460999,
+     1.0
+    ],
+    "multiplier": 1.0,
+    "fade": 0.10000000149011612,
+    "target": "BG",
+    "interactable": true
+   },
+   "scripts": [
+    "Image",
+    "Button",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     250.0,
+     150.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Image",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Run_Speed1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.5
+      ],
+      "anchorMax": [
+       0.0,
+       0.5
+      ],
+      "position": [
+       40.0,
+       45.0
+      ],
+      "size": [
+       54.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      0.75,
+      0.75
+     ],
+     "children": [
+      {
+       "name": "SpeedText",
+       "active": true,
+       "text": {
+        "text": "",
+        "font": "MaplestoryLight",
+        "size": 20,
+        "style": 0,
+        "alignment": 3,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          0.5
+         ],
+         "distance": [
+          1.0,
+          -1.0
+         ]
+        }
+       ],
+       "localize": "ui_localize_run_speed",
+       "scripts": [
+        "Text",
+        "Outline",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         150.0,
+         0.0
+        ],
+        "size": [
+         220.0,
+         50.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Image",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Run_JumpTime1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.5
+      ],
+      "anchorMax": [
+       0.0,
+       0.5
+      ],
+      "position": [
+       40.0,
+       0.0
+      ],
+      "size": [
+       54.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      0.75,
+      0.75
+     ],
+     "children": [
+      {
+       "name": "JumpTimeText",
+       "active": true,
+       "text": {
+        "text": "",
+        "font": "MaplestoryLight",
+        "size": 20,
+        "style": 0,
+        "alignment": 3,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          0.5
+         ],
+         "distance": [
+          1.0,
+          -1.0
+         ]
+        }
+       ],
+       "localize": "ui_localize_run_jump_time",
+       "scripts": [
+        "Text",
+        "Outline",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         150.0,
+         0.0
+        ],
+        "size": [
+         220.0,
+         50.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Image",
+     "active": true,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "Run_Trip1"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.5
+      ],
+      "anchorMax": [
+       0.0,
+       0.5
+      ],
+      "position": [
+       40.0,
+       -45.0
+      ],
+      "size": [
+       54.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      0.75,
+      0.75
+     ],
+     "children": [
+      {
+       "name": "InvincibleTimeText",
+       "active": true,
+       "text": {
+        "text": "",
+        "font": "MaplestoryLight",
+        "size": 20,
+        "style": 0,
+        "alignment": 3,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          0.5
+         ],
+         "distance": [
+          1.0,
+          -1.0
+         ]
+        }
+       ],
+       "localize": "ui_localize_run_invincible",
+       "scripts": [
+        "Text",
+        "Outline",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         150.0,
+         0.0
+        ],
+        "size": [
+         220.0,
+         50.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

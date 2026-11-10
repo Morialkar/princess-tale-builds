@@ -1,0 +1,198 @@
+{
+ "name": "kill_cutscene",
+ "active": true,
+ "scripts": [
+  "KillCutscene"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   1.0
+  ],
+  "anchorMax": [
+   0.5,
+   1.0
+  ],
+  "position": [
+   0.0,
+   -755.5
+  ],
+  "size": [
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  0.004999999888241291,
+  0.004999999888241291
+ ],
+ "children": [
+  {
+   "name": "cutscene_kill",
+   "active": true,
+   "scripts": [
+    "SkeletonGraphicMultiObject"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     -113.232421875
+    ],
+    "size": [
+     100.0,
+     100.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.2000000476837158,
+    1.2000000476837158
+   ],
+   "children": [
+    {
+     "name": "Renderer[0]",
+     "active": true,
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Renderer[1]",
+     "active": true,
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Renderer[2]",
+     "active": true,
+     "scale": [
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "cutscene_death",
+   "active": true,
+   "scripts": [
+    "SkeletonGraphicMultiObject"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     -239.0
+    ],
+    "size": [
+     100.0,
+     100.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    0.8999999761581421,
+    0.8999999761581421
+   ],
+   "children": [
+    {
+     "name": "Renderer[0]",
+     "active": true,
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Renderer[1]",
+     "active": true,
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "Renderer[2]",
+     "active": true,
+     "scale": [
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "cutscene_message",
+   "active": true,
+   "skeleton": {
+    "animation": "",
+    "loop": true,
+    "skin": "default",
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "skeleton": "kill_message"
+   },
+   "scripts": [
+    "SkeletonGraphic"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     -179.13241577148438
+    ],
+    "size": [
+     100.0,
+     100.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}

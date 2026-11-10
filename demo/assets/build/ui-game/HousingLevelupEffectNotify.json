@@ -1,0 +1,212 @@
+{
+ "name": "HousingLevelupEffectNotify",
+ "active": true,
+ "scripts": [
+  "HousingEffectNotify"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.5
+  ],
+  "anchorMax": [
+   0.5,
+   0.5
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   300.0,
+   300.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "star",
+   "active": true,
+   "scripts": [
+    "ParticleBase"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     100.0,
+     100.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    2.0,
+    2.0
+   ],
+   "children": [
+    {
+     "name": "root",
+     "active": true,
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "flare_in",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        30.0,
+        30.0
+       ]
+      },
+      {
+       "name": "star_out",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        30.0,
+        30.0
+       ]
+      },
+      {
+       "name": "circle_in_02",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        30.0,
+        30.0
+       ]
+      },
+      {
+       "name": "dust_out",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        5.0,
+        5.0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

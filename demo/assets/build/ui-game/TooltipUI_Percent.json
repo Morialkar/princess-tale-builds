@@ -1,0 +1,1699 @@
+{
+ "name": "TooltipUI_Percent",
+ "active": true,
+ "scripts": [
+  "TooltipUI_Percent"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.5
+  ],
+  "anchorMax": [
+   0.5,
+   0.5
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   340.0,
+   60.0
+  ],
+  "pivot": [
+   0.0,
+   1.0
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "BG",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     0.8823529481887817
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Slot3_Gray"
+   },
+   "layout": {
+    "kind": "VerticalLayoutGroup",
+    "padding": [
+     0,
+     0,
+     10,
+     10
+    ],
+    "childAlignment": 4,
+    "enabled": true,
+    "spacing": 0.0,
+    "controlWidth": false,
+    "controlHeight": false,
+    "expandWidth": true,
+    "expandHeight": true,
+    "reverse": false,
+    "scaleWidth": false,
+    "scaleHeight": false
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage",
+    "VerticalLayoutGroup",
+    "ContentSizeFitter"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     10.0,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Parent",
+     "active": true,
+     "scripts": [
+      "TooltipPercentGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       320.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Desc",
+       "active": true,
+       "text": {
+        "text": "New Text",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         13,
+         18
+        ]
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "distance": [
+          1.5,
+          -1.5
+         ]
+        }
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString",
+        "Outline"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         -49.999996185302734,
+         0.0
+        ],
+        "size": [
+         -100.0,
+         -14.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Per",
+       "active": true,
+       "text": {
+        "text": "10%",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.5215686559677124,
+         0.7803921699523926,
+         0.019607843831181526,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         120.0,
+         0.0
+        ],
+        "size": [
+         -240.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Parent (1)",
+     "active": true,
+     "scripts": [
+      "TooltipPercentGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       320.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Desc",
+       "active": true,
+       "text": {
+        "text": "New Text",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         13,
+         18
+        ]
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "distance": [
+          1.5,
+          -1.5
+         ]
+        }
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString",
+        "Outline"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         -49.999996185302734,
+         0.0
+        ],
+        "size": [
+         -100.0,
+         -14.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Per",
+       "active": true,
+       "text": {
+        "text": "10%",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.5215686559677124,
+         0.7803921699523926,
+         0.019607843831181526,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         120.0,
+         0.0
+        ],
+        "size": [
+         -240.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Parent (2)",
+     "active": true,
+     "scripts": [
+      "TooltipPercentGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       320.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Desc",
+       "active": true,
+       "text": {
+        "text": "New Text",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         13,
+         18
+        ]
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "distance": [
+          1.5,
+          -1.5
+         ]
+        }
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString",
+        "Outline"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         -49.999996185302734,
+         0.0
+        ],
+        "size": [
+         -100.0,
+         -14.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Per",
+       "active": true,
+       "text": {
+        "text": "10%",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.5215686559677124,
+         0.7803921699523926,
+         0.019607843831181526,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         120.0,
+         0.0
+        ],
+        "size": [
+         -240.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Parent (3)",
+     "active": true,
+     "scripts": [
+      "TooltipPercentGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       320.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Desc",
+       "active": true,
+       "text": {
+        "text": "New Text",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         13,
+         18
+        ]
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "distance": [
+          1.5,
+          -1.5
+         ]
+        }
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString",
+        "Outline"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         -49.999996185302734,
+         0.0
+        ],
+        "size": [
+         -100.0,
+         -14.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Per",
+       "active": true,
+       "text": {
+        "text": "10%",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.5215686559677124,
+         0.7803921699523926,
+         0.019607843831181526,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         120.0,
+         0.0
+        ],
+        "size": [
+         -240.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Parent (4)",
+     "active": true,
+     "scripts": [
+      "TooltipPercentGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       320.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Desc",
+       "active": true,
+       "text": {
+        "text": "New Text",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         13,
+         18
+        ]
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "distance": [
+          1.5,
+          -1.5
+         ]
+        }
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString",
+        "Outline"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         -49.999996185302734,
+         0.0
+        ],
+        "size": [
+         -100.0,
+         -14.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Per",
+       "active": true,
+       "text": {
+        "text": "10%",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.5215686559677124,
+         0.7803921699523926,
+         0.019607843831181526,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         120.0,
+         0.0
+        ],
+        "size": [
+         -240.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Parent (5)",
+     "active": true,
+     "scripts": [
+      "TooltipPercentGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       320.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Desc",
+       "active": true,
+       "text": {
+        "text": "New Text",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         13,
+         18
+        ]
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "distance": [
+          1.5,
+          -1.5
+         ]
+        }
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString",
+        "Outline"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         -49.999996185302734,
+         0.0
+        ],
+        "size": [
+         -100.0,
+         -14.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Per",
+       "active": true,
+       "text": {
+        "text": "10%",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.5215686559677124,
+         0.7803921699523926,
+         0.019607843831181526,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         120.0,
+         0.0
+        ],
+        "size": [
+         -240.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Parent (6)",
+     "active": true,
+     "scripts": [
+      "TooltipPercentGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       320.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Desc",
+       "active": true,
+       "text": {
+        "text": "New Text",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         13,
+         18
+        ]
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "distance": [
+          1.5,
+          -1.5
+         ]
+        }
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString",
+        "Outline"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         -49.999996185302734,
+         0.0
+        ],
+        "size": [
+         -100.0,
+         -14.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Per",
+       "active": true,
+       "text": {
+        "text": "10%",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.5215686559677124,
+         0.7803921699523926,
+         0.019607843831181526,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         120.0,
+         0.0
+        ],
+        "size": [
+         -240.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Parent (7)",
+     "active": true,
+     "scripts": [
+      "TooltipPercentGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       320.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Desc",
+       "active": true,
+       "text": {
+        "text": "New Text",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         13,
+         18
+        ]
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "distance": [
+          1.5,
+          -1.5
+         ]
+        }
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString",
+        "Outline"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         -49.999996185302734,
+         0.0
+        ],
+        "size": [
+         -100.0,
+         -14.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Per",
+       "active": true,
+       "text": {
+        "text": "10%",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.5215686559677124,
+         0.7803921699523926,
+         0.019607843831181526,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         120.0,
+         0.0
+        ],
+        "size": [
+         -240.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Parent (8)",
+     "active": true,
+     "scripts": [
+      "TooltipPercentGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       320.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Desc",
+       "active": true,
+       "text": {
+        "text": "New Text",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         13,
+         18
+        ]
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "distance": [
+          1.5,
+          -1.5
+         ]
+        }
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString",
+        "Outline"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         -49.999996185302734,
+         0.0
+        ],
+        "size": [
+         -100.0,
+         -14.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Per",
+       "active": true,
+       "text": {
+        "text": "10%",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.5215686559677124,
+         0.7803921699523926,
+         0.019607843831181526,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         120.0,
+         0.0
+        ],
+        "size": [
+         -240.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Parent (9)",
+     "active": true,
+     "scripts": [
+      "TooltipPercentGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       0.0
+      ],
+      "anchorMax": [
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       320.0,
+       50.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Desc",
+       "active": true,
+       "text": {
+        "text": "New Text",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         13,
+         18
+        ]
+       },
+       "effects": [
+        {
+         "kind": "Outline",
+         "color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "distance": [
+          1.5,
+          -1.5
+         ]
+        }
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString",
+        "Outline"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         -49.999996185302734,
+         0.0
+        ],
+        "size": [
+         -100.0,
+         -14.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Per",
+       "active": true,
+       "text": {
+        "text": "10%",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 1.0,
+        "color": [
+         0.5215686559677124,
+         0.7803921699523926,
+         0.019607843831181526,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         1.0,
+         1.0
+        ],
+        "position": [
+         120.0,
+         0.0
+        ],
+        "size": [
+         -240.0,
+         0.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

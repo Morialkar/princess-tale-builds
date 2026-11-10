@@ -1,0 +1,181 @@
+{
+ "name": "HousingTimeNotify",
+ "active": true,
+ "image": {
+  "type": 0,
+  "fillMethod": 4,
+  "fillAmount": 1.0,
+  "fillOrigin": 0,
+  "fillClockwise": true,
+  "preserveAspect": false,
+  "color": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "enabled": true,
+  "raycast": false,
+  "sprite": "Speech_TextBox1"
+ },
+ "layout": {
+  "kind": "HorizontalLayoutGroup",
+  "padding": [
+   -10,
+   0,
+   0,
+   10
+  ],
+  "childAlignment": 4,
+  "enabled": true,
+  "spacing": 20.0,
+  "controlWidth": false,
+  "controlHeight": false,
+  "expandWidth": false,
+  "expandHeight": false,
+  "reverse": false,
+  "scaleWidth": false,
+  "scaleHeight": false
+ },
+ "scripts": [
+  "Image",
+  "AtlasImage",
+  "HousingTimeNotify",
+  "HorizontalLayoutGroup"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.5
+  ],
+  "anchorMax": [
+   0.5,
+   0.5
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   240.0,
+   90.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Image",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": false,
+    "sprite": "Time1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     36.0,
+     50.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Text",
+   "active": true,
+   "text": {
+    "text": "1\uc2dc 1\ubd84 1\ucd08",
+    "font": "MaplestoryBold",
+    "size": 22,
+    "style": 1,
+    "alignment": 4,
+    "lineSpacing": 1.0,
+    "color": [
+     0.4745098054409027,
+     0.3529411852359772,
+     0.22745098173618317,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": false,
+    "hOverflow": 0,
+    "vOverflow": 0
+   },
+   "fit": [
+    true,
+    false
+   ],
+   "scripts": [
+    "Text",
+    "LocalizeString"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     0.0,
+     0.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     120.0,
+     50.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}

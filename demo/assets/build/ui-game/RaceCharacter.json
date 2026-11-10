@@ -1,0 +1,1306 @@
+{
+ "name": "RaceCharacter",
+ "active": true,
+ "scripts": [
+  "RaceCharacter"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.5
+  ],
+  "anchorMax": [
+   0.5,
+   0.5
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Character",
+   "active": true,
+   "skeleton": {
+    "animation": "idle_unarmed",
+    "loop": false,
+    "skin": "baba",
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "scripts": [
+    "SkeletonGraphic"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     0.0,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    -0.11999999731779099,
+    0.11999999731779099
+   ],
+   "children": [
+    {
+     "name": "Text",
+     "active": false,
+     "text": {
+      "text": "",
+      "font": "Arial",
+      "size": 24,
+      "style": 0,
+      "alignment": 0,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 0,
+      "vOverflow": 0
+     },
+     "effects": [
+      {
+       "kind": "NicerOutline",
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        1.0,
+        -1.0
+       ]
+      }
+     ],
+     "scripts": [
+      "Text",
+      "NicerOutline"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       0.0,
+       1843.0
+      ],
+      "size": [
+       262.5141906738281,
+       177.55039978027344
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      10.0,
+      10.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "race_01",
+   "active": true,
+   "scripts": [
+    "ParticleBase"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     100.0,
+     100.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "root",
+     "active": true,
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "dust (4)",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        20.0,
+        20.0
+       ]
+      },
+      {
+       "name": "dust (1)",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        20.0,
+        20.0
+       ]
+      },
+      {
+       "name": "dust_up",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        20.0,
+        20.0
+       ]
+      },
+      {
+       "name": "dust_back",
+       "active": false,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        20.0,
+        20.0
+       ]
+      },
+      {
+       "name": "dust",
+       "active": false,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "rotation": [
+        -0.0,
+        1.0,
+        -1.0,
+        -0.0
+       ]
+      },
+      {
+       "name": "circle_in_02 (1)",
+       "active": false,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        30.0,
+        30.0
+       ]
+      },
+      {
+       "name": "flare_in_01",
+       "active": false,
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        30.0,
+        30.0
+       ]
+      },
+      {
+       "name": "heart",
+       "active": false,
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        30.0,
+        30.0
+       ]
+      },
+      {
+       "name": "circle_in_02",
+       "active": false,
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        30.0,
+        30.0
+       ]
+      },
+      {
+       "name": "star_dust2 (1)",
+       "active": false,
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        20.0,
+        20.0
+       ]
+      },
+      {
+       "name": "star_dust2 (2)",
+       "active": false,
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        20.0,
+        20.0
+       ]
+      },
+      {
+       "name": "card_out2 (1)",
+       "active": false,
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.12999999523162842,
+        0.17000000178813934
+       ]
+      },
+      {
+       "name": "dust (2)",
+       "active": false,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "rotation": [
+        -0.0,
+        1.0,
+        -1.0,
+        -0.0
+       ]
+      },
+      {
+       "name": "dust (3)",
+       "active": false,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "rotation": [
+        -0.0,
+        1.0,
+        -1.0,
+        -0.0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "maze_win",
+   "active": true,
+   "scripts": [
+    "ParticleBase"
+   ],
+   "transform": [
+    0.0,
+    2.0
+   ],
+   "scale": [
+    150.0,
+    150.0
+   ],
+   "children": [
+    {
+     "name": "root",
+     "active": true,
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "fire_left",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.699999988079071,
+        0.699999988079071
+       ]
+      },
+      {
+       "name": "fire_left (1)",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.699999988079071,
+        0.699999988079071
+       ]
+      },
+      {
+       "name": "circle_left",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.699999988079071,
+        0.699999988079071
+       ]
+      },
+      {
+       "name": "fire_centa",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.699999988079071,
+        0.699999988079071
+       ]
+      },
+      {
+       "name": "fire_centa (1)",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.699999988079071,
+        0.699999988079071
+       ]
+      },
+      {
+       "name": "circle_centa",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.699999988079071,
+        0.699999988079071
+       ]
+      },
+      {
+       "name": "fire_right",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.699999988079071,
+        0.699999988079071
+       ]
+      },
+      {
+       "name": "fire_right (1)",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.699999988079071,
+        0.699999988079071
+       ]
+      },
+      {
+       "name": "circle_right",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.699999988079071,
+        0.699999988079071
+       ]
+      },
+      {
+       "name": "circle_02 (1)",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.5,
+        0.25
+       ]
+      },
+      {
+       "name": "star_dust_up",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "fireball_01",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.2000000476837158
+       ]
+      },
+      {
+       "name": "fireball_02",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        0.20000000298023224,
+        1.0
+       ]
+      },
+      {
+       "name": "damage",
+       "active": true,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.5
+       ]
+      },
+      {
+       "name": "base",
+       "active": false,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        3.0,
+        1.5
+       ]
+      },
+      {
+       "name": "star_dust_up_02",
+       "active": false,
+       "scripts": [
+        "UIParticleSystem"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.5
+        ],
+        "anchorMax": [
+         0.5,
+         0.5
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         100.0,
+         100.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Rank",
+   "active": false,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "1Rank1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     254.0
+    ],
+    "size": [
+     96.0,
+     102.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "MyPick",
+   "active": true,
+   "skeleton": {
+    "animation": "idle",
+    "loop": true,
+    "skin": "",
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "skeleton": "pick"
+   },
+   "scripts": [
+    "SkeletonGraphic"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     -0.0,
+     254.5
+    ],
+    "size": [
+     88.00000762939453,
+     88.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    0.699999988079071,
+    0.699999988079071
+   ]
+  }
+ ]
+}

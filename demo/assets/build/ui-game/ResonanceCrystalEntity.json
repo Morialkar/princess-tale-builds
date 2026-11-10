@@ -1,0 +1,80 @@
+{
+ "name": "ResonanceCrystalEntity",
+ "active": true,
+ "scripts": [
+  "ResonanceCrystalEntity"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.0
+  ],
+  "anchorMax": [
+   0.5,
+   0.0
+  ],
+  "position": [
+   0.0,
+   -85.0
+  ],
+  "size": [
+   100.0,
+   170.0
+  ],
+  "pivot": [
+   0.5,
+   0.0
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Crystal",
+   "active": true,
+   "skeleton": {
+    "animation": "idle_no",
+    "loop": true,
+    "skin": "",
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "skeleton": "crystal"
+   },
+   "scripts": [
+    "SkeletonGraphic"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     -26.899999618530273
+    ],
+    "size": [
+     256.0,
+     272.31988525390625
+    ],
+    "pivot": [
+     0.48643767833709717,
+     0.22032909095287323
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}

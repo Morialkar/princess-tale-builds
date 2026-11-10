@@ -1,0 +1,597 @@
+{
+ "name": "TooltipUI_Skill",
+ "active": true,
+ "scripts": [
+  "TooltipUI_Skill"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   1.0
+  ],
+  "anchorMax": [
+   0.0,
+   1.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   460.0,
+   201.39999389648438
+  ],
+  "pivot": [
+   0.0,
+   1.0
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Border",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     0.8823529481887817
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Slot3_Gray"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     2.5,
+     -7.475006103515625
+    ],
+    "size": [
+     5.0,
+     15.050000190734863
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Grid",
+     "active": true,
+     "layout": {
+      "kind": "VerticalLayoutGroup",
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "childAlignment": 1,
+      "enabled": true,
+      "spacing": 0.0,
+      "controlWidth": false,
+      "controlHeight": false,
+      "expandWidth": false,
+      "expandHeight": false,
+      "reverse": false,
+      "scaleWidth": false,
+      "scaleHeight": false
+     },
+     "scripts": [
+      "VerticalLayoutGroup"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.0,
+       1.0
+      ],
+      "anchorMax": [
+       0.0,
+       1.0
+      ],
+      "position": [
+       231.75,
+       -12.899971008300781
+      ],
+      "size": [
+       435.9800109863281,
+       194.00001525878906
+      ],
+      "pivot": [
+       0.5,
+       1.0
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "SkillName",
+       "active": true,
+       "text": {
+        "text": "\uc2a4\ud0ac \uc774\ub984(Lv.3)",
+        "font": "MaplestoryLight",
+        "size": 22,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 0.800000011920929,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "fit": [
+        false,
+        true
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         414.0,
+         30.800003051757812
+        ],
+        "pivot": [
+         0.0,
+         1.0
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Line",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         0.3921568691730499
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Pattern1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         435.9800109863281,
+         20.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Passive",
+       "active": true,
+       "text": {
+        "text": "",
+        "font": "MaplestoryLight",
+        "size": 23,
+        "style": 0,
+        "alignment": 4,
+        "lineSpacing": 0.800000011920929,
+        "color": [
+         0.9056603908538818,
+         0.8407262563705444,
+         0.6621573567390442,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0
+       },
+       "localize": "ui_localize_passive",
+       "fit": [
+        false,
+        true
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         414.0,
+         26.0
+        ],
+        "pivot": [
+         0.0,
+         1.0
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "SkillDescription",
+       "active": true,
+       "text": {
+        "text": "\uc801\ub4e4\uc774 \uac00\uc7a5 \ubc00\uc9d1\ud574 \uc788\ub294 \uacf3\uc5d0...",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 3,
+        "lineSpacing": 0.8999999761581421,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         17,
+         18
+        ]
+       },
+       "fit": [
+        false,
+        true
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         414.0,
+         30.800003051757812
+        ],
+        "pivot": [
+         0.0,
+         1.0
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "Line",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         0.3921568691730499
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Pattern1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         435.9800109863281,
+         20.0
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "SkillLv.2",
+       "active": true,
+       "text": {
+        "text": "\uc2a4\ud0ac LV2",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 3,
+        "lineSpacing": 0.8999999761581421,
+        "color": [
+         0.6039215922355652,
+         0.6039215922355652,
+         0.6039215922355652,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         17,
+         18
+        ]
+       },
+       "fit": [
+        false,
+        true
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         414.0,
+         30.800003051757812
+        ],
+        "pivot": [
+         0.0,
+         1.0
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "SkillLv.3",
+       "active": true,
+       "text": {
+        "text": "\uc2a4\ud0ac LV3",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 3,
+        "lineSpacing": 0.8999999761581421,
+        "color": [
+         0.6037735939025879,
+         0.6037735939025879,
+         0.6037735939025879,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         17,
+         18
+        ]
+       },
+       "fit": [
+        false,
+        true
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         414.0,
+         30.800003051757812
+        ],
+        "pivot": [
+         0.0,
+         1.0
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      },
+      {
+       "name": "SkillLv.4",
+       "active": true,
+       "text": {
+        "text": "\uc2a4\ud0ac LV4",
+        "font": "MaplestoryLight",
+        "size": 18,
+        "style": 0,
+        "alignment": 3,
+        "lineSpacing": 0.8999999761581421,
+        "color": [
+         0.6037735939025879,
+         0.6037735939025879,
+         0.6037735939025879,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "hOverflow": 0,
+        "vOverflow": 0,
+        "bestFit": [
+         17,
+         18
+        ]
+       },
+       "fit": [
+        false,
+        true
+       ],
+       "scripts": [
+        "Text",
+        "LocalizeString"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.0,
+         0.0
+        ],
+        "anchorMax": [
+         0.0,
+         0.0
+        ],
+        "position": [
+         0.0,
+         0.0
+        ],
+        "size": [
+         414.0,
+         30.800003051757812
+        ],
+        "pivot": [
+         0.0,
+         1.0
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

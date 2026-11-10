@@ -1,0 +1,306 @@
+{
+ "name": "TooltipUI_Item",
+ "active": true,
+ "scripts": [
+  "TooltipUI_Item"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.0,
+   1.0
+  ],
+  "anchorMax": [
+   0.0,
+   1.0
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   460.0,
+   150.0
+  ],
+  "pivot": [
+   0.0,
+   1.0
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "BG",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Popup1"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     0.0
+    ],
+    "anchorMax": [
+     1.0,
+     1.0
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     -6.0,
+     -6.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "BGline",
+   "active": true,
+   "image": {
+    "type": 1,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Pattern2"
+   },
+   "scripts": [
+    "Image",
+    "AtlasImage"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     1.0
+    ],
+    "anchorMax": [
+     0.5,
+     1.0
+    ],
+    "position": [
+     0.0,
+     -57.099998474121094
+    ],
+    "size": [
+     447.9200134277344,
+     20.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Title",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.5,
+     1.0
+    ],
+    "anchorMax": [
+     0.5,
+     1.0
+    ],
+    "position": [
+     0.0,
+     -39.099998474121094
+    ],
+    "size": [
+     447.9200134277344,
+     67.30000305175781
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "txt_name",
+     "active": true,
+     "text": {
+      "text": "name",
+      "font": "MaplestoryLight",
+      "size": 20,
+      "style": 0,
+      "alignment": 4,
+      "lineSpacing": 1.0,
+      "color": [
+       0.9529412388801575,
+       0.8666667342185974,
+       0.3764706254005432,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "hOverflow": 1,
+      "vOverflow": 1
+     },
+     "effects": [
+      {
+       "kind": "Outline",
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        0.5
+       ],
+       "distance": [
+        1.5,
+        1.5
+       ]
+      }
+     ],
+     "scripts": [
+      "Text",
+      "LocalizeString",
+      "GradientEffect",
+      "Outline"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       1.0
+      ],
+      "anchorMax": [
+       0.5,
+       1.0
+      ],
+      "position": [
+       0.0,
+       -30.299999237060547
+      ],
+      "size": [
+       282.5,
+       42.29999923706055
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Desc",
+   "active": true,
+   "text": {
+    "text": "",
+    "font": "MaplestoryLight",
+    "size": 20,
+    "style": 0,
+    "alignment": 0,
+    "lineSpacing": 0.8999999761581421,
+    "color": [
+     0.6039215922355652,
+     0.6039215922355652,
+     0.6039215922355652,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "hOverflow": 0,
+    "vOverflow": 1
+   },
+   "effects": [
+    {
+     "kind": "Outline",
+     "color": [
+      0.0,
+      0.0,
+      0.0,
+      0.5
+     ],
+     "distance": [
+      1.5,
+      1.5
+     ]
+    }
+   ],
+   "scripts": [
+    "Text",
+    "LocalizeString",
+    "Outline"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.0,
+     1.0
+    ],
+    "anchorMax": [
+     0.0,
+     1.0
+    ],
+    "position": [
+     23.000030517578125,
+     -73.80000305175781
+    ],
+    "size": [
+     419.3900146484375,
+     48.5
+    ],
+    "pivot": [
+     0.0,
+     1.0
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  }
+ ]
+}

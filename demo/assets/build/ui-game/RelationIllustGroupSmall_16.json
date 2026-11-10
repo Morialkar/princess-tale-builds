@@ -1,0 +1,306 @@
+{
+ "name": "RelationIllustGroupSmall_16",
+ "active": true,
+ "scripts": [
+  "RelationIllustEntity"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.5
+  ],
+  "anchorMax": [
+   0.5,
+   0.5
+  ],
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Background",
+   "active": true,
+   "image": {
+    "type": 0,
+    "fillMethod": 4,
+    "fillAmount": 1.0,
+    "fillOrigin": 0,
+    "fillClockwise": true,
+    "preserveAspect": false,
+    "color": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "enabled": true,
+    "raycast": true,
+    "sprite": "Relation_List16"
+   },
+   "scripts": [
+    "Image"
+   ],
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     686.0,
+     346.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "Parent_16",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     -12.899999618530273,
+     15.399999618530273
+    ],
+    "size": [
+     0.0,
+     0.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    0.800000011920929,
+    0.800000011920929
+   ],
+   "children": [
+    {
+     "name": "Image",
+     "active": false,
+     "image": {
+      "type": 0,
+      "fillMethod": 4,
+      "fillAmount": 1.0,
+      "fillOrigin": 0,
+      "fillClockwise": true,
+      "preserveAspect": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "sprite": "empty"
+     },
+     "scripts": [
+      "Image",
+      "AtlasImage"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       0.0,
+       0.0
+      ],
+      "size": [
+       740.0,
+       640.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "name": "1",
+     "active": true,
+     "skeleton": {
+      "animation": "idle",
+      "loop": false,
+      "skin": "9",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "skeleton": "destiny"
+     },
+     "scripts": [
+      "ShaderChanger_Gray",
+      "SkeletonGraphic"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       9.300000190734863,
+       39.900001525878906
+      ],
+      "size": [
+       100.0,
+       100.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      -0.8799999952316284,
+      0.8799999952316284
+     ]
+    },
+    {
+     "name": "2",
+     "active": true,
+     "skeleton": {
+      "animation": "idle",
+      "loop": false,
+      "skin": "15",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "skeleton": "destiny"
+     },
+     "scripts": [
+      "ShaderChanger_Gray",
+      "SkeletonGraphic"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       -186.89999389648438,
+       -47.29999923706055
+      ],
+      "size": [
+       100.0,
+       100.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      -0.8999999761581421,
+      0.8999999761581421
+     ]
+    },
+    {
+     "name": "3",
+     "active": true,
+     "skeleton": {
+      "animation": "idle",
+      "loop": false,
+      "skin": "17",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "skeleton": "destiny"
+     },
+     "scripts": [
+      "ShaderChanger_Gray",
+      "SkeletonGraphic"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       194.3000030517578,
+       -99.30000305175781
+      ],
+      "size": [
+       100.0,
+       100.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      -0.949999988079071,
+      0.949999988079071
+     ]
+    }
+   ]
+  }
+ ]
+}

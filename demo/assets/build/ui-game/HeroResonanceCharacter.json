@@ -1,0 +1,570 @@
+{
+ "name": "HeroResonanceCharacter",
+ "active": true,
+ "scripts": [
+  "HeroResonanceCharacter"
+ ],
+ "rect": {
+  "anchorMin": [
+   0.5,
+   0.5
+  ],
+  "anchorMax": [
+   0.5,
+   0.5
+  ],
+  "position": [
+   0.0,
+   -242.0
+  ],
+  "size": [
+   100.0,
+   139.5
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "scale": [
+  1.0,
+  1.0
+ ],
+ "children": [
+  {
+   "name": "Move",
+   "active": true,
+   "rect": {
+    "anchorMin": [
+     0.5,
+     0.5
+    ],
+    "anchorMax": [
+     0.5,
+     0.5
+    ],
+    "position": [
+     0.0,
+     0.0
+    ],
+    "size": [
+     100.0,
+     100.0
+    ],
+    "pivot": [
+     0.5,
+     0.5
+    ]
+   },
+   "scale": [
+    1.0,
+    1.0
+   ],
+   "children": [
+    {
+     "name": "Character",
+     "active": true,
+     "skeleton": {
+      "animation": "idle",
+      "loop": false,
+      "skin": "baba",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "scripts": [
+      "SkeletonGraphic"
+     ],
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.0
+      ],
+      "anchorMax": [
+       0.5,
+       0.0
+      ],
+      "position": [
+       0.0,
+       10.200126647949219
+      ],
+      "size": [
+       1000.0,
+       1400.0
+      ],
+      "pivot": [
+       0.5,
+       0.0
+      ]
+     },
+     "scale": [
+      -0.10000000149011612,
+      0.10000000149011612
+     ]
+    },
+    {
+     "name": "Status",
+     "active": true,
+     "rect": {
+      "anchorMin": [
+       0.5,
+       0.5
+      ],
+      "anchorMax": [
+       0.5,
+       0.5
+      ],
+      "position": [
+       0.0,
+       -62.599998474121094
+      ],
+      "size": [
+       110.36000061035156,
+       34.0
+      ],
+      "pivot": [
+       0.5,
+       0.5
+      ]
+     },
+     "scale": [
+      1.0,
+      1.0
+     ],
+     "children": [
+      {
+       "name": "Level",
+       "active": true,
+       "image": {
+        "type": 1,
+        "fillMethod": 4,
+        "fillAmount": 1.0,
+        "fillOrigin": 0,
+        "fillClockwise": true,
+        "preserveAspect": false,
+        "color": [
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "enabled": true,
+        "raycast": true,
+        "sprite": "Gradation_Black1"
+       },
+       "scripts": [
+        "Image",
+        "AtlasImage"
+       ],
+       "rect": {
+        "anchorMin": [
+         0.5,
+         0.0
+        ],
+        "anchorMax": [
+         0.5,
+         0.0
+        ],
+        "position": [
+         0.0,
+         17.0
+        ],
+        "size": [
+         113.91000366210938,
+         26.12000274658203
+        ],
+        "pivot": [
+         0.5,
+         0.5
+        ]
+       },
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "Text",
+         "active": true,
+         "text": {
+          "text": "Lv 100",
+          "font": "MaplestoryLight",
+          "size": 20,
+          "style": 0,
+          "alignment": 4,
+          "lineSpacing": 1.0,
+          "color": [
+           1.0,
+           1.0,
+           1.0,
+           1.0
+          ],
+          "enabled": true,
+          "raycast": true,
+          "hOverflow": 0,
+          "vOverflow": 0
+         },
+         "effects": [
+          {
+           "kind": "Outline",
+           "color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+           ],
+           "distance": [
+            1.0,
+            -1.0
+           ]
+          }
+         ],
+         "scripts": [
+          "Text",
+          "Outline",
+          "LocalizeString"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           80.93499755859375,
+           30.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "crystal_character",
+     "active": false,
+     "scripts": [
+      "ParticleBase"
+     ],
+     "transform": [
+      0.0,
+      -31.0
+     ],
+     "scale": [
+      250.0,
+      250.0
+     ],
+     "children": [
+      {
+       "name": "root",
+       "active": true,
+       "scale": [
+        1.0,
+        1.0
+       ],
+       "children": [
+        {
+         "name": "star_dust_up_02",
+         "active": true,
+         "scripts": [
+          "UIParticleSystem"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           100.0,
+           100.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        },
+        {
+         "name": "star_dust_up_01",
+         "active": true,
+         "scripts": [
+          "UIParticleSystem"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           100.0,
+           100.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.0
+         ]
+        },
+        {
+         "name": "dome",
+         "active": true,
+         "scripts": [
+          "UIParticleSystem"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           100.0,
+           100.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          1.0,
+          1.2000000476837158
+         ]
+        },
+        {
+         "name": "damage_base",
+         "active": true,
+         "scripts": [
+          "UIParticleSystem"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           100.0,
+           100.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          0.05000000074505806,
+          1.2999999523162842
+         ]
+        },
+        {
+         "name": "damage_01",
+         "active": true,
+         "scripts": [
+          "UIParticleSystem"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           100.0,
+           100.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          0.5,
+          1.2999999523162842
+         ]
+        },
+        {
+         "name": "damage_02",
+         "active": true,
+         "scripts": [
+          "UIParticleSystem"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           100.0,
+           100.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          0.5,
+          1.2999999523162842
+         ]
+        },
+        {
+         "name": "star_dust_speed",
+         "active": true,
+         "scripts": [
+          "UIParticleSystem"
+         ],
+         "rect": {
+          "anchorMin": [
+           0.5,
+           0.5
+          ],
+          "anchorMax": [
+           0.5,
+           0.5
+          ],
+          "position": [
+           0.0,
+           0.0
+          ],
+          "size": [
+           100.0,
+           100.0
+          ],
+          "pivot": [
+           0.5,
+           0.5
+          ]
+         },
+         "scale": [
+          0.05000000074505806,
+          2.0
+         ]
+        },
+        {
+         "name": "stone",
+         "active": false,
+         "scale": [
+          1.0,
+          1.0
+         ]
+        },
+        {
+         "name": "circle_base",
+         "active": false,
+         "scale": [
+          2.0,
+          1.0
+         ]
+        },
+        {
+         "name": "circle_outline_out",
+         "active": false,
+         "scale": [
+          2.0,
+          1.0
+         ]
+        },
+        {
+         "name": "circle_outline_in",
+         "active": false,
+         "scale": [
+          2.0,
+          1.0
+         ]
+        },
+        {
+         "name": "dome (1)",
+         "active": false,
+         "scale": [
+          1.0,
+          1.0
+         ]
+        },
+        {
+         "name": "impact",
+         "active": false,
+         "scale": [
+          1.3614000082015991,
+          0.6807000041007996
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
