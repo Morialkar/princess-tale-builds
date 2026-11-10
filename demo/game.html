@@ -22,7 +22,7 @@
   #loading { position: fixed; inset: 0; z-index: 10; background: #000; display: flex; align-items: center; justify-content: center; }
   #screen { position: relative; height: min(100dvh, calc(100vw * 16 / 9)); aspect-ratio: 9 / 16; overflow: hidden;
     background: #000 url(loading.jpg) center / cover no-repeat; container-type: size; }
-  /* The apps' splash (apk/branding: brand_ios.py's, brand_android.py's): the avatar, then its short video over it,
+  /* The apps' splash (branding: brand_ios.py's, brand_android.py's): the avatar, then its short video over it,
      filling the screen; it stays until the video ended and the loading screen's art is there, then fades. */
   #splash { position: fixed; inset: 0; z-index: 20; background: #000; display: flex; align-items: center; justify-content: center;
     transition: opacity 0.35s; }
@@ -274,7 +274,7 @@
   };
   // The installed game's worker (sw.js: the files kept for offline play), this build's: one of an older build still
   // in charge would answer from its cache, so the files wait until this one takes over (a few seconds at most).
-  const BUILD = "20261110141055"; // build_demo.sh's stamp
+  const BUILD = "20261110153542"; // build_demo.sh's stamp
   async function worker() {
     if (!("serviceWorker" in navigator)) return;
     const mine = () => (navigator.serviceWorker.controller || {}).scriptURL || "";
