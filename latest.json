@@ -1,16 +1,7 @@
 {
-  "version": "1.2",
-  "versionCode": 101,
-  "headline": "Princess Tale 1.2: Elyra, and two brides.|A new Light princess joins the Attic, Ladriel and Iliana get their wedding outfits, and your mailbox holds 100 Lucky Box Keys.",
-  "url": "https://morialkar.github.io/princess-tale-builds/1.2/",
-  "gift": {
-    "items": {
-      "9": 100,
-      "304": 1,
-      "305": 1,
-      "306": 1,
-      "351": 50,
-      "352": 50
-    }
-  }
+  "version": "2.0",
+  "versionCode": 102,
+  "headline": "Princess Tale 2.0: the whole game, on your own device.|A new client rebuilt from the ground up. It updates your 1.x app and keeps your game, but export your account first to be safe: Settings, User, Account, Export.",
+  "url": "https://morialkar.github.io/princess-tale-builds/2.0/",
+  "gift": {}
 }
